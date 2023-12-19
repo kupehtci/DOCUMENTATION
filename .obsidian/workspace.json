@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C-SHARP/CS - StreamReader.md",
+                "file": "UNITY/SHADERS - Toon shader.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C-SHARP/CS - StreamReader.md",
+                "file": "UNITY/SHADERS - Toon shader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C-SHARP/CS - StreamReader.md",
+                "file": "UNITY/SHADERS - Toon shader.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C-SHARP/CS - StreamReader.md"
+                "file": "UNITY/SHADERS - Toon shader.md"
               }
             }
           }
@@ -159,15 +159,25 @@
   },
   "active": "eb7d31b35170b3ea",
   "lastOpenFiles": [
+    "UNITY/IMAGES/Captura de pantalla 2023-12-19 a las 16.36.35.png",
+    "PHYSICS/Theory of light.md",
+    "UNITY/IMAGES/Pasted image 20231219162900.png",
+    "UNITY/IMAGES/Pasted image 20231219162858.png",
+    "UNITY/SHADERS - Toon shader.md",
+    "UNITY/IMAGES/specular light.png",
+    "UNITY/IMAGES/Pasted image 20231219161528.png",
+    "UNITY/IMAGES/Pasted image 20231219161549.png",
+    "UNITY/IMAGES/Captura de pantalla 2023-12-19 a las 16.21.51.png",
+    "UNITY/IMAGES/Captura de pantalla 2023-12-19 a las 15.56.29.png",
+    "UNITY/IMAGES/220px-Blinn_Vectors.svg.png",
+    "UNITY/IMAGES/toon_shader_charcteristics.png",
+    "UNITY/IMAGES/UTS3_TopImage07.png",
+    "C-SHARP/CS - StreamReader.md",
     "C-SHARP/CS - IDisposable Interface.md",
     "C-SHARP/CS - Garbage collector.md",
-    "C-SHARP/CS - StreamReader.md",
     "C-SHARP/CSHARP - StreamWriter.md",
     "BPMN-CODE_GENERATE/BPMN Parsing pipeline.canvas",
-    "BPMN-CODE_GENERATE/IMAGES/Pasted image 20231212171121.png",
-    "BPMN-CODE_GENERATE/IMAGES/Captura de pantalla 2023-12-12 a las 17.13.05.png",
     "BPMN-CODE_GENERATE/IMAGES",
-    "BPMN-CODE_GENERATE/IMAGES/Pasted image 20231212165729.png",
     "C-SHARP/CS - Exceptions.md",
     "C-SHARP/CS - File IO class.md",
     "C-SHARP/CS - Random.md",
@@ -187,20 +197,10 @@
     "C-SHARP/CS - Concatenate Arrays.md",
     "C-SHARP/CS - ANONYMOUS METHODS.md",
     "C-SHARP/CS - Actions.md",
-    "C-SHARP/CS - Action vs Func.md",
-    "C-SHARP/CS - .NET Serialization.md",
-    "UNITY/UNITY - UI Automatic layout.md",
-    "UNITY/IMAGES/Captura de pantalla 2023-12-19 a las 11.24.39.png",
     "UNITY/UI",
-    "MACHINE LEARNING/IMAGES/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix.ppm.png",
-    "MACHINE LEARNING/IMAGES/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix.ppm 1.png",
     "PHYSICS",
-    "MACHINE LEARNING/OBJECT RECOGNITION/IMAGES/Pasted image 20231215134940.png",
-    "MACHINE LEARNING/OBJECT RECOGNITION/IMAGES/Pasted image 20231215134856.png",
     "MACHINE LEARNING/OBJECT RECOGNITION/IMAGES",
-    "MACHINE LEARNING/OBJECT RECOGNITION/IMAGES/Unknown.png",
     "VIA",
-    "UNITY/IMAGES/dropdown_value_example.png",
     "CONCEPTS/DBVH -.canvas",
     "BPMN-CODE_GENERATE/BPMN XML->CODE.canvas",
     "PYTHON",
