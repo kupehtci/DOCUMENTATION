@@ -5,7 +5,7 @@
 Once we have the json string, we need to copy that string into a file `.json` to store the data. 
 
 For that we can use the <span style ="color:#9bcadd">File</span> class API from .Net. It can also be written using <span style="color:#c175ff">StreamWriter</span>. 
-[[CSHARP - StreamWriter]]
+[[CS - StreamWriter]]
 
 For using  <span style ="color:#9bcadd">File</span> class, we need to add the library by `using System.IO`. 
 

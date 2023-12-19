@@ -1,4 +1,5 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "UNITY/IMAGES"
+  "attachmentFolderPath": "COMPUTER GRAPHICS/IMAGES",
+  "promptDelete": false
 }

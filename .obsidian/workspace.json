@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNITY/SHADERS - Toon shader.md",
+                "file": "COMPUTER GRAPHICS/BMP - File.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#CSHARP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UNITY/SHADERS - Toon shader.md",
+                "file": "COMPUTER GRAPHICS/BMP - File.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UNITY/SHADERS - Toon shader.md",
+                "file": "COMPUTER GRAPHICS/BMP - File.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UNITY/SHADERS - Toon shader.md"
+                "file": "COMPUTER GRAPHICS/BMP - File.md"
               }
             }
           }
@@ -159,23 +159,38 @@
   },
   "active": "eb7d31b35170b3ea",
   "lastOpenFiles": [
+    "COMPUTER GRAPHICS/IMAGES/Captura de pantalla 2023-12-19 a las 17.40.21.png",
+    "COMPUTER GRAPHICS/IMAGES/Captura de pantalla 2023-12-19 a las 17.40.08.png",
+    "COMPUTER ARCHITECTURE/ComputerArchi - WORDS.md",
+    "COMPUTER GRAPHICS/BMP - File.md",
+    "COMPUTER ARCHITECTURE/IMAGES",
+    "COMPUTER ARCHITECTURE",
+    "COMPUTER GRAPHICS/IMAGES/bmp-structure.jpg",
+    "COMPUTER GRAPHICS/IMAGES/Untitled",
+    "COMPUTER GRAPHICS/IMAGES",
+    "C-SHARP/CS - .NET Serialization.md",
+    "COMPUTER GRAPHICS",
+    "C-SHARP/CS - Mutex.md",
+    "C-SHARP/CS - lock.md",
+    "C-SHARP/CS - Detect type of variable.md",
+    "C-SHARP/CS - Weak Reference Memory Leaks.md",
+    "C-SHARP/CS - USING STATEMENT.md",
+    "C-SHARP/CS - STRUCT VS CLASSES.md",
+    "C-SHARP/CS - STRING DOCUMENTATION.md",
+    "C-SHARP/CS - StreamWriter.md",
+    "UNITY/SHADERS - Toon shader.md",
     "UNITY/IMAGES/Captura de pantalla 2023-12-19 a las 16.36.35.png",
     "PHYSICS/Theory of light.md",
     "UNITY/IMAGES/Pasted image 20231219162900.png",
     "UNITY/IMAGES/Pasted image 20231219162858.png",
-    "UNITY/SHADERS - Toon shader.md",
     "UNITY/IMAGES/specular light.png",
     "UNITY/IMAGES/Pasted image 20231219161528.png",
     "UNITY/IMAGES/Pasted image 20231219161549.png",
     "UNITY/IMAGES/Captura de pantalla 2023-12-19 a las 16.21.51.png",
     "UNITY/IMAGES/Captura de pantalla 2023-12-19 a las 15.56.29.png",
-    "UNITY/IMAGES/220px-Blinn_Vectors.svg.png",
-    "UNITY/IMAGES/toon_shader_charcteristics.png",
-    "UNITY/IMAGES/UTS3_TopImage07.png",
     "C-SHARP/CS - StreamReader.md",
     "C-SHARP/CS - IDisposable Interface.md",
     "C-SHARP/CS - Garbage collector.md",
-    "C-SHARP/CSHARP - StreamWriter.md",
     "BPMN-CODE_GENERATE/BPMN Parsing pipeline.canvas",
     "BPMN-CODE_GENERATE/IMAGES",
     "C-SHARP/CS - Exceptions.md",
@@ -187,27 +202,12 @@
     "C-SHARP/CS - List documentation.md",
     "C-SHARP/CS - JUMP INSTRUCTIONS.md",
     "C-SHARP/CS - JSON Parsing.md",
-    "C-SHARP/CS - Intro Delegates.md",
-    "C-SHARP/CS - Multidimensional Array.md",
-    "C-SHARP/CS - Go through files in Directory.md",
-    "C-SHARP/CS - Func<> Delegates.md",
-    "C-SHARP/CS - Enum to int.md",
-    "C-SHARP/CS - ENUM.md",
-    "C-SHARP/CS - Directory class.md",
-    "C-SHARP/CS - Concatenate Arrays.md",
-    "C-SHARP/CS - ANONYMOUS METHODS.md",
-    "C-SHARP/CS - Actions.md",
     "UNITY/UI",
     "PHYSICS",
     "MACHINE LEARNING/OBJECT RECOGNITION/IMAGES",
     "VIA",
     "CONCEPTS/DBVH -.canvas",
     "BPMN-CODE_GENERATE/BPMN XML->CODE.canvas",
-    "PYTHON",
-    "MACHINE LEARNING/OBJECT RECOGNITION/IMAGES",
-    "MACHINE LEARNING/Untitled",
-    "MACHINE LEARNING/OBJECT RECOGNITION",
-    "UNITY/OPTIMIZATION",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled.canvas",
     "SQL/sql_canvas.canvas",

@@ -1,5 +1,5 @@
 # MULTITHREADING USING MUTEX
-#CSHARP #Multithreading 
+#CS #Multithreading 
 
 Similar to semaphores, mutex need to be locked by telling to ```mutex.WaitOne();``` to meke other threads to wait here until the mutex is released. 
 Once the critical section has ended, mutex need to be released calling ```mutex.ReleaseMutex();```
