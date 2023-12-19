@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"7e9e701f6877fe54","type":"text","text":"```csharp \nclass Participant : BPMNElement \n{\n\n}\n```","x":-178,"y":-418,"width":538,"height":218},
+		{"id":"27099f9b0070c00f","type":"text","text":"Done this way because csharp cannot rewrite or override defined methods by an instance","x":201,"y":-800,"width":580,"height":60},
+		{"id":"8b6d693e46b6a8db","type":"text","text":"## PROCESS","x":-171,"y":180,"width":179,"height":60},
+		{"id":"756affbeb3f6d157","type":"text","text":"### TASKS\n\n```csharp\nclass Task : BPMNElement\n{\n\t\n\n}\n```","x":182,"y":180,"width":453,"height":220},
+		{"id":"89b3c068741ccb0b","type":"text","text":"### SequenceFlow\n\n```CSHARP \nclass SequenceFlow : BPMNElement{\n\tFunc<bool> _condition; \n\t\n}\n```","x":180,"y":-148,"width":455,"height":288},
+		{"id":"6239962389bccd2b","type":"text","text":"Generates: \n* Task instance in Start() \n* Task.script implementation as a function","x":881,"y":277,"width":319,"height":163,"color":"6"},
+		{"id":"182682428c03c84f","type":"text","text":"Generates: \n* SequenceFlow instance in Start()\n* SequenceFlow.condition implementation as a function ","x":881,"y":-64,"width":319,"height":160,"color":"5"},
+		{"id":"a8a6e1acc6aa2f10","type":"file","file":"BPMN-CODE_GENERATE/IMAGES/Pasted image 20231212171121.png","x":-2800,"y":-435,"width":762,"height":365},
+		{"id":"224b64bb6107eb04","type":"file","file":"BPMN-CODE_GENERATE/IMAGES/Captura de pantalla 2023-12-12 a las 17.13.05.png","x":-1640,"y":-492,"width":902,"height":645},
+		{"id":"487909468ccb577a","type":"text","text":"Clean BPMN: \n* Erase namespace","x":-620,"y":-229,"width":240,"height":120},
+		{"id":"c606cc452dcb90b5","type":"text","text":"```csharp \n// --------- TASKS ---------\nvoid FollowPlayer()\n{\n\t//Programer implements here\n}\n\nvoid Idle() \n{\n\t  // Programer implements here\n}\n\n// --------- CONDITIONS ---------\nbool sequence_flow_12s3_name_condition{\n\t//Programer implement the conditioon of the sequence flow\n}\n```","x":1440,"y":430,"width":940,"height":471},
+		{"id":"1ffd4acbb41ea2b1","type":"text","text":"## RESULTANT SCRIPT \n```csharp \nusing System; \nusing System.Collections; \nusing UnityEngine; \n\nclass Participant_id : MonoBehaviour\n{\n\tBPMNElements[] elements; \n\tTask followPlayer; \n\tSequenceFlow _flow_12s3; \n\t\n\tvoid Start()\n\t{\n\t\t// This comes from \n\t\t_followPlayer = new Task();          // Comes from Task\n\t\t_followPlayer.task = FollowPlayer; \n\n\t\t// This comes from Task\n\t\t_flow_12s3 = new SequenceFlow(\"_flow_12s3\", \"sequence_flow_12s3_name\"); \n\t\t_flow_12s3.condition = sequence_flow_12s3_name_condition; \n\t\t\n\t}\n\n}\n```","x":1440,"y":-200,"width":940,"height":630},
+		{"id":"36383b4852bf418c","type":"text","text":"Generates: \n* c\\# script\n* Within the script, a class that represents that partitipant","x":881,"y":-418,"width":319,"height":179,"color":"1"}
+	],
+	"edges":[
+		{"id":"5567564c45fcf7c7","fromNode":"487909468ccb577a","fromSide":"right","toNode":"7e9e701f6877fe54","toSide":"left"},
+		{"id":"9bb5a60f44114070","fromNode":"487909468ccb577a","fromSide":"right","toNode":"8b6d693e46b6a8db","toSide":"left"},
+		{"id":"89300ed3286b623c","fromNode":"8b6d693e46b6a8db","fromSide":"right","toNode":"89b3c068741ccb0b","toSide":"left","color":"5"},
+		{"id":"abf638080eab3f5c","fromNode":"8b6d693e46b6a8db","fromSide":"right","toNode":"756affbeb3f6d157","toSide":"left","color":"6"},
+		{"id":"1d00d21eb541d458","fromNode":"756affbeb3f6d157","fromSide":"right","toNode":"6239962389bccd2b","toSide":"left","color":"6"},
+		{"id":"215b2d835d8b8c2b","fromNode":"6239962389bccd2b","fromSide":"right","toNode":"1ffd4acbb41ea2b1","toSide":"left","color":"6"},
+		{"id":"4fcc62aa2b7adfb5","fromNode":"6239962389bccd2b","fromSide":"right","toNode":"c606cc452dcb90b5","toSide":"left","color":"6"},
+		{"id":"25a2575ef60ed9b4","fromNode":"89b3c068741ccb0b","fromSide":"right","toNode":"182682428c03c84f","toSide":"left","color":"5"},
+		{"id":"a2b3bc48862e2d0a","fromNode":"182682428c03c84f","fromSide":"right","toNode":"1ffd4acbb41ea2b1","toSide":"left","color":"5"},
+		{"id":"58ca71077406a5c8","fromNode":"182682428c03c84f","fromSide":"right","toNode":"c606cc452dcb90b5","toSide":"left","color":"5"},
+		{"id":"ed85d84df72e5fb2","fromNode":"7e9e701f6877fe54","fromSide":"right","toNode":"36383b4852bf418c","toSide":"left","color":"1"},
+		{"id":"77ec65f5cc1a7479","fromNode":"a8a6e1acc6aa2f10","fromSide":"right","toNode":"224b64bb6107eb04","toSide":"left"},
+		{"id":"3dbe9941f4c5df27","fromNode":"224b64bb6107eb04","fromSide":"right","toNode":"487909468ccb577a","toSide":"left"},
+		{"id":"56f341f3080ff846","fromNode":"36383b4852bf418c","fromSide":"right","toNode":"1ffd4acbb41ea2b1","toSide":"top","color":"1"}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"625d95456bd4b1b8","type":"text","text":"```XML\n\t<book id=\"book_12331\"> \n\t\t<title>Hello world</title>\n\t\t<price>12.99</price>\n\t</book>\n```","x":-180,"y":260,"width":460,"height":132},
+		{"id":"897a227d94fee5fe","type":"text","text":"#### XML BASIC STRUCTURE","x":-180,"y":180,"width":460,"height":60},
+		{"id":"4e191f36c25c6c6e","type":"text","text":"\\<book\\> is an element and can be getted by using: \n```CSHARP\nXmlDocument xmlDoc = ...\nXMlElement\n```","x":402,"y":259,"width":638,"height":301}
+	],
+	"edges":[
+		{"id":"0ff2549dcf2607ff","fromNode":"625d95456bd4b1b8","fromSide":"right","toNode":"4e191f36c25c6c6e","toSide":"left"}
+	]
+}

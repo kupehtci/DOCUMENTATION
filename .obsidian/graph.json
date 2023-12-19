@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "CSHARP",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "section:(PHP)",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "section:(KERAS)",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:(\"COMPUTATIONAL THEORY\" ) ",
+      "color": {
+        "a": 1,
+        "rgb": 11540727
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 2.619384765625,
+  "lineSizeMultiplier": 3.2402587890625,
+  "collapse-forces": false,
+  "centerStrength": 0.4090576171875,
+  "repelStrength": 9.14632161458333,
+  "linkStrength": 0.651407877604167,
+  "linkDistance": 65,
+  "scale": 1.297372257443605,
+  "close": false
+}

@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"088ff9bc730bb73a","type":"file","file":"SQL/SQL_MAIN_COMMANDS.md","x":-620,"y":-420,"width":400,"height":539},
+		{"id":"ab3fe7ea04c055c9","x":-40,"y":-420,"width":540,"height":700,"type":"file","file":"SQL/SQL_BIND PARAMS.md"}
+	],
+	"edges":[
+		{"id":"c684c12815b9b926","fromNode":"088ff9bc730bb73a","fromSide":"right","toNode":"ab3fe7ea04c055c9","toSide":"left"}
+	]
+}
