@@ -8,12 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b91b6a3b27c6e2ed",
+            "id": "af31d476505bef16",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "BPMN-CODE_GENERATE/IMAGES/Captura de pantalla 2023-12-12 a las 17.13.05.png"
+                "file": "MARKDOWN/MARKDOWN - Colors.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -23,7 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMPUTER GRAPHICS/BMP - File.md",
+                "file": "JAVASCRIPT/JS - Scope.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ac822b8120fb86e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Tree - Search.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eaeb4bcc49baa643",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MARKDOWN/MARKDOWN - Colors.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMPUTER GRAPHICS/BMP - File.md",
+                "file": "JAVASCRIPT/JS - Scope.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMPUTER GRAPHICS/BMP - File.md",
+                "file": "JAVASCRIPT/JS - Scope.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,11 +162,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMPUTER GRAPHICS/BMP - File.md"
+                "file": "JAVASCRIPT/JS - Scope.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -159,58 +186,58 @@
   },
   "active": "eb7d31b35170b3ea",
   "lastOpenFiles": [
-    "COMPUTER GRAPHICS/IMAGES/Captura de pantalla 2023-12-19 a las 17.40.21.png",
-    "COMPUTER GRAPHICS/IMAGES/Captura de pantalla 2023-12-19 a las 17.40.08.png",
-    "COMPUTER ARCHITECTURE/ComputerArchi - WORDS.md",
-    "COMPUTER GRAPHICS/BMP - File.md",
+    "JAVASCRIPT/JS - HTML implementation.md",
+    "JAVASCRIPT/JS - Scope.md",
+    "JAVASCRIPT/JS - Variable declaration.md",
+    "JAVASCRIPT/JS - DOM Elements Attributes.md",
+    "JAVASCRIPT/JS - DOM elements Basics.md",
+    "AJAX/XMLHttpRequest.md",
+    "JAVASCRIPT",
+    "AJAX/AJAX - Basics.md",
+    "PHP/PHP - Parameter by reference.md",
+    "AJAX",
+    "SQL/SQL_MAIN_COMMANDS.md",
+    "SQL/SQL-FOREIGN KEYS.md",
+    "SQL/sql_canvas.canvas",
+    "SQL/pivot_table.png",
+    "SQL/SQL - BIND PARAMS.md",
+    "SQL/SQL - ERRORS.md",
+    "UNITY/UNITY - Engine Attributes.md",
+    "Data Tree - Search.md",
+    "UNITY/UNITY - Color.md",
+    "UNITY/UNITY - Gizmos.md",
+    "CONCEPTS/DBVH - Top Down Build.md",
+    "CONCEPTS/BVH Bounding Volume Hierarchy.md",
+    "CONCEPTS/Axis Aligned Bounding Box AABB.md",
+    "CONCEPTS/Aceleration Structures.md",
+    "CONCEPTS/IMAGES/Captura de pantalla 2023-12-23 a las 14.55.30.png",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 13.50.31.png",
+    "CONCEPTS/IMAGES/BVH choose split axis.svg",
+    "CONCEPTS/Data Tree - Basics.md",
+    "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 12.23.02.png",
+    "Untitled.md",
+    "CONCEPTS/DBVH -.canvas",
+    "CONCEPTS/IMAGES/AABB_Types.png",
+    "CONCEPTS/Collision Detection.md",
+    "CONCEPTS/IMAGES/AABB.png",
+    "PHYSICS/Vectors.md",
+    "PHYSICS/IMAGES/Captura de pantalla 2023-12-21 a las 16.17.12.png",
+    "PHYSICS/IMAGES/Captura de pantalla 2023-12-21 a las 16.15.52.png",
+    "CONCEPTS/IMAGES/Captura de pantalla 2023-12-21 a las 15.30.35.png",
+    "CONCEPTS/BIG O Notation.md",
+    "PHYSICS/IMAGES/color-basic-shapes-realistic-3d-geometric-forms-cube-ellipsoid-cylinder-sphere-cone-pyramid-dodecahedron-octahedron-learning-objects-vector-education-set_176411-1635.jpg 1.avif",
+    "SHADERS/IMAGES/color-basic-shapes-realistic-3d-geometric-forms-cube-ellipsoid-cylinder-sphere-cone-pyramid-dodecahedron-octahedron-learning-objects-vector-education-set_176411-1635.jpg.avif",
+    "PHYSICS/IMAGES/color-basic-shapes-realistic-3d-geometric-forms-cube-ellipsoid-cylinder-sphere-cone-pyramid-dodecahedron-octahedron-learning-objects-vector-education-set_176411-1635.jpg.avif",
+    "PHYSICS/IMAGES",
+    "SHADERS/IMAGES",
     "COMPUTER ARCHITECTURE/IMAGES",
     "COMPUTER ARCHITECTURE",
-    "COMPUTER GRAPHICS/IMAGES/bmp-structure.jpg",
     "COMPUTER GRAPHICS/IMAGES/Untitled",
-    "COMPUTER GRAPHICS/IMAGES",
-    "C-SHARP/CS - .NET Serialization.md",
-    "COMPUTER GRAPHICS",
-    "C-SHARP/CS - Mutex.md",
-    "C-SHARP/CS - lock.md",
-    "C-SHARP/CS - Detect type of variable.md",
-    "C-SHARP/CS - Weak Reference Memory Leaks.md",
-    "C-SHARP/CS - USING STATEMENT.md",
-    "C-SHARP/CS - STRUCT VS CLASSES.md",
-    "C-SHARP/CS - STRING DOCUMENTATION.md",
-    "C-SHARP/CS - StreamWriter.md",
-    "UNITY/SHADERS - Toon shader.md",
-    "UNITY/IMAGES/Captura de pantalla 2023-12-19 a las 16.36.35.png",
-    "PHYSICS/Theory of light.md",
-    "UNITY/IMAGES/Pasted image 20231219162900.png",
-    "UNITY/IMAGES/Pasted image 20231219162858.png",
-    "UNITY/IMAGES/specular light.png",
-    "UNITY/IMAGES/Pasted image 20231219161528.png",
-    "UNITY/IMAGES/Pasted image 20231219161549.png",
-    "UNITY/IMAGES/Captura de pantalla 2023-12-19 a las 16.21.51.png",
-    "UNITY/IMAGES/Captura de pantalla 2023-12-19 a las 15.56.29.png",
-    "C-SHARP/CS - StreamReader.md",
-    "C-SHARP/CS - IDisposable Interface.md",
-    "C-SHARP/CS - Garbage collector.md",
     "BPMN-CODE_GENERATE/BPMN Parsing pipeline.canvas",
-    "BPMN-CODE_GENERATE/IMAGES",
-    "C-SHARP/CS - Exceptions.md",
-    "C-SHARP/CS - File IO class.md",
-    "C-SHARP/CS - Random.md",
-    "C-SHARP/CS - SIMD.md",
-    "C-SHARP/CS - Nullable propagation.md",
-    "C-SHARP/CS - Memory and Buffer.md",
-    "C-SHARP/CS - List documentation.md",
-    "C-SHARP/CS - JUMP INSTRUCTIONS.md",
-    "C-SHARP/CS - JSON Parsing.md",
-    "UNITY/UI",
-    "PHYSICS",
-    "MACHINE LEARNING/OBJECT RECOGNITION/IMAGES",
-    "VIA",
-    "CONCEPTS/DBVH -.canvas",
     "BPMN-CODE_GENERATE/BPMN XML->CODE.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled.canvas",
-    "SQL/sql_canvas.canvas",
     "HTML/HTML.canvas",
     "CSS/CSS-CANVAS.canvas",
     "Untitled 1.canvas"

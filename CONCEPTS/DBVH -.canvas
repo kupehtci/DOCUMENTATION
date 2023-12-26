@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"df271b4988ea301d","type":"file","file":"CONCEPTS/Dynamic Bounding Volume Hierarchy.md","x":-820,"y":-320,"width":840,"height":400},
+		{"id":"df271b4988ea301d","type":"file","file":"CONCEPTS/BVH Bounding Volume Hierarchy.md","x":-820,"y":-320,"width":840,"height":400},
 		{"id":"492247bc1ee73b1d","type":"file","file":"CONCEPTS/Axis Aligned Bounding Box AABB.md","x":320,"y":-380,"width":400,"height":400},
 		{"id":"c9b40f8f91313f90","type":"text","text":"```CSHARP\n\npublic struct AABB{\n\tVector3 lb;    //lowerbounds\n\tVector3 up;    //upper bounds\n}\n\n```\n\n","x":820,"y":-337,"width":503,"height":217,"color":"6"},
 		{"id":"e687d4878f5d17db","type":"text","text":"```CSHARP\n\npublic AABB Union(AABB A, AABB B){\n\nAABB C; \nC.lb = Min(A.lb, B.lb); \nC.ub = Max(A.ub, B.ub); \nreturn C; \n}\n\n```\n\n","x":820,"y":20,"width":503,"height":217,"color":"6"}

@@ -8,7 +8,6 @@ id NOT NULL AUTO_INCREMENT,
 name NOT NULL DEFAULT "default_name", 
 username NOT NULL DEFAULT "default_username", 
 created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP, 
-
 }
 ``` 
 
