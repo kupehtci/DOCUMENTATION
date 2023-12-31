@@ -107,9 +107,7 @@ This code iterates between the leaf node to the root and resize the AABB calcula
 ## Branch and Bound Algorithm 
 
 This algorithm is meant to make the global search faster. 
-
 You can see how to search in trees data structures in: 
-
 
 ## Object movement strategies
 
@@ -126,9 +124,6 @@ At 60Hz objects normally dont move far per frame, so we can use enlarged AABB in
 This allows us to only update a leaf if the tight fit AABB moves outside the enlarged AABB
 
 ![[Captura de pantalla 2023-12-21 a las 15.30.35.png]]
-
-
-
 
 ## Compare cost in BVH
 

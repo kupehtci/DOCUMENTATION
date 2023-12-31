@@ -1,6 +1,8 @@
 
 All the objects in a game engine map, the floors, the walls, the chairs are objects that are enclosed in axis aligned bounding boxes. This is done to accelerate collision detection.
 
+This boxes are align in terms of axis, making it more optimized to calculate collision, proximity and vectorial and meshes calculations. 
+
 ![[AABB.png]]
 
 AABBs can be stores in two different structures. 
@@ -11,6 +13,27 @@ Can be saved as the <span style="color:orange;">min</span> and <span style="colo
 ![[AABB_Types.png]]
 
 In Unity the two different structs are saved inside <span style="color:#d291bc;">Bounds</span> class. 
+```CSHARP 
+class Bounds{
+	 Vector3 min; 
+	 Vector3 max; 
+	 Vector3 center; 
+	 Vector3 bounds; 
+}
+```
+
+These two pairs of parameters are <span style="color:orange;">equivalent</span>. 
+Both can be calculated from the other pair: 
+
+```CSHARP 
+public Vector3 CalculateCenter(Vector3 min, Vector3 max){
+	return (max - min)/2; 
+}
+
+public Vector3 CalculateExtends(Vector3 min, Vector3 max){
+	return max - min
+}
+```
 
 ### CALCULATE THE UNION OF TWO AABBs 
 

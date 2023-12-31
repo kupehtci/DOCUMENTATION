@@ -12,7 +12,7 @@ created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
 ``` 
 
 Take into account the different **data-types** and their constraints. 
-For `mariadb` data-types check the next notes: [[SQL_DATA_TYPES]]
+For `mariadb` data-types check the next notes: [[SQL - Data types]]
 ### INSERTING ROWS
 
 ```SQL 

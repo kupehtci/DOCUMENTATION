@@ -25,19 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVASCRIPT/JS - Scope.md",
+                "file": "JAVASCRIPT/JS - Scope of the variables.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2ac822b8120fb86e",
+            "id": "3c2201617ef701ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Tree - Search.md",
+                "file": "C-SHARP/CS - IDisposable Interface.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CSHARP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVASCRIPT/JS - Scope.md",
+                "file": "C-SHARP/CS - IDisposable Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVASCRIPT/JS - Scope.md",
+                "file": "C-SHARP/CS - IDisposable Interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVASCRIPT/JS - Scope.md"
+                "file": "C-SHARP/CS - IDisposable Interface.md"
               }
             }
           }
@@ -184,51 +184,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb7d31b35170b3ea",
+  "active": "3c2201617ef701ac",
   "lastOpenFiles": [
-    "JAVASCRIPT/JS - HTML implementation.md",
-    "JAVASCRIPT/JS - Scope.md",
-    "JAVASCRIPT/JS - Variable declaration.md",
-    "JAVASCRIPT/JS - DOM Elements Attributes.md",
+    "C-SHARP/CS - ANONYMOUS METHODS.md",
+    "C-SHARP/CS - .NET Serialization.md",
+    "UNITY/BUILD/UNITY - Execute in build.md",
+    "UNITY/UNITY Transform.hasChanged.md",
+    "UNITY/BUILD",
+    "UNITY/Untitled.md",
+    "UNITY/UNITY - EVENT SYSTEM/UNITY - IDragHandler Disable Threshold.md",
+    "UNITY/UNITY - EVENT SYSTEM/UNITY - EVENT SYSTEM INTERFACES.md",
+    "UNITY/UNITY - EVENT SYSTEM/UNITY - DETECT DROP.md",
+    "UNITY/SHADERS - Toon shader.md",
+    "UNITY/UNITY - BATCHING.md",
+    "UNITY/UNITY - Color.md",
+    "UNITY/UNITY - Data persistent between scenes.md",
+    "UNITY/UNITY - Drawcall.md",
+    "UNITY/UNITY - Engine Attributes.md",
+    "UNITY/UNITY - UnityEditor_Not_find_error.md",
+    "CONCEPTS/BVH - Bounding Volume Hierarchy/AABB (Axis Aligned Bounding Box).md",
+    "UNITY/OPTIMIZATION/BATCHING.md",
+    "JAVASCRIPT/JS - Casting.md",
     "JAVASCRIPT/JS - DOM elements Basics.md",
-    "AJAX/XMLHttpRequest.md",
+    "JAVASCRIPT/JS - HTML implementation.md",
+    "JAVASCRIPT/JS - Data types.md",
+    "JAVASCRIPT/JS - Scope of the variables.md",
+    "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
+    "CONCEPTS/Data Tree - Basics.md",
+    "CONCEPTS/Collision Detection.md",
+    "CONCEPTS/Aceleration Structures.md",
+    "CONCEPTS/BVH - Bounding Volume Hierarchy/BVH Bounding Volume Hierarchy.md",
+    "CONCEPTS/BVH - Bounding Volume Hierarchy",
     "JAVASCRIPT",
-    "AJAX/AJAX - Basics.md",
-    "PHP/PHP - Parameter by reference.md",
     "AJAX",
-    "SQL/SQL_MAIN_COMMANDS.md",
-    "SQL/SQL-FOREIGN KEYS.md",
     "SQL/sql_canvas.canvas",
     "SQL/pivot_table.png",
-    "SQL/SQL - BIND PARAMS.md",
-    "SQL/SQL - ERRORS.md",
-    "UNITY/UNITY - Engine Attributes.md",
-    "Data Tree - Search.md",
-    "UNITY/UNITY - Color.md",
-    "UNITY/UNITY - Gizmos.md",
-    "CONCEPTS/DBVH - Top Down Build.md",
-    "CONCEPTS/BVH Bounding Volume Hierarchy.md",
-    "CONCEPTS/Axis Aligned Bounding Box AABB.md",
-    "CONCEPTS/Aceleration Structures.md",
     "CONCEPTS/IMAGES/Captura de pantalla 2023-12-23 a las 14.55.30.png",
-    "MARKDOWN/MARKDOWN - Colors.md",
     "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 13.50.31.png",
     "CONCEPTS/IMAGES/BVH choose split axis.svg",
-    "CONCEPTS/Data Tree - Basics.md",
     "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 12.23.02.png",
-    "Untitled.md",
-    "CONCEPTS/DBVH -.canvas",
     "CONCEPTS/IMAGES/AABB_Types.png",
-    "CONCEPTS/Collision Detection.md",
     "CONCEPTS/IMAGES/AABB.png",
-    "PHYSICS/Vectors.md",
     "PHYSICS/IMAGES/Captura de pantalla 2023-12-21 a las 16.17.12.png",
     "PHYSICS/IMAGES/Captura de pantalla 2023-12-21 a las 16.15.52.png",
     "CONCEPTS/IMAGES/Captura de pantalla 2023-12-21 a las 15.30.35.png",
-    "CONCEPTS/BIG O Notation.md",
-    "PHYSICS/IMAGES/color-basic-shapes-realistic-3d-geometric-forms-cube-ellipsoid-cylinder-sphere-cone-pyramid-dodecahedron-octahedron-learning-objects-vector-education-set_176411-1635.jpg 1.avif",
-    "SHADERS/IMAGES/color-basic-shapes-realistic-3d-geometric-forms-cube-ellipsoid-cylinder-sphere-cone-pyramid-dodecahedron-octahedron-learning-objects-vector-education-set_176411-1635.jpg.avif",
-    "PHYSICS/IMAGES/color-basic-shapes-realistic-3d-geometric-forms-cube-ellipsoid-cylinder-sphere-cone-pyramid-dodecahedron-octahedron-learning-objects-vector-education-set_176411-1635.jpg.avif",
     "PHYSICS/IMAGES",
     "SHADERS/IMAGES",
     "COMPUTER ARCHITECTURE/IMAGES",

@@ -10,7 +10,9 @@ Color is used when rendering or showing lines / debuging information using Gizmo
 
 `Color` `struct` constructor accepts RGBA `float` values in `0.0`-`1.0` range.
 
-`Color red = new Color( 1.0f , 0.0f , 0.0f , 1.0f  );`
+```CSHARP
+Color red = new Color( 1.0f , 0.0f , 0.0f , 1.0f  );
+```
 
   
 
@@ -18,5 +20,8 @@ Color is used when rendering or showing lines / debuging information using Gizmo
 
 `Color32` `struct` constructor accepts RGBA `int` values in `0`-`255` range.
 
-`Color32 red = new Color32( 255 , 0 , 0 , 255 ); Color32 also_red = new Color32( 0xFF , 0x00 , 0x00 , 0xFF );`
+```CSHARP
+Color32 red = new Color32( 255 , 0 , 0 , 255 ); 
+Color32 also_red = new Color32( 0xFF , 0x00 , 0x00 , 0xFF );
+```
 Both `Color` and `Color32` (32bit) can be used to define valid color values.

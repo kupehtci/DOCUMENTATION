@@ -6,6 +6,7 @@ To solve this, all scrits and assets that would only be used in the editor need 
 
 classes of unity editor are: 
 
+```CSHARP 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,8 @@ public class StaticBatcherEditor : EditorWindow
         
     }
 }
+
+```
 
 
 Needs the using directive to include "UnityEditor". 

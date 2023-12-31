@@ -37,6 +37,8 @@ else if (boundsExtends.z >= boundsExtends.x
 
 This let us and index axis for accessing the desired one ( x = 0, y = 1, z = 2). 
 
+The first problem with median difference is not taking into account larger volumes.
+For this we can take into consideration the <span style="color:orange;">SAH cost of each split axis</span> and take that into consideration. 
 
 
 2. Split the group in two halves: this sounds like a complicated thing to do, but in BVH construction this is surprisingly simple. Because we are not splitting any triangles, the combined size of the list of triangles in both halves is exactly the size of the unsplit list. That means the split can be done in place. For this, we walk the list of primitives, and swap each primitive that is not on the left of the plane with a primitive at the end of the list. This is functionally equivalent to a QuickSort partition.

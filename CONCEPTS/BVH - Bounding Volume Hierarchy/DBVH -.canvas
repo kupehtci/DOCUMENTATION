@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"df271b4988ea301d","type":"file","file":"CONCEPTS/BVH - Bounding Volume Hierarchy/BVH Bounding Volume Hierarchy.md","x":-820,"y":-320,"width":840,"height":400},
+		{"id":"492247bc1ee73b1d","type":"file","file":"CONCEPTS/BVH - Bounding Volume Hierarchy/AABB (Axis Aligned Bounding Box).md","x":320,"y":-380,"width":400,"height":400},
+		{"id":"c9b40f8f91313f90","type":"text","text":"```CSHARP\n\npublic struct AABB{\n\tVector3 lb;    //lowerbounds\n\tVector3 up;    //upper bounds\n}\n\n```\n\n","x":820,"y":-337,"width":503,"height":217,"color":"6"},
+		{"id":"e687d4878f5d17db","type":"text","text":"```CSHARP\n\npublic AABB Union(AABB A, AABB B){\n\nAABB C; \nC.lb = Min(A.lb, B.lb); \nC.ub = Max(A.ub, B.ub); \nreturn C; \n}\n\n```\n\n","x":820,"y":20,"width":503,"height":217,"color":"6"},
+		{"id":"5b6413017276a708","x":1621,"y":20,"width":459,"height":217,"type":"text","text":"#### AREA\n```CSHARP\npublic float Area()  \n{  \n    Vector3 c = _ub - _lb;  \n    return 2.0f * (c.x * c.y + c.y * c.z + c.z * c.x);  \n}\n``` "}
+	],
+	"edges":[
+		{"id":"9ff0c6a4fa4e6f35","fromNode":"492247bc1ee73b1d","fromSide":"right","toNode":"c9b40f8f91313f90","toSide":"left"},
+		{"id":"ea9d3768b6da9c0b","fromNode":"c9b40f8f91313f90","fromSide":"bottom","toNode":"e687d4878f5d17db","toSide":"top","color":"#0008ff"},
+		{"id":"004a69635d7261ad","fromNode":"df271b4988ea301d","fromSide":"right","toNode":"492247bc1ee73b1d","toSide":"left"},
+		{"id":"7e2372fb58c51c46","fromNode":"e687d4878f5d17db","fromSide":"right","toNode":"5b6413017276a708","toSide":"left"}
+	]
+}
