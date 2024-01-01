@@ -1,4 +1,4 @@
-#JS #HTMl #DOM 
+#JS #HTML #DOM 
 
 ### Set Attributes
 

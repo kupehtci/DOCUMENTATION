@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVASCRIPT/JS - Scope of the variables.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c2201617ef701ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C-SHARP/CS - IDisposable Interface.md",
+                "file": "UNITY/BUILD/UNITY - Execute in build.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#HTMl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C-SHARP/CS - IDisposable Interface.md",
+                "file": "UNITY/BUILD/UNITY - Execute in build.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C-SHARP/CS - IDisposable Interface.md",
+                "file": "UNITY/BUILD/UNITY - Execute in build.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C-SHARP/CS - IDisposable Interface.md"
+                "file": "UNITY/BUILD/UNITY - Execute in build.md"
               }
             }
           }
@@ -184,8 +172,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c2201617ef701ac",
+  "active": "eb7d31b35170b3ea",
   "lastOpenFiles": [
+    "UNITY/BUILD/UNITY - Build Report.md",
+    "CONCEPTS/BVH - Bounding Volume Hierarchy/BVH Bounding Volume Hierarchy.md",
+    "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
+    "C-SHARP/CS - SIMD.md",
+    "CONCEPTS/SIMD - Single Instruction Multiple Data.md",
+    "CONCEPTS/Data Tree - Basics.md",
+    "CONCEPTS/Data Tree - Search.md",
+    "DISLEXIA RESEARCH VGSRE.md",
+    "2023-12-31.md",
+    "INTERFACES.md",
+    "JAVASCRIPT/JS - CLASSES.md",
+    "Untitled.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "JAVASCRIPT/JS - Scope of the variables.md",
+    "JAVASCRIPT/JS - DOM Elements Attributes.md",
+    "JAVASCRIPT/JS - Data types.md",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "C-SHARP/CS - IDisposable Interface.md",
     "C-SHARP/CS - ANONYMOUS METHODS.md",
     "C-SHARP/CS - .NET Serialization.md",
     "UNITY/BUILD/UNITY - Execute in build.md",
@@ -197,23 +204,6 @@
     "UNITY/UNITY - EVENT SYSTEM/UNITY - DETECT DROP.md",
     "UNITY/SHADERS - Toon shader.md",
     "UNITY/UNITY - BATCHING.md",
-    "UNITY/UNITY - Color.md",
-    "UNITY/UNITY - Data persistent between scenes.md",
-    "UNITY/UNITY - Drawcall.md",
-    "UNITY/UNITY - Engine Attributes.md",
-    "UNITY/UNITY - UnityEditor_Not_find_error.md",
-    "CONCEPTS/BVH - Bounding Volume Hierarchy/AABB (Axis Aligned Bounding Box).md",
-    "UNITY/OPTIMIZATION/BATCHING.md",
-    "JAVASCRIPT/JS - Casting.md",
-    "JAVASCRIPT/JS - DOM elements Basics.md",
-    "JAVASCRIPT/JS - HTML implementation.md",
-    "JAVASCRIPT/JS - Data types.md",
-    "JAVASCRIPT/JS - Scope of the variables.md",
-    "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
-    "CONCEPTS/Data Tree - Basics.md",
-    "CONCEPTS/Collision Detection.md",
-    "CONCEPTS/Aceleration Structures.md",
-    "CONCEPTS/BVH - Bounding Volume Hierarchy/BVH Bounding Volume Hierarchy.md",
     "CONCEPTS/BVH - Bounding Volume Hierarchy",
     "JAVASCRIPT",
     "AJAX",
@@ -236,9 +226,7 @@
     "BPMN-CODE_GENERATE/BPMN Parsing pipeline.canvas",
     "BPMN-CODE_GENERATE/BPMN XML->CODE.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
-    "Untitled.canvas",
     "HTML/HTML.canvas",
-    "CSS/CSS-CANVAS.canvas",
-    "Untitled 1.canvas"
+    "CSS/CSS-CANVAS.canvas"
   ]
 }

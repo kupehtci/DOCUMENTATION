@@ -127,9 +127,17 @@ This allows us to only update a leaf if the tight fit AABB moves outside the enl
 
 ## Compare cost in BVH
 
-TO be able to compare the efficiency of a BVH, the cost can be calculated and compared by taking the total area of the internal nodes. This gives a comparison in how well the objects are grouped. 
+To be able to compare the efficiency of a BVH, the cost can be calculated and compared by taking the total area of the internal nodes. 
+This gives a comparison in how well the objects are grouped. 
+
 
 ```CSHARP 
 // Calculate total area of internal nodes
-float ComputeCost
+float ComputeCost(){
+
+
+
+}
 ```
+
+Cost can be evaluated when choosing the axis to split the AABB by calculating the resultants nodes Area and choosing the less resultant area split. 

@@ -4,7 +4,7 @@ Una interfaz define un clase. Cualquier class o struct que implemente esta misma
 
 
 Ejemplo: 
-
+```CSHARP 
 interface ISampleInterface
 {
     void SampleMethod();
@@ -27,3 +27,4 @@ class ImplementationClass : ISampleInterface
         obj.SampleMethod();
     }
 }
+```
