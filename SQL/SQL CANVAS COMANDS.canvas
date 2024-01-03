@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"088ff9bc730bb73a","type":"file","file":"SQL/SQL - MAIN COMMANDS.md","x":-900,"y":-420,"width":680,"height":539},
+		{"id":"414b7afd0a74e1fc","x":-1760,"y":-420,"width":720,"height":480,"type":"file","file":"SQL/SQL - Tables.md"},
+		{"id":"86b999fad0b92c1b","type":"file","file":"SQL/SQL - Modifiers.md","x":-100,"y":119,"width":660,"height":720},
+		{"id":"b3a476b5c2a4c367","x":-779,"y":449,"width":439,"height":60,"type":"text","text":"<span style=\"color:MediumSpringGreen;\">Statements</span> can be modified to affect only certain instances of data"},
+		{"id":"ab3fe7ea04c055c9","type":"file","file":"PHP/PHP - MYSQLI - Bind Parameters.md","x":740,"y":-560,"width":540,"height":820}
+	],
+	"edges":[
+		{"id":"c684c12815b9b926","fromNode":"088ff9bc730bb73a","fromSide":"right","toNode":"ab3fe7ea04c055c9","toSide":"left"},
+		{"id":"178c0163c2f8849c","fromNode":"414b7afd0a74e1fc","fromSide":"right","toNode":"088ff9bc730bb73a","toSide":"left"},
+		{"id":"de6769e835eea96d","fromNode":"86b999fad0b92c1b","fromSide":"right","toNode":"ab3fe7ea04c055c9","toSide":"left"},
+		{"id":"b9612c870182fcc8","fromNode":"088ff9bc730bb73a","fromSide":"bottom","toNode":"b3a476b5c2a4c367","toSide":"top"},
+		{"id":"d98b2d47f765205b","fromNode":"b3a476b5c2a4c367","fromSide":"right","toNode":"86b999fad0b92c1b","toSide":"left"}
+	]
+}

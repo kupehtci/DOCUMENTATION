@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"ff24dbf84a1eb9ad","x":140,"y":-300,"width":487,"height":385,"type":"text","text":"# BATCH GROUP\n\nStores the residual Gameobjects and the new Combined element. \nThe `_residuals` are deleted during build. \n\n```CSHARP\npublic struct BatchGroup  \n{  \n    public GameObject[] _residuals;  \n    public GameObject _combine;\n}\n```"},
+		{"id":"85d7ba9772f1f799","type":"text","text":"# GOSet\n\nStores a combination of gameobjects that would be joined together in a batch element. \nThe `_residuals` are deleted during build. \n\n```CSHARP\npublic struct BatchGroup  \n{  \n    public GameObject[] _residuals;  \n    public GameObject _combine;\n}\n```","x":140,"y":160,"width":487,"height":385}
+	],
+	"edges":[]
+}

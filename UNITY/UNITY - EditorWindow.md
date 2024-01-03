@@ -1,6 +1,23 @@
 ## EDITOR WINDOW MANUAL 
 
 
+
+## Unavaliable methods
+
+There are some methods that cannot be used while being in <span style="color:orange;">Edit Mode</span> and need to replace them with others: 
+
+* <span style="color:#ababf5;">Destroy(Gameobject go)</span> needs to be replaced with <span style="color:#ababf5;">DestroyInmediate(GameObject go)</span>
+	Can be solved by using: 
+	
+	```CSHARP 
+	if (Application.isPlaying == false) {  
+	    Object.DestroyImmediate(_combine);  
+	}
+	else {  
+	    Object.Destroy(_combine);  
+	}
+	```
+
 #### CODE EXAMPLE 
 
 ```CSHARP 

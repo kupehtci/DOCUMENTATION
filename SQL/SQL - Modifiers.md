@@ -3,6 +3,7 @@
 ### Modifiers use
 
 Modifiers are SQL statement add that <span style="color:#ababf5;">modify the query statement</span>. 
+This modify the query result or the data rows affected by a statement. 
 For example a <span style="color:orange;">SELECT</span> can be limited to get a limited number of data rows or the top or last ones. 
 
 

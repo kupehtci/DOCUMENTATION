@@ -2,13 +2,13 @@
 
 ## ACTION vs FUNC
 
-Actions and Funcs are just delegates in C#. They are pre-defined delegates.
+Actions and Funcs are pre-defined delegates in C#. 
 
-_If you don’t know how to use delegates, please visit_ [_my article_](https://medium.com/@serhat21zor/c-delegate-fc74d2bf6596) _about these, before you read this article. The article contains its usage and some important points, such as memory leakages and internal structures._
+_If you don’t know how to use delegates, please visit_ [_my article_](https://medium.com/@serhat21zor/c-delegate-fc74d2bf6596)
 
 Actions can only take input parameters, while Funcs can take input and output parameters. It is the biggest difference between them.
 
-### ACTION 
+### ACTION\<\>
 
 An action usage example: 
 ```CSHARP 
@@ -25,8 +25,9 @@ public static void Sum(int number1, int number2)
         
 ```
 
+See more documentation in: [[CS - Delegate Action<>]]
 
-### FUNC
+### FUNC\<\>
 
 A func should return a value. So its last parameter will be its return type.
 
@@ -56,4 +57,11 @@ public static string SumAsStringFunc(int number1, int number2)
 }
 ```
 
-See more documentation in: [[CS - Func<> Delegates]]
+See more documentation in: [[CS - Delegate Func<>]]
+
+
+### CONCLUSION 
+
+Both methodologies let a method to be <span style="color:MediumSpringGreen;">encapsulated within a delegate object</span>. 
+The only differ when taking into account that the function need to return a value or not. 
+In this case, Functions return a value and Actions returns no value. 

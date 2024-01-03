@@ -14,7 +14,7 @@ To generate a random int:
 
 If going to use it in Unity take into account the two different classes: 
 
-[[UNITY - RANDOM]]
+[[UNITY - Random]]
 
 If you write Random and have also `using UnityEngine` and `using System` its going to have an _ambiguous conflict_. 
 To avoid this, tell the compiler with Random are you specifiying with that word: 

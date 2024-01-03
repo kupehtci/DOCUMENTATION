@@ -1,18 +1,6 @@
 #SQL #PHP 
 
-### CREATE TABLE 
-
-```SQL 
-CREATE TABLE Users{
-id NOT NULL AUTO_INCREMENT, 
-name NOT NULL DEFAULT "default_name", 
-username NOT NULL DEFAULT "default_username", 
-created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP, 
-}
-``` 
-
-Take into account the different **data-types** and their constraints. 
-For `mariadb` data-types check the next notes: [[SQL - Data types]]
+Take a look before this: [[SQL - Tables]], for creating tables. 
 ### INSERTING ROWS
 
 ```SQL 

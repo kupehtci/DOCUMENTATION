@@ -1,5 +1,6 @@
 #CSHARP #NET 
 ## FUNC\<\> Introduction
+
 Encapsulates a method that has one parameter and returns a value of the type specified by the <span style="color:#9EE192">TResult</span> parameter.
 ``` CSHARP 
 public delegate TResult Func<in T,out TResult>(T arg);
@@ -19,10 +20,10 @@ This type parameter is covariant. That is, you can use either the type you speci
 <br><br>
 <span style="color:#f5a5f5; ">T</span>
 The parameter of the method that this delegate encapsulates.
-Return Value
 <br><br>
 <span style="color:#f5a5f5; ">TResult</span>
 The return value of the method that this delegate encapsulates.
+Return Value
 </div>
 
 ### Execute a Func\<\>

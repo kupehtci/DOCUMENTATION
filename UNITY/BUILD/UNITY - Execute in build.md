@@ -43,3 +43,9 @@ class MyCustomBuildProcessor : IPostprocessBuildWithReport
     }
 }
 ```
+
+
+### Take into account
+
+When using this <span style="color:orange; ">Interfaces</span>, the implementation of them need to be placed in `Editor/` folder. 
+This is made because needs to import: `using UnityEditor;` and this library is only avaliable inside the Editor and not compiled when making a build. 

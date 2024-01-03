@@ -24,3 +24,6 @@ This produces the following interface, which you can try right here in your brow
 ---
 
 And you’re done! That’s all the code you need to build a web demo for an image classifier. If you’d like to share with others, try setting `share=True` when you `launch()` the Interface!
+
+To see how to import <span style="color:MediumSpringGreen;">GRADIO</span>: [[PYTHON - Imports]]
+
