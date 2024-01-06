@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PYTHON/PYTHON - Imports.md",
+                "file": "JAVASCRIPT/JS - Check if property exists.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PYTHON/PYTHON - Imports.md",
+                "file": "JAVASCRIPT/JS - Check if property exists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PYTHON/PYTHON - Imports.md",
+                "file": "JAVASCRIPT/JS - Check if property exists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PYTHON/PYTHON - Imports.md"
+                "file": "JAVASCRIPT/JS - Check if property exists.md"
               }
             }
           }
@@ -172,16 +172,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb7d31b35170b3ea",
+  "active": "5e99b486c39f3cfb",
   "lastOpenFiles": [
+    "JAVASCRIPT/IMAGES",
+    "JAVASCRIPT/IMAGES.md",
+    "JAVASCRIPT/JS - Check if property exists.md",
+    "JAVASCRIPT/IMAGES/HasOwnBrowserSupport.png",
+    "BPMN-PARSING-UNITY/2024-01-02 - REUNION RAUL.md",
+    "BPMN-PARSING-UNITY/2023-11-30 - REUNION RAUL.md",
+    "BPMN-PARSING-UNITY/2023-12-14 - Reunion Raul.md",
+    "JAVASCRIPT/JS - Scope of the variables.md",
+    "SQL/SQL - Tables.md",
+    "javascr+.md",
+    "SQL/SQL - MAIN COMMANDS.md",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "CONCEPTS/IMAGES/TuringMachineDiagram.webp",
+    "PYTHON/PYTHON - Imports.md",
+    "CONCEPTS/Turing Machine.md",
     "PYTHON/GRADIO - GRADIO Web aplication for YOLOv5.md",
     "PYTHON/GRADIO - gr.inputs.md",
-    "PYTHON/PYTHON - Imports.md",
     "PYTHON/PYTHON - COLLAB.md",
     "PYTHON/IMAGES/Captura de pantalla 2024-01-03 a las 21.10.09.png",
     "PYTHON/IMAGES",
     "C-SHARP/CS - JSON Parsing.md",
-    "MARKDOWN/MARKDOWN - Colors.md",
     "C-SHARP/CS - ANONYMOUS METHODS.md",
     "C-SHARP/CS - Action vs Func.md",
     "C-SHARP/CS - Delegate Action<>.md",
@@ -192,19 +205,8 @@
     "C-SHARP/CS - Arrays.md",
     "UNITY/STATIC BATCHER - CANVAS.md",
     "SQL/SQL CANVAS COMANDS.canvas",
-    "SQL/SQL - MAIN COMMANDS.md",
-    "SQL/SQL - Tables.md",
     "PHP/PHP - MYSQLI - Bind Parameters.md",
-    "C-SHARP/CS - Random.md",
     "SQL/IMAGES",
-    "UNITY/UNITY - Random.md",
-    "UNITY/UNITY - RequireComponent().md",
-    "UNITY/UNITY - UnityEditor_Not_find_error.md",
-    "UNITY/UNITY - Mesh.md",
-    "UNITY/UNITY - Drawcall.md",
-    "UNITY/UNITY - Static property.md",
-    "UNITY/UNITY - Static Batching.md",
-    "UNITY/UNITY - Material.md",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
     "Untitled 1.canvas",
@@ -220,8 +222,6 @@
     "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 12.23.02.png",
     "CONCEPTS/IMAGES/AABB_Types.png",
     "CONCEPTS/IMAGES/AABB.png",
-    "PHYSICS/IMAGES/Captura de pantalla 2023-12-21 a las 16.17.12.png",
-    "PHYSICS/IMAGES/Captura de pantalla 2023-12-21 a las 16.15.52.png",
     "PHYSICS/IMAGES",
     "SHADERS/IMAGES",
     "COMPUTER ARCHITECTURE/IMAGES",

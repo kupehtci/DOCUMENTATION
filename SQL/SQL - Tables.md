@@ -6,7 +6,6 @@
 In <span style="color:orange;">SQL</span> tables are the basic structure for data storing. 
 
 
-
 ### CREATE A TABLE IN MySQL
 
 This is the statement for creating a table in MySQL. 
@@ -24,3 +23,20 @@ created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
 Take into account the different **data-types** and their constraints. 
 For `mariadb` data-types check the next notes: [[SQL - Data types]]
+
+
+### INSPECT THE DATABASE
+
+Once you have create a <span style="color:orange">table</span> you can inspect the tables within the database by writing: 
+
+```SQL
+SHOW TABLES FROM ECOMMERCE;
+```
+
+And it will return a table like this: 
+
+| Users |
+| ---- |
+| Products |
+| Orders |
+
