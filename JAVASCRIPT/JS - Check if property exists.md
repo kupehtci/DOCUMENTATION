@@ -35,7 +35,7 @@ When dealing with objects and dont knowing if they can have a concrete property 
 
 >`hasOwn(object, string parameter)`
 
-This method dont work with 
+This method also work with `Object.Create()` but its so new that not all browser version support it. 
 
 Example dealing with ajax: 
 
@@ -50,6 +50,42 @@ let pname = person.name;
 ```
 
 
+### CUSTOM 
+
+You can create your custom `hasKey()` function for checking if an object contains a specific key. 
+
+```JS
+const person = {  
+name: 'John',  
+surname: 'Doe',  
+age: 41  
+};  
+  
+const user = Object.create({ name: 'Kevin' });  
+  
+function hasKey(object, target) {  
+	if (object && target) {  
+		for (const key in object) {  
+			if (key === target) {  
+				return true;  
+			}  
+		}  
+		return false;  
+	} else {  
+		return false;  
+	}  
+}  
+  
+console.log(hasKey(person, 'name')); // true  
+console.log(hasKey(person, 'location')); // false  
+console.log(hasKey(user, 'name')); // true
+```
+
+### Own recommendation
+
+Its preferred to use <span style="color:orange">in operator</span> for now, because its high compatibility, more than <span style="color:orange">hasOwn()</span>. 
+
+>“in” operator and Object.hasOwn() method are the methods we need to stick to in our every day work
 
 ---
 

@@ -1,7 +1,15 @@
 {
 	"nodes":[
-		{"id":"ff24dbf84a1eb9ad","x":140,"y":-300,"width":487,"height":385,"type":"text","text":"# BATCH GROUP\n\nStores the residual Gameobjects and the new Combined element. \nThe `_residuals` are deleted during build. \n\n```CSHARP\npublic struct BatchGroup  \n{  \n    public GameObject[] _residuals;  \n    public GameObject _combine;\n}\n```"},
-		{"id":"85d7ba9772f1f799","type":"text","text":"# GOSet\n\nStores a combination of gameobjects that would be joined together in a batch element. \nThe `_residuals` are deleted during build. \n\n```CSHARP\npublic struct BatchGroup  \n{  \n    public GameObject[] _residuals;  \n    public GameObject _combine;\n}\n```","x":140,"y":160,"width":487,"height":385}
+		{"id":"85d7ba9772f1f799","type":"text","text":"# GOSet\n\nStores a set of GameObjects as a group. \nThis group can be batched together once its generated\n\n```CSHARP\npublic struct BatchGroup  \n{  \n    public GameObject[] _residuals;  \n    public GameObject _combine;\n}\n```","x":140,"y":680,"width":487,"height":385},
+		{"id":"ff24dbf84a1eb9ad","type":"text","text":"# BATCH GROUP\n\nStores the residual Gameobjects and the new Combined element. \nThe `_residuals` are deleted during build. \n\n```CSHARP\npublic struct BatchGroup  \n{  \n    public GameObject[] _residuals;  \n    public GameObject _combine;\n}\n```","x":500,"y":1220,"width":487,"height":385},
+		{"id":"8b4f19693b4fa2ea","type":"text","text":"# N-Tree\n\nStores the gameobjects in a <span style=\"color:orange;\">binary tree</span> with n-objects per leaf. \nThis stores all the combinations and let move the object and recalculate the tree easily. \n\n```CSHARP\n\n```","x":1460,"y":680,"width":487,"height":385},
+		{"id":"d3d1ae577fa0d3fc","type":"text","text":"# DBVH\n\nGenerates a Binary Tree that holds the objects while they are spacial partitioned into volumes of objects\n\n```CSHARP\n\n```","x":840,"y":680,"width":487,"height":385},
+		{"id":"ae90cafcba8c2dc7","x":1840,"y":1260,"width":636,"height":322,"type":"text","text":"# BUILD\n\nWhen building, `residuals` are deleted. \n\nIf automatic batching is enabled, it combines by proximity the gameobjects that are close to each other and share the same material. "}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"2b3d703127d74031","fromNode":"85d7ba9772f1f799","fromSide":"bottom","toNode":"ff24dbf84a1eb9ad","toSide":"top"},
+		{"id":"abbd35889e0ea5ca","fromNode":"d3d1ae577fa0d3fc","fromSide":"right","toNode":"8b4f19693b4fa2ea","toSide":"left","fromEnd":"arrow"},
+		{"id":"3c688e287dc3398a","fromNode":"d3d1ae577fa0d3fc","fromSide":"bottom","toNode":"ff24dbf84a1eb9ad","toSide":"top"},
+		{"id":"6587d162342cb401","fromNode":"ff24dbf84a1eb9ad","fromSide":"right","toNode":"ae90cafcba8c2dc7","toSide":"left"}
+	]
 }

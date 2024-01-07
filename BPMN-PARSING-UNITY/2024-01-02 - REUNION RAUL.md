@@ -8,13 +8,14 @@ Fulfill the experiment documents to send to Ethics committee.
 
 Design two new more NPCs for having as exercise for the experiment (Horse and eagle)
 
-* [ ] Generate BPMN of Carp NPC 
+* [x] Describe carp behaviour 
+* [x] Generate BPMN of Carp NPC 
 *  Design two more NPCs
-	* [ ] Explain in natural text the design of this this two NPCs
-	* [ ] NPC 1 -> BPMN 
-	* [ ] NPC 1 -> CODE 
-	* [ ] NPC 2 -> BPMN 
-	* [ ] NPC 2 -> CODE 
+	* [x] Explain in natural text the design of this this two NPCs
+	* [x] NPC 1 -> BPMN 
+	* [x] NPC 1 -> CODE 
+	* [x] NPC 2 -> BPMN 
+	* [x] NPC 2 -> CODE 
 
 Raul will make
 

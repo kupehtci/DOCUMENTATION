@@ -1,8 +1,8 @@
-#shaders #UNITY #COMPUTER_GRAPHICS
+#SHADERS #UNITY #COMPUTER_GRAPHICS
 
 ## UNLIT SHADERS
 
-
+Unlit shaders doesnt work with light
 #### Working with transparencies
 
 ```CSHARP
@@ -20,7 +20,7 @@ Cull Back
 }
 ```
 
-###### SHADOWS
+### SHADOWS
 
 UnLit shadows by default, when you apply a new one to an object, it does not reflect the shadows. 
 

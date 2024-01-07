@@ -1,4 +1,4 @@
-#shaders 
+#SHADERS
 
 The pipeline of shaders is the path that the data goes through from data into the rendererization into the screen when performing a <span style="color:orange;">rendering operation</span>. 
 
