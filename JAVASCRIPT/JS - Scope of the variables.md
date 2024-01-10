@@ -66,3 +66,9 @@ if (true) {
 } 
 console.log(platzi); //Esto está dentro del bloque
 ```
+
+Take into account that <span style="color:orange;">var</span> expands into other files that are linked in HTML because they are embedded and executed linearly. 
+
+This can be used to declare <span style="color:orange;">var</span> variables in a PHP-HTML file using \<script\> and access this file from inside another JS file linked in the HTML that can be external or internal. 
+
+See: [[JS - Pass variables PHP to JS]] option 5 of passing parameters. 

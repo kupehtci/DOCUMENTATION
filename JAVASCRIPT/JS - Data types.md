@@ -16,7 +16,7 @@ En Javascript disponemos de los siguientes **tipos de datos** principales:
 |`undefined`|Not defined value (variable without initialization)|`undefined`|
 |`Function`|function saved in a variable |`function() {}`|
 |`Symbol`|unique value as a key|`Symbol(1)`|
-|`Object`|Object, a more complex structure with properties|`{}`|
+|`object` |Object, a more complex structure with properties|`{}`|
 
 
 ### How to know the type
@@ -29,3 +29,19 @@ console.log(typeof(number));     // "Number"
 console.log(typeof(boolean));    // "Boolean"
 console.log(typeof(notDefined)); // undefined
 ```
+
+## typeof()
+
+The return of `typeof()` could be: 
+
+|Type|Result|
+|---|---|
+|[Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)|`"undefined"`|
+|[Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null)|`"object"`([reason](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null))|
+|[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)|`"boolean"`|
+|[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)|`"number"`|
+|[BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)|`"bigint"`|
+|[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|`"string"`|
+|[Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)|`"symbol"`|
+|[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) (implements [[Call]] in ECMA-262 terms; [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) are functions as well)|`"function"`|
+|Any other object|`"object"`|

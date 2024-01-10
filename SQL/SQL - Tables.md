@@ -40,3 +40,21 @@ And it will return a table like this:
 | Products |
 | Orders |
 
+
+### ALTER A TABLE 
+
+WIth an already created table, can be alter, by adding columns, or deleting ones or modifying data types.
+
+This can be done by: 
+
+ADD COLUMN: 
+
+```SQL 
+
+```
+
+DELETE COLUMN: 
+
+```SQL 
+
+```

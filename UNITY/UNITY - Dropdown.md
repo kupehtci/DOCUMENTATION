@@ -99,4 +99,13 @@ To detect with label is currently selected, can be access via `value`attribute.
 int valueSelected = _dropdownSelector.value; 
 ```
 
+#### REFRESH 
 
+Once you have make changes to dropdown, this changes need to be reflected into the UI. 
+
+To do so you need to call `RefreshShownValue();` to reload the UI. 
+
+```CSHARP
+_dropdown.options.Add(new TMP_Dropdown.OptionData("OptionA"));_
+_dropdown.RefreshShownValue();
+```

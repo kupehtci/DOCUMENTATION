@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SHADERS/Lit Shaders.md",
+                "file": "JAVASCRIPT/JS - Pass array PHP to JS.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#shaders",
+                "query": "dropdown",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SHADERS/Lit Shaders.md",
+                "file": "JAVASCRIPT/JS - Pass array PHP to JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SHADERS/Lit Shaders.md",
+                "file": "JAVASCRIPT/JS - Pass array PHP to JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SHADERS/Lit Shaders.md"
+                "file": "JAVASCRIPT/JS - Pass array PHP to JS.md"
               }
             }
           }
@@ -174,41 +174,42 @@
   },
   "active": "eb7d31b35170b3ea",
   "lastOpenFiles": [
-    "SHADERS/UnLit Shaders.md",
-    "SHADERS/Lit Shaders.md",
-    "SHADERS/SHADERS - UV Coordinates (TODO).md",
-    "SHADERS/SHADERS - Toon shader.md",
-    "SHADERS/SHADERS - Combustion.md",
+    "JAVASCRIPT/JS - Pass variables PHP to JS.md",
+    "JAVASCRIPT/JS - Pass array PHP to JS.md",
+    "JAVASCRIPT/JS - document.md",
+    "HTML/Special Characters.md",
+    "JAVASCRIPT/JS - DOM elements Basics.md",
+    "JAVASCRIPT/JS - DOM Elements Attributes.md",
+    "JAVASCRIPT/JS - Get element reference.md",
+    "JAVASCRIPT/JS - HTML implementation.md",
+    "AJAX/XMLHttpRequest.md",
     "MARKDOWN/MARKDOWN - Colors.md",
-    "SHADERS/SHADERS - Flow map.md",
+    "JAVASCRIPT/JS - Number formats.md",
+    "JAVASCRIPT/JS - String formats.md",
+    "CONCEPTS/IEEE-754 Floating Point.md",
+    "JAVASCRIPT/Untitled",
+    "JAVASCRIPT/JS - Casting.md",
+    "JAVASCRIPT/JS - Check if property exists.md",
+    "SQL/SQL - Tables.md",
+    "SQL/SQL - MAIN COMMANDS.md",
+    "SQL/SQL CANVAS COMANDS.canvas",
+    "SQL/SQL - ERRORS.md",
+    "SQL/SQL - Data types.md",
+    "JAVASCRIPT/JS - Data types.md",
+    "PHP/PHP - MYSQLI.md",
+    "PHP/PHP - MYSQLI - Connection.md",
+    "PHP/PHP - MYSQLI - Update.md",
+    "PHP/PHP - For loops.md",
+    "PHP/PHP - MYSQLI - Bind Parameters.md",
+    "CONCEPTS/Data Structure - Map.md",
     "SHADERS/IMAGES/uv_coordinates.webp",
     "SHADERS/IMAGES/flow_map_1.webp",
-    "COMPUTER GRAPHICS/RENDERING PIPELINE.md",
-    "COMPUTER GRAPHICS/Vertex.md",
-    "HTML/Special Characters.md",
     "UNITY/STATIC BATCHER CANVAS.canvas",
-    "BPMN-PARSING-UNITY/2024-01-02 - REUNION RAUL.md",
-    "CONCEPTS/BVH - Bounding Volume Hierarchy/BVH Bounding Volume Hierarchy.md",
-    "UNITY/UNITY - Particle System.md",
-    "JAVASCRIPT/JS - Check if property exists.md",
     "JAVASCRIPT/IMAGES",
-    "JAVASCRIPT/IMAGES.md",
     "JAVASCRIPT/IMAGES/HasOwnBrowserSupport.png",
-    "BPMN-PARSING-UNITY/2023-11-30 - REUNION RAUL.md",
-    "BPMN-PARSING-UNITY/2023-12-14 - Reunion Raul.md",
-    "JAVASCRIPT/JS - Scope of the variables.md",
-    "SQL/SQL - Tables.md",
-    "javascr+.md",
-    "SQL/SQL - MAIN COMMANDS.md",
     "CONCEPTS/IMAGES/TuringMachineDiagram.webp",
-    "PYTHON/PYTHON - Imports.md",
-    "CONCEPTS/Turing Machine.md",
-    "PYTHON/GRADIO - GRADIO Web aplication for YOLOv5.md",
-    "PYTHON/GRADIO - gr.inputs.md",
-    "PYTHON/PYTHON - COLLAB.md",
     "PYTHON/IMAGES/Captura de pantalla 2024-01-03 a las 21.10.09.png",
     "PYTHON/IMAGES",
-    "SQL/SQL CANVAS COMANDS.canvas",
     "SQL/IMAGES",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
@@ -225,7 +226,6 @@
     "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 12.23.02.png",
     "PHYSICS/IMAGES",
     "SHADERS/IMAGES",
-    "COMPUTER ARCHITECTURE/IMAGES",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "HTML/HTML.canvas",

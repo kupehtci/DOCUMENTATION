@@ -21,10 +21,14 @@ For doing that use the `<script>` tag with the `src` property.
 
 The location of the script changes completelly the invocation of the code. 
 
-|Location| How it gets downloaded? |State of the webpage|
-|---|---|---|
-|In `<head>`|**BEFORE** starting to draw the page|Page not draw yet|
-|In `<body>`|**WHILE** the drawing|Draw until the tag `<script>`.|
-|Before `</body>`|**AFTER** drawing the page|100% drawn|
+| Location | How it gets downloaded? | State of the webpage |
+| ---- | ---- | ---- |
+| In `<head>` | **BEFORE** starting to draw the page | Page not draw yet |
+| In `<body>` | **WHILE** the drawing | Draw until the tag `<script>`. |
+| Before `</body>` | **AFTER** drawing the page | 100% drawn |
 
 If we want to be executed before the webpage gets show, needs to be placed in the `<head>`
+
+This need to be taken into account because if want to use `document.getElementById(elementId); ` to query select an element or another `querySelector`, this need to be declared before the script execution. 
+
+This happens because it gets the page content that its rendered until the script execution. 
