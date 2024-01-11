@@ -23,12 +23,8 @@
             "id": "eb7d31b35170b3ea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JSON/JSON - BASICS.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -110,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JSON/JSON - BASICS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JSON/JSON - BASICS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JSON/JSON - BASICS.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -174,9 +166,14 @@
   },
   "active": "eb7d31b35170b3ea",
   "lastOpenFiles": [
-    "JSON/JSON vs XML.md",
-    "JSON/JSON - BASICS.md",
+    "UNITY/UNITY - Application class.md",
+    "JAVASCRIPT/JS - For loops.md",
     "JAVASCRIPT/JS - Arrays.md",
+    "JAVASCRIPT/JS - Data types.md",
+    "JAVASCRIPT/JS - Check if property exists.md",
+    "JAVASCRIPT/JS - Casting.md",
+    "JSON/JSON - BASICS.md",
+    "JSON/JSON vs XML.md",
     "PHP/PHP - Errors.md",
     "PHP/PHP - Parameter by reference.md",
     "PHP/PHP - For loops.md",
@@ -184,7 +181,6 @@
     "MARKDOWN/MARKDOWN - Colors.md",
     "HTML/Special Characters.md",
     "JAVASCRIPT/JS - CLASSES.md",
-    "JAVASCRIPT/JS - Data types.md",
     "JAVASCRIPT/JS - Pass array JS to PHP.md",
     "JAVASCRIPT/JS - Pass array PHP to JS.md",
     "JAVASCRIPT/JS - Pass variables PHP to JS.md",
@@ -200,10 +196,6 @@
     "JAVASCRIPT/JS - document.md",
     "JAVASCRIPT/JS - DOM elements Basics.md",
     "JAVASCRIPT/JS - DOM Elements Attributes.md",
-    "JAVASCRIPT/JS - Get element reference.md",
-    "JAVASCRIPT/JS - HTML implementation.md",
-    "AJAX/XMLHttpRequest.md",
-    "JAVASCRIPT/JS - Number formats.md",
     "JAVASCRIPT/Untitled",
     "SQL/SQL CANVAS COMANDS.canvas",
     "SHADERS/IMAGES/uv_coordinates.webp",

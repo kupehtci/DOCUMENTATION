@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "CSHARP",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -18,7 +18,7 @@
       "query": "section:(KERAS)",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 5457970
       }
     },
     {
@@ -27,18 +27,32 @@
         "a": 1,
         "rgb": 11540727
       }
+    },
+    {
+      "query": "section:(JS)",
+      "color": {
+        "a": 1,
+        "rgb": 14810880
+      }
+    },
+    {
+      "query": "section:(SQL)",
+      "color": {
+        "a": 1,
+        "rgb": 25343
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -1.2,
-  "nodeSizeMultiplier": 2.619384765625,
-  "lineSizeMultiplier": 3.2402587890625,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 3.17266845703125,
+  "lineSizeMultiplier": 4.40384928385417,
   "collapse-forces": false,
-  "centerStrength": 0.4090576171875,
-  "repelStrength": 9.14632161458333,
-  "linkStrength": 0.651407877604167,
-  "linkDistance": 65,
-  "scale": 1.297372257443605,
+  "centerStrength": 0.647135416666667,
+  "repelStrength": 15.7511393229167,
+  "linkStrength": 0.222330729166667,
+  "linkDistance": 500,
+  "scale": 0.2762150658429376,
   "close": false
 }
