@@ -23,8 +23,12 @@
             "id": "eb7d31b35170b3ea",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CONCEPTS/COMPUTER - Data representation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -106,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MARKDOWN/MARKDOWN - Colors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MARKDOWN/MARKDOWN - Colors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MARKDOWN/MARKDOWN - Colors.md"
+              }
             }
           }
         ],
@@ -164,8 +172,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb7d31b35170b3ea",
+  "active": "5e99b486c39f3cfb",
   "lastOpenFiles": [
+    "CONCEPTS/IMAGES/positional_representation_systems.png",
+    "CONCEPTS/IMAGES/bvh_potery.png",
+    "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 13.50.31.png",
+    "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 12.23.02.png",
+    "CONCEPTS/IMAGES/Captura de pantalla 2023-12-21 a las 15.30.35.png",
+    "CONCEPTS/COMPUTER - Data representation.md",
     "UNITY/UNITY - Application class.md",
     "JAVASCRIPT/JS - For loops.md",
     "JAVASCRIPT/JS - Arrays.md",
@@ -188,14 +202,9 @@
     "CONCEPTS/GRAMMAR -  Regular Expression.md",
     "CONCEPTS/FORMAL LANGUAGE - CHOMSKY CLASSIFICATION.md",
     "CONCEPTS/IMAGES/chomsky_grammar_classification_onion.png",
-    "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 13.50.31.png",
-    "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 12.23.02.png",
-    "CONCEPTS/IMAGES/Captura de pantalla 2023-12-21 a las 15.30.35.png",
     "CONCEPTS/FORMAL LANGUAGE - GRAMMAR LANGUAGE.md",
     "CONCEPTS/FORMAL LANGUAGE - GRAMMAR Introduction.md",
     "JAVASCRIPT/JS - document.md",
-    "JAVASCRIPT/JS - DOM elements Basics.md",
-    "JAVASCRIPT/JS - DOM Elements Attributes.md",
     "JAVASCRIPT/Untitled",
     "SQL/SQL CANVAS COMANDS.canvas",
     "SHADERS/IMAGES/uv_coordinates.webp",
@@ -215,7 +224,6 @@
     "CONCEPTS/BVH - Bounding Volume Hierarchy",
     "JAVASCRIPT",
     "AJAX",
-    "SQL/IMAGES/pivot_table.png",
     "PHYSICS/IMAGES",
     "SHADERS/IMAGES",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
