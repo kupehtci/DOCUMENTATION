@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVASCRIPT/JS - Pass array JS to PHP.md",
+                "file": "JSON/JSON - BASICS.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dropdown",
+                "query": "tag:#JS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVASCRIPT/JS - Pass array JS to PHP.md",
+                "file": "JSON/JSON - BASICS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVASCRIPT/JS - Pass array JS to PHP.md",
+                "file": "JSON/JSON - BASICS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVASCRIPT/JS - Pass array JS to PHP.md"
+                "file": "JSON/JSON - BASICS.md"
               }
             }
           }
@@ -174,13 +174,22 @@
   },
   "active": "eb7d31b35170b3ea",
   "lastOpenFiles": [
-    "JAVASCRIPT/JS - Pass array PHP to JS.md",
+    "JSON/JSON vs XML.md",
+    "JSON/JSON - BASICS.md",
+    "JAVASCRIPT/JS - Arrays.md",
+    "PHP/PHP - Errors.md",
+    "PHP/PHP - Parameter by reference.md",
+    "PHP/PHP - For loops.md",
+    "JAVASCRIPT/JS - Arrays sorting.md",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "HTML/Special Characters.md",
+    "JAVASCRIPT/JS - CLASSES.md",
+    "JAVASCRIPT/JS - Data types.md",
     "JAVASCRIPT/JS - Pass array JS to PHP.md",
+    "JAVASCRIPT/JS - Pass array PHP to JS.md",
     "JAVASCRIPT/JS - Pass variables PHP to JS.md",
     "CONCEPTS/IEEE-754 Floating Point.md",
     "CONCEPTS/GRAMMAR -  Regular Expression.md",
-    "HTML/Special Characters.md",
-    "MARKDOWN/MARKDOWN - Colors.md",
     "CONCEPTS/FORMAL LANGUAGE - CHOMSKY CLASSIFICATION.md",
     "CONCEPTS/IMAGES/chomsky_grammar_classification_onion.png",
     "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 13.50.31.png",
@@ -195,17 +204,8 @@
     "JAVASCRIPT/JS - HTML implementation.md",
     "AJAX/XMLHttpRequest.md",
     "JAVASCRIPT/JS - Number formats.md",
-    "JAVASCRIPT/JS - String formats.md",
     "JAVASCRIPT/Untitled",
-    "JAVASCRIPT/JS - Casting.md",
-    "JAVASCRIPT/JS - Check if property exists.md",
-    "SQL/SQL - Tables.md",
-    "SQL/SQL - MAIN COMMANDS.md",
     "SQL/SQL CANVAS COMANDS.canvas",
-    "SQL/SQL - ERRORS.md",
-    "SQL/SQL - Data types.md",
-    "JAVASCRIPT/JS - Data types.md",
-    "PHP/PHP - MYSQLI.md",
     "SHADERS/IMAGES/uv_coordinates.webp",
     "SHADERS/IMAGES/flow_map_1.webp",
     "UNITY/STATIC BATCHER CANVAS.canvas",
