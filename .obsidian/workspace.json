@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CONCEPTS/COMPUTER - Data representation.md",
+                "file": "PHP/PHP- String format.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MARKDOWN/MARKDOWN - Colors.md",
+                "file": "PHP/PHP- String format.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MARKDOWN/MARKDOWN - Colors.md",
+                "file": "PHP/PHP- String format.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MARKDOWN/MARKDOWN - Colors.md"
+                "file": "PHP/PHP- String format.md"
               }
             }
           }
@@ -172,8 +172,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e99b486c39f3cfb",
+  "active": "eb7d31b35170b3ea",
   "lastOpenFiles": [
+    "JAVASCRIPT/JS - Try catch.md",
+    "MARKDOWN/MARKDOWN - Colors.md",
     "CONCEPTS/IMAGES/positional_representation_systems.png",
     "CONCEPTS/IMAGES/bvh_potery.png",
     "CONCEPTS/IMAGES/Captura de pantalla 2023-12-22 a las 13.50.31.png",
@@ -192,7 +194,6 @@
     "PHP/PHP - Parameter by reference.md",
     "PHP/PHP - For loops.md",
     "JAVASCRIPT/JS - Arrays sorting.md",
-    "MARKDOWN/MARKDOWN - Colors.md",
     "HTML/Special Characters.md",
     "JAVASCRIPT/JS - CLASSES.md",
     "JAVASCRIPT/JS - Pass array JS to PHP.md",
@@ -213,7 +214,6 @@
     "JAVASCRIPT/IMAGES",
     "JAVASCRIPT/IMAGES/HasOwnBrowserSupport.png",
     "CONCEPTS/IMAGES/TuringMachineDiagram.webp",
-    "PYTHON/IMAGES/Captura de pantalla 2024-01-03 a las 21.10.09.png",
     "PYTHON/IMAGES",
     "SQL/IMAGES",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
