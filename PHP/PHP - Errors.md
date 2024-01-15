@@ -7,3 +7,6 @@ This error is received when trying an invalid access an index of a non array val
 $arr = "Hello world!"; 
 $arr['id'] = "hello";    // This willl cause the error
 ```
+
+
+## MYSQLI - Unknown column in \`field list\`

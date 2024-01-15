@@ -45,3 +45,5 @@ The return of `typeof()` could be:
 |[Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)|`"symbol"`|
 |[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) (implements [[Call]] in ECMA-262 terms; [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) are functions as well)|`"function"`|
 |Any other object|`"object"`|
+
+This method is used to check the data type of a variable and can also be used to check if the variable has been declared or initialized checking is its not `undefined`. 

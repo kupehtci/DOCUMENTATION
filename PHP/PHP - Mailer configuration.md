@@ -88,9 +88,12 @@ And after that, send the email controlling the posible exceptions or error that 
 
 #### Debug mode 
 
-To enable debuging in PHP Mailer, needs set this flag to **1**. 
+To enable debbuging in PHP Mailer, needs set this flag to **1**. 
 ```php 
 	$mail->SMTPDebug  = 1; 
 ```
+
+To disable debug mode, just erase `$mail->SMTPDebug  = 1;` declaration 
+
 
 --- 

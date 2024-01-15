@@ -2,10 +2,9 @@
 
 ## <span style="color:#ababf5;">ARRAYS</span>
 
-Arrays in JS are a special variable that can hold more than 1 value. 
+Arrays in JS are a special variable that can hold more than 1 value and doesn't need to be of the same type. To use an 
 
 Compared to other languages, in Javascript arrays are object
-
 
 ### <span style="color:#7ab3ef;">CHECK IF ITS AN ARRAY</span>
 
@@ -24,6 +23,8 @@ typeof(arr1) === "object";
 ```
 
  [developer.mozilla link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
+
+You can also declare an array by: `let arr = [];`, without specifiying initializer values. 
 
 ``` JS
 // all following calls return true

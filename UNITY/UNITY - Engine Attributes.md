@@ -1,6 +1,6 @@
 #UNITY #CSHARP 
 
-This attributes adds as add-ons or modifiers for a function functionallity. 
+This attributes adds as add-ons or modifiers for a function functionality. 
 
 #### AddComponentMenu
 

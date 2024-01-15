@@ -6,26 +6,24 @@ You can initialize the mysli connection by  creating a new <span style="color:#a
 
 ```PHP
 public function Connect(){  
-
+	$hostname = "localhost"
+	$username = "root"; 
+	$password = ""; 
 	$database_name = "ECOMMERCE"; 
 
     try{  
-        $db = new mysqli("localhost", "root", "", $database_name);  
+        $db = new mysqli($hostname, $username, $password, $database_name);  
   
         if ($this->db->connect_errno != null) {  
             die("Connection error: " . $db->connect_error);  
+	        $db = null; 
         }  
     }  
     catch(Exception $e){  
         echo "Error while SQL Connection $e";  
         return null; 
     }  
-  
-    //Open a session  
-    $session_success = session_start();  
-    if(!$session_success){  
-        echo "<script>alert('Error starting session')</script>";  
-    }  
+
 	return $db; 
 }
 ```

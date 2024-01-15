@@ -36,7 +36,7 @@ Tags
 
 The model blinn-phong of reflectional light stablish this diagram: 
 
-![[220px-Blinn_Vectors.svg.png]]
+![[light_vectors_representation.png]]
 
 We need access to the object\'s normal data within the shader by adding the following code: 
 
@@ -84,7 +84,7 @@ float4 _Color;
 
 With this, you will have a totally black shadow of the object. 
 The shadow is created because dot(normal, light_direction) = 0; 
-![[Captura de pantalla 2023-12-19 a las 15.56.29.png]]
+![[shadow.png]]
 
 To make the shadow to dont o a degrade, just gro from 0 to 1, can be done with an if to make the dot product be 0 or 1: 
 
@@ -137,7 +137,7 @@ Add a little bit of blur between shadow and visible color:
 float lightIntensity = smoothstep(0, 0.01, NdotL);
 ```
 
-![[Captura de pantalla 2023-12-19 a las 16.21.51.png]]
+![[closer_shader_toon_shadow.png]]
 
 This blur can be modified to be wider by increasing the step number from 0.01 to 0.1 or above. 
 ### SPECULAR REFLECTION
@@ -184,4 +184,4 @@ float specularIntensity = pow(NdotH * lightIntensity, _Glossiness * _Glossiness)
 
 With this you will have this specular light: 
 
-![[Captura de pantalla 2023-12-19 a las 16.36.35.png]]
+![[shadow_toon.png]]

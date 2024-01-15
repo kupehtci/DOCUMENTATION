@@ -45,5 +45,5 @@ How to implement it:
 
 
 
-The functions are implementation of the [[UNITY - EVENT SYSTEM INTERFACES]]
+The functions are implementation of the [[UNITY - Event system interfaces]]
 

@@ -1,6 +1,5 @@
-
+#COMPUTER_GRAPHICS #UNITY 
 <h2 style="color:#77eff7;">BATCHING</h2>
-
 
 
 <h3 style="color:#b8f59a;">STATIC BATCHING</h3>

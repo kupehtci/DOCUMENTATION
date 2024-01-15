@@ -1,48 +1,4 @@
-
-# MULTIPLATFORM LAB - UNITY OPTIMIZATION
-
-## PROFILER 
-
-To access the profiler window hold `Ctr` (Mac use `Command`) and press `7` or from the Unity Editor dropdown window, select Analysis > Profiler.
-
-![UNITY PROFILER](https://connect-prd-cdn.unity.com/20210108/learn/images/7cc7bf24-4e1a-41cd-acb6-1c34d2fef023_image2.png.2000x0x1.png)
-
-To record some metrics of the reading / writing of files in case of save systems, data can be monitorized via: 
-* [[MPL_Asset loading metrics]]
-
-# MULTIPLATFORM LAB - RENDERING 
-
-## Drawcall
-
-Drawcall is not the same as Pass
-
-Drawcall is composed of [Mesh + Shader + Material + Others]
-
----
-## Rendering methods
-
-![Rendering methodologies, Forward vs Deferred](https://i.imgur.com/rxTYLGv.png)
-
-### **Forward**
->A cube and a sphere and a directional light. 
-  Firstly draw with a pass the cube with the light and then another time with the sun light. And then the same for the sphere. 
-  For calculating the shadows of each object into anothers, shadows are calculated first in the shadow map and then is taken into account when rendering the objects light. 
-  
-$ num_renders = num_objects * num_lights $
-
-### **Deferred**
-
-Same situation, sphere and cube and 2 lights. 
-Firstly cube and sphere are calculated and them the lights are calculated. 
-
-You defer to perform the lighting calculations until after the scene's geometry fragments have been culled or discarded and then with the culled. 
-Calculed in two phases. Firstly the positions, depths, normals and materials are rendered into a framebuffer called **Geometry Buffer** or **G-buffer** 
-
-num_renders = num_object + num_lights; 
-
-### **Ray-Tracing**
-
-
+#UNITY 
 # MULTIPLATFORM LAB -  RULES OF THUMB 
 
 A **rule of thumb** is a rule, principe or guideline that is based on practical experience rather than strict or precise calculation. 

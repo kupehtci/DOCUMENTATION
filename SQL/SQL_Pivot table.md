@@ -12,5 +12,5 @@ This pivot tables needs to link two or more items from different tables.
 For this purpose, they need to have a item1_id value and item2_value, in this case `product id` that points to the product and `category_id` that links to category. 
 
 
-To link the tables correctly and take into account each change between them you can establish Foreigns keys. [[SQL-FOREIGN KEYS]]
+To link the tables correctly and take into account each change between them you can establish Foreigns keys. [[SQL - Foreign Key]]
 

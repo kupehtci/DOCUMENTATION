@@ -1,4 +1,4 @@
-## FOREIGNS KEYS 
+### Foreign Keys 
 
 A foreign key is the method used in SQL for dealing with relation ships between tables when one item depend of other table item or viceversa. 
 
@@ -14,3 +14,12 @@ ALTER TABLE Orders
 ```
 
 This example links by a foreign key the <span style="color:orange;">Users.id</span>. 
+
+### Drop Foreign Key
+
+You can drop or delete <span style="color:cyan;">foreign keys</span> by altering the table:
+
+```SQL
+ALTER TABLE _tbl_name_ DROP FOREIGN KEY _fk_symbol_;
+purchases_ibfk_1
+```
