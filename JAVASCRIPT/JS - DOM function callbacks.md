@@ -1,11 +1,11 @@
 #JS #HTML 
 
-## DOM Add elements interactables 
+## DOM Add functions to callbacks 
 
 You can add a javascript function in a newly created element using JS DOM. 
 
 For doing this you can: 
-1. Add to onclick JS property of element.
+1. Add to `onclick` JS property of element.
 2. Add as an attribute
 
 

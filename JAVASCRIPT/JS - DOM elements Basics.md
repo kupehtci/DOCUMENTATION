@@ -18,7 +18,7 @@ var newDiv = document.createElement("div");
 |`.isConnected`|Indica si el nodo HTML está insertado en el documento HTML.|
 
 
-#### Use `FRAGMENT`
+#### Use `Fragment`
 
 
 When working with javascript maybe we need to insert a lot of new elements consecutivelly and a way to don't affect the webpage by each single append, we can use `fragments`. 
@@ -41,6 +41,7 @@ Fragment has some <span style="color:orange;">special characteristics</span>:
 * Doesn't has father element. Its placed away from the document. 
 * Its light weight and more simple than a DOM document. 
 * Making changes to it doesn't affect the `reflow` of the webpage. (Repaint of the web). 
+* 
 #### Clone method
 
 Take into account that when trying to repeat a DOM Element, its not functional to assign the new element to other because is not making a copy, its creating a <span style="color:#ababf5;">reference</span> of the other one: 

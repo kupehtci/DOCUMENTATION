@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/PHP - Filter.md",
+                "file": "JAVASCRIPT/JS - Change between blocks.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHP/PHP - Filter.md",
+                "file": "JAVASCRIPT/JS - Change between blocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHP/PHP - Filter.md",
+                "file": "JAVASCRIPT/JS - Change between blocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHP/PHP - Filter.md"
+                "file": "JAVASCRIPT/JS - Change between blocks.md"
               }
             }
           }
@@ -174,34 +174,35 @@
   },
   "active": "eb7d31b35170b3ea",
   "lastOpenFiles": [
-    "PHP/PHP - Filter Types.md",
-    "PHP/PHP - Filter.md",
-    "PHP/PHP - For loops.md",
-    "PHP/PHP - isset().md",
-    "PHP/PHP - mixed.md",
-    "PHP/PHP - String format.md",
+    "HTML/HTML - Form.md",
+    "JAVASCRIPT/JS - Change between blocks.md",
+    "JAVASCRIPT/JS - document.md",
+    "JAVASCRIPT/JS - Data types.md",
+    "JAVASCRIPT/JS - Casting.md",
+    "JAVASCRIPT/JS - HTML implementation.md",
+    "JAVASCRIPT/JS - Number formats.md",
+    "JAVASCRIPT/JS - Get element reference.md",
+    "JAVASCRIPT/JS - DOM Elements Attributes.md",
+    "PHP/PHP - $_SESSION.md",
+    "UNITY/UNITY - NIS Detect device.md",
+    "JAVASCRIPT/JS - DOM elements Basics.md",
+    "JAVASCRIPT/JS - DOM function callbacks.md",
+    "PHP/PHP - Output Buffering ( ob ).md",
+    "PHP/PHP - header().md",
     "PHP/PHP - MYSQLI - Bind Parameters.md",
+    "PHP/PHP - MYSQLI.md",
+    "PHP/PHP - mixed.md",
+    "PHP/PHP - Mailer configuration.md",
+    "PHP/PHP - isset().md",
+    "GAME SOUND THEORY/4 - Grabación y edición de audio.md",
+    "GAME SOUND THEORY/5 - Producción sonora.md",
+    "GAME SOUND THEORY/Tabla de materiales de produccion.png",
+    "MARKDOWN/MARKDOWN - Text decorations.md",
+    "GAME SOUND THEORY/Gameplay Grammar.md",
     "MARKDOWN/MARKDOWN - Colors.md",
+    "GAME SOUND THEORY/Sound Format.md",
     "UNITY/IMAGES/stack and heap.png",
-    "UNITY/OPTIMIZATION/PASS.md",
-    "UNITY/OPTIMIZATION/Memory Management.md",
-    "UNITY/OPTIMIZATION/UNITY - Optimization rules.md",
-    "UNITY/OPTIMIZATION/BATCHES.md",
-    "UNITY/OPTIMIZATION/CULLING.md",
-    "UNITY/OPTIMIZATION/LAB - Debugging.md",
-    "UNITY/OPTIMIZATION/UNITY - Monitor Asset Loading.md",
-    "UNITY/OPTIMIZATION/MPL GROUP ASSIGNMENT.md",
-    "UNITY/OPTIMIZATION/LAB - Rendering.md",
-    "UNITY/OPTIMIZATION/UNITY - Data Oriented vs Object Oriented.md",
-    "UNITY/OPTIMIZATION/BATCHING.md",
     "UNITY/IMAGES/oop.png",
-    "UNITY/OPTIMIZATION/UNITY - Basic rendering.md",
-    "UNITY/UNITY - Material.md",
-    "UNITY/UNITY - Drawcall.md",
-    "CONCEPTS/Object Oriented vs Data Oriented.md",
-    "PHP/PHP - Get insert id.md",
-    "PHP/PHP - Random IDs.md",
-    "SQL/SQL - Foreign Key.md",
     "UNITY/IMAGES/Player_Input_Component.png",
     "UNITY/STATIC BATCHER CANVAS.canvas",
     "CONCEPTS/IMAGES/auto_save_input_actions 1.png",
@@ -210,7 +211,6 @@
     "UNITY/IMAGES/toon_shadow_2.png",
     "UNITY/IMAGES/toon_shadow_1.png",
     "UNITY/IMAGES/InputActionsNSI.png",
-    "UNITY/IMAGES/closer_shader_toon_shadow.png",
     "Untitled.canvas",
     "JAVASCRIPT/Untitled",
     "SQL/SQL CANVAS COMANDS.canvas",
