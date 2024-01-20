@@ -13,7 +13,7 @@ For spliting the 3D space, we need to select an axis. There are two main methods
 
 * Alternate: Split by following the sequence of axis, first iteration x axis, second y axis, third z axis, fourth x axis and so on. 
 * By range of centroids: Calculate the range between the max centroid and the min and the axis that has the objects more separated, is the choosen one: 
-![[Captura de pantalla 2023-12-22 a las 13.50.31.png]]
+![[find_best_axis.png]]
 
 Here, in two dimensions, their extent is largest along the `y axis` (filled points on the axes), so the primitives will be partitioned in `y axis` .
 

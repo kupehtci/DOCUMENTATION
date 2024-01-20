@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVASCRIPT/JS - Change between blocks.md",
+                "file": "MACHINE LEARNING/KR - Knowledge Representation.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Special Characters.md",
+                "file": "MACHINE LEARNING/KR - Ontologies.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OPTIMIZATION",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 364.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVASCRIPT/JS - Change between blocks.md",
+                "file": "MACHINE LEARNING/KR - Ontologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVASCRIPT/JS - Change between blocks.md",
+                "file": "MACHINE LEARNING/KR - Ontologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVASCRIPT/JS - Change between blocks.md"
+                "file": "MACHINE LEARNING/KR - Ontologies.md"
               }
             }
           }
@@ -172,10 +172,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb7d31b35170b3ea",
+  "active": "eaeb4bcc49baa643",
   "lastOpenFiles": [
-    "HTML/HTML - Form.md",
+    "MACHINE LEARNING/KR - Taxonomy.md",
+    "MACHINE LEARNING/KR - Ontologies.md",
+    "MACHINE LEARNING/IMAGES/ontologies-abstraction.png",
+    "MACHINE LEARNING/KR - Knowledge.md",
+    "MACHINE LEARNING/KR - Knowledge Reasoning.md",
+    "MACHINE LEARNING/KR - Knowledge Representation.md",
+    "MACHINE LEARNING/DATA - ONTOLOGIES.md",
+    "PYTHON/PYTHON - Data structures.md",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "PYTHON/PYTHON - Casting.md",
+    "MACHINE LEARNING/Neural Networks - Layer node activation.md",
+    "MACHINE LEARNING/KR - skfuzzy.md",
+    "MACHINE LEARNING/KR - Fuzzy Logic.md",
+    "MACHINE LEARNING/IMAGES/membership_functions.png",
+    "MACHINE LEARNING/IMAGES/Captura de pantalla 2024-01-19 a las 10.11.43.png",
+    "CONCEPTS/IMAGES/sigmoid_membership_functions.png",
+    "MACHINE LEARNING/IMAGES/gaussian_curve_membership.png",
+    "MACHINE LEARNING/IMAGES/linear_memberships.png",
+    "MACHINE LEARNING/IMAGES/tall_people_membershgip_functions.png",
+    "MACHINE LEARNING/IMAGES/fuzzy_logic_multivalues.png",
+    "MACHINE LEARNING/IMAGES/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix.ppm.png",
+    "MACHINE LEARNING/IMAGES/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix.ppm 1.png",
+    "PYTHON/PYTHON - Fuzzy Logic.md",
+    "HTML/Special Characters.md",
+    "MACHINE LEARNING/Knowledge - Expert system.md",
     "JAVASCRIPT/JS - Change between blocks.md",
+    "HTML/HTML - Form.md",
     "JAVASCRIPT/JS - document.md",
     "JAVASCRIPT/JS - Data types.md",
     "JAVASCRIPT/JS - Casting.md",
@@ -185,32 +210,7 @@
     "JAVASCRIPT/JS - DOM Elements Attributes.md",
     "PHP/PHP - $_SESSION.md",
     "UNITY/UNITY - NIS Detect device.md",
-    "JAVASCRIPT/JS - DOM elements Basics.md",
-    "JAVASCRIPT/JS - DOM function callbacks.md",
-    "PHP/PHP - Output Buffering ( ob ).md",
-    "PHP/PHP - header().md",
-    "PHP/PHP - MYSQLI - Bind Parameters.md",
-    "PHP/PHP - MYSQLI.md",
-    "PHP/PHP - mixed.md",
-    "PHP/PHP - Mailer configuration.md",
-    "PHP/PHP - isset().md",
-    "GAME SOUND THEORY/4 - Grabación y edición de audio.md",
-    "GAME SOUND THEORY/5 - Producción sonora.md",
-    "GAME SOUND THEORY/Tabla de materiales de produccion.png",
-    "MARKDOWN/MARKDOWN - Text decorations.md",
-    "GAME SOUND THEORY/Gameplay Grammar.md",
-    "MARKDOWN/MARKDOWN - Colors.md",
-    "GAME SOUND THEORY/Sound Format.md",
-    "UNITY/IMAGES/stack and heap.png",
-    "UNITY/IMAGES/oop.png",
-    "UNITY/IMAGES/Player_Input_Component.png",
     "UNITY/STATIC BATCHER CANVAS.canvas",
-    "CONCEPTS/IMAGES/auto_save_input_actions 1.png",
-    "CONCEPTS/IMAGES/auto_save_input_actions.png",
-    "UNITY/IMAGES/light_vectors_representation.png",
-    "UNITY/IMAGES/toon_shadow_2.png",
-    "UNITY/IMAGES/toon_shadow_1.png",
-    "UNITY/IMAGES/InputActionsNSI.png",
     "Untitled.canvas",
     "JAVASCRIPT/Untitled",
     "SQL/SQL CANVAS COMANDS.canvas",

@@ -8,7 +8,7 @@ Is a <span style="color:orange;">tree data structure</span> where each tree con
 <span style="color:white;background-color:#548d9d;">right_node_key \>=\ left_node_key</span>. 
 
 
-![[Captura de pantalla 2023-12-22 a las 12.23.02.png]]
+![[tree.png]]
 ### OCTAL TREE
 
 ## Search Tree

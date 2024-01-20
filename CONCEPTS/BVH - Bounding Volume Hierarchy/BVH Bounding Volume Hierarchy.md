@@ -123,7 +123,7 @@ We have different options:
 At 60Hz objects normally dont move far per frame, so we can use enlarged AABB in the BVH. 
 This allows us to only update a leaf if the tight fit AABB moves outside the enlarged AABB
 
-![[Captura de pantalla 2023-12-21 a las 15.30.35.png]]
+![[enlarged_aabb.png]]
 
 ## Compare cost in BVH
 
