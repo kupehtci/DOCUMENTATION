@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACHINE LEARNING/KR - Ontologies.md",
+                "file": "LATEX/LATEX - Images.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MACHINE LEARNING/KR - Ontologies.md",
+                "file": "LATEX/LATEX - Images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MACHINE LEARNING/KR - Ontologies.md",
+                "file": "LATEX/LATEX - Images.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MACHINE LEARNING/KR - Ontologies.md"
+                "file": "LATEX/LATEX - Images.md"
               }
             }
           }
@@ -174,8 +174,10 @@
   },
   "active": "eaeb4bcc49baa643",
   "lastOpenFiles": [
-    "MACHINE LEARNING/KR - Taxonomy.md",
     "MACHINE LEARNING/KR - Ontologies.md",
+    "LATEX/LATEX - Images.md",
+    "LATEX",
+    "MACHINE LEARNING/KR - Taxonomy.md",
     "MACHINE LEARNING/IMAGES/ontologies-abstraction.png",
     "MACHINE LEARNING/KR - Knowledge.md",
     "MACHINE LEARNING/KR - Knowledge Reasoning.md",
@@ -209,7 +211,6 @@
     "JAVASCRIPT/JS - Get element reference.md",
     "JAVASCRIPT/JS - DOM Elements Attributes.md",
     "PHP/PHP - $_SESSION.md",
-    "UNITY/UNITY - NIS Detect device.md",
     "UNITY/STATIC BATCHER CANVAS.canvas",
     "Untitled.canvas",
     "JAVASCRIPT/Untitled",
@@ -225,7 +226,6 @@
     "JAVASCRIPT",
     "AJAX",
     "PHYSICS/IMAGES",
-    "SHADERS/IMAGES",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "HTML/HTML.canvas",

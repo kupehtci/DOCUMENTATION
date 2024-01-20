@@ -26,8 +26,8 @@ Are an <span style="color:cyan;">abstract model</span> of an existing domain of 
 Are useful for: 
 
 * re-usability
-	* Use of standars
-	* COnfigurable ontologies and libraries of ontologies
+	* Use of standards
+	* Configurable ontologies and libraries of ontologies
 * reliability
 	* Formal ontologies enable the use of consistency checking resulting in more reliable systems
 * In toy domains, representation is not important but in complex ones, a more flexible representation is needed
