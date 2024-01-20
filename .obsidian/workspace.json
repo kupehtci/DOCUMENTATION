@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LATEX/LATEX - Images.md",
+                "file": "MACHINE LEARNING/MACHINE LEARNING - Data analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LATEX/LATEX - Images.md",
+                "file": "MACHINE LEARNING/MACHINE LEARNING - Data analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LATEX/LATEX - Images.md",
+                "file": "MACHINE LEARNING/MACHINE LEARNING - Data analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LATEX/LATEX - Images.md"
+                "file": "MACHINE LEARNING/MACHINE LEARNING - Data analysis.md"
               }
             }
           }
@@ -174,8 +175,28 @@
   },
   "active": "eaeb4bcc49baa643",
   "lastOpenFiles": [
-    "MACHINE LEARNING/KR - Ontologies.md",
+    "CONCEPTS/IMAGES/understanding-box-plot-diagram.webp",
+    "CONCEPTS/IMAGES/correlation_heatmap.png",
+    "MACHINE LEARNING/MACHINE LEARNING - Clustering.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Data analysis.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Basics.md",
+    "MACHINE LEARNING/IMAGES/agile-machine-learning.png",
+    "MACHINE LEARNING/IMAGES/Captura de pantalla 2024-01-19 a las 10.11.43.png",
+    "MACHINE LEARNING/MACHINE LEARNING - Data.md",
+    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - IoU.md",
+    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - Evaluation Metrics.md",
+    "MACHINE LEARNING/OBJECT RECOGNITION/YOLOv5 - Basic training.md",
+    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - Basics.md",
+    "MACHINE LEARNING/Neural Networks - Layer node activation.md",
+    "MACHINE LEARNING/DROPOUT Technique.md",
+    "MACHINE LEARNING/Evaluation Metrics Calculation.md",
+    "LATEX/LATEX - Environments.md",
     "LATEX/LATEX - Images.md",
+    "PYTHON/PYTHON - Rotate an image.md",
+    "PYTHON/PYTHON - Pillow.md",
+    "PYTHON/PYTHON - Imports.md",
+    "PYTHON/IMAGES/nvidia-smi-collab-environment.png",
+    "MACHINE LEARNING/KR - Ontologies.md",
     "LATEX",
     "MACHINE LEARNING/KR - Taxonomy.md",
     "MACHINE LEARNING/IMAGES/ontologies-abstraction.png",
@@ -186,31 +207,11 @@
     "PYTHON/PYTHON - Data structures.md",
     "MARKDOWN/MARKDOWN - Colors.md",
     "PYTHON/PYTHON - Casting.md",
-    "MACHINE LEARNING/Neural Networks - Layer node activation.md",
-    "MACHINE LEARNING/KR - skfuzzy.md",
-    "MACHINE LEARNING/KR - Fuzzy Logic.md",
     "MACHINE LEARNING/IMAGES/membership_functions.png",
-    "MACHINE LEARNING/IMAGES/Captura de pantalla 2024-01-19 a las 10.11.43.png",
     "CONCEPTS/IMAGES/sigmoid_membership_functions.png",
     "MACHINE LEARNING/IMAGES/gaussian_curve_membership.png",
     "MACHINE LEARNING/IMAGES/linear_memberships.png",
     "MACHINE LEARNING/IMAGES/tall_people_membershgip_functions.png",
-    "MACHINE LEARNING/IMAGES/fuzzy_logic_multivalues.png",
-    "MACHINE LEARNING/IMAGES/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix.ppm.png",
-    "MACHINE LEARNING/IMAGES/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix.ppm 1.png",
-    "PYTHON/PYTHON - Fuzzy Logic.md",
-    "HTML/Special Characters.md",
-    "MACHINE LEARNING/Knowledge - Expert system.md",
-    "JAVASCRIPT/JS - Change between blocks.md",
-    "HTML/HTML - Form.md",
-    "JAVASCRIPT/JS - document.md",
-    "JAVASCRIPT/JS - Data types.md",
-    "JAVASCRIPT/JS - Casting.md",
-    "JAVASCRIPT/JS - HTML implementation.md",
-    "JAVASCRIPT/JS - Number formats.md",
-    "JAVASCRIPT/JS - Get element reference.md",
-    "JAVASCRIPT/JS - DOM Elements Attributes.md",
-    "PHP/PHP - $_SESSION.md",
     "UNITY/STATIC BATCHER CANVAS.canvas",
     "Untitled.canvas",
     "JAVASCRIPT/Untitled",

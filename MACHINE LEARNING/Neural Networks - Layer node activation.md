@@ -1,11 +1,9 @@
 
 ### TYPES OF ACTIVATION
 
-
-
 #### SOFTMAX
 
-Before exploring the ins and outs of the Softmax activation function, we should focus on its building block—the sigmoid/logistic activation function that works on calculating probability values.
+Before exploring the ins and outs of the <span style="color:orange;">Softmax activation function</span>, we should focus on its building block—the <span style="color:orange;">sigmoid/logistic activation function</span> that works on calculating probability values.
 ![[probability_calculation.jpg]]
 
 The output of the sigmoid function was in the range of 0 to 1, which can be thought of as probability.   

@@ -25,7 +25,7 @@ You can get environment specifications by executing `nvidia-smi` command.
 
 This will print the specs of the Environment this way: 
 
-![[Captura de pantalla 2024-01-03 a las 21.10.09.png]]
+![[nvidia-smi-collab-environment.png]]
 
 ## EXECUTE COMMANDS
 

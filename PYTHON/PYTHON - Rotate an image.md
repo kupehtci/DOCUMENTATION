@@ -1,4 +1,6 @@
+#PYTHON 
 
+Firstly see how to import and use Pillow library: [[PYTHON - Pillow]]
 This code shows how to rotate an image by using a vector2D and rotation matrix physics. 
 
 ```PYTHON 

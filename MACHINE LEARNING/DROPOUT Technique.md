@@ -17,7 +17,7 @@ The effect is that the network becomes less sensitive to the specific weights of
 
 ### Tips when using Dropout()
 
-* Generally, use a small dropout value of 20%-50% of neurons, with 20% providing a good starting point. A probability too low has minimal effect, and a value too high results in under-learning by the network.
+* Generally, use a small dropout value of <span style="color:orange;">20%-50% of neurons</span>, with 20% providing a good starting point. A probability too low has minimal effect, and a value too high results in under-learning by the network.
 
 - Use a larger network. You are likely to get better performance when Dropout is used on a larger network, giving the model more of an opportunity to learn independent representations.
 
