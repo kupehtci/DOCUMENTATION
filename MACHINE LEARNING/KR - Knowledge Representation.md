@@ -53,7 +53,6 @@ There are 2 types:
 	* Semantic Network
 	* frames
 
-
 ### PRODUCTION RULES AND APPLICATION
 
 The knowledge is applied to solve certain problems expressed in two vays: 

@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACHINE LEARNING/KR - Knowledge Representation.md",
+                "file": "HTML/HTML - Native colors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a401fc486bcd7552",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MACHINE LEARNING/Search and Planning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MACHINE LEARNING/KR - Knowledge Representation.md",
+                "file": "MACHINE LEARNING/Search and Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MACHINE LEARNING/KR - Knowledge Representation.md",
+                "file": "MACHINE LEARNING/Search and Planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MACHINE LEARNING/KR - Knowledge Representation.md"
+                "file": "MACHINE LEARNING/Search and Planning.md"
               }
             }
           },
@@ -150,8 +162,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -169,13 +180,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "eb7d31b35170b3ea",
+  "active": "a401fc486bcd7552",
   "lastOpenFiles": [
+    "MACHINE LEARNING/IMAGES/missionaries and cannibals_search and planning.png",
+    "MACHINE LEARNING/Search and Planning.md",
+    "HTML/HTML - Native colors.md",
+    "MACHINE LEARNING/KR - Knowledge Representation.md",
     "MACHINE LEARNING/KR - Knowledge Reasoning.md",
     "MACHINE LEARNING/KR - Fuzzy Logic.md",
     "PYTHON/Fuzzy Logic - skfuzzy.md",
     "MACHINE LEARNING/KR - Knowledge.md",
-    "MACHINE LEARNING/KR - Knowledge Representation.md",
     "MARKDOWN/MARKDOWN - Colors.md",
     "MACHINE LEARNING/MACHINE LEARNING - Supervised Learning.md",
     "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - Basics.md",
@@ -205,9 +219,6 @@
     "Untitled 1.canvas",
     "MACHINE LEARNING/MACHINE LEARNING - Effect of Multicollinearity.md",
     "MACHINE LEARNING/DATA ANALYSIS.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Clustering.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Basics.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Data.md",
     "LATEX",
     "UNITY/STATIC BATCHER CANVAS.canvas",
     "Untitled.canvas",
