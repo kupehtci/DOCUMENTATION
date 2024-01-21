@@ -21,7 +21,12 @@ In Knowledge representation [[KR - Knowledge Representation]] of machine learnin
 
 #### Hierarchy of Knowledge
 
-![[Hirarchy_of_knowledge.png|200]]
+From most valuable and relevant knowledge to less: 
+
+```mermaid
+flowchart TD
+META-KNOWLEDGE --> KNOWLEDGE --> INFORMATION --> DATA --> NOISE
+```
 
 | Type of knowledge           | Definition                                           |
 |----------------|------------------------------------------------------|

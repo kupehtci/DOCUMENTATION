@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "eaeb4bcc49baa643",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MACHINE LEARNING/MACHINE LEARNING - Data analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 247.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -111,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MACHINE LEARNING/MACHINE LEARNING - Data analysis.md",
+                "file": "MACHINE LEARNING/KR - Knowledge Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MACHINE LEARNING/MACHINE LEARNING - Data analysis.md",
+                "file": "MACHINE LEARNING/KR - Knowledge Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,16 +138,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MACHINE LEARNING/MACHINE LEARNING - Data analysis.md"
+                "file": "MACHINE LEARNING/KR - Knowledge Representation.md"
               }
+            }
+          },
+          {
+            "id": "c3dfcef6ba4094a7",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 231.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -170,48 +165,50 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "eaeb4bcc49baa643",
+  "active": "eb7d31b35170b3ea",
   "lastOpenFiles": [
-    "CONCEPTS/IMAGES/understanding-box-plot-diagram.webp",
-    "CONCEPTS/IMAGES/correlation_heatmap.png",
-    "MACHINE LEARNING/MACHINE LEARNING - Clustering.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Data analysis.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Basics.md",
-    "MACHINE LEARNING/IMAGES/agile-machine-learning.png",
-    "MACHINE LEARNING/IMAGES/Captura de pantalla 2024-01-19 a las 10.11.43.png",
-    "MACHINE LEARNING/MACHINE LEARNING - Data.md",
-    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - IoU.md",
+    "MACHINE LEARNING/KR - Knowledge Reasoning.md",
+    "MACHINE LEARNING/KR - Fuzzy Logic.md",
+    "PYTHON/Fuzzy Logic - skfuzzy.md",
+    "MACHINE LEARNING/KR - Knowledge.md",
+    "MACHINE LEARNING/KR - Knowledge Representation.md",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Supervised Learning.md",
+    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - Basics.md",
+    "MACHINE LEARNING/DEEP LEARNING - Convolutional Neural Networks.md",
+    "MACHINE LEARNING/IMAGES/softmax-function.png",
+    "MACHINE LEARNING/IMAGES/max-pooling-layer.webp",
+    "MACHINE LEARNING/IMAGES/1*HxYdjdOD9xdjDPzGM313Fg.webp",
+    "MACHINE LEARNING/IMAGES/diagram-cnn.png",
+    "MACHINE LEARNING/OBJECT RECOGNITION/IMAGES/cnns-edge-detection.png",
+    "MACHINE LEARNING/MACHINE LEARNING - Over-fitting.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Model Evaluation.md",
+    "MACHINE LEARNING/KERAS - NN Fit plotting.md",
+    "MACHINE LEARNING/Neural Networks - Layer node activation.md",
+    "MACHINE LEARNING/IMAGES/zmf-pimf-smf-membership-functions.png",
+    "MACHINE LEARNING/OBJECT RECOGNITION/Non-Max supression.md",
     "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - Evaluation Metrics.md",
     "MACHINE LEARNING/OBJECT RECOGNITION/YOLOv5 - Basic training.md",
-    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - Basics.md",
-    "MACHINE LEARNING/Neural Networks - Layer node activation.md",
     "MACHINE LEARNING/DROPOUT Technique.md",
-    "MACHINE LEARNING/Evaluation Metrics Calculation.md",
-    "LATEX/LATEX - Environments.md",
-    "LATEX/LATEX - Images.md",
-    "PYTHON/PYTHON - Rotate an image.md",
-    "PYTHON/PYTHON - Pillow.md",
-    "PYTHON/PYTHON - Imports.md",
-    "PYTHON/IMAGES/nvidia-smi-collab-environment.png",
-    "MACHINE LEARNING/KR - Ontologies.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Unsupervised learning.md",
+    "MACHINE LEARNING/IMAGES/spectral-clustering.png",
+    "MACHINE LEARNING/IMAGES/shilhouette-score.png",
+    "MACHINE LEARNING/IMAGES/elbow-method.png",
+    "MACHINE LEARNING/MACHINE LEARNING - Reinforcement Learning.md",
+    "k-nearest-neighbor.png",
+    "MACHINE LEARNING/MACHINE LEARNING - Data analysis and preparation.md",
+    "C-SHARP/CS - Mutex.md",
+    "Untitled 1.canvas",
+    "MACHINE LEARNING/MACHINE LEARNING - Effect of Multicollinearity.md",
+    "MACHINE LEARNING/DATA ANALYSIS.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Clustering.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Basics.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Data.md",
     "LATEX",
-    "MACHINE LEARNING/KR - Taxonomy.md",
-    "MACHINE LEARNING/IMAGES/ontologies-abstraction.png",
-    "MACHINE LEARNING/KR - Knowledge.md",
-    "MACHINE LEARNING/KR - Knowledge Reasoning.md",
-    "MACHINE LEARNING/KR - Knowledge Representation.md",
-    "MACHINE LEARNING/DATA - ONTOLOGIES.md",
-    "PYTHON/PYTHON - Data structures.md",
-    "MARKDOWN/MARKDOWN - Colors.md",
-    "PYTHON/PYTHON - Casting.md",
-    "MACHINE LEARNING/IMAGES/membership_functions.png",
-    "CONCEPTS/IMAGES/sigmoid_membership_functions.png",
-    "MACHINE LEARNING/IMAGES/gaussian_curve_membership.png",
-    "MACHINE LEARNING/IMAGES/linear_memberships.png",
-    "MACHINE LEARNING/IMAGES/tall_people_membershgip_functions.png",
     "UNITY/STATIC BATCHER CANVAS.canvas",
     "Untitled.canvas",
     "JAVASCRIPT/Untitled",
@@ -221,7 +218,6 @@
     "SQL/IMAGES",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
-    "Untitled 1.canvas",
     "UNITY/BUILD",
     "CONCEPTS/BVH - Bounding Volume Hierarchy",
     "JAVASCRIPT",

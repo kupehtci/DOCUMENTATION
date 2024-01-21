@@ -48,9 +48,16 @@
         "a": 1,
         "rgb": 16760888
       }
+    },
+    {
+      "query": "tag:#CS",
+      "color": {
+        "a": 1,
+        "rgb": 13874425
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -1,
   "nodeSizeMultiplier": 3.17266845703125,
@@ -60,6 +67,6 @@
   "repelStrength": 15.7511393229167,
   "linkStrength": 0.783487955729167,
   "linkDistance": 312,
-  "scale": 0.43269736822046273,
+  "scale": 0.3279859398359774,
   "close": false
 }

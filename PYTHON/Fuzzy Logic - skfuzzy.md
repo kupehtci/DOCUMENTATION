@@ -1,7 +1,5 @@
 
-
-
-### MEMEBRSHIP FUNCTIONS
+### MEMBERSHIP FUNCTIONS
 
 ```PYTHON
 import numpy as np

@@ -10,7 +10,7 @@ People know things and perform reasoning automatically.
 
 ### Knowledge in an Expert System
 
-<span style="color:orange;">Knowledge Engineering</span> through knowledge representation, defines the keystone of the power of an <span style="color:MediumSpringGreen;">Expert System(ER)</span>. 
+<span style="color:orange;">Knowledge Engineering</span> through knowledge representation, defines the keystone of the power of an <span style="color:DarkSeaGreen;">Expert System(ER)</span>. 
 
 The way that ER represents knowledge affect the development, efficiency, speed and system maintenance. 
 
@@ -22,7 +22,7 @@ Knowledge-based Systems:
 
 * $Knowledge + Inference = ExpertSystem$
 
-Structure: 
+Expert system Structure is defined by: 
 * `Facts Base`: Describes the specific problem
 * `Rule Base`: Describing the reasoning mechanisms that solve problems
 * `Inference Engine`: running rules and gets a chain of reasonin that resolves the problem
@@ -35,26 +35,23 @@ Structure:
 	* Conclusions => data findings, evidence
 * Mixed or hybrid chain
 
-<span style="color:cyan;">Forward Chaining:</span> working from the facts to a conclusion. Match data in working memory agains conditions and if someone fires, this produces more data. 
+<span style="color:MediumSlateBlue;">Forward Chaining:</span> working from the facts to a conclusion. Match data in working memory agains conditions and if someone fires, this produces more data. 
 Example: 
 
 <span style="color:#8ba1f0;">If corn is grown on poor soil, then it will get blackfly</span>
 <span style="color:#8ba1f0;">If soil has not enough nitrogen, then it is poor soil</span>
-
 So -> <span style="color:#8ba1f0;"> If soil has not enough nitrogen, corn will get blackfly</span>
 
-
-<span style="color:cyan;">Backward chaining:</span> works from conclusion to the facts. 
+<span style="color:MediumSlateBlue;">Backward chaining:</span> works from conclusion to the facts. 
 
 <span style="color:#8ba1f0;">If corn is grown on poor soil, then it will get blackfly</span>
 <span style="color:#8ba1f0;">If soil has not enough nitrogen, then it is poor soil</span>
-
 So -> <span style="color:#8ba1f0;">If corn has blackfly, therefore it mush have been grown in poor soil, therefore the soil must be low in nitrogen</span>. 
 
 #### INFERENCE ENGINE
 
-The <span style="color:cyan;">inference engine</span> or control mechanism is a knowledge automatic reasoning form composed of two elements: 
-+ `interpreted rules and inference mechanish`: reasoning mechanish that determined which rules KS can be applied to solve the problem and applies: 
+The <span style="color:MediumSlateBlue;">inference engine</span> or control mechanism is a knowledge automatic reasoning form composed of two elements: 
++ `interpreted rules and inference mechanish`: reasoning mechanism that determined which rules KS can be applied to solve the problem and applies: 
 + `Control strategy` or `conflict resolution`strategy. 
 
 Performs actions to solve the problem from an initial set of facts and eventually through an interaction with the user. 

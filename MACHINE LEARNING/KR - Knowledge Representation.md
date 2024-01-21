@@ -1,6 +1,6 @@
 #ML 
 
-<span style="color:cyan;">Knowledge Representation or reasoning</span> is the field of IA meant to represent information about the world in a <span style="color:orange;">format that a computer system can use</span> to solve complex tasks like for example having a dialog in natural language. 
+<span style="color:Indigo;">Knowledge Representation or reasoning</span> is the field of IA meant to represent information about the world in a <span style="color:orange;">format that a computer system can use</span> to solve complex tasks like for example having a dialog in natural language. 
 
 KR with <span style="color:orange;">automated reasoning</span> can reason about knowledge, make inferences and assert new knowledge. 
 
@@ -8,7 +8,6 @@ Its used because **conventional procedural code** is not the best formalism for 
 
 KR representation uses <span style="color:orange;">psychology concepts</span> about how to solve human problems. 
 Also incorporated findings from logic to automate kinds of reasoning, such as `application of rules` or the `relations of sets and subsets`. 
-
 
 Knowledge representations formalisms: 
 * Semantic nets
@@ -21,21 +20,19 @@ Automated reasoning engines:
 * Theorem provers
 * Classifiers
 
-
 ### EXPRESSIVITY AND PRACTICALITY 
 
 Its the main key trade-off when designing a <span style="color:orange;">KR formalism</span> (KR-F). 
-The best KR-F for expressive power and compactness is <span style="color:cyan;">First Order Logic (FOL)</span> but has 2 main drawbacks, ease of use and practicality of implementation. ALso has IF-THEN rules with statements (quantification over infinite sets) that cause the system to never end if it attempted to verify them. 
-
+The best KR-F for expressive power and compactness is <span style="color:SlateBlue;">First Order Logic (FOL)</span> but has 2 main drawbacks, ease of use and practicality of implementation. Also has IF-THEN rules with statements (quantification over infinite sets) that cause the system to never end if it attempted to verify them. 
 
 ### CLASSIFIER
 
 Languages based on Frame model with automatic classification provide a layer of <span style="color:orange;">semantics</span> on top of the existing internet. 
 This causes that searching via text string is possible to define logical queries and find webpages. that map those queries. 
 
-The <span style="color:cyan;">Resource Description Framerwork (RDF)</span> provides basic capabilities to define knowledge-based objects on internet with basic features as IAs relations and object properties. 
+The <span style="color:SlateBlue;">Resource Description Framerwork (RDF)</span> provides basic capabilities to define knowledge-based objects on internet with basic features as IAs relations and object properties. 
 
-The <span style="color:cyan;">Web Ontology Language(OWL)</span> adds additional semantics and integrated with automatic classification reasoners. 
+The <span style="color:SlateBlue;">Web Ontology Language(OWL)</span> adds additional semantics and integrated with automatic classification reasoners. 
 
 
 ### TYPES OF KNOWLEDGE REPRESENTATION
@@ -50,7 +47,7 @@ There are 2 types:
 		* Predicate First Order, nth order
 		* Temporal 
 		* Multivalued
-		* O-A-V o  0+ 
+		* O-A-V o 0+ 
 		* etc
 * Informal 
 	* Semantic Network
@@ -69,7 +66,7 @@ Depending on the form, varies its naturally of representation or its ease to app
 
 #### PRODUCTION RULES
 
-In the <span style="color:cyan;">declarative paradigm</span>, production rules is the most popular form of knowledge. 
+In the <span style="color:LightSteelBlue;">declarative paradigm</span>, production rules is the most popular form of knowledge. 
 
 Its configuration allows to build systems in chich it if often easy to incorporate new information or modify existing creating or changing the rules individually. 
 

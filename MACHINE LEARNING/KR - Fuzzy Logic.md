@@ -1,7 +1,6 @@
 #ML 
 
-The point of <span style="color:cyan;">fuzzy logic</span> is to map an input space to an output space and the mechanism for doing that is a list of <span style="color:orange;">if-then statements</span> called rules.
-
+The point of <span style="color:SlateBlue;">fuzzy logic</span> is to map an input space classified into <span style="color:orange;">fuzzy sets</span> to an output space and the mechanism for doing that is a list of <span style="color:orange;">if-then statements</span> called rules.
 
 ### FUZZY SET 
 
@@ -26,7 +25,7 @@ The left side is a chart of how it will be with two-valued and the right one wit
 
 ### MEMBERSHIP FUNCTION (MF)
 
-A <span style="color:cyan;">Membership function</span> is a function that defined how each point in the input space is mapped to a membership value between 0 to 1. 
+A <span style="color:SlateBlue;">Membership function</span> is a function that defined how each point in the input space is mapped to a membership value between 0 to 1. 
 
 For example, if considering a fuzzy set with a set of tall people we can define that you need to be more than 1.80 metres to be considered as tall, so the function will look like this: 
 
@@ -73,11 +72,12 @@ Similar in terms of smoothness to gaussian curves but asymmetric.
 - `pimf` - Pi-shaped membership function, which is the product of an s-shaped and z-shaped membership function. 
 
 
-![[Captura de pantalla 2024-01-19 a las 10.11.43.png|400]]
+![[zmf-pimf-smf-membership-functions.png|400]]
 
 ![[membership_functions.png]]
 [Foundations of fuzzy logic](https://in.mathworks.com/help/fuzzy/foundations-of-fuzzy-logic.html)
 
+Can be defined using code in python in library skfuzzy [[Fuzzy Logic - skfuzzy]]. 
 #### How to choose membership functions?
 
 Gaussian functions are mostly used due to its natural form relative to the world. 

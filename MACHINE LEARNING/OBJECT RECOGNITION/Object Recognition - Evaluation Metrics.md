@@ -1,8 +1,6 @@
 
 There are many measurement criteria used to evaluate the performance of an object detection model. Intersection over Union (IoU) Precision, Recall, Average Precision (AP), and mean Average Precision (mAP) can be given as examples of the most used criteria [39].
 
-
-
 #### Precision
 
 Precision is the metric used to measure correct predictions. It is calculated as in equation (2).
