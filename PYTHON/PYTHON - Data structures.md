@@ -47,7 +47,7 @@ For that you need to use `.insert(newValue)` or `.append(newValue)`.
 
 
 
-##### Example of all data structures
+#### Example of all data structures
 
 ```PYTHON
 # Lists

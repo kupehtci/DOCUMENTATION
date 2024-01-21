@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/HTML - Native colors.md",
+                "file": "UNITY/UI/UNITY - UI Automatic layout.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACHINE LEARNING/Search and Planning.md",
+                "file": "HTML/Special Characters.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,19 +54,36 @@
     "type": "split",
     "children": [
       {
-        "id": "1312c4e70c51f016",
+        "id": "73959adecc67d577",
         "type": "tabs",
+        "dimension": 22.19047619047619,
         "children": [
           {
-            "id": "5e99b486c39f3cfb",
+            "id": "1eec930ced11ba30",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
+              "type": "bookmarks",
+              "state": {}
             }
           },
+          {
+            "id": "328a7e9eaf27d372",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "UNITY/UI/UNITY - UI Automatic layout.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "1312c4e70c51f016",
+        "type": "tabs",
+        "dimension": 77.80952380952381,
+        "children": [
           {
             "id": "01c5b67550af8107",
             "type": "leaf",
@@ -83,14 +100,17 @@
             }
           },
           {
-            "id": "1eec930ced11ba30",
+            "id": "5e99b486c39f3cfb",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
-              "state": {}
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MACHINE LEARNING/Search and Planning.md",
+                "file": "UNITY/UI/UNITY - UI Automatic layout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MACHINE LEARNING/Search and Planning.md",
+                "file": "UNITY/UI/UNITY - UI Automatic layout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,16 +165,6 @@
             }
           },
           {
-            "id": "328a7e9eaf27d372",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "MACHINE LEARNING/Search and Planning.md"
-              }
-            }
-          },
-          {
             "id": "c3dfcef6ba4094a7",
             "type": "leaf",
             "state": {
@@ -162,7 +172,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -180,11 +191,19 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a401fc486bcd7552",
+  "active": "eb7d31b35170b3ea",
   "lastOpenFiles": [
-    "MACHINE LEARNING/IMAGES/missionaries and cannibals_search and planning.png",
-    "MACHINE LEARNING/Search and Planning.md",
+    "UNITY/STATIC BATCHER CANVAS.canvas",
+    "PYTHON/PYTHON - Data structures.md",
+    "PYTHON/PYTHON - Fuzzy Logic.md",
+    "PYTHON/PYTHON - Pillow.md",
+    "PYTHON/PYTHON - Imports.md",
+    "PYTHON/PYTHON - Rotate an image.md",
     "HTML/HTML - Native colors.md",
+    "HTML/Special Characters.md",
+    "MACHINE LEARNING/DATA - ONTOLOGIES.md",
+    "MACHINE LEARNING/Search and Planning.md",
+    "MACHINE LEARNING/IMAGES/missionaries and cannibals_search and planning.png",
     "MACHINE LEARNING/KR - Knowledge Representation.md",
     "MACHINE LEARNING/KR - Knowledge Reasoning.md",
     "MACHINE LEARNING/KR - Fuzzy Logic.md",
@@ -207,20 +226,11 @@
     "MACHINE LEARNING/OBJECT RECOGNITION/Non-Max supression.md",
     "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - Evaluation Metrics.md",
     "MACHINE LEARNING/OBJECT RECOGNITION/YOLOv5 - Basic training.md",
-    "MACHINE LEARNING/DROPOUT Technique.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Unsupervised learning.md",
     "MACHINE LEARNING/IMAGES/spectral-clustering.png",
     "MACHINE LEARNING/IMAGES/shilhouette-score.png",
     "MACHINE LEARNING/IMAGES/elbow-method.png",
-    "MACHINE LEARNING/MACHINE LEARNING - Reinforcement Learning.md",
-    "k-nearest-neighbor.png",
-    "MACHINE LEARNING/MACHINE LEARNING - Data analysis and preparation.md",
-    "C-SHARP/CS - Mutex.md",
     "Untitled 1.canvas",
-    "MACHINE LEARNING/MACHINE LEARNING - Effect of Multicollinearity.md",
-    "MACHINE LEARNING/DATA ANALYSIS.md",
     "LATEX",
-    "UNITY/STATIC BATCHER CANVAS.canvas",
     "Untitled.canvas",
     "JAVASCRIPT/Untitled",
     "SQL/SQL CANVAS COMANDS.canvas",
