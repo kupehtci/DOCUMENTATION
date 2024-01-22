@@ -29,7 +29,7 @@ A <span style="color:SlateBlue;">Membership function</span> is a function that d
 
 For example, if considering a fuzzy set with a set of tall people we can define that you need to be more than 1.80 metres to be considered as tall, so the function will look like this: 
 
-![[tall_people_membershgip_functions.png|400]]
+![[../IMAGES/tall_people_membershgip_functions.png|400]]
 
 The most common Membership functions are built from sevaral basic functions: 
 
@@ -45,7 +45,7 @@ The most common Membership functions are built from sevaral basic functions:
 * `linzmf` — Linear z-shaped membership function open to the left (since R2022a)
 * `linsmf` — Linear s-shaped membership function open to the right (since R2022a)
 
-![[linear_memberships.png]]
+![[../IMAGES/linear_memberships.png]]
 
 `GAUSSIAN DISTRIBUTION FUNCTIONS`
 
@@ -53,7 +53,7 @@ The most common Membership functions are built from sevaral basic functions:
 * `gauss2mf` - two sided composite of gaussian curve
 * `gbellmf` - similar smooth transition between 0 and 1 but has a third parameter that can be use to modify the steepness of the curve. 
 
-![[gaussian_curve_membership.png|500]]
+![[../IMAGES/gaussian_curve_membership.png|500]]
 
 `SIGMOIDS`
 
@@ -63,7 +63,7 @@ Similar in terms of smoothness to gaussian curves but asymmetric.
 * `dsigmf` - difference of two asymmetrical sigmoidal function
 * `psigmf` - product of two different sigmoidal functions
 
-![[sigmoid_membership_functions.png]]
+![[../IMAGES/sigmoid_membership_functions.png]]
 
 `POLYNOMICAL BASE`
 
@@ -74,7 +74,7 @@ Similar in terms of smoothness to gaussian curves but asymmetric.
 
 ![[zmf-pimf-smf-membership-functions.png|400]]
 
-![[membership_functions.png]]
+![[../IMAGES/membership_functions.png]]
 [Foundations of fuzzy logic](https://in.mathworks.com/help/fuzzy/foundations-of-fuzzy-logic.html)
 
 Can be defined using code in python in library skfuzzy [[Fuzzy Logic - skfuzzy]]. 
