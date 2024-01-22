@@ -11,10 +11,10 @@ We create a sequential model and add layers one at a time until we are satisfied
 	import keras from 
 	from keras import layers
 	from keras import ops
-	#other imports 
+	
 	from keras.models import Sequential
 	from keras.layers import Dense
-	#import all (not recommended)
+	
 	import keras.models
 	import keras.layers
 ```
@@ -80,7 +80,7 @@ Take into account that if you compile using for loss function "sparse_categorica
 
 Once the layers are decided, we need to compile the resultant model.
 
-Compilation will assign the weights to each independient neuron for the specified problem.
+Compilation will assign the weights to each independent neuron for the specified problem.
 
 For the function, we need to specify some parameters:
 

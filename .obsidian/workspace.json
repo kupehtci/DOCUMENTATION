@@ -13,7 +13,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACHINE LEARNING/BATCH SIZE.md",
+                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "305499abbbf51603",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0dd5ba7870a2ccde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Ontologies.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f11eee07d31b95b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4161134e49867bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -59,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MACHINE LEARNING/BATCH SIZE.md"
+                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md"
               }
             }
           }
@@ -117,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MACHINE LEARNING/BATCH SIZE.md",
+                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MACHINE LEARNING/BATCH SIZE.md",
+                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,12 +227,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "af31d476505bef16",
+  "active": "c4161134e49867bb",
   "lastOpenFiles": [
-    "PYTHON/Colab - Mount Google Drive.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Ontologies.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION",
     "MACHINE LEARNING/DATA - ONTOLOGIES.md",
-    "MACHINE LEARNING/DROPOUT Technique.md",
+    "MACHINE LEARNING/KERAS - NN Fit plotting.md",
+    "KERAS - SEQUENTIAL Deep Learning.md",
+    "MACHINE LEARNING/KERAS - NN Choose number of layers.md",
+    "MACHINE LEARNING/KERAS - ERROR SOLUTION.md",
     "MACHINE LEARNING/KERAS - Data linearly separable.md",
+    "MACHINE LEARNING/DEEP LEARNING - Layer node activation.md",
+    "MACHINE LEARNING/Search and Planning.md",
+    "MACHINE LEARNING/BATCH SIZE.md",
+    "PYTHON/Colab - Mount Google Drive.md",
+    "MACHINE LEARNING/DROPOUT Technique.md",
     "MACHINE LEARNING/MACHINE LEARNING - Model Evaluation.md",
     "MACHINE LEARNING/Evaluation Metrics Calculation.md",
     "MACHINE LEARNING/MACHINE LEARNING - Effect of Multicollinearity.md",
@@ -192,7 +252,6 @@
     "MACHINE LEARNING/IMAGES/image matrix multiplies kernel_cnn.webp",
     "MACHINE LEARNING/IMAGES/output-matrix-cnn.gif",
     "PHYSICS/Vertex(Geometry).md",
-    "MACHINE LEARNING/KR - Ontologies.md",
     "C-SHARP/CS - .NET Serialization.md",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "C-SHARP/XML_PARSING/CSHARP - XML.md",
@@ -203,16 +262,7 @@
     "MARKDOWN/MARKDOWN - Colors.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "UNITY/UI/UNITY - UI Automatic layout.md",
     "UNITY/STATIC BATCHER CANVAS.canvas",
-    "PYTHON/PYTHON - Data structures.md",
-    "PYTHON/PYTHON - Fuzzy Logic.md",
-    "PYTHON/PYTHON - Pillow.md",
-    "PYTHON/PYTHON - Imports.md",
-    "PYTHON/PYTHON - Rotate an image.md",
-    "HTML/HTML - Native colors.md",
-    "HTML/Special Characters.md",
-    "MACHINE LEARNING/Search and Planning.md",
     "MACHINE LEARNING/IMAGES/missionaries and cannibals_search and planning.png",
     "MACHINE LEARNING/IMAGES/softmax-function.png",
     "MACHINE LEARNING/IMAGES/max-pooling-layer.webp",
@@ -232,7 +282,6 @@
     "CONCEPTS/BVH - Bounding Volume Hierarchy",
     "JAVASCRIPT",
     "AJAX",
-    "PHYSICS/IMAGES",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "HTML/HTML.canvas",
     "CSS/CSS-CANVAS.canvas"

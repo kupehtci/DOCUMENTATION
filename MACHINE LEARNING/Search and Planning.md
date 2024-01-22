@@ -1,5 +1,11 @@
 #ML 
 
+Search and planning is the approach of Practical reasoning: 
+* deliberation: decide the goal state we want to achieve
+* means-end-reasoning: decide how to achieve this state.. 
+* intentions: the output of the deliberation and states and actions that can be performed. 
+
+This practical reasoning can be applied to Machine learning and intelligent systems by **Search and planning** algorithms. 
 ##### PROBLEM SOLVING
 
 objetive: solve the problem automatically, arrive to the goal. 
@@ -53,7 +59,7 @@ Two types of search:
 	* no additional information about states beyond problem definition 
 	* Only goal states and non-goal states can be distinguish
 * `informed search` (heuristic search): 
-	* additional information about how "promising" a state is available. 
+	* additional information about how "promising" a state is available. This can be achieved because the programmer has some knowledge about the problem that is asking the agent and can set a sort of <span style="color:MediumSlateBlue;">heuristics</span> to the algorithm. 
 
 
 `iterative deepening search` - blind search

@@ -10,9 +10,6 @@ Is a <span style="color:cyan;">semantic (term or concept)</span> hierarchy in wi
 * `Subsumption` that is a generalization or specialization relation
 
 
-
-
-
 Types of semantic: 
 
 `Term`

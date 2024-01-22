@@ -1,7 +1,7 @@
 #### Neural Network plotting the fit 
 
 
-You can plot the fittting measures in the different epochs.
+You can plot the fitting measures in the different epochs.
 
 When called to `model.fit()` a history can be captured: 
 
