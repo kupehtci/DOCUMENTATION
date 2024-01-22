@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MARKDOWN/MARKDOWN - Colors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb7d31b35170b3ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UNITY/UI/UNITY - UI Automatic layout.md",
+                "file": "MACHINE LEARNING/BATCH SIZE.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -72,7 +59,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UNITY/UI/UNITY - UI Automatic layout.md"
+                "file": "MACHINE LEARNING/BATCH SIZE.md"
               }
             }
           }
@@ -114,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 336.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -130,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UNITY/UI/UNITY - UI Automatic layout.md",
+                "file": "MACHINE LEARNING/BATCH SIZE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UNITY/UI/UNITY - UI Automatic layout.md",
+                "file": "MACHINE LEARNING/BATCH SIZE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,8 +178,32 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "eb7d31b35170b3ea",
+  "active": "af31d476505bef16",
   "lastOpenFiles": [
+    "PYTHON/Colab - Mount Google Drive.md",
+    "MACHINE LEARNING/DATA - ONTOLOGIES.md",
+    "MACHINE LEARNING/DROPOUT Technique.md",
+    "MACHINE LEARNING/KERAS - Data linearly separable.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Model Evaluation.md",
+    "MACHINE LEARNING/Evaluation Metrics Calculation.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Effect of Multicollinearity.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Data analysis and preparation.md",
+    "MACHINE LEARNING/DEEP LEARNING - Convolutional Neural Networks.md",
+    "MACHINE LEARNING/IMAGES/image matrix multiplies kernel_cnn.webp",
+    "MACHINE LEARNING/IMAGES/output-matrix-cnn.gif",
+    "PHYSICS/Vertex(Geometry).md",
+    "MACHINE LEARNING/KR - Ontologies.md",
+    "C-SHARP/CS - .NET Serialization.md",
+    "C-SHARP/XML_PARSING/XML Parsing.canvas",
+    "C-SHARP/XML_PARSING/CSHARP - XML.md",
+    "C-SHARP/XML_PARSING/CSHARP - Linq or XmlReader.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Supervised Learning.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Unsupervised learning.md",
+    "MACHINE LEARNING/IMAGES/k-nearest-neighbor.png",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "UNITY/UI/UNITY - UI Automatic layout.md",
     "UNITY/STATIC BATCHER CANVAS.canvas",
     "PYTHON/PYTHON - Data structures.md",
     "PYTHON/PYTHON - Fuzzy Logic.md",
@@ -201,37 +212,15 @@
     "PYTHON/PYTHON - Rotate an image.md",
     "HTML/HTML - Native colors.md",
     "HTML/Special Characters.md",
-    "MACHINE LEARNING/DATA - ONTOLOGIES.md",
     "MACHINE LEARNING/Search and Planning.md",
     "MACHINE LEARNING/IMAGES/missionaries and cannibals_search and planning.png",
-    "MACHINE LEARNING/KR - Knowledge Representation.md",
-    "MACHINE LEARNING/KR - Knowledge Reasoning.md",
-    "MACHINE LEARNING/KR - Fuzzy Logic.md",
-    "PYTHON/Fuzzy Logic - skfuzzy.md",
-    "MACHINE LEARNING/KR - Knowledge.md",
-    "MARKDOWN/MARKDOWN - Colors.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Supervised Learning.md",
-    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - Basics.md",
-    "MACHINE LEARNING/DEEP LEARNING - Convolutional Neural Networks.md",
     "MACHINE LEARNING/IMAGES/softmax-function.png",
     "MACHINE LEARNING/IMAGES/max-pooling-layer.webp",
     "MACHINE LEARNING/IMAGES/1*HxYdjdOD9xdjDPzGM313Fg.webp",
     "MACHINE LEARNING/IMAGES/diagram-cnn.png",
     "MACHINE LEARNING/OBJECT RECOGNITION/IMAGES/cnns-edge-detection.png",
-    "MACHINE LEARNING/MACHINE LEARNING - Over-fitting.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Model Evaluation.md",
-    "MACHINE LEARNING/KERAS - NN Fit plotting.md",
-    "MACHINE LEARNING/Neural Networks - Layer node activation.md",
     "MACHINE LEARNING/IMAGES/zmf-pimf-smf-membership-functions.png",
-    "MACHINE LEARNING/OBJECT RECOGNITION/Non-Max supression.md",
-    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - Evaluation Metrics.md",
-    "MACHINE LEARNING/OBJECT RECOGNITION/YOLOv5 - Basic training.md",
-    "MACHINE LEARNING/IMAGES/spectral-clustering.png",
-    "MACHINE LEARNING/IMAGES/shilhouette-score.png",
-    "MACHINE LEARNING/IMAGES/elbow-method.png",
-    "Untitled 1.canvas",
     "LATEX",
-    "Untitled.canvas",
     "JAVASCRIPT/Untitled",
     "SQL/SQL CANVAS COMANDS.canvas",
     "JAVASCRIPT/IMAGES",
@@ -245,7 +234,6 @@
     "AJAX",
     "PHYSICS/IMAGES",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
-    "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "HTML/HTML.canvas",
     "CSS/CSS-CANVAS.canvas"
   ]
