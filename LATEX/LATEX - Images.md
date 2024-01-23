@@ -42,10 +42,19 @@ Overall scale or width and height parameters can be adjusted:
 \includegraphics[scale=1.2, angle=45]{overleaf-logo}. % rotate a certain angle
 ```
 
-### Reference images
+### Centering images
 
-To reference to an image dynamic, you can enter a `\label{}` .  
+You can center images without using `\begin{figure}` by just using `\begin{center}`: 
 
 ```LATEX
+\begin{center}    
+    \includegraphics[width=1\linewidth]{images/dislexic-bar-chart.png}
+    \captionof{figure}{Dyslexic bar chart}
+    \label{fig:dislexic-bar}
+\end{center}
+```
 
-``` 
+
+### Reference images
+
+To reference to an image dynamic, you can enter a `\label{}`  [[LATEX - Labels]]. 

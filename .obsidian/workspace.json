@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LATEX/LATEX - Sections.md",
+                "file": "LATEX/LATEX - Unicode symbols.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LATEX/LATEX - Sections.md"
+                "file": "LATEX/LATEX - Unicode symbols.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LATEX/LATEX - Sections.md",
+                "file": "LATEX/LATEX - Unicode symbols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LATEX/LATEX - Sections.md",
+                "file": "LATEX/LATEX - Unicode symbols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,8 +184,16 @@
   },
   "active": "c4161134e49867bb",
   "lastOpenFiles": [
-    "LATEX/LATEX - Authors.md",
+    "HTML/Special Characters.md",
+    "LATEX/LATEX - Unicode symbols.md",
+    "LATEX/XeTex.md",
+    "LATEX/LATEX - Images.md",
+    "LATEX/LATEX - Labels.md",
+    "LATEX/LATEX - Multi columns.md",
+    "LATEX/IMAGES/Captura de pantalla 2024-01-23 a las 20.09.54.png",
+    "LATEX/IMAGES",
     "LATEX/LATEX - Sections.md",
+    "LATEX/LATEX - Authors.md",
     "PHP/PHP - $_POST.md",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
@@ -198,7 +206,6 @@
     "DISLEXIA RESEARCH VGSRE.md",
     "C-SHARP/CS - INTERFACES.md",
     "2023-12-31.md",
-    "LATEX/LATEX - Images.md",
     "UNITY/UNITY - Scene Management.md",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge Representation.md",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge Reasoning.md",
@@ -206,11 +213,6 @@
     "MACHINE LEARNING/MACHINE LEARNING - Effect of Multicollinearity.md",
     "MACHINE LEARNING/MACHINE LEARNING - Supervised Learning.md",
     "MACHINE LEARNING/OBJECT RECOGNITION/Non-Max supression.md",
-    "MACHINE LEARNING/OBJECT RECOGNITION/YOLOv5 - Training from scratch.md",
-    "MACHINE LEARNING/OBJECT RECOGNITION/YOLOv5 - TORCH Load model.md",
-    "MACHINE LEARNING/OBJECT RECOGNITION/YOLOv5 - Procedures from paper.md",
-    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - IoU.md",
-    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - Basics.md",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION",
     "MACHINE LEARNING/IMAGES/image matrix multiplies kernel_cnn.webp",
     "MACHINE LEARNING/IMAGES/output-matrix-cnn.gif",
@@ -225,7 +227,6 @@
     "MACHINE LEARNING/IMAGES/1*HxYdjdOD9xdjDPzGM313Fg.webp",
     "MACHINE LEARNING/IMAGES/diagram-cnn.png",
     "MACHINE LEARNING/OBJECT RECOGNITION/IMAGES/cnns-edge-detection.png",
-    "MACHINE LEARNING/IMAGES/zmf-pimf-smf-membership-functions.png",
     "LATEX",
     "JAVASCRIPT/Untitled",
     "SQL/SQL CANVAS COMANDS.canvas",
@@ -236,7 +237,6 @@
     "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
     "UNITY/BUILD",
     "CONCEPTS/BVH - Bounding Volume Hierarchy",
-    "JAVASCRIPT",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "HTML/HTML.canvas",
     "CSS/CSS-CANVAS.canvas"

@@ -2,25 +2,25 @@
 
 There are some special characters that for being represented, needs to be writen as special code
 
-| Special Character | Symbol |  |
-| ---- | ---- | ---- |
-| < | \&lt |  |
-| > | \&gt |  |
-| ⇒ |  |  |
-| ε |  |  |
-| φ |  |  |
-| ∫ |  |  |
-| ∂ |  |  |
-|  |  |  |
-| ™ |  |  |
-| ¶ |  |  |
-| § |  |  |
-| Ω |  |  |
-| ∑ |  | Opt + X |
-| © |  | Opt + C |
-| √ |  | Opt + V |
-| ß |  | Opt + B |
-|   |  |  |
+| Special Character | Symbol |  | Unicode |
+| ---- | ---- | ---- | ---- |
+| < | \&lt |  |  |
+| > | \&gt |  |  |
+| ⇒ |  |  |  |
+| ε |  |  |  |
+| φ |  |  |  |
+| ∫ |  |  |  |
+| ∂ |  |  |  |
+|  |  |  |  |
+| ™ |  |  |  |
+| ¶ |  |  |  |
+| § |  |  |  |
+| Ω |  |  |  |
+| ∑ |  | Opt + X |  |
+| © |  | Opt + C |  |
+| √ |  | Opt + V |  |
+| ß |  | Opt + B |  |
+| σ |  |  |  |
 
 
 
