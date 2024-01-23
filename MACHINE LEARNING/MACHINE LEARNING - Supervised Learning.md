@@ -1,6 +1,6 @@
 #ML 
 
-Learning bout a classified dataset (labels or expected values) to be able of making future predictions. 
+Learning about a <span style="color:orange;">classified dataset</span> (labels or expected values) to be able of making future predictions. 
 
 Can be: 
 
@@ -17,7 +17,7 @@ Needs to identify how the features are related to current output.
 Works defining a regression line. 
 
 
-### <span style="color:crimson;">Models</span>
+### Models
 
 `LINEAR REGRESSION`
 

@@ -7,7 +7,6 @@ People know things and perform reasoning automatically.
 <span style="color:MediumSpringGreen;">Knowledge Based Systems(KBS)</span> are systems that combine knowledge and reasoning. through declarative languages, that are closest to human languages. 
 
 
-
 ### Knowledge in an Expert System
 
 <span style="color:orange;">Knowledge Engineering</span> through knowledge representation, defines the keystone of the power of an <span style="color:DarkSeaGreen;">Expert System(ER)</span>. 
@@ -59,6 +58,6 @@ The implementation can lead into deduction of **new facts**.
 
 Phases: 
 1. `Detection` relevant tules getted from the KB, set of rules applicable to a particular situation (state) of the fact base array forming conflict.
-2. `Select the rule`: Control strategy and select wich rule to apply to new facts. 
-3. `Application`: aplicate the rule on an instantiation of variables are the modification of working memory. 
+2. `Select the rule`: Control strategy and select which rule to apply to new facts. 
+3. `Application`: apply the rule on an instantiation of variables are the modification of working memory. 
 4. Repeat or stop if problem is solved. 

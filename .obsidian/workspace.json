@@ -13,43 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "305499abbbf51603",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0dd5ba7870a2ccde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Ontologies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f11eee07d31b95b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
+                "file": "PHP/PHP - $_POST.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
+                "file": "LATEX/LATEX - Sections.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,35 +54,8 @@
     "type": "split",
     "children": [
       {
-        "id": "73959adecc67d577",
-        "type": "tabs",
-        "dimension": 22.19047619047619,
-        "children": [
-          {
-            "id": "1eec930ced11ba30",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "328a7e9eaf27d372",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "1312c4e70c51f016",
         "type": "tabs",
-        "dimension": 77.80952380952381,
         "children": [
           {
             "id": "01c5b67550af8107",
@@ -144,6 +81,24 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "328a7e9eaf27d372",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LATEX/LATEX - Sections.md"
+              }
+            }
+          },
+          {
+            "id": "1eec930ced11ba30",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
@@ -166,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
+                "file": "LATEX/LATEX - Sections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
+                "file": "LATEX/LATEX - Sections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,37 +184,38 @@
   },
   "active": "c4161134e49867bb",
   "lastOpenFiles": [
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Ontologies.md",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
+    "LATEX/LATEX - Authors.md",
+    "LATEX/LATEX - Sections.md",
+    "PHP/PHP - $_POST.md",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION",
-    "MACHINE LEARNING/DATA - ONTOLOGIES.md",
-    "MACHINE LEARNING/KERAS - NN Fit plotting.md",
-    "KERAS - SEQUENTIAL Deep Learning.md",
-    "MACHINE LEARNING/KERAS - NN Choose number of layers.md",
-    "MACHINE LEARNING/KERAS - ERROR SOLUTION.md",
-    "MACHINE LEARNING/KERAS - Data linearly separable.md",
-    "MACHINE LEARNING/DEEP LEARNING - Layer node activation.md",
-    "MACHINE LEARNING/Search and Planning.md",
-    "MACHINE LEARNING/BATCH SIZE.md",
-    "PYTHON/Colab - Mount Google Drive.md",
-    "MACHINE LEARNING/DROPOUT Technique.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Model Evaluation.md",
-    "MACHINE LEARNING/Evaluation Metrics Calculation.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
+    "HLSL/HLSL - Properties.md",
+    "HLSL/HLSL - Unity Cheat Sheet.md",
+    "HLSL/HLSL - clip.md",
+    "Aura/AuraInitialization.md",
+    "HLSL",
+    "MACHINE LEARNING/KERAS - SEQUENTIAL Deep Learning.md",
+    "DISLEXIA RESEARCH VGSRE.md",
+    "C-SHARP/CS - INTERFACES.md",
+    "2023-12-31.md",
+    "LATEX/LATEX - Images.md",
+    "UNITY/UNITY - Scene Management.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge Representation.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge Reasoning.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge.md",
     "MACHINE LEARNING/MACHINE LEARNING - Effect of Multicollinearity.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Data analysis and preparation.md",
-    "MACHINE LEARNING/DEEP LEARNING - Convolutional Neural Networks.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Supervised Learning.md",
+    "MACHINE LEARNING/OBJECT RECOGNITION/Non-Max supression.md",
+    "MACHINE LEARNING/OBJECT RECOGNITION/YOLOv5 - Training from scratch.md",
+    "MACHINE LEARNING/OBJECT RECOGNITION/YOLOv5 - TORCH Load model.md",
+    "MACHINE LEARNING/OBJECT RECOGNITION/YOLOv5 - Procedures from paper.md",
+    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - IoU.md",
+    "MACHINE LEARNING/OBJECT RECOGNITION/Object Recognition - Basics.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION",
     "MACHINE LEARNING/IMAGES/image matrix multiplies kernel_cnn.webp",
     "MACHINE LEARNING/IMAGES/output-matrix-cnn.gif",
-    "PHYSICS/Vertex(Geometry).md",
-    "C-SHARP/CS - .NET Serialization.md",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
-    "C-SHARP/XML_PARSING/CSHARP - XML.md",
-    "C-SHARP/XML_PARSING/CSHARP - Linq or XmlReader.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Supervised Learning.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Unsupervised learning.md",
     "MACHINE LEARNING/IMAGES/k-nearest-neighbor.png",
-    "MARKDOWN/MARKDOWN - Colors.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "UNITY/STATIC BATCHER CANVAS.canvas",
@@ -281,7 +237,6 @@
     "UNITY/BUILD",
     "CONCEPTS/BVH - Bounding Volume Hierarchy",
     "JAVASCRIPT",
-    "AJAX",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "HTML/HTML.canvas",
     "CSS/CSS-CANVAS.canvas"

@@ -41,3 +41,11 @@ Overall scale or width and height parameters can be adjusted:
 \includegraphics[width=\textwidth]{universe}. %relative to text width 
 \includegraphics[scale=1.2, angle=45]{overleaf-logo}. % rotate a certain angle
 ```
+
+### Reference images
+
+To reference to an image dynamic, you can enter a `\label{}` .  
+
+```LATEX
+
+``` 

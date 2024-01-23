@@ -18,7 +18,6 @@ Imagine defining the days of the week like this:
 | A: 0.8 (for the most part yes, but not completely) |
 | Q: Is Sunday a weekend day? |
 | A: 0.95 (yes, but not quite as much as Saturday). |
-|  |
 The left side is a chart of how it will be with two-valued and the right one with fuzzy logic set multivalue. 
 
 ![[fuzzy_logic_multivalues.png|500]]
@@ -63,7 +62,7 @@ Similar in terms of smoothness to gaussian curves but asymmetric.
 * `dsigmf` - difference of two asymmetrical sigmoidal function
 * `psigmf` - product of two different sigmoidal functions
 
-![[../IMAGES/sigmoid_membership_functions.png]]
+![[../../CONCEPTS/IMAGES/sigmoid_membership_functions.png]]
 
 `POLYNOMICAL BASE`
 
