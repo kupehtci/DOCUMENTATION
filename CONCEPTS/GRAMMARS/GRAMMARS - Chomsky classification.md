@@ -12,6 +12,16 @@ According to Noam Chomsky, there are four types of grammars. The following table
 |Type 3|Regular grammar|Regular language|Finite state automaton|
 ![[chomsky_grammar_classification_onion.png]]
 
+
+| Grammar type | Production Rules |
+|---|---|
+|Type 0|no restriction|
+|Type 1|xAy ::= xvy with A non-terminal with a replacement with terminal but one not empty. Follow  <span style="color:orange;">no decrement property</span> |
+|Type 2|A ::= v with A non-terminal and v a string of terminal and non-terminal |
+|Type 3|A ::= aB or A::= a a non-terminal can be replaced with a terminal that can be followed by a non-terminal |
+
+* <span style="color:orange;">no decrement property</span> the right part is bigger or equal to the left side, except axiom S. 
+
 ### TYPE 3 GRAMMAR 
 
 The type 3 grammars generate natural languages.

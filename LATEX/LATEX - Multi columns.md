@@ -28,4 +28,5 @@ You can avoid some items to be in the `multicolum` format by placing them within
 ```
 
 This would look this way: 
-![[Captura de pantalla 2024-01-23 a las 20.09.54.png|400]]
+
+![[abstract-example.png|400]]

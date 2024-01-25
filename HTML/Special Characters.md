@@ -21,6 +21,7 @@ There are some special characters that for being represented, needs to be writen
 | √ |  | Opt + V |  |
 | ß |  | Opt + B |  |
 | σ |  |  |  |
+| ∅ |  |  |  |
 
 
 

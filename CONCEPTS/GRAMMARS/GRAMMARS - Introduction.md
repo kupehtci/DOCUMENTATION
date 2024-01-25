@@ -10,8 +10,8 @@ This can be applied in the <span style="color:#ababf5;">theory of formal languag
 
 Grammar can be defined as a 4-tuple G = (N, T, S, P) where: 
 
-- **N** or **V^N** is a set of variables or non-terminal symbols.
-- **T** or **∑** is a set of Terminal symbols.
+- **N** or $∑_N$ is a set of variables or non-terminal symbols.
+- **T** or $∑_T$ is a set of Terminal symbols.
 - **S** is a special variable called the Start symbol, S ∈ N
 - **P** is <span style="color:orange;">Production rules</span> for Terminals and Non-terminals. A production rule has the form α → β, where α and β are strings on V_N_ ∪ ∑ and least one symbol of α belongs to VN.
 
@@ -33,7 +33,7 @@ with P = {
 
 Strings need to be derived from a certain grammar using its production rules. 
 
-If a grammar <span style="color:orange;">G</span> has a production rule <span style="color:orange;">a => b</span>, we can say that <span style="color:orange;">xay => xby</span> or that xay derived in xby. 
+If a grammar <span style="color:orange;">G</span> has a production rule <span style="color:orange;">a ::= b</span>, we can say that <span style="color:orange;">xay ::= xby</span> or that xay derived in xby or can be replaced with. 
 
 If we consider the next grammar: 
 

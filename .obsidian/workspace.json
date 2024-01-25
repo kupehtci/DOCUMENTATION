@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "c4161134e49867bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LATEX/LATEX - Unicode symbols.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a401fc486bcd7552",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Special Characters.md",
+                "file": "CONCEPTS/GRAMMARS/GRAMMARS -  Regular Expression.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LATEX/LATEX - Unicode symbols.md"
+                "file": "CONCEPTS/GRAMMARS/GRAMMARS -  Regular Expression.md"
               }
             }
           },
@@ -105,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 315.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -121,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LATEX/LATEX - Unicode symbols.md",
+                "file": "CONCEPTS/GRAMMARS/GRAMMARS -  Regular Expression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LATEX/LATEX - Unicode symbols.md",
+                "file": "CONCEPTS/GRAMMARS/GRAMMARS -  Regular Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +144,7 @@
             }
           },
           {
-            "id": "c3dfcef6ba4094a7",
+            "id": "2b9a3c467626c9ef",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -164,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,51 +170,51 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c4161134e49867bb",
+  "active": "a401fc486bcd7552",
   "lastOpenFiles": [
+    "CONCEPTS/GRAMMARS/GRAMMARS - Chomsky classification.md",
+    "CONCEPTS/GRAMMARS/GRAMMARS - constructions.md",
+    "CONCEPTS/GRAMMARS/GRAMMARS - Introduction.md",
+    "CONCEPTS/GRAMMARS/GRAMMARS - Grammar cleaning.md",
+    "CONCEPTS/GRAMMARS/GRAMMARS -  Regular Expression.md",
+    "CONCEPTS/GRAMMARS/GRAMMARS - Grammars of type 2.md",
+    "CONCEPTS/GRAMMARS/GRAMMARS - Normal form of Chomsky (FNC).md",
+    "CONCEPTS/IMAGES/grammar-no-fnc-to-fnc.png",
+    "CONCEPTS/IMAGES/infinite-graph.png",
     "HTML/Special Characters.md",
+    "PHP/PHP - $_POST.md",
+    "CONCEPTS/FORMAL LANGUAGE - DERIVATION TREE.md",
+    "CONCEPTS/GRAMMARS",
+    "CONCEPTS/IMAGES/derivation-tree-example-1.png",
+    "CONCEPTS/IMAGES/graph-exchange.png",
+    "CONCEPTS/IMAGES/grammar-graph-construction-2.png",
+    "CONCEPTS/IMAGES/grammar-graph-construction.png",
+    "CONCEPTS/IMAGES/grammar-non-recursive-transformation.png",
+    "LATEX/LATEX - Environments.md",
+    "LATEX/LATEX - Comments.md",
+    "LATEX/LATEX - Multi columns.md",
+    "LATEX/IMAGES/abstract-example.png",
+    "LATEX/LATEX - Bold, italics and underlining.md",
+    "LATEX/LATEX - BibTeX Bibliography.md",
+    "LATEX/LATEX - Sections.md",
+    "LATEX/LATEX - Labels.md",
     "LATEX/LATEX - Unicode symbols.md",
     "LATEX/XeTex.md",
     "LATEX/LATEX - Images.md",
-    "LATEX/LATEX - Labels.md",
-    "LATEX/LATEX - Multi columns.md",
-    "LATEX/IMAGES/Captura de pantalla 2024-01-23 a las 20.09.54.png",
     "LATEX/IMAGES",
-    "LATEX/LATEX - Sections.md",
     "LATEX/LATEX - Authors.md",
-    "PHP/PHP - $_POST.md",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
     "HLSL/HLSL - Properties.md",
     "HLSL/HLSL - Unity Cheat Sheet.md",
-    "HLSL/HLSL - clip.md",
-    "Aura/AuraInitialization.md",
     "HLSL",
-    "MACHINE LEARNING/KERAS - SEQUENTIAL Deep Learning.md",
-    "DISLEXIA RESEARCH VGSRE.md",
-    "C-SHARP/CS - INTERFACES.md",
-    "2023-12-31.md",
-    "UNITY/UNITY - Scene Management.md",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge Representation.md",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge Reasoning.md",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Effect of Multicollinearity.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Supervised Learning.md",
-    "MACHINE LEARNING/OBJECT RECOGNITION/Non-Max supression.md",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION",
     "MACHINE LEARNING/IMAGES/image matrix multiplies kernel_cnn.webp",
     "MACHINE LEARNING/IMAGES/output-matrix-cnn.gif",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
-    "MACHINE LEARNING/IMAGES/k-nearest-neighbor.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "UNITY/STATIC BATCHER CANVAS.canvas",
-    "MACHINE LEARNING/IMAGES/missionaries and cannibals_search and planning.png",
-    "MACHINE LEARNING/IMAGES/softmax-function.png",
-    "MACHINE LEARNING/IMAGES/max-pooling-layer.webp",
-    "MACHINE LEARNING/IMAGES/1*HxYdjdOD9xdjDPzGM313Fg.webp",
-    "MACHINE LEARNING/IMAGES/diagram-cnn.png",
-    "MACHINE LEARNING/OBJECT RECOGNITION/IMAGES/cnns-edge-detection.png",
     "LATEX",
     "JAVASCRIPT/Untitled",
     "SQL/SQL CANVAS COMANDS.canvas",
@@ -236,7 +224,6 @@
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
     "UNITY/BUILD",
-    "CONCEPTS/BVH - Bounding Volume Hierarchy",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "HTML/HTML.canvas",
     "CSS/CSS-CANVAS.canvas"
