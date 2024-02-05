@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CONCEPTS/Object Oriented vs Data Oriented.md",
+                "file": "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CONCEPTS/Object Oriented vs Data Oriented.md"
+                "file": "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CONCEPTS/Object Oriented vs Data Oriented.md",
+                "file": "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CONCEPTS/Object Oriented vs Data Oriented.md",
+                "file": "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,9 +181,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a401fc486bcd7552",
+  "active": "5e99b486c39f3cfb",
   "lastOpenFiles": [
-    "CONCEPTS/Relational Database.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/er-cardinality-representation.png",
+    "INFORMATION TECHNOLOGIES/IMAGES/ER-symbols.png",
+    "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
+    "INFORMATION TECHNOLOGIES/IMAGES/action-selflinked.jpg",
+    "INFORMATION TECHNOLOGIES/IMAGES",
+    "INFORMATION TECHNOLOGIES/Untitled.md",
+    "INFORMATION TECHNOLOGIES/Relational Model.md",
+    "CONCEPTS/Object Oriented vs Data Oriented.md",
+    "INFORMATION TECHNOLOGIES",
+    "INFORMATION TECHNOLOGIES/Relational Database.md",
     "CONCEPTS/Inline Expansion.md",
     "NETWORKING/Internet Protocols.md",
     "CONCEPTS/SSH - Secure Shell.md",
@@ -209,20 +218,13 @@
     "CONCEPTS/GRAMMARS/GRAMMARS - Grammar cleaning.md",
     "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH - Top Down Build.md",
     "CONCEPTS/BVH - Bounding Volume Hierarchy/BVH Bounding Volume Hierarchy.md",
-    "COMPUTER GRAPHICS/Vertex.md",
-    "COMPUTER GRAPHICS/RENDERING PIPELINE.md",
-    "COMPUTER GRAPHICS/BMP - File.md",
-    "MARKDOWN/MARKDOWN - Mathematics.md",
     "CONCEPTS/IMAGES/grammar-no-fnc-to-fnc.png",
     "CONCEPTS/IMAGES/infinite-graph.png",
-    "PHP/PHP - $_POST.md",
     "CONCEPTS/GRAMMARS",
     "CONCEPTS/IMAGES/derivation-tree-example-1.png",
     "CONCEPTS/IMAGES/graph-exchange.png",
     "CONCEPTS/IMAGES/grammar-graph-construction-2.png",
     "CONCEPTS/IMAGES/grammar-graph-construction.png",
-    "CONCEPTS/IMAGES/grammar-non-recursive-transformation.png",
-    "LATEX/IMAGES/abstract-example.png",
     "LATEX/IMAGES",
     "HLSL",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION",
@@ -233,8 +235,6 @@
     "LATEX",
     "JAVASCRIPT/Untitled",
     "SQL/SQL CANVAS COMANDS.canvas",
-    "JAVASCRIPT/IMAGES",
-    "PYTHON/IMAGES",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
