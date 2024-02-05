@@ -19,7 +19,7 @@ A vertex in computer graphics is a data structure that describes certain attribu
 
 The vertices of triangles are associated not only with spatial position but also with other values used to render the object correctly. Most attributes of a vertex represent vectors in the space to be rendered. These vectors are typically 1(x), 2(x,y), 3(x,y,z) dimensional and can include a fourth homogeneous coordinate (w). These valuse are given meaning by a material description. In realtime rendering these properties are used by a vertex shader or vertex pipeline.
 
-such attributes can include:
+Such attributes can include:
 
 <span style="color:orange;">Position</span>: 2D or 3D coordinates representing a position in space
 

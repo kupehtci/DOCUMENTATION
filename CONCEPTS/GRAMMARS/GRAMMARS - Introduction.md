@@ -27,6 +27,15 @@ with P = {
 		Z ⇒ c
 	}
 
+### Grammar analysis
+
+A grammar can have different characteristics: 
+
+* Maximum length of a grammar accepted word can be: 
+	* `infinite` if some of the Production rules is recursive
+	* `certain length` if no production rule is recursive and its length can be measured. 
+	* `0` if the axiom can only be replaced with λ (S::=λ)
+* Minimum length
 
 
 ## Derivations from a Grammar

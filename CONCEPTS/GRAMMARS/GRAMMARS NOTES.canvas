@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"2282fa886cb35365","type":"file","file":"CONCEPTS/GRAMMARS/GRAMMARS - Introduction.md","x":-433,"y":-45,"width":513,"height":485},
+		{"id":"e61bfa95773185cc","type":"file","file":"CONCEPTS/GRAMMARS/GRAMMARS - Chomsky classification.md","x":-433,"y":760,"width":627,"height":400},
+		{"id":"fd3dfb6b75710544","type":"text","text":"Can be classified as ->","x":-280,"y":560,"width":250,"height":60,"color":"5"},
+		{"id":"36123f97309f48ad","type":"text","text":"Have an mathematical structure: ","x":177,"y":109,"width":263,"height":60,"color":"5"},
+		{"id":"24166ff3ff439c72","type":"text","text":"<span style=\"color:orange;\">Grammar</span> takes form of: \n\nG = ($∑_T$ , $∑_N$, S, P) with P = production rules with structure of: \n\nP = { \n\t\tS ⇒ aS | bcX \n\t\tX ⇒ cX | aYZ \n\t\tY ⇒ ab \n\t\tZ ⇒ c\n\t}","x":540,"y":-37,"width":452,"height":353},
+		{"id":"b1e31b23224a861b","type":"text","text":"Production rules can be organized following <span style=\"color:orange;\">FNC</span>\n","x":679,"y":397,"width":250,"height":60,"color":"5"},
+		{"id":"942438e6ed43913a","type":"file","file":"CONCEPTS/GRAMMARS/GRAMMARS - Normal form of Chomsky (FNC).md","x":455,"y":760,"width":623,"height":480},
+		{"id":"b8c5282616c33c0b","type":"file","file":"CONCEPTS/GRAMMARS/GRAMMARS - Grammars of type 2.md","x":-609,"y":1554,"width":769,"height":400},
+		{"id":"c0e19f4596feaa05","type":"text","text":"Grammars of type 2\n","x":-275,"y":1341,"width":250,"height":60,"color":"5"},
+		{"id":"28462dfc3137ab2b","type":"text","text":"Before normalizing into Chomsky normal form, Grammar must be cleaned","x":1340,"y":621,"width":340,"height":99,"color":"5"},
+		{"id":"6a9b433ab6f238b7","type":"text","text":"Can be transformed and builded","x":1334,"y":49,"width":250,"height":60,"color":"5"},
+		{"id":"1d0c66a2594f2220","type":"file","file":"CONCEPTS/GRAMMARS/GRAMMARS - Constructions and transformations.md","x":1822,"y":-236,"width":898,"height":405},
+		{"id":"885e5d5261eadb33","type":"text","text":"Transformations: \n","x":2960,"y":-33,"width":250,"height":60,"color":"5"},
+		{"id":"66c76ad6c3127c8d","type":"file","file":"CONCEPTS/GRAMMARS/Regular Expressions.md","x":3377,"y":-186,"width":863,"height":355},
+		{"id":"2206e14304d4fad6","type":"file","file":"CONCEPTS/GRAMMARS/GRAMMARS - Grammar cleaning.md","x":1822,"y":440,"width":898,"height":424}
+	],
+	"edges":[
+		{"id":"c71125e43a7b70c3","fromNode":"2282fa886cb35365","fromSide":"bottom","toNode":"fd3dfb6b75710544","toSide":"top"},
+		{"id":"e05b68968043237c","fromNode":"fd3dfb6b75710544","fromSide":"bottom","toNode":"e61bfa95773185cc","toSide":"top"},
+		{"id":"003a5985b786016f","fromNode":"2282fa886cb35365","fromSide":"right","toNode":"36123f97309f48ad","toSide":"left"},
+		{"id":"a5cda6fb6622a0a0","fromNode":"36123f97309f48ad","fromSide":"right","toNode":"24166ff3ff439c72","toSide":"left"},
+		{"id":"00de6a152f94ddd0","fromNode":"24166ff3ff439c72","fromSide":"bottom","toNode":"b1e31b23224a861b","toSide":"top"},
+		{"id":"7bb094976ae4275b","fromNode":"b1e31b23224a861b","fromSide":"bottom","toNode":"942438e6ed43913a","toSide":"top"},
+		{"id":"154c8b460b8384a0","fromNode":"e61bfa95773185cc","fromSide":"bottom","toNode":"c0e19f4596feaa05","toSide":"top"},
+		{"id":"15ad8b3bcdbdcf0a","fromNode":"c0e19f4596feaa05","fromSide":"bottom","toNode":"b8c5282616c33c0b","toSide":"top"},
+		{"id":"34210874c7c8444b","fromNode":"942438e6ed43913a","fromSide":"right","toNode":"28462dfc3137ab2b","toSide":"left"},
+		{"id":"00b1ca4aacaecb28","fromNode":"28462dfc3137ab2b","fromSide":"right","toNode":"2206e14304d4fad6","toSide":"left"},
+		{"id":"a740be94eb0b9686","fromNode":"24166ff3ff439c72","fromSide":"right","toNode":"6a9b433ab6f238b7","toSide":"left"},
+		{"id":"1c0398638c7ab837","fromNode":"6a9b433ab6f238b7","fromSide":"right","toNode":"1d0c66a2594f2220","toSide":"left"},
+		{"id":"dfacd4f8d37ca06f","fromNode":"1d0c66a2594f2220","fromSide":"right","toNode":"885e5d5261eadb33","toSide":"left"},
+		{"id":"80ab2dd2b3e75553","fromNode":"885e5d5261eadb33","fromSide":"right","toNode":"66c76ad6c3127c8d","toSide":"left"}
+	]
+}
