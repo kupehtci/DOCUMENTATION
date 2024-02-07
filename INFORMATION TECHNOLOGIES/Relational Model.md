@@ -1,20 +1,76 @@
+#DATABASES
 
-### Relational Model
-
-Is a data representation format or structure and its language consist in <span style="color:orange;">first order predicate logic</span>.
-
-It represents the data within each relational table with its name and attributes. Also represents the different characteristics of each attributes, as example if its a primary key, a foreign key, etc. [[SQL - Foreign Key]]. 
+## Relational Models
 
 
-#### Relational Model Concepts
+### Design the relational model from Entity Relationship model
 
-1. **Attribute:** Each column in a Table. Attributes are the properties which define a relation.
-2. **Tables** – In the Relational model the, relations are saved in the table format. It is stored along with its entities.
-3. **Tuple** – It is nothing but a single row of a table, which contains a single record.
-4. **Relation Schema:** A relation schema represents the name of the relation with its attributes.
-5. **Degree:** The total number of attributes which in the relation is called the degree of the relation.
-6. **Cardinality:** Total number of rows present in the Table.
-7. **Column:** The column represents the set of values for a specific attribute.
-8. **Relation instance** – Relation instance is a finite set of tuples in the RDBMS system. Relation instances never have duplicate tuples.
-9. **Relation key** – Every row has one, two or multiple attributes, which is called relation key.
-10. **Attribute domain** – Every attribute has some pre-defined value and scope which is known as attribute domain
+For being able to transform the relational model into a set of tables designed for implemented in a database, its necessary to model the different tables from the set of instances that has the <span style="color:orange;">entity-relationship diagram</span>. 
+
+First step is to transform the model into a set of classes that would be consider as tables (instances to class)
+
+A multi-valued attribute in ER model is turned into a table. 
+
+1. Create a table for the attribute
+2. Add the key attribute of the parent entity as a foreign key for the new table (multi-valued table)
+
+
+
+Attributes with sub-attributes are not combined, each attribute is saved independently, 
+
+```
+Entity()
+Address(Street, ZipCode, Number, TypeHouse)
+```
+
+The next step is to model the <span style="color:orange;">relationships</span> between the different tables. 
+For doing this we can encounter different cases: 
+
+
+`1 to 1 relationship`
+
+The instance primary key can be stored as a foreign key in the other instance's table. 
+
+`1 to many relationship`
+
+In one to many, we can do the same as _1 to 1 relationship_. We keep the foreign key as reference to the one that can only have 1 of the other one. 
+
+`many-to-many relationship`
+
+We need to add a new <span style="color:orange;">junction table</span> that performs the relation between the classes in many to many relationships. 
+This table would have two foreign keys that refer to the primary keys of the two instances to link. 
+
+`Generalization / specialization`
+
+For generalization, a table is created for entity (super entity and sub-entities)
+The key attribute of the super-entity. 
+
+
+
+---
+#### EXAMPLE
+
+Design the relational model from the ER model designed for the Gallery Problem. 
+![[artwoork-entity-relationship-example.png]]
+
+* Address 
+* artwoork type attribute has $n$ types a finite set, so can be considered as a class for saving space. 
+* Phone is also a multi-value, with a finite set of numbers so can be also considered as a class. 
+
+The ER model would have the following structure: 
+
+Artwoorks(*title*, year, type, price, groupName$^*$, artistName$^*$)
+Artists(_artistName_, style, birthdate, birthplace)
+Customers(_idCustomer_, name, street, ZipCode, city, country)
+Groups(groupName)
+
+Type(type)
+Phone(number, idCustomer)
+CustomerLikeArtist(CustomerID$^*$, ArtistID$^*$)
+CustomerLikeGroup(CustomerID$^*$, GroupID$^*$)
+
+
+
+
+---
+

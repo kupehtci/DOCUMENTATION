@@ -1,4 +1,4 @@
-#CONCEPTS 
+#CONCEPTS #DATABASES 
 
 A relational database is a <span style="color:orange;">structured collection</span> of data points related between each other. 
 
