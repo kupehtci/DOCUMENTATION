@@ -1,5 +1,5 @@
 ## AURA INITIALIZATION WITH BGFX 
-#CMAKE #CPP #OpenGL #Vulkan
+#CMAKE #CPP #OpenGL #VULKAN
 
 Initializate CMake with basic configuration for a executable version, compiler to your election and name as well. 
 

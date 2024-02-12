@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e61a9548cb8e83f6",
+        "id": "6db265c406eb0866",
         "type": "tabs",
         "children": [
           {
-            "id": "a401fc486bcd7552",
+            "id": "faf916e8d2b6178b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/Relational Model.md",
+                "file": "VULKAN/GLFW Import for Vulkan.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Vulkan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/Relational Model.md"
+                "file": "VULKAN/GLFW Import for Vulkan.md"
               }
             }
           },
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5,
-    "collapsed": true
+    "width": 275.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/Relational Model.md",
+                "file": "VULKAN/GLFW Import for Vulkan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/Relational Model.md",
+                "file": "VULKAN/GLFW Import for Vulkan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +131,7 @@
             }
           },
           {
-            "id": "2b9a3c467626c9ef",
+            "id": "da0273cd0b496a72",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -158,14 +157,39 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a401fc486bcd7552",
+  "active": "faf916e8d2b6178b",
   "lastOpenFiles": [
-    "HTML/Special Characters.md",
-    "INFORMATION TECHNOLOGIES/Relational Model.md",
+    "SQL/SQL - Introduction.md",
+    "INFORMATION TECHNOLOGIES/Database Design Process.md",
+    "INFORMATION TECHNOLOGIES/Relational Database.md",
+    "VULKAN/GLFW Import for Vulkan.md",
+    "Aura/AuraInitialization.md",
+    "ANALISIS LEXICO SINTACTICO/Compiler.md",
+    "VULKAN",
+    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
+    "ANALISIS LEXICO SINTACTICO/IMAGES/AST1.png",
+    "ANALISIS LEXICO SINTACTICO/IMAGES",
+    "ANALISIS LEXICO SINTACTICO/IMAGES/800px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png",
+    "CONCEPTS/GRAMMARS/Regular Expressions.md",
+    "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "CONCEPTS/GRAMMARS/GRAMMARS - Constructions and transformations.md",
+    "CONCEPTS/GRAMMARS/GRAMMARS - Derivation tree.md",
+    "Untitled.canvas",
+    "CONCEPTS/GRAMMARS/GRAMMARS - Introduction.md",
+    "CPP/CPP - Operator Overload.md",
+    "ANALISIS LEXICO SINTACTICO",
+    "CPP/namespaces.md",
+    "CPP/main.md",
+    "NETWORKING/SMTP.md",
+    "CPP",
+    "NETWORKING/Application Layer.md",
+    "VIDEOGAMES AI/AI for Videogames.md",
+    "INFORMATION TECHNOLOGIES/Relational Model.md",
+    "VIDEOGAMES AI",
+    "2024-02-05.md",
+    "HTML/Special Characters.md",
     "INFORMATION TECHNOLOGIES/IMAGES/artwoork-entity-relationship-example.png",
     "INFORMATION TECHNOLOGIES/Relational Model Structure.md",
-    "INFORMATION TECHNOLOGIES/Relational Database.md",
     "INFORMATION TECHNOLOGIES/Captura de pantalla 2024-02-07 a las 13.50.03.png",
     "INFORMATION TECHNOLOGIES/IMAGES/multi-valued-attribute-to-instance.png",
     "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
@@ -178,38 +202,14 @@
     "CONCEPTS/Inline Expansion.md",
     "NETWORKING/Internet Protocols.md",
     "CONCEPTS/SSH - Secure Shell.md",
-    "NETWORKING/TCP-IP vs OSI Layers.md",
-    "NETWORKING/TPC-IP Layers.md",
     "NETWORKING/IMAGES/OSI-vs-TCP-vs-Hybrid-2.webp",
     "NETWORKING/IMAGES",
-    "NETWORKING/OSI Layers.md",
-    "2024-02-05.md",
     "NETWORKING",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Derivation tree.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Normal form of Chomsky (FNC).md",
-    "CONCEPTS/GRAMMARS/Regular Expressions.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Chomsky classification.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Grammars of type 2.md",
-    "CONCEPTS/Turing Machine.md",
-    "CONCEPTS/Turing Machine - State Diagram.md",
     "CONCEPTS/IMAGES/dbKAo.png",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Introduction.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Grammar cleaning.md",
-    "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH - Top Down Build.md",
-    "CONCEPTS/BVH - Bounding Volume Hierarchy/BVH Bounding Volume Hierarchy.md",
-    "CONCEPTS/IMAGES/grammar-no-fnc-to-fnc.png",
-    "CONCEPTS/IMAGES/infinite-graph.png",
     "CONCEPTS/GRAMMARS",
-    "LATEX/IMAGES",
-    "HLSL",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
-    "Untitled.canvas",
     "Untitled 1.canvas",
     "UNITY/STATIC BATCHER CANVAS.canvas",
-    "LATEX",
-    "JAVASCRIPT/Untitled",
     "SQL/SQL CANVAS COMANDS.canvas",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
