@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPP/CPP - Operator Overload.md",
+                "file": "CLION/CLION - Region.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPP/CPP - Operator Overload.md"
+                "file": "CLION/CLION - Region.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPP/CPP - Operator Overload.md",
+                "file": "CLION/CLION - Region.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPP/CPP - Operator Overload.md",
+                "file": "CLION/CLION - Region.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,9 @@
   },
   "active": "faf916e8d2b6178b",
   "lastOpenFiles": [
+    "CPP/CPP - Operator Overload.md",
+    "CLION/CLION - Region.md",
+    "CLION",
     "VULKAN/GLFW Import for Vulkan.md",
     "SQL/SQL - Introduction.md",
     "INFORMATION TECHNOLOGIES/Database Design Process.md",
@@ -176,7 +179,6 @@
     "CONCEPTS/GRAMMARS/GRAMMARS - Derivation tree.md",
     "Untitled.canvas",
     "CONCEPTS/GRAMMARS/GRAMMARS - Introduction.md",
-    "CPP/CPP - Operator Overload.md",
     "ANALISIS LEXICO SINTACTICO",
     "CPP/namespaces.md",
     "CPP/main.md",
@@ -201,12 +203,10 @@
     "INFORMATION TECHNOLOGIES",
     "CONCEPTS/Inline Expansion.md",
     "NETWORKING/Internet Protocols.md",
-    "CONCEPTS/SSH - Secure Shell.md",
     "NETWORKING/IMAGES/OSI-vs-TCP-vs-Hybrid-2.webp",
     "NETWORKING/IMAGES",
     "NETWORKING",
     "CONCEPTS/IMAGES/dbKAo.png",
-    "CONCEPTS/GRAMMARS",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
     "UNITY/STATIC BATCHER CANVAS.canvas",
