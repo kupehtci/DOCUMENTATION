@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLION/CLION - Region.md",
+                "file": "VULKAN/Vulkan Initialization.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLION/CLION - Region.md"
+                "file": "VULKAN/Vulkan Initialization.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLION/CLION - Region.md",
+                "file": "VULKAN/Vulkan Initialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLION/CLION - Region.md",
+                "file": "VULKAN/Vulkan Initialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +159,9 @@
   },
   "active": "faf916e8d2b6178b",
   "lastOpenFiles": [
-    "CPP/CPP - Operator Overload.md",
     "CLION/CLION - Region.md",
+    "VULKAN/Vulkan Initialization.md",
+    "CPP/CPP - Operator Overload.md",
     "CLION",
     "VULKAN/GLFW Import for Vulkan.md",
     "SQL/SQL - Introduction.md",
@@ -202,7 +203,6 @@
     "CONCEPTS/Object Oriented vs Data Oriented.md",
     "INFORMATION TECHNOLOGIES",
     "CONCEPTS/Inline Expansion.md",
-    "NETWORKING/Internet Protocols.md",
     "NETWORKING/IMAGES/OSI-vs-TCP-vs-Hybrid-2.webp",
     "NETWORKING/IMAGES",
     "NETWORKING",
