@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VULKAN/GLFW Import for Vulkan.md",
+                "file": "CPP/CPP - Operator Overload.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VULKAN/GLFW Import for Vulkan.md"
+                "file": "CPP/CPP - Operator Overload.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VULKAN/GLFW Import for Vulkan.md",
+                "file": "CPP/CPP - Operator Overload.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VULKAN/GLFW Import for Vulkan.md",
+                "file": "CPP/CPP - Operator Overload.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,10 +159,10 @@
   },
   "active": "faf916e8d2b6178b",
   "lastOpenFiles": [
+    "VULKAN/GLFW Import for Vulkan.md",
     "SQL/SQL - Introduction.md",
     "INFORMATION TECHNOLOGIES/Database Design Process.md",
     "INFORMATION TECHNOLOGIES/Relational Database.md",
-    "VULKAN/GLFW Import for Vulkan.md",
     "Aura/AuraInitialization.md",
     "ANALISIS LEXICO SINTACTICO/Compiler.md",
     "VULKAN",
