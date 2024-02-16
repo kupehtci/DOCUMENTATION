@@ -2,7 +2,7 @@
 
 ## Inception Deck
 
-The inception deck is an initial project planning and ideation
+The inception deck is an initial project planning and ideation. Part of [[Roadmap]] conception part. 
 
 * `Why are we here?`
 Reminder of the parts or themes that involve the project, who our customers are and why we decided to do this project in the first place
