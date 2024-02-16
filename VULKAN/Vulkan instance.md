@@ -35,4 +35,16 @@ By doing `glfwGetRequiredInstanceExtensions($num_instance_extension_required)` w
 
 
 
+the `vkCreateInstance()` can return: 
+* On Success: 
+	* `VK_SUCCESS`
+* On failure, this command returns: 
+	- `VK_ERROR_OUT_OF_HOST_MEMORY`
+	- `VK_ERROR_OUT_OF_DEVICE_MEMORY`
+	- `VK_ERROR_INITIALIZATION_FAILED`
+	- `VK_ERROR_LAYER_NOT_PRESENT`
+	- `VK_ERROR_EXTENSION_NOT_PRESENT`
+	- `VK_ERROR_INCOMPATIBLE_DRIVER`
+
+
 

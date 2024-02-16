@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VULKAN/Vulkan instance.md",
+                "file": "GAME PRODUCTION/Inception Deck.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VULKAN/Vulkan instance.md"
+                "file": "GAME PRODUCTION/Inception Deck.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VULKAN/Vulkan instance.md",
+                "file": "GAME PRODUCTION/Inception Deck.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VULKAN/Vulkan instance.md",
+                "file": "GAME PRODUCTION/Inception Deck.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +159,11 @@
   },
   "active": "faf916e8d2b6178b",
   "lastOpenFiles": [
-    "VULKAN/Vulkan Initialization.md",
+    "GAME PRODUCTION/Roadmap.md",
+    "GAME PRODUCTION/Inception Deck.md",
     "VULKAN/Vulkan instance.md",
+    "GAME PRODUCTION",
+    "VULKAN/Vulkan Initialization.md",
     "CLION/CLION - Region.md",
     "CPP/CPP - Operator Overload.md",
     "CLION",
@@ -196,16 +199,13 @@
     "INFORMATION TECHNOLOGIES/Relational Model Structure.md",
     "INFORMATION TECHNOLOGIES/Captura de pantalla 2024-02-07 a las 13.50.03.png",
     "INFORMATION TECHNOLOGIES/IMAGES/multi-valued-attribute-to-instance.png",
-    "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
     "INFORMATION TECHNOLOGIES/IMAGES/er-cardinality-representation.png",
     "INFORMATION TECHNOLOGIES/IMAGES/ER-symbols.png",
     "INFORMATION TECHNOLOGIES/IMAGES/action-selflinked.jpg",
     "INFORMATION TECHNOLOGIES/IMAGES",
-    "CONCEPTS/Object Oriented vs Data Oriented.md",
     "INFORMATION TECHNOLOGIES",
     "NETWORKING/IMAGES/OSI-vs-TCP-vs-Hybrid-2.webp",
     "NETWORKING/IMAGES",
-    "NETWORKING",
     "CONCEPTS/IMAGES/dbKAo.png",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
