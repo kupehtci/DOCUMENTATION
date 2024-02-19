@@ -20,5 +20,10 @@ This tokens need to be defined at the end of the document using this syntax lang
 TOKEN:  
 {  
     < NUMERO: (["0"-"9"]) >  
+|   < LETRAS: (["a"-"z"]) >  
+|   < MAYUSCULAS: (["A"-"Z"]) >  
+|   < MINOMBRE: ("Daniel") > {1} 
 }
 ```
+
+The different token declarations need to be separated with a $|$ operator.  
