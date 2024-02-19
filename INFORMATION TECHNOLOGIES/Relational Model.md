@@ -58,7 +58,7 @@ Design the relational model from the ER model designed for the Gallery Problem.
 * Phone is also a multi-value, with a finite set of numbers so can be also considered as a class. 
 
 The ER model would have the following structure: 
-
+```
 Artwoorks(*title*, year, type, price, groupName$^*$, artistName$^*$)
 Artists(_artistName_, style, birthdate, birthplace)
 Customers(_idCustomer_, name, street, ZipCode, city, country)
@@ -68,9 +68,7 @@ Type(type)
 Phone(number, idCustomer)
 CustomerLikeArtist(CustomerID$^*$, ArtistID$^*$)
 CustomerLikeGroup(CustomerID$^*$, GroupID$^*$)
-
-
-
+```
 
 ---
 

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaCC/JavaCC.md",
+                "file": "VULKAN/Vulkan Validation Layers.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaCC/JavaCC.md"
+                "file": "VULKAN/Vulkan Validation Layers.md"
               }
             }
           },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaCC/JavaCC.md",
+                "file": "VULKAN/Vulkan Validation Layers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaCC/JavaCC.md",
+                "file": "VULKAN/Vulkan Validation Layers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,10 +170,19 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4b35bf2ffd571234",
+  "active": "5e99b486c39f3cfb",
   "lastOpenFiles": [
-    "JAVA/JAVA - IOException.md",
+    "GIT",
+    "INFORMATION TECHNOLOGIES/DCL - Data Control Language.md",
+    "VULKAN/Vulkan Validation Layers.md",
+    "INFORMATION TECHNOLOGIES/Access Control.md",
+    "INFORMATION TECHNOLOGIES/Normalization.md",
+    "INFORMATION TECHNOLOGIES/Relational Model.md",
+    "INFORMATION TECHNOLOGIES/Relational Database.md",
+    "NETWORKING/TELNET.md",
+    "NETWORKING/SMTP.md",
     "JavaCC/JavaCC.md",
+    "JAVA/JAVA - IOException.md",
     "JAVA",
     "ANALISIS LEXICO SINTACTICO/Lexer.md",
     "JavaCC",
@@ -188,7 +197,6 @@
     "ANALISIS LEXICO SINTACTICO/Untitled",
     "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
     "SOFTWARE QUALITY/Bug, Error Situation and failure.md",
-    "INFORMATION TECHNOLOGIES/Normalization.md",
     "SOFTWARE QUALITY",
     "INFORMATION TECHNOLOGIES/IMAGES/normalization-partial-dependency.png",
     "MARKDOWN/MARKDOWN - Colors.md",
@@ -197,15 +205,7 @@
     "GAME PRODUCTION/Roadmap.md",
     "GAME PRODUCTION/Inception Deck.md",
     "INFORMATION TECHNOLOGIES/Relational Model Structure.md",
-    "INFORMATION TECHNOLOGIES/Relational Model.md",
-    "INFORMATION TECHNOLOGIES/Relational Database.md",
-    "INFORMATION TECHNOLOGIES/Database Design Process.md",
-    "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
-    "VULKAN/Vulkan instance.md",
     "GAME PRODUCTION",
-    "VULKAN/Vulkan Initialization.md",
-    "CLION/CLION - Region.md",
-    "CPP/CPP - Operator Overload.md",
     "CLION",
     "VULKAN",
     "ANALISIS LEXICO SINTACTICO/IMAGES/AST1.png",
