@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VULKAN/Vulkan Validation Layers.md",
+                "file": "GIT/GIT - Remove.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VULKAN/Vulkan Validation Layers.md"
+                "file": "GIT/GIT - Remove.md"
               }
             }
           },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VULKAN/Vulkan Validation Layers.md",
+                "file": "GIT/GIT - Remove.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VULKAN/Vulkan Validation Layers.md",
+                "file": "GIT/GIT - Remove.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,11 +170,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5e99b486c39f3cfb",
+  "active": "4b35bf2ffd571234",
   "lastOpenFiles": [
+    "VULKAN/Vulkan Validation Layers.md",
+    "GIT/GIT - Remove.md",
     "GIT",
     "INFORMATION TECHNOLOGIES/DCL - Data Control Language.md",
-    "VULKAN/Vulkan Validation Layers.md",
     "INFORMATION TECHNOLOGIES/Access Control.md",
     "INFORMATION TECHNOLOGIES/Normalization.md",
     "INFORMATION TECHNOLOGIES/Relational Model.md",
@@ -214,7 +215,6 @@
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "Untitled.canvas",
     "ANALISIS LEXICO SINTACTICO",
-    "CPP",
     "INFORMATION TECHNOLOGIES/IMAGES/artwoork-entity-relationship-example.png",
     "INFORMATION TECHNOLOGIES/Captura de pantalla 2024-02-07 a las 13.50.03.png",
     "INFORMATION TECHNOLOGIES/IMAGES/multi-valued-attribute-to-instance.png",
