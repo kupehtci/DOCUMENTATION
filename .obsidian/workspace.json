@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GAME PRODUCTION/Inception Deck.md",
+                "file": "ANALISIS LEXICO SINTACTICO/Lexical Analisys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b35bf2ffd571234",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaCC/JavaCC.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Vulkan",
+                "query": "tag:#ANAL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GAME PRODUCTION/Inception Deck.md"
+                "file": "JavaCC/JavaCC.md"
               }
             }
           },
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GAME PRODUCTION/Inception Deck.md",
+                "file": "JavaCC/JavaCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GAME PRODUCTION/Inception Deck.md",
+                "file": "JavaCC/JavaCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,56 +170,56 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "faf916e8d2b6178b",
+  "active": "5e99b486c39f3cfb",
   "lastOpenFiles": [
+    "JAVA",
+    "ANALISIS LEXICO SINTACTICO/Lexer.md",
+    "JavaCC/JavaCC.md",
+    "JavaCC",
+    "ANALISIS LEXICO SINTACTICO/IMAGES/lexer-example.png",
+    "ANALISIS LEXICO SINTACTICO/Compiler.md",
+    "HLSL/HLSL - Unity Cheat Sheet.md",
+    "HLSL/HLSL - Properties.md",
+    "HLSL/HLSL - clip.md",
+    "C-SHARP/CS - USING STATEMENT.md",
+    "ANALISIS LEXICO SINTACTICO/Lexical Analisys.md",
+    "ANALISIS LEXICO SINTACTICO/IMAGES/example-translation-scanner-and-tokenizer.png",
+    "ANALISIS LEXICO SINTACTICO/Untitled",
+    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
+    "SOFTWARE QUALITY/Bug, Error Situation and failure.md",
+    "INFORMATION TECHNOLOGIES/Normalization.md",
+    "SOFTWARE QUALITY",
+    "INFORMATION TECHNOLOGIES/IMAGES/normalization-partial-dependency.png",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "HTML/HTML - Native colors.md",
+    "VIDEOGAMES AI/AI for Videogames.md",
     "GAME PRODUCTION/Roadmap.md",
     "GAME PRODUCTION/Inception Deck.md",
+    "INFORMATION TECHNOLOGIES/Relational Model Structure.md",
+    "INFORMATION TECHNOLOGIES/Relational Model.md",
+    "INFORMATION TECHNOLOGIES/Relational Database.md",
+    "INFORMATION TECHNOLOGIES/Database Design Process.md",
+    "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
     "VULKAN/Vulkan instance.md",
     "GAME PRODUCTION",
     "VULKAN/Vulkan Initialization.md",
     "CLION/CLION - Region.md",
     "CPP/CPP - Operator Overload.md",
     "CLION",
-    "VULKAN/GLFW Import for Vulkan.md",
-    "SQL/SQL - Introduction.md",
-    "INFORMATION TECHNOLOGIES/Database Design Process.md",
-    "INFORMATION TECHNOLOGIES/Relational Database.md",
-    "Aura/AuraInitialization.md",
-    "ANALISIS LEXICO SINTACTICO/Compiler.md",
     "VULKAN",
-    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
     "ANALISIS LEXICO SINTACTICO/IMAGES/AST1.png",
     "ANALISIS LEXICO SINTACTICO/IMAGES",
     "ANALISIS LEXICO SINTACTICO/IMAGES/800px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png",
-    "CONCEPTS/GRAMMARS/Regular Expressions.md",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Constructions and transformations.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Derivation tree.md",
     "Untitled.canvas",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Introduction.md",
     "ANALISIS LEXICO SINTACTICO",
-    "CPP/namespaces.md",
-    "CPP/main.md",
-    "NETWORKING/SMTP.md",
     "CPP",
-    "NETWORKING/Application Layer.md",
-    "VIDEOGAMES AI/AI for Videogames.md",
-    "INFORMATION TECHNOLOGIES/Relational Model.md",
     "VIDEOGAMES AI",
-    "2024-02-05.md",
-    "HTML/Special Characters.md",
     "INFORMATION TECHNOLOGIES/IMAGES/artwoork-entity-relationship-example.png",
-    "INFORMATION TECHNOLOGIES/Relational Model Structure.md",
     "INFORMATION TECHNOLOGIES/Captura de pantalla 2024-02-07 a las 13.50.03.png",
     "INFORMATION TECHNOLOGIES/IMAGES/multi-valued-attribute-to-instance.png",
     "INFORMATION TECHNOLOGIES/IMAGES/er-cardinality-representation.png",
     "INFORMATION TECHNOLOGIES/IMAGES/ER-symbols.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/action-selflinked.jpg",
-    "INFORMATION TECHNOLOGIES/IMAGES",
-    "INFORMATION TECHNOLOGIES",
-    "NETWORKING/IMAGES/OSI-vs-TCP-vs-Hybrid-2.webp",
-    "NETWORKING/IMAGES",
-    "CONCEPTS/IMAGES/dbKAo.png",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
     "UNITY/STATIC BATCHER CANVAS.canvas",
