@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaCC/JavaCC.md",
+                "file": "JAVA/JAVA - IOException.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaCC/JavaCC.md"
+                "file": "JAVA/JAVA - IOException.md"
               }
             }
           },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaCC/JavaCC.md",
+                "file": "JAVA/JAVA - IOException.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaCC/JavaCC.md",
+                "file": "JAVA/JAVA - IOException.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,11 +170,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5e99b486c39f3cfb",
+  "active": "4b35bf2ffd571234",
   "lastOpenFiles": [
+    "JavaCC/JavaCC.md",
+    "JAVA/JAVA - IOException.md",
     "JAVA",
     "ANALISIS LEXICO SINTACTICO/Lexer.md",
-    "JavaCC/JavaCC.md",
     "JavaCC",
     "ANALISIS LEXICO SINTACTICO/IMAGES/lexer-example.png",
     "ANALISIS LEXICO SINTACTICO/Compiler.md",
@@ -214,7 +215,6 @@
     "Untitled.canvas",
     "ANALISIS LEXICO SINTACTICO",
     "CPP",
-    "VIDEOGAMES AI",
     "INFORMATION TECHNOLOGIES/IMAGES/artwoork-entity-relationship-example.png",
     "INFORMATION TECHNOLOGIES/Captura de pantalla 2024-02-07 a las 13.50.03.png",
     "INFORMATION TECHNOLOGIES/IMAGES/multi-valued-attribute-to-instance.png",
