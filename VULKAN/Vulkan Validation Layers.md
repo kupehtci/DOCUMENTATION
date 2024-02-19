@@ -31,6 +31,15 @@ return real_vkCreateInstance(pCreateInfo, pAllocator, instance);
 }
 ```
 
+### Implementation
+
+
+The most complete and useful validation is bundled into the `VK_LAYER_KHRONOS_validation` layer. 
+
+```CPP
+const std::vector<const char*> validationLayers = { "VK_LAYER_KHRONOS_validation" };
+```
+
 ---
 Take a look into vulkan tutorial: 
 https://vulkan-tutorial.com/en/Drawing_a_triangle/Setup/Validation_layers

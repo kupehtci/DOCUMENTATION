@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT/GIT - Remove.md",
+                "file": "VULKAN/Vulkan Validation Layers.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GIT/GIT - Remove.md"
+                "file": "VULKAN/Vulkan Validation Layers.md"
               }
             }
           },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GIT/GIT - Remove.md",
+                "file": "VULKAN/Vulkan Validation Layers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GIT/GIT - Remove.md",
+                "file": "VULKAN/Vulkan Validation Layers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +172,8 @@
   },
   "active": "4b35bf2ffd571234",
   "lastOpenFiles": [
-    "VULKAN/Vulkan Validation Layers.md",
     "GIT/GIT - Remove.md",
+    "VULKAN/Vulkan Validation Layers.md",
     "GIT",
     "INFORMATION TECHNOLOGIES/DCL - Data Control Language.md",
     "INFORMATION TECHNOLOGIES/Access Control.md",
