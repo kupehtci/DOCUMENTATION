@@ -8,7 +8,7 @@ Take into account that using <span style="color:orange;">for loops</span> to tra
 
 ### foreach 
 
-One of the best ways to traverse around associative arrays is using a foreach loop.  
+One of the best ways to traverse around php associative arrays [[PHP - Arrays]] is using a foreach loop.  
 The foreach loop syntax in PHP is: 
 
 ```PHP

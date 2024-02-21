@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6db265c406eb0866",
+        "id": "2a35491e2d63e363",
         "type": "tabs",
         "children": [
           {
-            "id": "faf916e8d2b6178b",
+            "id": "1d6d2e64fedca134",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Lexical Analisys.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b35bf2ffd571234",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VULKAN/Vulkan Validation Layers.md",
+                "file": "PHP/PHP - For loops.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VULKAN/Vulkan Validation Layers.md"
+                "file": "PHP/PHP - For loops.md"
               }
             }
           },
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VULKAN/Vulkan Validation Layers.md",
+                "file": "PHP/PHP - For loops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VULKAN/Vulkan Validation Layers.md",
+                "file": "PHP/PHP - For loops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,17 +157,29 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4b35bf2ffd571234",
+  "active": "1d6d2e64fedca134",
   "lastOpenFiles": [
-    "GIT/GIT - Remove.md",
+    "CLION/CLION - Region.md",
+    "SOFTWARE QUALITY/Software Quality in Agile.md",
+    "ANALISIS LEXICO SINTACTICO/Lexical Analisys.md",
+    "NETWORKING/TELNET.md",
+    "DEVELOPMENT METHODOLOGIES/Agile.md",
+    "DEVELOPMENT METHODOLOGIES",
+    "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
+    "NETWORKING/SSH vs TELNET.md",
+    "NETWORKING/CANVAS - NETWORK PROTOCOLS.md",
+    "Untitled.canvas",
+    "NETWORKING/SSH - Secure Shell.md",
+    "NETWORKING/Networking Ports.md",
+    "CONCEPTS/SSH - (Cryptography) Secure Shell.md",
     "VULKAN/Vulkan Validation Layers.md",
+    "GIT/GIT - Remove.md",
     "GIT",
     "INFORMATION TECHNOLOGIES/DCL - Data Control Language.md",
     "INFORMATION TECHNOLOGIES/Access Control.md",
     "INFORMATION TECHNOLOGIES/Normalization.md",
     "INFORMATION TECHNOLOGIES/Relational Model.md",
     "INFORMATION TECHNOLOGIES/Relational Database.md",
-    "NETWORKING/TELNET.md",
     "NETWORKING/SMTP.md",
     "JavaCC/JavaCC.md",
     "JAVA/JAVA - IOException.md",
@@ -193,19 +192,10 @@
     "HLSL/HLSL - Properties.md",
     "HLSL/HLSL - clip.md",
     "C-SHARP/CS - USING STATEMENT.md",
-    "ANALISIS LEXICO SINTACTICO/Lexical Analisys.md",
     "ANALISIS LEXICO SINTACTICO/IMAGES/example-translation-scanner-and-tokenizer.png",
     "ANALISIS LEXICO SINTACTICO/Untitled",
-    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
-    "SOFTWARE QUALITY/Bug, Error Situation and failure.md",
     "SOFTWARE QUALITY",
     "INFORMATION TECHNOLOGIES/IMAGES/normalization-partial-dependency.png",
-    "MARKDOWN/MARKDOWN - Colors.md",
-    "HTML/HTML - Native colors.md",
-    "VIDEOGAMES AI/AI for Videogames.md",
-    "GAME PRODUCTION/Roadmap.md",
-    "GAME PRODUCTION/Inception Deck.md",
-    "INFORMATION TECHNOLOGIES/Relational Model Structure.md",
     "GAME PRODUCTION",
     "CLION",
     "VULKAN",
@@ -213,8 +203,6 @@
     "ANALISIS LEXICO SINTACTICO/IMAGES",
     "ANALISIS LEXICO SINTACTICO/IMAGES/800px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
-    "Untitled.canvas",
-    "ANALISIS LEXICO SINTACTICO",
     "INFORMATION TECHNOLOGIES/IMAGES/artwoork-entity-relationship-example.png",
     "INFORMATION TECHNOLOGIES/Captura de pantalla 2024-02-07 a las 13.50.03.png",
     "INFORMATION TECHNOLOGIES/IMAGES/multi-valued-attribute-to-instance.png",
@@ -226,7 +214,6 @@
     "SQL/SQL CANVAS COMANDS.canvas",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
-    "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
-    "HTML/HTML.canvas"
+    "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas"
   ]
 }

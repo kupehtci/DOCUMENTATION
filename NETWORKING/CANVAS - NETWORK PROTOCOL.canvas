@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"667fb24fb9c76dc6","type":"file","file":"NETWORKING/SSH - Secure Shell.md","x":-117,"y":-265,"width":837,"height":425},
+		{"id":"0f20cdec5fff0d16","type":"file","file":"NETWORKING/SSH vs TELNET.md","x":860,"y":100,"width":860,"height":400},
+		{"id":"6c0b173f409efc72","type":"file","file":"NETWORKING/TELNET.md","x":-117,"y":240,"width":837,"height":420},
+		{"id":"e3e0a55ac5179c1b","type":"file","file":"NETWORKING/SMTP.md","x":-117,"y":740,"width":877,"height":400},
+		{"id":"e0dbfa3b35e9dc75","type":"text","text":"# EMAIL","x":-620,"y":740,"width":138,"height":50,"color":"6"},
+		{"id":"7b216836c719158f","type":"file","file":"NETWORKING/Internet Protocols.md","x":-1560,"y":390,"width":807,"height":400},
+		{"id":"af6f132960c59d2d","type":"text","text":"# CLIENT - SERVER CONNECTIONS","x":-620,"y":240,"width":291,"height":98},
+		{"id":"f4594567b2cb01d3","type":"text","text":"# MAIN CONCEPTS","x":-1319,"y":160,"width":326,"height":77},
+		{"id":"5d1412232ae6cbc5","type":"text","text":"# NETWORK PROTOCOLS","x":-1284,"y":-265,"width":256,"height":98},
+		{"id":"21457daeda69b8ae","x":-1156,"y":-560,"width":351,"height":99,"type":"text","text":"# GENERAL CONCEPTS"},
+		{"id":"c74de8c0ba4d3555","x":-897,"y":-681,"width":250,"height":60,"type":"text","text":"### BEHAVIOUR"},
+		{"id":"2881564f7812c0b6","x":-360,"y":-1840,"width":692,"height":516,"type":"file","file":"NETWORKING/TCP-IP vs OSI Layers.md"},
+		{"id":"99925827f10f76e9","x":-1556,"y":-731,"width":250,"height":60,"type":"text","text":"## MULTIPLEXITY"},
+		{"id":"365307ce8cb3973a","x":-1660,"y":-1240,"width":680,"height":400,"type":"file","file":"NETWORKING/Networking Ports.md"},
+		{"id":"45aa8eef85946ef0","x":-805,"y":-1240,"width":580,"height":400,"type":"file","file":"NETWORKING/TPC-IP Layers.md"}
+	],
+	"edges":[
+		{"id":"94f37ad5af492d8f","fromNode":"e0dbfa3b35e9dc75","fromSide":"right","toNode":"e3e0a55ac5179c1b","toSide":"left"},
+		{"id":"ee076adb85b50fd3","fromNode":"5d1412232ae6cbc5","fromSide":"bottom","toNode":"f4594567b2cb01d3","toSide":"top"},
+		{"id":"bdaaad5020d5209a","fromNode":"f4594567b2cb01d3","fromSide":"bottom","toNode":"7b216836c719158f","toSide":"top"},
+		{"id":"492c5ba501f30d4e","fromNode":"7b216836c719158f","fromSide":"right","toNode":"e0dbfa3b35e9dc75","toSide":"left"},
+		{"id":"d889ae7734f3a61c","fromNode":"7b216836c719158f","fromSide":"right","toNode":"af6f132960c59d2d","toSide":"left"},
+		{"id":"93eeb3a747adda54","fromNode":"af6f132960c59d2d","fromSide":"right","toNode":"667fb24fb9c76dc6","toSide":"left"},
+		{"id":"ad88015f5c2b1fca","fromNode":"af6f132960c59d2d","fromSide":"right","toNode":"6c0b173f409efc72","toSide":"left"},
+		{"id":"685b4d441661742f","fromNode":"667fb24fb9c76dc6","fromSide":"right","toNode":"0f20cdec5fff0d16","toSide":"left"},
+		{"id":"9486f28221536a43","fromNode":"6c0b173f409efc72","fromSide":"right","toNode":"0f20cdec5fff0d16","toSide":"left"},
+		{"id":"a84fa5e739f6f81e","fromNode":"5d1412232ae6cbc5","fromSide":"top","toNode":"21457daeda69b8ae","toSide":"bottom"},
+		{"id":"2936278d96a610f1","fromNode":"45aa8eef85946ef0","fromSide":"top","toNode":"2881564f7812c0b6","toSide":"bottom"},
+		{"id":"7f428375445079e6","fromNode":"21457daeda69b8ae","fromSide":"top","toNode":"c74de8c0ba4d3555","toSide":"bottom"},
+		{"id":"f48e15253ff0974c","fromNode":"c74de8c0ba4d3555","fromSide":"top","toNode":"45aa8eef85946ef0","toSide":"bottom"},
+		{"id":"0c522224f96657df","fromNode":"21457daeda69b8ae","fromSide":"top","toNode":"99925827f10f76e9","toSide":"bottom"},
+		{"id":"bc9005dd4fa19606","fromNode":"99925827f10f76e9","fromSide":"top","toNode":"365307ce8cb3973a","toSide":"bottom"}
+	]
+}

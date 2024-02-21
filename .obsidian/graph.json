@@ -55,6 +55,13 @@
         "a": 1,
         "rgb": 13874425
       }
+    },
+    {
+      "query": "tag:#NETWORKING  ",
+      "color": {
+        "a": 1,
+        "rgb": 518527
+      }
     }
   ],
   "collapse-display": true,
@@ -67,6 +74,6 @@
   "repelStrength": 15.7511393229167,
   "linkStrength": 0.783487955729167,
   "linkDistance": 312,
-  "scale": 0.3214035458338221,
+  "scale": 0.9348838251487414,
   "close": false
 }

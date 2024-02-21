@@ -30,7 +30,7 @@ When a device requests a file transfer, the <span style="color:blue;">FTO</span>
 
 #### `SFTP` Secure File Transfer Protocol
 
-Also known as SSH FTP refers to File Transfer Protocol over Secure Shell (SSH). [[SSH - Secure Shell]]. 
+Also known as SSH FTP refers to File Transfer Protocol over Secure Shell (SSH). [[SSH - (Cryptography) Secure Shell]]. 
 
 This protocol encrypts both commands and data while the transmission using SSH keys. 
 
