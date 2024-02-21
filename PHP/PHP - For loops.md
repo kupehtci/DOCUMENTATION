@@ -13,7 +13,7 @@ The foreach loop syntax in PHP is:
 
 ```PHP
 foreach (array_variable as $value){
-//code
+	//code
 }
     
 foreach (array_variable as $key => $value){

@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2a35491e2d63e363",
+        "id": "90cd36341cdb8959",
         "type": "tabs",
         "children": [
           {
-            "id": "1d6d2e64fedca134",
+            "id": "efcc3d07633fcc7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/PHP - For loops.md",
+                "file": "CONCEPTS/ASCII.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "105746f64d84c59e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NETWORKING/FTP File Transfer Protocol.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHP/PHP - For loops.md"
+                "file": "NETWORKING/FTP File Transfer Protocol.md"
               }
             }
           },
@@ -80,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 275.5,
+    "collapsed": true
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -96,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHP/PHP - For loops.md",
+                "file": "NETWORKING/FTP File Transfer Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHP/PHP - For loops.md",
+                "file": "NETWORKING/FTP File Transfer Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,12 +171,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1d6d2e64fedca134",
+  "active": "105746f64d84c59e",
   "lastOpenFiles": [
+    "NETWORKING/Firewall.md",
+    "NETWORKING/NAT.md",
+    "NETWORKING/FTP File Transfer Protocol.md",
+    "CONCEPTS/ASCII.md",
+    "PHP/PHP - Postgres connection.md",
+    "POSTGRES SQL/XAMPP Enable Postgress.md",
+    "SQL/SQL - Natural Join.md",
+    "NETWORKING/TELNET.md",
+    "POSTGRES SQL",
+    "PHP/PHP - For loops.md",
     "CLION/CLION - Region.md",
     "SOFTWARE QUALITY/Software Quality in Agile.md",
     "ANALISIS LEXICO SINTACTICO/Lexical Analisys.md",
-    "NETWORKING/TELNET.md",
     "DEVELOPMENT METHODOLOGIES/Agile.md",
     "DEVELOPMENT METHODOLOGIES",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
@@ -181,17 +204,9 @@
     "INFORMATION TECHNOLOGIES/Relational Model.md",
     "INFORMATION TECHNOLOGIES/Relational Database.md",
     "NETWORKING/SMTP.md",
-    "JavaCC/JavaCC.md",
-    "JAVA/JAVA - IOException.md",
     "JAVA",
-    "ANALISIS LEXICO SINTACTICO/Lexer.md",
     "JavaCC",
     "ANALISIS LEXICO SINTACTICO/IMAGES/lexer-example.png",
-    "ANALISIS LEXICO SINTACTICO/Compiler.md",
-    "HLSL/HLSL - Unity Cheat Sheet.md",
-    "HLSL/HLSL - Properties.md",
-    "HLSL/HLSL - clip.md",
-    "C-SHARP/CS - USING STATEMENT.md",
     "ANALISIS LEXICO SINTACTICO/IMAGES/example-translation-scanner-and-tokenizer.png",
     "ANALISIS LEXICO SINTACTICO/Untitled",
     "SOFTWARE QUALITY",
@@ -200,7 +215,6 @@
     "CLION",
     "VULKAN",
     "ANALISIS LEXICO SINTACTICO/IMAGES/AST1.png",
-    "ANALISIS LEXICO SINTACTICO/IMAGES",
     "ANALISIS LEXICO SINTACTICO/IMAGES/800px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "INFORMATION TECHNOLOGIES/IMAGES/artwoork-entity-relationship-example.png",
