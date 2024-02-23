@@ -10,7 +10,7 @@ Conception --> Prototyping --> id1(Core Features) --> Alpha --> Beta --> id2(Liv
 
 -----PITCH APPROVED-----
 
-* `Conception`: Define the game characteristics and details after the game pitch has been aproved. 
+* `Conception`: Define the game characteristics and details after the game pitch has been approved. 
 	* Initial GDD & narrative blueprint
 	* Visual style guide and Art Bible $*^2$ 
 	* Documentation creation
