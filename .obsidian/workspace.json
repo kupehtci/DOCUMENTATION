@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GAME PRODUCTION/Risk Evaluation.md",
+                "file": "CMAKE/CMAKE - If statement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ab674500ca01d25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GAME PRODUCTION/Scope.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ANAL",
+                "query": "CMAKE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GAME PRODUCTION/Risk Evaluation.md"
+                "file": "CMAKE/CMAKE - If statement.md"
               }
             }
           },
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GAME PRODUCTION/Risk Evaluation.md",
+                "file": "CMAKE/CMAKE - If statement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GAME PRODUCTION/Risk Evaluation.md",
+                "file": "CMAKE/CMAKE - If statement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,12 +184,26 @@
   },
   "active": "8c4009f05fea3fef",
   "lastOpenFiles": [
-    "GAME PRODUCTION/Roadmap.md",
+    "GAME PRODUCTION/Scope.md",
+    "CPP/CPP - Operator Overload.md",
+    "CMAKE/CMAKE - If statement.md",
+    "CMAKE/CMAKE - System variables.md",
     "GAME PRODUCTION/Risk Evaluation.md",
+    "GAME PRODUCTION/risk-important-neighbors.png",
+    "GAME PRODUCTION/Inception Deck.md",
+    "PHP/PHP - header().md",
+    "PHP/PHP - mixed.md",
+    "PHP/PHP - Output Buffering ( ob ).md",
+    "CMAKE/CMAKE - CPU handler.md",
+    "GAME PRODUCTION/What team do we need.md",
+    "CMAKE/CMAKE - Platform differentiations.md",
+    "CMAKE",
+    "NETWORKING/FTP File Transfer Protocol.md",
+    "GAME PRODUCTION/Important Neighbors.md",
+    "GAME PRODUCTION/Roadmap.md",
     "NETWORKING/TCP - Handshake.md",
     "NETWORKING/TELNET - Commands.md",
     "NETWORKING/TELNET.md",
-    "NETWORKING/FTP File Transfer Protocol.md",
     "NETWORKING/POP3 - Commands workflow.md",
     "NETWORKING/TELNET - SMTP commands.md",
     "SOFTWARE QUALITY/Bug, Error Situation and failure.md",
@@ -186,22 +212,10 @@
     "CONCEPTS/ASCII.md",
     "PHP/PHP - Postgres connection.md",
     "POSTGRES SQL/XAMPP Enable Postgress.md",
-    "SQL/SQL - Natural Join.md",
     "POSTGRES SQL",
-    "PHP/PHP - For loops.md",
-    "CLION/CLION - Region.md",
-    "SOFTWARE QUALITY/Software Quality in Agile.md",
-    "ANALISIS LEXICO SINTACTICO/Lexical Analisys.md",
-    "DEVELOPMENT METHODOLOGIES/Agile.md",
     "DEVELOPMENT METHODOLOGIES",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
-    "NETWORKING/SSH vs TELNET.md",
-    "NETWORKING/CANVAS - NETWORK PROTOCOLS.md",
     "Untitled.canvas",
-    "NETWORKING/SSH - Secure Shell.md",
-    "NETWORKING/Networking Ports.md",
-    "CONCEPTS/SSH - (Cryptography) Secure Shell.md",
-    "VULKAN/Vulkan Validation Layers.md",
     "GIT",
     "JAVA",
     "JavaCC",
@@ -212,7 +226,6 @@
     "INFORMATION TECHNOLOGIES/IMAGES/normalization-partial-dependency.png",
     "GAME PRODUCTION",
     "CLION",
-    "VULKAN",
     "ANALISIS LEXICO SINTACTICO/IMAGES/AST1.png",
     "ANALISIS LEXICO SINTACTICO/IMAGES/800px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
@@ -220,7 +233,6 @@
     "INFORMATION TECHNOLOGIES/Captura de pantalla 2024-02-07 a las 13.50.03.png",
     "INFORMATION TECHNOLOGIES/IMAGES/multi-valued-attribute-to-instance.png",
     "INFORMATION TECHNOLOGIES/IMAGES/er-cardinality-representation.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/ER-symbols.png",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
     "UNITY/STATIC BATCHER CANVAS.canvas",

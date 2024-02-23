@@ -21,18 +21,18 @@ Vector2D operator*(const float& op);
 
 The following operators can be overloaded in c++: 
 
-|Operators that can be overloaded|Examples|
-|---|---|
-|Binary Arithmetic|+, -, *, /, %|
-|Unary Arithmetic|+, -, ++, —|
-|Assignment|=, +=,*=, /=,-=, %=|
-|Bitwise|& , \| , << , >> , ~ , ^|
-|De-referencing|(->)|
-|Dynamic memory allocation,  <br>De-allocation|New, delete|
-|Subscript|[ ]|
-|Function call|()|
-|Logical|&,  \| \|, !|
-|Relational|>, < , = =, <=, >=|
+| Operators that can be overloaded              | Examples                 |
+| --------------------------------------------- | ------------------------ |
+| Binary Arithmetic                             | +, -, *, /, %            |
+| Unary Arithmetic                              | +, -, ++, —              |
+| Assignment                                    | =, +=,*=, /=,-=, %=      |
+| Bitwise                                       | & , \| , << , >> , ~ , ^ |
+| De-referencing                                | (->)                     |
+| Dynamic memory allocation,  <br>De-allocation | New, delete              |
+| Subscript                                     | [ ]                      |
+| Function call                                 | ()                       |
+| Logical                                       | &,  \| \|, !             |
+| Relational                                    | >, < , = =, <=, >=       |
 
 ### Operators that can't be overloaded
 
