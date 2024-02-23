@@ -6,6 +6,12 @@ In a bug or error case of a software development, it's common to distinguish bet
 * `Error Situation`: is the system state that is hold while hapening the bug or the environment variables that causes the bug. 
 * `Failure`: the deviation from the expected behavior. Its the result of the bug that the user notices ir the form that the bug takes. 
 
+Bug not always leads into a failure.
+A bug may sometimes lead into a failure depending on: 
+* input values on the software
+* when the software is executed
+* external circumstances
+
 ###### Example
 
 Imagine Peter is driving towards Zaragoza: 
