@@ -51,6 +51,7 @@ The key attribute of the super-entity.
 #### EXAMPLE
 
 Design the relational model from the ER model designed for the Gallery Problem. 
+
 ![[artwoork-entity-relationship-example.png]]
 
 * Address 
