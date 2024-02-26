@@ -39,6 +39,14 @@ id42(Unique)-->id45(Make slide)
 id42(Unique)-->id46(Blind enemies)
 ```
 
+We need to define in which game development state needs to be completed each scope feature.
 
+At least mark the features that need to have the game to be considered that is a showable version, a vertical slice or a demo. 
+
+The game production phase can be in different states: 
+
+* Not started
+* Inception
+* 
 
 
