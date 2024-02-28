@@ -2,6 +2,7 @@
 
 ### TELNET COMMANDS
 
+All this commands work by the use of **negotiation** with the `WILL` and `DO` commands. [[TELNET]].  
 
 | **Command Byte Value (Decimal)** | **Command Code** | **Command** | **Description** |
 | ---- | ---- | ---- | ---- |

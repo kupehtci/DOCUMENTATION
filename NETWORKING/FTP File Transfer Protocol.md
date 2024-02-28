@@ -2,7 +2,7 @@
 
 ## FTP or File Transfer Protocol
 
-<span style="color:orange;">File transfer protocol</span> is an <span style="color:MediumSlateBlue;">application layer protocol</span> [[TPC-IP Layers]] that uses TCP to transfer files. Its similar to SMTP [[SMTP]] because was developed after SMTP was created. 
+<span style="color:orange;">File transfer protocol</span> is an <span style="color:MediumSlateBlue;">application layer protocol</span> [[TPC - IP Layers]] that uses TCP to transfer files. Its similar to SMTP [[SMTP]] because was developed after SMTP was created. 
 Supports two connections, one for control and one for data transfer. 
 
 * Control connection: send ASCII [[ASCII]] commands and responses. ( port 21 on the server). 

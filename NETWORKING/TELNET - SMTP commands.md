@@ -25,7 +25,6 @@ You will see the message: **250 Accepted**.
 
 This will return:  ```250 2.0.0 Ok: queued as 8CD30301D13```
 
-
 ### CHECK MAILS
 
 1.  Enter the `telnet localhost 1110` to connect via POP3. 
