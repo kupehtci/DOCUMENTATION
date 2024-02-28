@@ -11,15 +11,24 @@
             "id": "105746f64d84c59e",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "afc2563843c4711d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "SOFTWARE QUALITY/SQ - Practice Case - LivingApps Movistar.md",
+                "file": "INFORMATION TECHNOLOGIES/Concurrency Control Solutions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOFTWARE QUALITY/SQ - Practice Case - LivingApps Movistar.md"
+                "file": "INFORMATION TECHNOLOGIES/Concurrency Control Solutions.md"
               }
             }
           },
@@ -96,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SOFTWARE QUALITY/SQ - Practice Case - LivingApps Movistar.md",
+                "file": "INFORMATION TECHNOLOGIES/Concurrency Control Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SOFTWARE QUALITY/SQ - Practice Case - LivingApps Movistar.md",
+                "file": "INFORMATION TECHNOLOGIES/Concurrency Control Solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,10 +166,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "105746f64d84c59e",
+  "active": "afc2563843c4711d",
   "lastOpenFiles": [
-    "SOFTWARE QUALITY/SQ - Practice Case - Iphone alarm.md",
+    "INFORMATION TECHNOLOGIES/Concurrency Control Solutions.md",
+    "INFORMATION TECHNOLOGIES/Concurrency Control Schedules.md",
+    "INFORMATION TECHNOLOGIES/Concurrency Control Problems.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/Uncommited-data-dirty-read.png",
     "SOFTWARE QUALITY/SQ - Practice Case - LivingApps Movistar.md",
+    "SOFTWARE QUALITY/SQ - Practice Case - Iphone alarm.md",
     "SOFTWARE QUALITY/SQ - Session 2.md",
     "SOFTWARE QUALITY/SQ - Session 3.md",
     "SOFTWARE QUALITY/SQ - Practice Case - Zune player.md",
@@ -187,9 +200,6 @@
     "VULKAN/Vulkan Initialization.md",
     "JavaCC/JavaCC Token definition.md",
     "JavaCC/JavaCC Basic Parser.md",
-    "ANALISIS LEXICO SINTACTICO/JavaCC.md",
-    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
-    "ANALISIS LEXICO SINTACTICO/Compiler.md",
     "GAME PRODUCTION/risk-important-neighbors.png",
     "CMAKE",
     "POSTGRES SQL",
@@ -207,7 +217,6 @@
     "ANALISIS LEXICO SINTACTICO/IMAGES/AST1.png",
     "ANALISIS LEXICO SINTACTICO/IMAGES/800px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
-    "INFORMATION TECHNOLOGIES/IMAGES/artwoork-entity-relationship-example.png",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
     "UNITY/STATIC BATCHER CANVAS.canvas",
