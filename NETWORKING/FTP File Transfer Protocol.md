@@ -67,4 +67,20 @@ We prefer passive mode, when:
 * While client is behind a NAT or a firewall. 
 * If server cannot initiate the connection. 
 
+When entering `PASV` mode, the response back from the server is:
+
+* 227 Entering Passive Mode (9,99,99,88,214,137) 
+
+This is the way the server tells the client what port the server will be listening on for the client to reach out to it for the data connection.
+
+- (9,99,99,88,214,137) these 6 numbers following in the servers response break down as follows:
+
+First 4 are the ip address: 9.99.99.88 
+
+The fifth and sixth numbers are the port. You take the fifth number multiply it by 256 then add the sixth number:
+
+$214 * 256 = 54784 + 137 = 54921$ 
+
+So the servers response is telling the client that it is listening at the ip/port of 9.99.99.88:54921***
+
 If server is behind a firewall or a NAT, needs to let the specific ports open to enable connection.[[Networking Ports]]. 
