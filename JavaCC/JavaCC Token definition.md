@@ -25,7 +25,7 @@ TOKEN:
 }
 ```
 
-The different token declarations need to be separated with a $|$ operator.  
+The different token declarations need to be separated with a $|$ operator. 
 
 
 ### Complex tokens
@@ -41,7 +41,7 @@ For reading this XML structure information:
 
 ```Java
 < NUMERO: (["0"-"9"])>
-< LETRAS: (["a"-"z", "A"-"Z", " "])
+|< LETRAS: (["a"-"z", "A"-"Z", " "])
 |< ABRIR_ALUMNO: ("<Alumno>") >
 |< CERRAR_ALUMNO: ("</Alumno>")>
 |< ABRIR_NOMBRE: ("<nombre>")>
@@ -51,17 +51,25 @@ For reading this XML structure information:
 ```
 
 In this case, we have some complex tokens definition: 
-
-For reading float definitions, we can declare the "," as a literal and `(<NUMBER>)* "," (<NUMBER>){2}`, for expecting 2 numbers after the comma. 
-
+Example, for reading float definitions, we can declare the "," as a literal and `(<NUMBER>)* "," (<NUMBER>){2}`, for expecting 2 numbers after the comma. 
 
 If want to read the token
 
 ```Java
-LIGA 1 JORNADA 4
+LIGA 1 - JORNADA 4
 ```
 
-Take into account the spaces in the text
+Take into account the spaces in the text: 
+
+```Java
+TOKEN: 
+{
+	< NUMERO: (["0"-"9"])>
+	| < LETRAS: (["a"-"z", "A"-"Z", " "])
+	// LIGA 1 - JORNADA 38
+	| < CABECERA: ("LIGA " (<NUMERO>){0, 2} " - JORNADA " (<NUMERO>)+)> 
+}
+```
 
 ### Token modifiers
 

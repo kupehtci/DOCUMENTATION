@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOFTWARE QUALITY/QA - Refactoring.md",
+                "file": "ANALISIS LEXICO SINTACTICO/Lexer.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,7 +47,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CMAKE",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOFTWARE QUALITY/QA - Refactoring.md"
+                "file": "ANALISIS LEXICO SINTACTICO/Lexer.md"
               }
             }
           },
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SOFTWARE QUALITY/QA - Refactoring.md",
+                "file": "ANALISIS LEXICO SINTACTICO/Lexer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SOFTWARE QUALITY/QA - Refactoring.md",
+                "file": "ANALISIS LEXICO SINTACTICO/Lexer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,8 +147,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -166,36 +165,41 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "64655bd646b7ded3",
+  "active": "5e99b486c39f3cfb",
   "lastOpenFiles": [
-    "HTML/HTML - Basics.md",
-    "SOFTWARE QUALITY/QA - Refactoring.md",
-    "HTML/HTML - Form.md",
-    "NETWORKING/HTTP - Keywords.md",
-    "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
-    "NETWORKING/Internet Protocols.md",
-    "NETWORKING/FTP File Transfer Protocol.md",
-    "NETWORKING/Firewall.md",
-    "NETWORKING/NAT.md",
-    "NETWORKING/Networking Ports.md",
-    "NETWORKING/TPC - IP Layers.md",
-    "NETWORKING/TCP - IP vs OSI Layers.md",
-    "NETWORKING/TELNET - SMTP commands.md",
+    "ANALISIS LEXICO SINTACTICO/Interpreter.md",
+    "ANALISIS LEXICO SINTACTICO/Lexical Analysis.md",
+    "ANALISIS LEXICO SINTACTICO/Lexer.md",
+    "JavaCC/JavaCC Token definition.md",
+    "ANALISIS LEXICO SINTACTICO/Lexical Analisys.md",
+    "ANALISIS LEXICO SINTACTICO/Compiler.md",
+    "ANALISIS LEXICO SINTACTICO/IMAGES/lexic-and-syntax-analysis.png",
+    "ANALISIS LEXICO SINTACTICO/Compiler vs Interpreter.md",
+    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
+    "NETWORKING/TELNET - Duplex mode.md",
     "NETWORKING/TELNET.md",
+    "NETWORKING/IMAGES/ascii-nvt-control-codes.png",
+    "NETWORKING/SSH vs TELNET.md",
+    "CONCEPTS/ASCII.md",
+    "NETWORKING/NVT.md",
+    "NETWORKING/TPC - IP Layers.md",
     "NETWORKING/TELNET - Commands.md",
-    "NETWORKING/DNS - Domain Name System.md",
-    "INFORMATION TECHNOLOGIES/Concurrency Control Solutions.md",
+    "NETWORKING/SMTP commands.md",
+    "LATEX/LATEX - Comments.md",
+    "LATEX/LATEX - Environments.md",
+    "CONCEPTS/Ensembler.md",
     "INFORMATION TECHNOLOGIES/Concurrency Control Schedules.md",
-    "INFORMATION TECHNOLOGIES/Concurrency Control Problems.md",
+    "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
+    "GAME PRODUCTION/Scope.md",
+    "GAME PRODUCTION/Meetings.md",
+    "MATHEMATICAL CONCEPTS/AIC - Akaike Information Criterion.md",
+    "MATHEMATICAL CONCEPTS/BIC - Bayesian Information Criterion.md",
+    "DOCKER/DOCKER - Run.md",
+    "MATHEMATICAL CONCEPTS/IMAGES",
+    "MATHEMATICAL CONCEPTS",
+    "DOCKER",
+    "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
     "INFORMATION TECHNOLOGIES/IMAGES/Uncommited-data-dirty-read.png",
-    "SOFTWARE QUALITY/SQ - Practice Case - LivingApps Movistar.md",
-    "SOFTWARE QUALITY/SQ - Practice Case - Iphone alarm.md",
-    "SOFTWARE QUALITY/SQ - Session 2.md",
-    "SOFTWARE QUALITY/SQ - Session 3.md",
-    "SOFTWARE QUALITY/SQ - Practice Case - Zune player.md",
-    "SOFTWARE QUALITY/SQ - Practice Case - VehicleComunication.md",
-    "SOFTWARE QUALITY/SQ - Practice Case - Therac25.md",
-    "AI FOR VIDEOGAMES/Pathfinding.md",
     "AI FOR VIDEOGAMES/IMAGES/pathfinding-grid-cost-parent.png",
     "AI FOR VIDEOGAMES/IMAGES",
     "AI FOR VIDEOGAMES/IMAGES/Pathfinding-grid-cost-calculation.png",
@@ -208,14 +212,9 @@
     "Untitled.canvas",
     "GIT",
     "JAVA",
-    "JavaCC",
     "ANALISIS LEXICO SINTACTICO/IMAGES/lexer-example.png",
     "ANALISIS LEXICO SINTACTICO/IMAGES/example-translation-scanner-and-tokenizer.png",
-    "ANALISIS LEXICO SINTACTICO/Untitled",
-    "SOFTWARE QUALITY",
     "INFORMATION TECHNOLOGIES/IMAGES/normalization-partial-dependency.png",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/AST1.png",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/800px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",

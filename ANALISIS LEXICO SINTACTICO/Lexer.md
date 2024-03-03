@@ -44,8 +44,10 @@ Another example:
 
 ![[./IMAGES/lexer-example.png|350]]
 
-Most of the tokens can be described with a Regular Expression [[Regular Expressions]]: 
+Most of the tokens can be described with a Regular Expression [[Regular Expressions]]. 
+### TOKENS DEFINITION
 
+In order to define this tokens and the pattern needs the input to follow to be indetified each part as its correspondent token, we need to declare them using <span style="color:orange;">Regular Expressions</span>. [[Regular Expressions]]. 
 * character --> (a|b|c|...|z|A|B|...|Z) = \[a-zA-Z\]
 * digit --> (0|1|2|3|4|5|6|7|8|9)=\[0-9\] 
 * id --> char(char|digit)*  
@@ -62,5 +64,26 @@ And the main modifiers of the regular expressions:
 - $r^+$ as a simetric close
 * Alternative $( | )$ choose between the right or left symbols of $|$. 
 * r? for defining optionality. 
-* 
 
+Example: [[JavaCC Token definition]]. 
+
+Also this Regular Expressions can be treated as Finite automatons. [[Deterministic Finite Automaton (AFD) (DFA)]], that define the certain states the input need to have to end in a certain end state or token recognized or even error if doesn't follow the pattern of the token. 
+
+### IMPLEMENTATION OF A LEXICAL ANALYSIS
+
+To implement the lexical analysis in a compiler, can be done in multiples ways. 
+
+* Using a scanner generator as Lex, Flex ore JavaCC plugin [[JavaCC Basic Parser]]. This tokens can be defined in this programs as a high-level description similar to regular expressions. 
+* Rough Programming in C or Java using E/S facilities of this languages. 
+* Written in assembler and administer explicitly the input. 
+
+### TOKEN PRIORIZATION 
+
+When a certain pattern can be identified as more than one token, how the resultant token is determined?. 
+
+Desambiguity rules: 
+
+* Rule 1: Longest one
+	From all tokens that can be assigned to the input, chose the one with the lexema more long. 
+* Rule 2: Priorization rule
+	If more than one token can be assigned, choose the one that is declared first by the priorization rule. 
