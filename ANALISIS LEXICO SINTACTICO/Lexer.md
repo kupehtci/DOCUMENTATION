@@ -81,9 +81,32 @@ To implement the lexical analysis in a compiler, can be done in multiples ways.
 
 When a certain pattern can be identified as more than one token, how the resultant token is determined?. 
 
-Desambiguity rules: 
+Disambiguation rules: 
 
 * Rule 1: Longest one
 	From all tokens that can be assigned to the input, chose the one with the lexema more long. 
 * Rule 2: Priorization rule
-	If more than one token can be assigned, choose the one that is declared first by the priorization rule. 
+	If more than one token can be assigned, token selection is made by the declaration order (First declared is the first). 
+
+
+### LOOKAHEAD RULE
+
+Not always is posible to determine a token without looking if its ended. 
+
+For example: 
+
+With a JavaCC token declaration of: 
+
+```Java
+TOKENS:
+{
+	<NUMBER: (["0"-"9"])>
+	| <LETTER: (["a"-"z", "A"-"Z", " "])>
+	| <BLANK: (" ")*>
+	| <IF: "if(" (<LETTER>)* ")">
+}
+```
+
+If Scanner reads an "i", could be tokenized as a `<LETTER>` but if its followed by an "f, wouldn't be a letter token, would be a `<IF>`.  
+
+
