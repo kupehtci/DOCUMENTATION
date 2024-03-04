@@ -28,17 +28,17 @@ Example:
 x = x * (acc+123)
 ```
 
-| Token | Lexeme or value |
-| ---- | ---- |
-| Identifier | x |
-| equal | \= |
-| identifier | x |
-| asterisc | \* |
-| parenthesis | \( |
-| identifier | acc |
-| plus | \+ |
-| integer | 123 |
-| parenthesis | \) |
+| Token       | Lexeme or value |
+| ----------- | --------------- |
+| Identifier  | x               |
+| equal       | \=              |
+| identifier  | x               |
+| asterisc    | \*              |
+| parenthesis | \(              |
+| identifier  | acc             |
+| plus        | \+              |
+| integer     | 123             |
+| parenthesis | \)              |
 Another example: 
 
 
