@@ -65,10 +65,10 @@ Where:
 
 The states tables is defined similar as a <span style="color:MediumSlateBlue;">transition table</span>: 
 
-| f | 0 | 1 | B |
-| ---- | ---- | ---- | ---- |
-| q0 | (qF, 0, D) | (q1, 0, D) | (q0, 0, I) |
-| q1  | (q0, 1, P) | (q1, , P) | (q0, 1, P) |
+| f   | 0          | 1          | B          |
+| --- | ---------- | ---------- | ---------- |
+| q0  | (qF, 0, D) | (q1, 0, D) | (q0, 0, I) |
+| q1  | (q0, 1, P) | (q1, 1, P) | (q0, 1, P) |
 With each state representing a function with: 
 
 > (next state, symbol to write in strip, strip movement)

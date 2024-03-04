@@ -1,9 +1,8 @@
 #CONCEPTS 
-
 ### Lexer
 
 
-The lexer builds and convert characters into tokens for a compiler in the Lexical Analysis step. 
+The lexer reads with an Scanner and convert characters into tokens in the Lexical Analysis phase of a compiler. 
 
 It recognizes: 
 * reserved keywords of the language 
@@ -12,7 +11,7 @@ It recognizes:
 * Ignore blank spaces. 
 * Recognized special directives like preprocessor directives `#include file.cpp` and macros `#define PI 3.1418` 
 
-Also find code errors. 
+These patterns that the input need to meet to be recognized each part with a token needs to be defined usually by Regular Expressions [[Regular Expressions]]. 
 
 ### BEHAVIOUR
 

@@ -48,7 +48,7 @@ The steps a compiler does is:
 
 * `Optimization`: Optional phase that optimizes the thousands of assembler code generates in the previous step. 
 
-* `Object Code Generation`: Translation of the assembler code model into target's architecture machine code of the device, using an appropriate instruction set. 
+* `Object Code Generation`: Translation of the assembler code model into target's architecture machine code of the device, using an appropriate instruction set, registers and memory allocations. 
   The object code or machine code resultant is not totally executable, because contains calls to OS functions and the <span style="color:orange;">linker</span> completes this call with libraries referenced.  
 
 * `Machine Code`:  Its the lowest level language, capable of being directly understand by a machine. 
