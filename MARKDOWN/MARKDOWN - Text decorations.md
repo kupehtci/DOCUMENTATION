@@ -1,6 +1,6 @@
 #MARKDOWN 
 
-You can perform some text adjustments and cahnge style of a markdown component in <span style="color:purple;">Obsidian</span> like this way. Using HTML syntax: [[HTML-Basic Structure]]
+You can perform some text adjustments and cahnge style of a markdown component in <span style="color:purple;">Obsidian</span> like this way. Using HTML syntax: [[HTML - Basic Structure]]
 
 | Tags | result |
 | ---- | ---- |

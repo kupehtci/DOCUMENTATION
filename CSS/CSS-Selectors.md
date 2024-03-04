@@ -18,7 +18,7 @@ We can divide CSS selectors into five categories:
 	}
 ```
 
-If we want to differ between items of the same tag, we can assign them a class or an id and the tag can be selected differently if its a class or an id:  [[HTML-Class or id]]
+If we want to differ between items of the same tag, we can assign them a class or an id and the tag can be selected differently if its a class or an id:  [[HTML - Class or id]]
 
 If its an class, just use a point before the class name: 
 

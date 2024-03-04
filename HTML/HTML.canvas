@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"9bedbd3b07cfc2b8","type":"file","file":"HTML/HTML-Basic Structure.md","x":-700,"y":-160,"width":807,"height":520},
-		{"id":"3986a8fa4a194ea1","type":"file","file":"HTML/HTML-Link css files.md","x":386,"y":-520,"width":674,"height":538},
+		{"id":"9bedbd3b07cfc2b8","type":"file","file":"HTML/HTML - Basic Structure.md","x":-700,"y":-160,"width":807,"height":520},
+		{"id":"3986a8fa4a194ea1","type":"file","file":"HTML/HTML - Link css files.md","x":386,"y":-520,"width":674,"height":538},
 		{"id":"a90267e15323d000","type":"text","text":"```HTML \n<body>\n```\nThe body tag is the main content of the webpage \n","x":386,"y":120,"width":250,"height":140},
 		{"id":"9583cf179246870e","type":"text","text":"```HTML \n<meta>\n```\nThe meta tag is to pass meta data into the web browser","x":-200,"y":-540,"width":250,"height":172}
 	],

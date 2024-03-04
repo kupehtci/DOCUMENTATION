@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CONCEPTS/RTL - Register Transfer Language.md",
+                "file": "HTML/HTML - span.md",
                 "mode": "source",
                 "source": false
               }
@@ -75,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CONCEPTS/RTL - Register Transfer Language.md"
+                "file": "HTML/HTML - span.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CONCEPTS/RTL - Register Transfer Language.md",
+                "file": "HTML/HTML - span.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CONCEPTS/RTL - Register Transfer Language.md",
+                "file": "HTML/HTML - span.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,21 @@
   },
   "active": "105746f64d84c59e",
   "lastOpenFiles": [
+    "HTML/Special Characters.md",
+    "HTML/HTML - span.md",
+    "HTML/HTML - Link css files.md",
+    "HTML/HTML - Class or id.md",
+    "HTML/HTML - Basic Structure.md",
+    "HTML/HTML - Basic footer section.md",
+    "ANALISIS LEXICO SINTACTICO/Lexer.md",
+    "ANALISIS LEXICO SINTACTICO/Lexical Analysis.md",
     "ANALISIS LEXICO SINTACTICO/Compiler.md",
+    "CONCEPTS/Turing Machine.md",
+    "CONCEPTS/Turing Machine - State Diagram.md",
+    "CONCEPTS/SSH - (Cryptography) Secure Shell.md",
+    "CONCEPTS/SIMD - Single Instruction Multiple Data.md",
     "CONCEPTS/RTL - Register Transfer Language.md",
+    "COMPUTATIONAL THEORY/IMAGES.md",
     "HTML/HTML - Native colors.md",
     "HTML/IMAGES/html_native_colors_3.jpg",
     "HTML/IMAGES/html_native_colors_4.jpg",
@@ -179,17 +192,13 @@
     "HTML/IMAGES/html_native_colors_6.jpg",
     "HTML/IMAGES/html_native_colors_2.jpg",
     "HTML/IMAGES/html_native_colors_1.jpg",
-    "HTML/HTML-Link css files.md",
     "HTML/IMAGES",
-    "HTML/Untitled.md",
     "HTML/IMAGES.md",
     "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
     "ANALISIS LEXICO SINTACTICO/IMAGES/lexic-and-syntax-analysis.png",
     "ANALISIS LEXICO SINTACTICO/IMAGES/lexer-example.png",
     "ANALISIS LEXICO SINTACTICO/IMAGES/example-translation-scanner-and-tokenizer.png",
     "ANALISIS LEXICO SINTACTICO/IMAGES/compiler-phases-diagram-english.png",
-    "ANALISIS LEXICO SINTACTICO/Lexical Analysis.md",
-    "ANALISIS LEXICO SINTACTICO/Lexer.md",
     "ANALISIS LEXICO SINTACTICO/Interpreter.md",
     "JavaCC/JavaCC Token definition.md",
     "ANALISIS LEXICO SINTACTICO/Lexical Analisys.md",
@@ -198,15 +207,6 @@
     "NETWORKING/TELNET.md",
     "NETWORKING/SSH vs TELNET.md",
     "CONCEPTS/ASCII.md",
-    "NETWORKING/NVT.md",
-    "NETWORKING/TPC - IP Layers.md",
-    "NETWORKING/TELNET - Commands.md",
-    "NETWORKING/SMTP commands.md",
-    "LATEX/LATEX - Comments.md",
-    "LATEX/LATEX - Environments.md",
-    "CONCEPTS/Ensembler.md",
-    "INFORMATION TECHNOLOGIES/Concurrency Control Schedules.md",
-    "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
     "MATHEMATICAL CONCEPTS/IMAGES",
     "MATHEMATICAL CONCEPTS",
     "DOCKER",

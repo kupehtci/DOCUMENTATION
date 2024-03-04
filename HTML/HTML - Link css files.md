@@ -15,4 +15,4 @@ The ```href``` parameter indicated the url to go through to find the requested f
 Using relative paths starting by ./ the folder will be inside style directory and its called style.css
 
 You can take a look of how its implemented in a basic structure of a web: 
-[[HTML-Basic Structure]]
+[[HTML - Basic Structure]]
