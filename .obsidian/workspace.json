@@ -11,24 +11,27 @@
             "id": "105746f64d84c59e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CONCEPTS/RTL - Register Transfer Language.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "64655bd646b7ded3",
+            "id": "987a7872a178f5c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Lexer.md",
+                "file": "HTML/HTML - Native colors.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -72,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Lexer.md"
+                "file": "CONCEPTS/RTL - Register Transfer Language.md"
               }
             }
           },
@@ -89,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 231.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -105,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Lexer.md",
+                "file": "CONCEPTS/RTL - Register Transfer Language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Lexer.md",
+                "file": "CONCEPTS/RTL - Register Transfer Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,20 +168,34 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5e99b486c39f3cfb",
+  "active": "105746f64d84c59e",
   "lastOpenFiles": [
-    "ANALISIS LEXICO SINTACTICO/Interpreter.md",
+    "ANALISIS LEXICO SINTACTICO/Compiler.md",
+    "CONCEPTS/RTL - Register Transfer Language.md",
+    "HTML/HTML - Native colors.md",
+    "HTML/IMAGES/html_native_colors_3.jpg",
+    "HTML/IMAGES/html_native_colors_4.jpg",
+    "HTML/IMAGES/html_native_colors_5.jpg",
+    "HTML/IMAGES/html_native_colors_6.jpg",
+    "HTML/IMAGES/html_native_colors_2.jpg",
+    "HTML/IMAGES/html_native_colors_1.jpg",
+    "HTML/HTML-Link css files.md",
+    "HTML/IMAGES",
+    "HTML/Untitled.md",
+    "HTML/IMAGES.md",
+    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
+    "ANALISIS LEXICO SINTACTICO/IMAGES/lexic-and-syntax-analysis.png",
+    "ANALISIS LEXICO SINTACTICO/IMAGES/lexer-example.png",
+    "ANALISIS LEXICO SINTACTICO/IMAGES/example-translation-scanner-and-tokenizer.png",
+    "ANALISIS LEXICO SINTACTICO/IMAGES/compiler-phases-diagram-english.png",
     "ANALISIS LEXICO SINTACTICO/Lexical Analysis.md",
     "ANALISIS LEXICO SINTACTICO/Lexer.md",
+    "ANALISIS LEXICO SINTACTICO/Interpreter.md",
     "JavaCC/JavaCC Token definition.md",
     "ANALISIS LEXICO SINTACTICO/Lexical Analisys.md",
-    "ANALISIS LEXICO SINTACTICO/Compiler.md",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/lexic-and-syntax-analysis.png",
     "ANALISIS LEXICO SINTACTICO/Compiler vs Interpreter.md",
-    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
     "NETWORKING/TELNET - Duplex mode.md",
     "NETWORKING/TELNET.md",
-    "NETWORKING/IMAGES/ascii-nvt-control-codes.png",
     "NETWORKING/SSH vs TELNET.md",
     "CONCEPTS/ASCII.md",
     "NETWORKING/NVT.md",
@@ -190,31 +207,17 @@
     "CONCEPTS/Ensembler.md",
     "INFORMATION TECHNOLOGIES/Concurrency Control Schedules.md",
     "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
-    "GAME PRODUCTION/Scope.md",
-    "GAME PRODUCTION/Meetings.md",
-    "MATHEMATICAL CONCEPTS/AIC - Akaike Information Criterion.md",
-    "MATHEMATICAL CONCEPTS/BIC - Bayesian Information Criterion.md",
-    "DOCKER/DOCKER - Run.md",
     "MATHEMATICAL CONCEPTS/IMAGES",
     "MATHEMATICAL CONCEPTS",
     "DOCKER",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
-    "INFORMATION TECHNOLOGIES/IMAGES/Uncommited-data-dirty-read.png",
-    "AI FOR VIDEOGAMES/IMAGES/pathfinding-grid-cost-parent.png",
     "AI FOR VIDEOGAMES/IMAGES",
-    "AI FOR VIDEOGAMES/IMAGES/Pathfinding-grid-cost-calculation.png",
     "AI FOR VIDEOGAMES",
-    "COMPUTER GRAPHICS/IMAGES/bmp-structure.jpg",
-    "GAME PRODUCTION/risk-important-neighbors.png",
     "CMAKE",
     "POSTGRES SQL",
     "DEVELOPMENT METHODOLOGIES",
     "Untitled.canvas",
     "GIT",
-    "JAVA",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/lexer-example.png",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/example-translation-scanner-and-tokenizer.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/normalization-partial-dependency.png",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
