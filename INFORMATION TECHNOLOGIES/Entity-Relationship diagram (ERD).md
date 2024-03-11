@@ -18,12 +18,11 @@ Its composed of various common symbols:
 
 
 The cardinality between two different entities can be represented also with lines and symbols. 
-The different cardinalities are: 
+The different relation-ships are: 
 * one to one: 
 * one to many: 
 
-Minimun cardinality is represented as: 
-
+Minimun cardinality is placed in the initial flow of the line of the relation-ship and is represented as: 
 * minimum 0 instances in relation: 1 line
 * minimum 1 instances in relation: 2 lines
 
