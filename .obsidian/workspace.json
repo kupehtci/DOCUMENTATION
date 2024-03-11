@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/HTML - span.md",
+                "file": "MATHEMATICAL CONCEPTS/Relational Algebra - Symbols.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/HTML - Native colors.md",
+                "file": "PostgreSQL/XAMPP Enable Postgress.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,22 +61,12 @@
             }
           },
           {
-            "id": "5e99b486c39f3cfb",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "328a7e9eaf27d372",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/HTML - span.md"
+                "file": "PostgreSQL/XAMPP Enable Postgress.md"
               }
             }
           },
@@ -86,9 +77,19 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "5e99b486c39f3cfb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/HTML - span.md",
+                "file": "PostgreSQL/XAMPP Enable Postgress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/HTML - span.md",
+                "file": "PostgreSQL/XAMPP Enable Postgress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,45 +169,48 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "105746f64d84c59e",
+  "active": "5e99b486c39f3cfb",
   "lastOpenFiles": [
-    "HTML/Special Characters.md",
-    "HTML/HTML - span.md",
-    "HTML/HTML - Link css files.md",
-    "HTML/HTML - Class or id.md",
-    "HTML/HTML - Basic Structure.md",
-    "HTML/HTML - Basic footer section.md",
+    "CLION/CLION - Region.md",
+    "AI FOR VIDEOGAMES/Heuristic Function.md",
+    "AI FOR VIDEOGAMES/Pathfinding.md",
+    "GAME PRODUCTION/Roadmap.md",
+    "SOFTWARE QUALITY/Testing.md",
+    "SOFTWARE QUALITY/SQ - Keys.md",
+    "NETWORKING/Request Methods.md",
+    "NETWORKING/RTT Time.md",
+    "INFORMATION TECHNOLOGIES/Query Optimization Symbols.md",
+    "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
+    "INFORMATION TECHNOLOGIES/Query Optimization.md",
+    "INFORMATION TECHNOLOGIES/Class Exercise - Query Optimization.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-3.png",
+    "INFORMATION TECHNOLOGIES/IMAGES/query-optimization-equivalence.png",
+    "MATHEMATICAL CONCEPTS/Relational Algebra - Symbols.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-2.png",
+    "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-1.png",
+    "MARKDOWN/MARKDOWN - Mathematics.md",
     "ANALISIS LEXICO SINTACTICO/Lexer.md",
-    "ANALISIS LEXICO SINTACTICO/Lexical Analysis.md",
-    "ANALISIS LEXICO SINTACTICO/Compiler.md",
-    "CONCEPTS/Turing Machine.md",
-    "CONCEPTS/Turing Machine - State Diagram.md",
-    "CONCEPTS/SSH - (Cryptography) Secure Shell.md",
-    "CONCEPTS/SIMD - Single Instruction Multiple Data.md",
-    "CONCEPTS/RTL - Register Transfer Language.md",
-    "COMPUTATIONAL THEORY/IMAGES.md",
-    "HTML/HTML - Native colors.md",
+    "INFORMATION TECHNOLOGIES/Composite Attributes.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/query-optimization-1.png",
+    "BPMN-PARSING-UNITY/2023-03-06 - Reunion Raul.md",
+    "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
+    "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
+    "PostgreSQL/PostgreSQL - SERIAL.md",
+    "PostgreSQL/PostgreSQL - Sequence.md",
+    "INFORMATION TECHNOLOGIES/Weak Relationship.md",
+    "PostgreSQL",
+    "COMPUTER GRAPHICS/raster.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/weak_relationship_diagram.png",
+    "COMPUTER GRAPHICS/Bresenham smoothness algorithm.md",
+    "PHP/PHP - PasswordHashing.md",
+    "INFORMATION TECHNOLOGIES/Mapping ER Model to Relational Model.md",
+    "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
+    "INFORMATION TECHNOLOGIES/IMAGES/composite_attribute.png",
+    "INFORMATION TECHNOLOGIES/Normalization.md",
     "HTML/IMAGES/html_native_colors_3.jpg",
     "HTML/IMAGES/html_native_colors_4.jpg",
     "HTML/IMAGES/html_native_colors_5.jpg",
-    "HTML/IMAGES/html_native_colors_6.jpg",
-    "HTML/IMAGES/html_native_colors_2.jpg",
-    "HTML/IMAGES/html_native_colors_1.jpg",
     "HTML/IMAGES",
-    "HTML/IMAGES.md",
-    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/lexic-and-syntax-analysis.png",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/lexer-example.png",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/example-translation-scanner-and-tokenizer.png",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/compiler-phases-diagram-english.png",
-    "ANALISIS LEXICO SINTACTICO/Interpreter.md",
-    "JavaCC/JavaCC Token definition.md",
-    "ANALISIS LEXICO SINTACTICO/Lexical Analisys.md",
-    "ANALISIS LEXICO SINTACTICO/Compiler vs Interpreter.md",
-    "NETWORKING/TELNET - Duplex mode.md",
-    "NETWORKING/TELNET.md",
-    "NETWORKING/SSH vs TELNET.md",
-    "CONCEPTS/ASCII.md",
     "MATHEMATICAL CONCEPTS/IMAGES",
     "MATHEMATICAL CONCEPTS",
     "DOCKER",
@@ -217,14 +221,11 @@
     "POSTGRES SQL",
     "DEVELOPMENT METHODOLOGIES",
     "Untitled.canvas",
-    "GIT",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
     "UNITY/STATIC BATCHER CANVAS.canvas",
     "SQL/SQL CANVAS COMANDS.canvas",
-    "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
-    "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas",
-    "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas"
+    "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas"
   ]
 }

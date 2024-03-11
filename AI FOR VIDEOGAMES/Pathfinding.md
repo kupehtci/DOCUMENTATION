@@ -1,7 +1,6 @@
 
 ### Pathfinding
 
-
 In order to find the best path , the intention is to visit all nodes following a certain algorithm and to find the best nodes to reach the `target` the best way is to calculate the : 
 
 * g cost: total cost from the initial node to the node evaluated
