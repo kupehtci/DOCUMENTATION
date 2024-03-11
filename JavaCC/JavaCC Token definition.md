@@ -1,4 +1,4 @@
-#JAVA
+#JAVA #JavaCC
 ### JavaCC
 
 JavaCC is a parser generator for Java applications. 
