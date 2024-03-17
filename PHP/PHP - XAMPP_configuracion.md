@@ -10,6 +10,9 @@ error_log = "./"
 display_errors = On
 error_reporting = E_ALL
 
+
+
+
 ## ENABLE MYSQLI
 
 find extension=mysqli.dll y descomentarlo

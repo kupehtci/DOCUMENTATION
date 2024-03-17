@@ -5,9 +5,9 @@
 
 ## Unary operators
 
-selection: σcname<cname2 ∧ enr>10000
+selection: σ cname<cname2 ∧ enr>10000
 
-projection: ΠcnameE
+projection: Π cnameE
 
 Aggregate function: **Ｇ**
 
