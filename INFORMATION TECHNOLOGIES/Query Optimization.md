@@ -61,7 +61,7 @@ $$T_1 JOIN_c1 T_2 === C_1(T_1 JOIN T_2)$$
 ![[query-optimization-1.png]]
 
 
-Take a look into relatioal algebra symbols applied to **query trees**: [[]]
+Take a look into relatioal algebra symbols applied to **query trees**: [[Relational Algebra - Symbols]]. 
 
 
 You can force this equivalences in some ways: 
