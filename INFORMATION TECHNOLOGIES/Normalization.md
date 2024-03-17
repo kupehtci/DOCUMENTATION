@@ -35,7 +35,7 @@ If a database meets the three first normal forms (1NF, 2NF and 3NF) its consider
 
 ###### 1º Normal Form
 
-Must fullfil the following rules: 
+Must fullfil the following rules: rda
 * None of the attributes has more than 1 value. 
 * If an attribute is present in different tables, it must have the same data type
 * Attributes names are unique, cannot be more than 1 with the same name. 
@@ -47,6 +47,7 @@ Satisfy 1NF and the following rules:
 *  It must not have any <span style="color:LightSeaGreen;">partial relation-ships</span>. 
 
 <span style="color:LightSeaGreen;">Partial dependency or relation-ship</span> is the relation of an attribute with another attribute that is not the primary key. 
+This means that every non-primary-key attribute needs to be fully dependent on the primary key to don't have a partial relationship. 
 
 In the following example, the entire relation-ship is splitted up into two different relation-ships that involve the `primary key`. 
 
@@ -59,8 +60,13 @@ Satisfy 2NF and follow the next rules:
 
 <span style="color:LightSeaGreen;">Transitive dependency</span>: transitivity in databases means that one attribute A imply a B attribute and B attribute also imply a third one. In this case, the relation may be splitted up into two relations. 
 
+###### 4º Normal form
 
+Satify BCNF normal form and the following rules: 
 
+* Must not have any multi-valued attribute. 
 
+A <span style="color:LightSeaGreen;">multi-valued attribute</span> is the one that can have more than one single value for each entity. This means that for example Users(direction) if you allow users to have more than one direction, is a multi-valued attribute. 
+To solve this in implementation you need to create a secondary relation UsersPhone(\_userid\_, \_userphone\_). 
 
-
+This can lead into redundant data. 

@@ -24,11 +24,10 @@ There are two types:
 | write(B) |          |        |
 |          | write(A) | A=8    |
 
-To be serializable, needs to be have two considerations: 
+A non-serial schedule can be considered serializable, needs to be have two considerations: 
 
 * **Serial**: operations need to be interspersed between the different transaction in a logical way. 
 * **Not have concurrency problems**
-
 
 ##### Exercise example: 
 
