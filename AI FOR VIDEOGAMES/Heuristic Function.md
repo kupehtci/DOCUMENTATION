@@ -7,7 +7,15 @@ In search algorithms like <span style="color:MediumSlateBlue;">A*</span> we need
 The heuristic helps to estimate the remaining distance to target to follow the the most optimal path during the search. 
 
 
-The <span style="color:yellow;">goal</span> is to find or approximate a better solution than a common algorithm without heuristic like Dijstra
+The <span style="color:yellow;">goal</span> is to find or approximate a better solution than a common algorithm without heuristic like Dijkstra. 
+
+### WHY USE HEURISTICS? 
+
+The primary drawback of not using heuristics is that the algorithm will search the entire graph or search space, which can become computationally expensive and slow for larger maps or grids. 
+
+Without a heuristic, the algorithm must consider every possible node in the search space, even those that are unlikely to lead to the goal. This can make the algorithm take longer and consume more resources than necessary, ultimately reducing the overall efficiency of the pathfinding system.
+
+By using a heuristic, such as the Manhattan or Euclidean distance, the algorithm can intelligently focus its search on nodes that are more likely to lead to the goal, effectively reducing the search space and improving the efficiency of the algorithm. This can result in faster processing times and improved performance, making pathfinding more practical and effective for use in real-time games and applications.
 
 
 #### ADMISIBLE HEURISTIC

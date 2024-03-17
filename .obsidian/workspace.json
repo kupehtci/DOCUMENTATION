@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
+                "file": "PostgreSQL/PostgreSQL - Isolation Level.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md"
+                "file": "PostgreSQL/PostgreSQL - Isolation Level.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
+                "file": "PostgreSQL/PostgreSQL - Isolation Level.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
+                "file": "PostgreSQL/PostgreSQL - Isolation Level.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,14 +171,19 @@
   },
   "active": "105746f64d84c59e",
   "lastOpenFiles": [
-    "AI FOR VIDEOGAMES/Heuristic Function.md",
     "AI FOR VIDEOGAMES/Untitled.md",
+    "PostgreSQL/PostgreSQL - Isolation Level.md",
+    "INFORMATION TECHNOLOGIES/Concurrency Control Solutions.md",
+    "INFORMATION TECHNOLOGIES/Concurrency Control Problems.md",
+    "INFORMATION TECHNOLOGIES/Relational Database.md",
+    "INFORMATION TECHNOLOGIES/Concurrency Control Schedules.md",
+    "INFORMATION TECHNOLOGIES/Database Transactions.md",
+    "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
+    "AI FOR VIDEOGAMES/Heuristic Function.md",
     "AI FOR VIDEOGAMES/Pathfinding.md",
     "INFORMATION TECHNOLOGIES/Query Optimization - Systematic Costs.md",
     "INFORMATION TECHNOLOGIES/Query Optimization - Symbols.md",
-    "INFORMATION TECHNOLOGIES/Relational Database.md",
     "INFORMATION TECHNOLOGIES/Query Optimization.md",
-    "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
     "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
     "GAME PRODUCTION/Inception Deck.md",
     "GAME PRODUCTION/Planning Features.md",
@@ -195,11 +200,6 @@
     "C-SHARP/CS - Garbage collector.md",
     "C-SHARP/CS - File IO class.md",
     "C-SHARP/CS - Exceptions.md",
-    "C-SHARP/CS - ENUM.md",
-    "PHP/PHP - MYSQLI - Bind Parameters.md",
-    "PHP/PHP - mixed.md",
-    "PHP/PHP - Mailer configuration.md",
-    "PHP/PHP - isset().md",
     "INFORMATION TECHNOLOGIES/IMAGES/systematic_diagram_cost_based.png",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-3.png",
