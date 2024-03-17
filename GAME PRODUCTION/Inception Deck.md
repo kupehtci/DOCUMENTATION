@@ -4,6 +4,8 @@
 
 The inception deck is an initial project planning and ideation. Part of [[Roadmap]] conception part. 
 
+Its composed of different parts: 
+
 * `Why are we here?`
 Reminder of the parts or themes that involve the project, who our customers are and why we decided to do this project in the first place
 
@@ -36,8 +38,11 @@ A design of how the game is structured in term of servers, player-sessions, lobb
 
 * `Size it up`
 
+
 * `What team do we need?`
 
+
 * `Up at night`
+
 
 * `Meet the neighbors
