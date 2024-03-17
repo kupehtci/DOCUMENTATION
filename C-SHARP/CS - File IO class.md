@@ -10,8 +10,6 @@ This class is used for dealing with file creation and writing.
 This function creates a new file if the specified file path dont exists. 
 
 
-
-
 ### Exceptions
 
 This class throws IOException, that is the exception for I/O errors. As other exceptions, inherit from `exception` class. 
