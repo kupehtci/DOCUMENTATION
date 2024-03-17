@@ -13,26 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATHEMATICAL CONCEPTS/Relational Algebra - Symbols.md",
+                "file": "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "987a7872a178f5c0",
+            "id": "e0ccbd7e7832efbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PostgreSQL/XAMPP Enable Postgress.md",
+                "file": "INFORMATION TECHNOLOGIES/Query Optimization - Symbols.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#HTML  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PostgreSQL/XAMPP Enable Postgress.md"
+                "file": "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md"
               }
             }
           },
@@ -93,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 321.5024719238281
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PostgreSQL/XAMPP Enable Postgress.md",
+                "file": "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PostgreSQL/XAMPP Enable Postgress.md",
+                "file": "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,50 +165,52 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "5e99b486c39f3cfb",
+  "active": "105746f64d84c59e",
   "lastOpenFiles": [
-    "CLION/CLION - Region.md",
     "AI FOR VIDEOGAMES/Heuristic Function.md",
+    "AI FOR VIDEOGAMES/Untitled.md",
     "AI FOR VIDEOGAMES/Pathfinding.md",
-    "GAME PRODUCTION/Roadmap.md",
-    "SOFTWARE QUALITY/Testing.md",
-    "SOFTWARE QUALITY/SQ - Keys.md",
-    "NETWORKING/Request Methods.md",
-    "NETWORKING/RTT Time.md",
-    "INFORMATION TECHNOLOGIES/Query Optimization Symbols.md",
-    "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
+    "INFORMATION TECHNOLOGIES/Query Optimization - Systematic Costs.md",
+    "INFORMATION TECHNOLOGIES/Query Optimization - Symbols.md",
+    "INFORMATION TECHNOLOGIES/Relational Database.md",
     "INFORMATION TECHNOLOGIES/Query Optimization.md",
-    "INFORMATION TECHNOLOGIES/Class Exercise - Query Optimization.md",
+    "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
+    "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
+    "GAME PRODUCTION/Inception Deck.md",
+    "GAME PRODUCTION/Planning Features.md",
+    "GAME PRODUCTION/IMAGES/feature_planification_roadmap.png",
+    "GAME PRODUCTION/IMAGES",
+    "GAME PRODUCTION/IMAGES/feature_planification.png",
+    "MATHEMATICAL CONCEPTS/Relational Algebra - Symbols.md",
+    "SOFTWARE QUALITY/Test cases.md",
+    "C-SHARP/CS - STRING DOCUMENTATION.md",
+    "C-SHARP/CS - StreamReader.md",
+    "C-SHARP/CS - Nullable propagation.md",
+    "C-SHARP/CS - JUMP INSTRUCTIONS.md",
+    "C-SHARP/CS - JSON Parsing.md",
+    "C-SHARP/CS - Garbage collector.md",
+    "C-SHARP/CS - File IO class.md",
+    "C-SHARP/CS - Exceptions.md",
+    "C-SHARP/CS - ENUM.md",
+    "PHP/PHP - MYSQLI - Bind Parameters.md",
+    "PHP/PHP - mixed.md",
+    "PHP/PHP - Mailer configuration.md",
+    "PHP/PHP - isset().md",
+    "INFORMATION TECHNOLOGIES/IMAGES/systematic_diagram_cost_based.png",
+    "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-3.png",
     "INFORMATION TECHNOLOGIES/IMAGES/query-optimization-equivalence.png",
-    "MATHEMATICAL CONCEPTS/Relational Algebra - Symbols.md",
     "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-2.png",
     "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-1.png",
-    "MARKDOWN/MARKDOWN - Mathematics.md",
-    "ANALISIS LEXICO SINTACTICO/Lexer.md",
-    "INFORMATION TECHNOLOGIES/Composite Attributes.md",
     "INFORMATION TECHNOLOGIES/IMAGES/query-optimization-1.png",
-    "BPMN-PARSING-UNITY/2023-03-06 - Reunion Raul.md",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
-    "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
-    "PostgreSQL/PostgreSQL - SERIAL.md",
-    "PostgreSQL/PostgreSQL - Sequence.md",
-    "INFORMATION TECHNOLOGIES/Weak Relationship.md",
     "PostgreSQL",
-    "COMPUTER GRAPHICS/raster.md",
     "INFORMATION TECHNOLOGIES/IMAGES/weak_relationship_diagram.png",
-    "COMPUTER GRAPHICS/Bresenham smoothness algorithm.md",
-    "PHP/PHP - PasswordHashing.md",
-    "INFORMATION TECHNOLOGIES/Mapping ER Model to Relational Model.md",
-    "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
     "INFORMATION TECHNOLOGIES/IMAGES/composite_attribute.png",
-    "INFORMATION TECHNOLOGIES/Normalization.md",
-    "HTML/IMAGES/html_native_colors_3.jpg",
-    "HTML/IMAGES/html_native_colors_4.jpg",
-    "HTML/IMAGES/html_native_colors_5.jpg",
     "HTML/IMAGES",
     "MATHEMATICAL CONCEPTS/IMAGES",
     "MATHEMATICAL CONCEPTS",
@@ -219,7 +220,6 @@
     "AI FOR VIDEOGAMES",
     "CMAKE",
     "POSTGRES SQL",
-    "DEVELOPMENT METHODOLOGIES",
     "Untitled.canvas",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
