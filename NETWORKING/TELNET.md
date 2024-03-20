@@ -14,7 +14,9 @@ Is built over three important concepts:
 
 * The Network Virtual terminal (NVT)
 * Symmetric operation
-* Options and Option Negotiation
+* Options and Option Negotiation. 
+
+It uses <span style="color:violet;">port 23</span>. 
 
 ##### NETWORK VIRTUAL TERMINAL `NVT`
 
@@ -60,6 +62,7 @@ When they need to use a more complex or advanced communication they use a certai
 `Enable options using negotiation`
 
 If both agree an option, it can be enabled. 
+
 Either device may choose to initiate the use of an option or asks to enable / use the option with the parameters send. 
 
 * `WILL <option>` It wants to start using the specific option. 
@@ -68,4 +71,11 @@ Either device may choose to initiate the use of an option or asks to enable / us
 The responding device may either agree or disagree responding with the contrary negotiation response and specifying the option accepted or denied. 
 
 The set of options can be seen in the following document: [[TELNET - Commands]]. 
+
+
+##### SYMMETRIC OPERATION
+
+Once telnet session between client and server is stablished, they can <span style="color:LightSeaGreen;">send and receive data</span> as equals. 
+
+Telnet uses <span style="color:orange;">in-band signaling</span> in both directions, so commands are sent through the same channel as the data 
 

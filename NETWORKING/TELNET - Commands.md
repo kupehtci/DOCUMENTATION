@@ -4,6 +4,11 @@
 
 All this commands work by the use of **negotiation** with the `WILL` and `DO` commands. [[TELNET]].  
 
+All of this commands are sent though the same channel as the data and are signaled before with a <span style="color:orange;">(IAC) Interpret As Command</span>. 
+
+Are represented using a special byte 240-254 (decimal value) \[11110000 - 11111110\]. 
+
+
 | **Command Byte Value (Decimal)** | **Command Code** | **Command** | **Description** |
 | ---- | ---- | ---- | ---- |
 | **240** | **_SE_** | **Subnegotiation End** | Marks the end of a Telnet option subnegotiation, used with the _SB_ code to specify more specific option parameters. [See the topic on Telnet options for details](http://www.tcpipguide.com/free/t_TelnetOptionsandOptionNegotiation.htm). |
