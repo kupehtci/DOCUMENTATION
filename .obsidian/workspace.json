@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
+                "file": "INFORMATION TECHNOLOGIES/MongoDB.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/Query Optimization - Symbols.md",
+                "file": "NETWORKING/TCP - Transfer Control Protocol.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/No-SQL.md"
+                "file": "NETWORKING/TCP - Transfer Control Protocol.md"
               }
             }
           },
@@ -92,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5024719238281
+    "width": 250.50247192382812
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
+                "file": "NETWORKING/TCP - Transfer Control Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
+                "file": "NETWORKING/TCP - Transfer Control Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,48 +170,47 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "105746f64d84c59e",
+  "active": "e0ccbd7e7832efbb",
   "lastOpenFiles": [
-    "INFORMATION TECHNOLOGIES/SQL vs No-SQL.md",
+    "INFORMATION TECHNOLOGIES/MongoDB.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/mongodb_lookup.png",
+    "JSON/JSON vs XML.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/mongodb_insert.png",
     "INFORMATION TECHNOLOGIES/No-SQL.md",
+    "NETWORKING/TCP - Urgent Mode.md",
+    "MARKDOWN/MARKDOWN - Dropdown.md",
+    "NETWORKING/TCP - Transfer Control Protocol.md",
+    "INFORMATION TECHNOLOGIES/Query Optimization - Symbols.md",
+    "NETWORKING/UDP - User Datagram Protocol.md",
+    "NETWORKING/IMAGES/udp_structure.png",
+    "NETWORKING/TCP - Handshake.md",
+    "NETWORKING/TCP - IP vs OSI Layers.md",
+    "NETWORKING/TELNET - Duplex mode.md",
+    "NETWORKING/TELNET - Commands.md",
+    "NETWORKING/TELNET.md",
+    "NETWORKING/POP3 - Commands workflow.md",
+    "NETWORKING/Networking Ports.md",
+    "NETWORKING/Application Layer.md",
+    "INFORMATION TECHNOLOGIES/DCL - Data Control Language.md",
+    "INFORMATION TECHNOLOGIES/Mapping ER Model to Relational Model.md",
+    "C-SHARP/CS - ANONYMOUS METHODS.md",
+    "INFORMATION TECHNOLOGIES/Access Control.md",
+    "PostgreSQL/PostgreSQL - DROP.md",
+    "INFORMATION TECHNOLOGIES/SQL vs No-SQL.md",
     "NETWORKING/DNS - Record types.md",
     "NETWORKING/DNS - Domain Name System.md",
     "NETWORKING/DNS - CNAME.md",
-    "NETWORKING/DNS - DNAME.md",
-    "PostgreSQL/PostgreSQL - Isolation Level.md",
-    "AI FOR VIDEOGAMES/Untitled.md",
-    "INFORMATION TECHNOLOGIES/Concurrency Control Solutions.md",
-    "INFORMATION TECHNOLOGIES/Concurrency Control Problems.md",
-    "INFORMATION TECHNOLOGIES/Relational Database.md",
-    "INFORMATION TECHNOLOGIES/Concurrency Control Schedules.md",
-    "INFORMATION TECHNOLOGIES/Database Transactions.md",
-    "INFORMATION TECHNOLOGIES/Query Optimization - Equivalences.md",
-    "AI FOR VIDEOGAMES/Heuristic Function.md",
-    "AI FOR VIDEOGAMES/Pathfinding.md",
-    "INFORMATION TECHNOLOGIES/Query Optimization - Systematic Costs.md",
-    "INFORMATION TECHNOLOGIES/Query Optimization - Symbols.md",
-    "INFORMATION TECHNOLOGIES/Query Optimization.md",
-    "INFORMATION TECHNOLOGIES/Entity-Relationship diagram (ERD).md",
-    "GAME PRODUCTION/Inception Deck.md",
-    "GAME PRODUCTION/Planning Features.md",
     "GAME PRODUCTION/IMAGES/feature_planification_roadmap.png",
     "GAME PRODUCTION/IMAGES",
     "GAME PRODUCTION/IMAGES/feature_planification.png",
-    "MATHEMATICAL CONCEPTS/Relational Algebra - Symbols.md",
-    "SOFTWARE QUALITY/Test cases.md",
-    "C-SHARP/CS - STRING DOCUMENTATION.md",
-    "C-SHARP/CS - StreamReader.md",
     "INFORMATION TECHNOLOGIES/IMAGES/systematic_diagram_cost_based.png",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-3.png",
     "INFORMATION TECHNOLOGIES/IMAGES/query-optimization-equivalence.png",
     "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-2.png",
     "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-1.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/query-optimization-1.png",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "PostgreSQL",
-    "INFORMATION TECHNOLOGIES/IMAGES/weak_relationship_diagram.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/composite_attribute.png",
     "HTML/IMAGES",
     "MATHEMATICAL CONCEPTS/IMAGES",
     "MATHEMATICAL CONCEPTS",

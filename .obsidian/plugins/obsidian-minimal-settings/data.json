@@ -1,8 +1,8 @@
 {
   "theme": "moonstone",
-  "lightStyle": "minimal-light",
+  "lightStyle": "minimal-light-white",
   "darkStyle": "minimal-dark-black",
-  "lightScheme": "minimal-default-light",
+  "lightScheme": "minimal-notion-light",
   "darkScheme": "minimal-macos-dark",
   "editorFont": "",
   "lineHeight": 1.5,

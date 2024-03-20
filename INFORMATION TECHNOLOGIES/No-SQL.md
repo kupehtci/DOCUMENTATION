@@ -53,3 +53,12 @@ There are 4 forms of storing No-SQL data:
 	Stored data as columns families and each one of them is considered as an entity. Optimized for large amount of data
 * Graph `Neo4j`
 	Stores data as nodes and edges and can handle easily complex relationships between data. 
+
+### AID OPERATIONS or CRUD OPERATIONS
+
+- General customer support: help()
+- Database-level operations: db.help()
+- Collection level operations: 
+
+
+
