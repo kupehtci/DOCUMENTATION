@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PostgreSQL/PostgreSQL - Isolation Level.md",
+                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PostgreSQL/PostgreSQL - Isolation Level.md"
+                "file": "INFORMATION TECHNOLOGIES/No-SQL.md"
               }
             }
           },
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5024719238281
+    "width": 276.5024719238281
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PostgreSQL/PostgreSQL - Isolation Level.md",
+                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PostgreSQL/PostgreSQL - Isolation Level.md",
+                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,8 +171,14 @@
   },
   "active": "105746f64d84c59e",
   "lastOpenFiles": [
-    "AI FOR VIDEOGAMES/Untitled.md",
+    "INFORMATION TECHNOLOGIES/SQL vs No-SQL.md",
+    "INFORMATION TECHNOLOGIES/No-SQL.md",
+    "NETWORKING/DNS - Record types.md",
+    "NETWORKING/DNS - Domain Name System.md",
+    "NETWORKING/DNS - CNAME.md",
+    "NETWORKING/DNS - DNAME.md",
     "PostgreSQL/PostgreSQL - Isolation Level.md",
+    "AI FOR VIDEOGAMES/Untitled.md",
     "INFORMATION TECHNOLOGIES/Concurrency Control Solutions.md",
     "INFORMATION TECHNOLOGIES/Concurrency Control Problems.md",
     "INFORMATION TECHNOLOGIES/Relational Database.md",
@@ -194,12 +200,6 @@
     "SOFTWARE QUALITY/Test cases.md",
     "C-SHARP/CS - STRING DOCUMENTATION.md",
     "C-SHARP/CS - StreamReader.md",
-    "C-SHARP/CS - Nullable propagation.md",
-    "C-SHARP/CS - JUMP INSTRUCTIONS.md",
-    "C-SHARP/CS - JSON Parsing.md",
-    "C-SHARP/CS - Garbage collector.md",
-    "C-SHARP/CS - File IO class.md",
-    "C-SHARP/CS - Exceptions.md",
     "INFORMATION TECHNOLOGIES/IMAGES/systematic_diagram_cost_based.png",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-3.png",

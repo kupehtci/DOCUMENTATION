@@ -14,6 +14,14 @@ DNS queries can be classified according the manner in which a complete request i
 * *iterative query OR Nonrecursive query**
 * ***Inverse queries**
 
+### AUTHORITATIVE RESPONSES
+
+Because all DNS server not stores all records avaliable, the different DNS queries can be temporally stored in a DNS server cache and can be consulted until the DNS server expires them or are renew again. 
+
+If the server not always store that DNS records and its only in its cache, the response of the query would be non-authoritative. 
+
+On other hand, if the server always store that DNS record, it would response an <span style="color:MediumSlateBlue;">authoritative</span> response. 
+
 ## What is a recursive query?
 
 A recursive query is a kind of query, in which the DNS server, who received your query will do all the job of fetching the answer, and giving it back to you. During this process, the DNS server might also query other DNS server's in the internet on your behalf, for the answer.
@@ -32,7 +40,7 @@ The above resolve conf entry means that,Your DNS servers are 172.16.200.30 & 31.
 
 **STEP2:** The DNS server 172.16.200.30 on receiving the query, will look through its tables(cache) to find the IP address(A record) for the domain www.example.com. But it does not have the entry.
 
-**STEP 3:** As the answer for the query is not available with the DNS server 172.16.200.30, this server sends a query to one of the DNS root server,for the answer. Now an important fact to note here is that root server's are always iterative servers.
+**STEP 3:** As the answer for the query is not available with the DNS server 172.16.200.30, this server sends a query to one of the DNS root server, for the answer. Now an important fact to note here is that root server's are always iterative servers.
 
 **Related:** [DNS root servers and their Locations](http://www.slashroot.in/dns-root-servers-most-critical-infrastructure-internet "DNS root servers Explained")
 
