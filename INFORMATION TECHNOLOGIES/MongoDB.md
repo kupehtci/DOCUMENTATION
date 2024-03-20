@@ -99,10 +99,10 @@ as $lookup is the pipeline step in order to enbed two collections:
 ```json
 // join
 {
-  from: 'professors',
-  localField: 'professor',
-  foreignField: 'id',
-  as: 'professors'
+  from: 'professors',         //collection that are aggregated
+  localField: 'professor',    //field to compare in actual collection
+  foreignField: 'id',         //field to compare in other collection
+  as: 'professors'            //new aggregation attribute name
 }
 ```
 
