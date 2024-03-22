@@ -11,12 +11,8 @@
             "id": "105746f64d84c59e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INFORMATION TECHNOLOGIES/MongoDB.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -25,13 +21,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/TCP - Transfer Control Protocol.md",
+                "file": "NETWORKING/TELNET - Commands.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +62,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/MongoDB.md"
+                "file": "NETWORKING/TELNET - Commands.md"
               }
             }
           },
@@ -87,12 +84,11 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 250.50247192382812
+    "width": 222.50247192382812
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -108,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/MongoDB.md",
+                "file": "NETWORKING/TELNET - Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/MongoDB.md",
+                "file": "NETWORKING/TELNET - Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +165,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "105746f64d84c59e",
+  "active": "01c5b67550af8107",
   "lastOpenFiles": [
+    "NETWORKING/TELNET.md",
     "NETWORKING/TCP - Transfer Control Protocol.md",
+    "INFORMATION TECHNOLOGIES/Class Exercise - Query Optimization.md",
+    "C-SHARP/CS - URI.md",
+    "AI FOR VIDEOGAMES/Planning.md",
+    "AI FOR VIDEOGAMES/IMAGES/combined_states.png",
     "INFORMATION TECHNOLOGIES/MongoDB.md",
     "INFORMATION TECHNOLOGIES/IMAGES/mongodb_lookup.png",
     "JSON/JSON vs XML.md",
@@ -186,7 +187,6 @@
     "NETWORKING/TCP - IP vs OSI Layers.md",
     "NETWORKING/TELNET - Duplex mode.md",
     "NETWORKING/TELNET - Commands.md",
-    "NETWORKING/TELNET.md",
     "NETWORKING/POP3 - Commands workflow.md",
     "NETWORKING/Networking Ports.md",
     "NETWORKING/Application Layer.md",
@@ -197,8 +197,6 @@
     "PostgreSQL/PostgreSQL - DROP.md",
     "INFORMATION TECHNOLOGIES/SQL vs No-SQL.md",
     "NETWORKING/DNS - Record types.md",
-    "NETWORKING/DNS - Domain Name System.md",
-    "NETWORKING/DNS - CNAME.md",
     "GAME PRODUCTION/IMAGES/feature_planification_roadmap.png",
     "GAME PRODUCTION/IMAGES",
     "GAME PRODUCTION/IMAGES/feature_planification.png",
@@ -207,7 +205,6 @@
     "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-3.png",
     "INFORMATION TECHNOLOGIES/IMAGES/query-optimization-equivalence.png",
     "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-2.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-1.png",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "PostgreSQL",
     "HTML/IMAGES",

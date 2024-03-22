@@ -6,8 +6,8 @@
 
 Its used to: 
 
-* Connect from a client to a server and use this last one as a terminal. 
-* **Encode the data** between the client and the server. 
+* Connect from a <span style="color:orange;">client to a server</span> and use this last one as a terminal. 
+* <span style="color:orange;">Encode the data</span> between the client and the server. 
 * Facilitate the negotiation and use of options. 
 
 Is built over three important concepts: 
@@ -30,10 +30,10 @@ This Virtualized terminal allow universal communication over different terminals
 
 Its done this way because <span style="color:orange;">Client</span> and <span style="color:orange;">Server</span> can differ in many ways: 
 
-* type of keystroke (text representation format)
-* keystrokes that can be sent
-* number of characters per line or event lines in a screen in the terminal. 
-* character set used to encode data or functions. 
+> * type of keystroke (text representation format)
+> * keystrokes that can be sent
+> * number of characters per line or event lines in a screen in the terminal. 
+>* character set used to encode data or functions. 
 
 By using this standardized format of communication, the NVT define a set of rules: 
 
@@ -41,6 +41,7 @@ By using this standardized format of communication, the NVT define a set of rule
 	* character set 
 	* line termination
 * how telnet information is sent
+
 
 It follows different steps: 
 
@@ -53,13 +54,13 @@ flowchart LR
 id1(Input)-->id2(Client)-->id3(NVT)-->id4(Server)-->id5(Output)
 ```
 
-##### OPTION NEGOTIATION
+#### OPTION NEGOTIATION
 
 When they need to use a more complex or advanced communication they use a certain set of options being handled via a negotiation system. 
 
 <span style="color:orange;">Telnet protocol</span> define a set of options and a mechanism through the devices can negotiate each option usage. 
 
-`Enable options using negotiation`
+##### Enable options using negotiation
 
 If both agree an option, it can be enabled. 
 
@@ -77,5 +78,14 @@ The set of options can be seen in the following document: [[TELNET - Commands]].
 
 Once telnet session between client and server is stablished, they can <span style="color:LightSeaGreen;">send and receive data</span> as equals. 
 
-Telnet uses <span style="color:orange;">in-band signaling</span> in both directions, so commands are sent through the same channel as the data 
+Telnet uses <span style="color:orange;">in-band signaling</span> in both directions, so commands are sent through the same channel as the data. 
+
+##### TELNET SYNCH FUNCTION
+
+If user stops the Telnet Session, the Abort command is sent by using [[TCP - Urgent Mode]]. 
+
+This tells the server to discard all remaining output of the current process. 
+
+The server will stop sending the output and uses <span style="color:LightSeaGreen;">synch function</span> in order to synchronize the buffer with the actions. 
+
 

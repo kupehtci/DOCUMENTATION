@@ -27,3 +27,20 @@ Are represented using a special byte 240-254 (decimal value) \[11110000 - 111111
 | **253** | **_DO_** | **Do Perform** | In [Telnet option negotiation](http://www.tcpipguide.com/free/t_TelnetOptionsandOptionNegotiation.htm), requests that the other device perform a particular option or confirms the expectation that the other device will perform that option. |
 | **254** | **_DON’T_** | **Don’t Perform** | In [Telnet option negotiation](http://www.tcpipguide.com/free/t_TelnetOptionsandOptionNegotiation.htm), specifies that the other party not perform an option, or confirms a device’s expectation that the other party not perform an option. |
 | **255** | **_IAC_** | **Interpret As Command** | Precedes command values 240 through 254 as described above. A pair of IAC bytes in a row represents the data value 255. |
+
+
+### OPTIONS FOR OPTION NEGOTIATION
+
+The following set of options can be negotiates using WILL and DO  and their negatives in order to handle the Telnet Session between a client and a server. 
+
+| Num | Option Code       | Option Name                             | Description                                                                                           |
+| --- | ----------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| 0   | TRANSMIT-BINARY   | Binary Transmission                     | Allows binary communication in 8bit instead of 7-bit ASCII.                                           |
+| 1   | ECHO              | Echo                                    | Send an echo mode for Keystroke transmission and their terminal appearance and behavior.              |
+| 3   | SUPPRESS-GO-AHEAD | Suppress go ahead                       | Allows when not operating in half-duplex mode to not need to use GO-AHEAD when ending transmission.   |
+| 5   | STATUS            | Status                                  | Requests the status of a Telnet Option                                                                |
+| 6   | TIMING-MARK       | Timing Mark                             | Allows devices to negotiate the insertion of a timing mark into data stream. Used for synchronization |
+| 10  | NAOCRD            | Output Carriage-Return Disposition      | How carriage returns would be handled                                                                 |
+| 11  | NAOHTS            | Output Horizontal Tab Stops             | Negotiate which horizontal tabs will be used.                                                         |
+| 12  | NAOHTD            | Output Horizontal Tab Stops Disposition | Negotiate how horizontal tabs are handled and if end the connection                                   |
+| 13  | NAOFFD            | Output Formfeed Disposition             | Negotiate how form feed characters will be handled.                                                   |
