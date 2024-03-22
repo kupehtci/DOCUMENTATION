@@ -17,7 +17,7 @@ For setting this urgent mode, <span style="color:orange;">two fields must be set
 ### USES
 
 TCP urgent mode is mostly used for: 
-* Telnet and Rlogin when user types the interrupt key
+* Telnet [[TELNET]] and Rlogin when user types the interrupt key
 * FPT[^1] when aborting a file. 
 
 ### URGENT MODE

@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "tag:#NETWORKING  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -50,7 +50,7 @@
       }
     },
     {
-      "query": "tag:#CS",
+      "query": "tag:#CSHARP  ",
       "color": {
         "a": 1,
         "rgb": 13874425
@@ -60,7 +60,7 @@
       "query": "tag:#NETWORKING  ",
       "color": {
         "a": 1,
-        "rgb": 518527
+        "rgb": 16621340
       }
     }
   ],
@@ -74,6 +74,6 @@
   "repelStrength": 15.7511393229167,
   "linkStrength": 0.783487955729167,
   "linkDistance": 312,
-  "scale": 0.75512082241429,
-  "close": true
+  "scale": 0.6642672649877434,
+  "close": false
 }

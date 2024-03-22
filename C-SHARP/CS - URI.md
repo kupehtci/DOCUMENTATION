@@ -1,4 +1,4 @@
-#NETWORKING 
+#CSHARP  #NETWORKING 
 
 ### URI CLASS
 
@@ -39,3 +39,4 @@ Console.WriteLine($"Segments: {string.Join(", ", uri.Segments)}"); Console.Write
 // UserEscaped: False 
 // UserInfo: user:password
 ```
+
