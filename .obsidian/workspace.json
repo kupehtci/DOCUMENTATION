@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/TCP - Urgent Mode.md",
+                "file": "NETWORKING/POP3.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CONCEPTS/Line Feed and Form Feed characters.md",
+                "file": "NETWORKING/SMTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,12 +35,28 @@
             "id": "21581be3a566e6be",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "NETWORKING/FTP File Transfer Protocol.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3ab0f0315c61751",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NETWORKING/HTTP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +89,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "NETWORKING/HTTP.md"
+              }
             }
           },
           {
@@ -115,6 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "NETWORKING/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "NETWORKING/HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,14 +168,15 @@
             }
           },
           {
-            "id": "da0273cd0b496a72",
+            "id": "7fd2bccc6133a2e0",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -174,8 +195,27 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21581be3a566e6be",
+  "active": "c3ab0f0315c61751",
   "lastOpenFiles": [
+    "NETWORKING/FTP File Transfer Protocol.md",
+    "NETWORKING/POP3.md",
+    "NETWORKING/HTTP - Keywords.md",
+    "NETWORKING/HTTP.md",
+    "C-SHARP/CS - STRING DOCUMENTATION.md",
+    "NETWORKING/SMTP.md",
+    "NETWORKING/MIME.md",
+    "CONCEPTS/ASCII.md",
+    "NETWORKING/EMAIL.md",
+    "NETWORKING/IMAGES/MIME_header_message_format.png",
+    "NETWORKING/IMAP.md",
+    "NETWORKING/Firewall.md",
+    "CONCEPTS/Line Feed and Form Feed characters.md",
+    "NETWORKING/IMAGES/overview_email_protocols.png",
+    "NETWORKING/SMTP commands.md",
+    "NETWORKING/POP3 - Commands workflow.md",
+    "NETWORKING/TELNET - Commands.md",
+    "NETWORKING/TELNET.md",
+    "NETWORKING/TCP - Urgent Mode.md",
     "C-SHARP/CS - Go through files in Directory.md",
     "C-SHARP/CS - Garbage collector.md",
     "C-SHARP/CS - JSON Parsing.md",
@@ -185,23 +225,6 @@
     "C-SHARP/CS - Action vs Func.md",
     "C-SHARP/CS - .NET Serialization.md",
     "C-SHARP/CS - Array of strings.md",
-    "C-SHARP/CS - Delegate Func<>.md",
-    "C-SHARP/CS - Enum to int.md",
-    "C-SHARP/CS - Mutex.md",
-    "C-SHARP/CS - STRUCT VS CLASSES.md",
-    "C-SHARP/CS - StreamWriter.md",
-    "C-SHARP/CS - Nullable propagation.md",
-    "C-SHARP/CS - Multi-dimensional Arrays.md",
-    "C-SHARP/CS - URI.md",
-    "CONCEPTS/Line Feed and Form Feed characters.md",
-    "NETWORKING/TCP - Urgent Mode.md",
-    "C-SHARP/CS - ENUM.md",
-    "NETWORKING/TELNET - Commands.md",
-    "Untitled.md",
-    "NETWORKING/TELNET.md",
-    "NETWORKING/TCP - Transfer Control Protocol.md",
-    "INFORMATION TECHNOLOGIES/Class Exercise - Query Optimization.md",
-    "AI FOR VIDEOGAMES/Planning.md",
     "AI FOR VIDEOGAMES/IMAGES/combined_states.png",
     "INFORMATION TECHNOLOGIES/IMAGES/mongodb_lookup.png",
     "INFORMATION TECHNOLOGIES/IMAGES/mongodb_insert.png",
@@ -212,8 +235,6 @@
     "INFORMATION TECHNOLOGIES/IMAGES/systematic_diagram_cost_based.png",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-3.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/query-optimization-equivalence.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-2.png",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "PostgreSQL",
     "HTML/IMAGES",

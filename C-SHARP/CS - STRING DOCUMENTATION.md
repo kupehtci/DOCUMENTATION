@@ -1,7 +1,5 @@
 #CSHARP #NET 
 
-
-
 ### REPLACE SUBSTRINGS
 
 You can find substrings within a string and replace with another value: 
@@ -11,9 +9,7 @@ Replace chars in a string using [replace](https://msdn.microsoft.com/en-us/libr
 ```csharp
 string input = "Hello old_value"
 string output = input.Replace("old_value", "World");
+Console.WriteLine(output); // Hello World
 ```
 
-The result would be: 
-
-> <span style="color: purple">Hello World</span>
 

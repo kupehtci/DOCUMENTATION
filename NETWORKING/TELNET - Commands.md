@@ -6,8 +6,17 @@ All this commands work by the use of **negotiation** with the `WILL` and `DO` co
 
 All of this commands are sent though the same channel as the data and are signaled before with a <span style="color:orange;">(IAC) Interpret As Command</span>. 
 
-Are represented using a special byte 240-254 (decimal value) \[11110000 - 11111110\]. 
+##### COMMAND RESTRICTIONS
 
+* A device may only send a negotiation command to request a change in status of an option. 
+* Cannot send DO or WILL in order to confirm or reinforce the current state of an option. 
+* A device that gets requested an option that is already using, should avoid activating again. 
+* Options are always disabled by using `WONT` and `DONT`. 
+* 
+
+### NEGOTIATION COMMANDS
+
+Are represented using a special byte 240-254 (decimal value) \[11110000 - 11111110\]. 
 
 | **Command Byte Value (Decimal)** | **Command Code** | **Command** | **Description** |
 | ---- | ---- | ---- | ---- |
@@ -33,14 +42,47 @@ Are represented using a special byte 240-254 (decimal value) \[11110000 - 111111
 
 The following set of options can be negotiates using WILL and DO  and their negatives in order to handle the Telnet Session between a client and a server. 
 
-| Num | Option Code       | Option Name                             | Description                                                                                           |
-| --- | ----------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| 0   | TRANSMIT-BINARY   | Binary Transmission                     | Allows binary communication in 8bit instead of 7-bit ASCII.                                           |
-| 1   | ECHO              | Echo                                    | Send an echo mode for Keystroke transmission and their terminal appearance and behavior.              |
-| 3   | SUPPRESS-GO-AHEAD | Suppress go ahead                       | Allows when not operating in half-duplex mode to not need to use GO-AHEAD when ending transmission.   |
-| 5   | STATUS            | Status                                  | Requests the status of a Telnet Option                                                                |
-| 6   | TIMING-MARK       | Timing Mark                             | Allows devices to negotiate the insertion of a timing mark into data stream. Used for synchronization |
-| 10  | NAOCRD            | Output Carriage-Return Disposition      | How carriage returns would be handled                                                                 |
-| 11  | NAOHTS            | Output Horizontal Tab Stops             | Negotiate which horizontal tabs will be used.                                                         |
-| 12  | NAOHTD            | Output Horizontal Tab Stops Disposition | Negotiate how horizontal tabs are handled and if end the connection                                   |
-| 13  | NAOFFD            | Output Formfeed Disposition             | Negotiate how form feed characters will be handled.                                                   |
+| Num | Option Code         | Option Name                             | Description                                                                                           |
+| --- | ------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| 0   | TRANSMIT-BINARY     | Binary Transmission                     | Allows binary communication in 8bit instead of 7-bit ASCII.                                           |
+| 1   | ECHO                | Echo                                    | Send an echo mode for Keystroke transmission and their terminal appearance and behavior.              |
+| 3   | SUPPRESS-GO-AHEAD   | Suppress go ahead                       | Allows when not operating in half-duplex mode to not need to use GO-AHEAD when ending transmission.   |
+| 5   | STATUS              | Status                                  | Requests the status of a Telnet Option                                                                |
+| 6   | TIMING-MARK         | Timing Mark                             | Allows devices to negotiate the insertion of a timing mark into data stream. Used for synchronization |
+| 10  | NAOCRD              | Output Carriage-Return Disposition      | How carriage returns would be handled                                                                 |
+| 11  | NAOHTS              | Output Horizontal Tab Stops             | Negotiate which horizontal tabs will be used.                                                         |
+| 12  | NAOHTD              | Output Horizontal Tab Stops Disposition | Negotiate how horizontal tabs are handled and if end the connection                                   |
+| 13  | NAOFFD              | Output Formfeed Disposition             | Negotiate how form feed characters will be handled.                                                   |
+| 14  | NAOVTS              | Output Vertical Tabstops                | Determine what vertical tab positions will be used for output display.                                |
+| 15  | NAOVTD              | Output Vertical Tab Disposition         | Negotiate the disposition of vertical tab stops                                                       |
+| 16  | NAOLFD              | Output Linefeed Disposition             | Negotiate how line feed characters should be handled                                                  |
+| 17  | EXTEND-ASCII        | Extended ASCII                          | Negotiate about using extended ASCII for transmission and how it would be used                        |
+| 24  | TERMINAL-TYPE       | Terminal Type                           | Negotiate about using a specific terminal type.                                                       |
+| 31  | NAWS                | Negotiate about window size             | Negotiate and notify the size of the terminal window                                                  |
+| 32  | TERMINAL-SPEED      | Terminal Speed                          | Report the current terminal speed                                                                     |
+| 33  | TOGGLE-FLOW-CONTROL | Remote Flow Control                     | Negotiate flow control between the client and the server (enabled or disabled)                        |
+| 34  | LINEMODE            | Linemode                                | Allows client to send data line per line instead of character at a time.                              |
+| 37  | AUTHENTICATION      | Authentication                          | Negotiate the authentication method to secure connection                                              |
+
+#### OPTION SUB-NEGOTIATION
+
+Some options like the ones that set an option **true** or **false**, can be toggled by only sending the command but others need some parameters for the context. 
+
+This process is called <span style="color:orange;">option sub-negotiation</span> and is used in case of options that require to send special parameters: 
+
+* Telnet allows client and server to send an arbitrary amount of data related to an option. 
+* This process follows a defined sequence
+	* Command `SB` is sent with option number and parameter specific for that option
+	* Ends the subnegotiation by sending `SE`
+
+```Terminal
+IAC WILL SB <option> <option_param> <option_param> <option_param>
+IAC WILL SE
+
+// Example: 
+
+IAC WILL SB NAWS 1080
+IAC WILL SE
+```
+
+Must be preceded by Interpret As Command (IAC). 
