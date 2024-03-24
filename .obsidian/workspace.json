@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/POP3.md",
+                "file": "NETWORKING/HTTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/SMTP.md",
+                "file": "NETWORKING/HTTP - Key elements.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/HTTP.md",
+                "file": "NETWORKING/PORTS USED.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,14 +194,18 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c3ab0f0315c61751",
+  "active": "105746f64d84c59e",
   "lastOpenFiles": [
-    "NETWORKING/FTP File Transfer Protocol.md",
-    "NETWORKING/POP3.md",
-    "NETWORKING/HTTP - Keywords.md",
+    "NETWORKING/IMAGES/Captura de pantalla 2024-03-24 a las 22.17.15.png",
+    "NETWORKING/IMAGES/round_trip_time_http_performance_calculation.png",
+    "NETWORKING/HTTP - Key elements.md",
     "NETWORKING/HTTP.md",
-    "C-SHARP/CS - STRING DOCUMENTATION.md",
     "NETWORKING/SMTP.md",
+    "NETWORKING/POP3.md",
+    "NETWORKING/FTP File Transfer Protocol.md",
+    "NETWORKING/PORTS USED.md",
+    "NETWORKING/HTTP - Keywords.md",
+    "C-SHARP/CS - STRING DOCUMENTATION.md",
     "NETWORKING/MIME.md",
     "CONCEPTS/ASCII.md",
     "NETWORKING/EMAIL.md",
@@ -222,9 +225,6 @@
     "C-SHARP/CS - IDisposable Interface.md",
     "C-SHARP/CS - lock.md",
     "C-SHARP/CS - Delegate introduction.md",
-    "C-SHARP/CS - Action vs Func.md",
-    "C-SHARP/CS - .NET Serialization.md",
-    "C-SHARP/CS - Array of strings.md",
     "AI FOR VIDEOGAMES/IMAGES/combined_states.png",
     "INFORMATION TECHNOLOGIES/IMAGES/mongodb_lookup.png",
     "INFORMATION TECHNOLOGIES/IMAGES/mongodb_insert.png",
@@ -234,7 +234,6 @@
     "GAME PRODUCTION/IMAGES/feature_planification.png",
     "INFORMATION TECHNOLOGIES/IMAGES/systematic_diagram_cost_based.png",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
-    "INFORMATION TECHNOLOGIES/IMAGES/class-exercise-3.png",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "PostgreSQL",
     "HTML/IMAGES",

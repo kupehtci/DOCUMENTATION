@@ -3,60 +3,185 @@
 ## HTTP - Hyper Text Transfer Protocol
 
 
-Hyper-Text Transfer Protocol is an application layer protocol capable of transfer Hyper-Text documents. The most common Hyper Text Markup Language to define Hyper Text documents is HTML [[HTML - Basics]]. 
+Hyper-Text Transfer Protocol is an <span style="color:orange;">application layer protocol</span> capable of transfer Hyper-Text documents over TCP [[TCP - Handshake]]. 
 
-The different Web Objects like the HTML webpage itself are stored with an unique URI. 
+The different Web Objects ([[HTTP - Key elements]]👀) like the HTML$^1$ webpage itself are highly localizable because are stored under an unique URI (Uniform  Resource Identifier) or an URL (Uniform Resource Locator). 
 
-Lest see the different concepts that conforms the HTTP Protocol: 
 
-##### HTML 
+### BASIC FLOW
 
-Hyper-Text Markup Language or HTML is a text language used to define hypertext document. Its capable, by adding tags to a regular document to allow data formatting and external linking like images. 
+In order to retrieve an Hyper-Text document, its follows various steps in order to grant the connection to share the document. 
 
-##### URIs (Uniform Resource Identifiers)
+1. Client Starts the connection by creating a <span style="color:LIghtSeaGreen;">socket on port 80</span>.
+2. Server accept this connection. 
+3. Client sends an <span style="color:blue;">HTTP request message</span> on open socket
+4. Server sends an <span style="color:blue;">HTTP response message</span> in return. 
+5. TCP connection is closed. 
 
-Uniform Resource Identifiers or URIs is a method of labelling to identify resources so can be easily founded. 
+### STATELESS
 
-Originally can be used to locate hyper-text documents, like coordinates to the document. 
+HTTP is a stateless server protocol, meaning that servers sends the requested files to the Clients without storing a **state**$^2$. 
 
-##### URLs ( Uniform Resource Locators)
+Each connection is <span style="color:Violet;">treated independently</span>. 
 
-Allows web objects to be uniquely addressed by the **host name**, **directory** and **filename**. 
-For webs the schema will always be **http(s)://**
+Stateless makes this protocol, simpler, easier to debug and implement and are not prone to inconsistencies. 
 
-```markdown
-http://<user>:<password>@<host>:<port>/<url-path>? <query>#<bookmark>
+However, two main features require some states, Authentication and Caching. 
+
+`AUTHENTICATION`
+
+In order to provide state for authentication, HTTP provides certain status codes and headers to perform authentication: 
+* **Token**.based authentication
+* **Cookies**-based authentication
+
+### HTTP Message Format
+
+In HTTP requests and responses are sent in ASCII plain text messages until HTTP/2.0 that started to transmit in binary. 
+
+There are two types of HTTP messages: 
+
+* Requests messages (Client ➡ Server)
+* Response messages (Client ⬅ Server)
+
+### HTTP Request format
+
+This is the format of an HTTP request from a Client to a Server: 
+
+```TXT
+GET /dir/index.html HTTP/1.1
+Connection: close
+User-agent: Mozilla/4.0
+Accept: text/html, image/gif, image/jpeg
+Accept-language:es
+
+This is an example of the body
 ```
 
- * <span style="color:LightSeaGreen;">User and password</span>: Optional authentication (Rarely used)
- * <span style="color:LightSeaGreen;">Host</span>: Hostname of the web where resource is located. Normally a fully qualified domain name or an IP address
- * <span style="color:LightSeaGreen;">Port</span>: TCP port number 
- * <span style="color:LightSeaGreen;">url-path</span>: Path to specific resource to be retreived. A full directory with the secuences of directories and filename except is `index.html`. 
- * <span style="color:LightSeaGreen;">Query</span>: An optional query to sent to server used in interactive functions.
- * <span style="color:LightSeaGreen;">Bookmark</span>: Identifies a section within the current HTML document. 
+Being `GET /dir/index.html HTTP/1.1` the request line and the rest the header followed by the body content of the request. 
 
-##### WEB SERVERS
+The <span style="color:violet;">request line</span> has the following structure: 
 
-Mix of software an hardware hosts that keeps hyper-text documents and render them. Interprets CSS, HTML and other media content. 
+```txt
+<method> <url/path/filename> <HTTP/X.X>
+GET      URL                 Version    
+POST
+HEAD
+...
+```
+
+The <span style="color:violet;">headers</span> add additional parameters of the request depending on the browser and the server. 
+(Customizable (X-....))
+
+The <span style="color:violet;">body</span> is just plain text formatted in JSON standard, that is only included by some methods. 
+
+The different <span style="color:orange;">request methods</span> that can be used to indicate the action that server should do with a resource: 
+
+* <span style="font-weight:bold;">GET</span> method: 
+	* Safe and idempotent
+	* Fetches an specified resource
+	* Has no body, so use query params instead
+* <span style="font-weight:bold;">HEAD</span> method
+	* Safe and idempotent
+	* Simulates a GET requests but only retrieves its headers
+* <span style="font-weight:bold;">POST</span> method
+	* Alters state of server by creating or uploading a new resource
+* <span style="font-weight:bold;">PUT</span>
+	* Idempotent
+	* Alters the state of the server
+	* Updates an existing resource
+* <span style="font-weight:bold;">DELETE</span>
+	* Alters the state of the server
+	* Deletes the specified resource
+
+\* Idempotent is when one single requests has same effect as making $n$ requests
+\* Safe is when the requests don't modifies the server state. 
+\* Cacheable is then once the request is executed, the response can be preserved to avoid repeating the execution. 
+
+### HTTP Response format
+
+This is the structure of a typical HTTP response message that the Server creates and send once the request is executed: 
+
+```
+HTTP/1.1 200 OK 
+Connection: close
+Date: Thu, 06 Aug 1998 12:00:15 GMT
+Server: Apache/1.3.0 (Unix)
+Last-Modified: Mon, 22 Jun 1998 09:23:24 GMT
+Content-Length: 6821
+Content-Type: text/html
+
+This is an example of body
+```
+
+In the response, the most important data is the <span style="color:violet;">status code</span>: 
+
+```
+<HTTP/X.X> <status_number> <OK>
+Version    Status number e.g. 200
+```
+
+### PERFORMANCE
+
+In order to measure the performance of a website or an Web Object, we can measure and quantify the amount of time 
+
+The <span style="color:orange;">Round-trip time (RTT)</span> is the time it takes for a small packet to travel from client to server and back. 
+
+It takes into account: 
+* Packet propagation delays
+* Packet queuing delays in intermediate routers and switches
+* Packet processing delay in Server and Client. 
+
+In a <span style="color:violet;">non-persistent connection</span> each time it uses HTTP to retrieve a Hyper-text document, it closes the TCP connection. 
+
+Otherwise, in <span style="color:violet;">persistent connection</span>, the server leaves the TCP connection open so multiple objects can be transmitted using the same connection by doing <span style="color:LIghtSeaGreen;">subsequent requests and responses</span>. 
+
+We save the initial RTT used to open the connection each time into only one connection opening. 
+
+![[./IMAGES/round_trip_time_http_performance_calculation.png|350]]
+
+There are three types of <span style="color:violet;">persistent connections</span>: 
+* **without pipelining**: one request and response at a time
+* **with pipelining (HTTP/1.1)**: $n$ requests can be sent over a TCP connection without waiting for responses and responses will arrive in same order as sent. 
+* **with multiplexing (HTTP/2.0)**: $n$ requests are sent *concurrently* over a single TCP connection and responses arrive at any order.
+
+![[Captura de pantalla 2024-03-24 a las 22.17.15.png]]
 
 
-##### WEB OBJECTS
 
-Its the most basic web element that can be uniquely identified. Any of these resources can be: 
+##### PERFORMANCE TIME CALCULATION
 
-* Addresable by a single URL
-* Sent by over HTTP
-* Renderable by a web browser
-* Storable in a Web server
+Given an HTML file, accessible at https://sample.com/file.html within
+**20ms**
 
-##### WEBPAGES
+• An stable RTT (round-time trip) of **40ms**
+• A load time of each image of **80ms**
+• How long would a browser take till loading the full website? ⏱ that has 8 images with an URL: 
 
-Is a type of web object and is built using the HTML. 
+```HTML
+<html>
+	<body>
+		<h1>Hello World</h1>
+		<img alt="imgA" src ="https://picsum.photos/200">
+		<img alt="imgA" src ="https://picsum.photos/200">
+		<img alt="imgA" src ="https://picsum.photos/200">
+		<img alt="imgA" src ="https://picsum.photos/200">
+		<img alt="imgA" src ="https://picsum.photos/200">
+		<img alt="imgA" src ="https://picsum.photos/200">
+		<img alt="imgA" src ="https://picsum.photos/200">
+		<img alt="imgA" src ="https://picsum.photos/200">
+	</body>
+</html>
+```
 
-May content nested web objects like: 
-* Images
-* Text
-* Images
-* Video
-* ...
+The time it takes to load the entire webpage using a persistent connection is: 
 
+$$RTT + RTT + Cost(HTML) + 8 * (RTT * Cost(Image))$$
+
+A first initial RTT for opening the connection
+An RTT and the load time for bringing to client the HTML 
+
+Eight RTT and load image for each one of the imagenes that are encountered during the HTML file. 
+
+---
+$^1$ [[HTML - Basics]]
+$^2$ State or even any type or information about the client
