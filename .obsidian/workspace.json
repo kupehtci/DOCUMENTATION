@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/HTTP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0ccbd7e7832efbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NETWORKING/HTTP - Key elements.md",
+                "file": "ANALISIS LEXICO SINTACTICO/Parser Trees.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/FTP File Transfer Protocol.md",
+                "file": "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#HTML  ",
+                "query": "tag:#CONCEPS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/HTTP.md"
+                "file": "ANALISIS LEXICO SINTACTICO/Parsing techniques.md"
               }
             }
           },
@@ -116,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.50247192382812
+    "width": 200
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -132,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/HTTP.md",
+                "file": "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/HTTP.md",
+                "file": "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,45 +183,46 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "105746f64d84c59e",
+  "active": "21581be3a566e6be",
   "lastOpenFiles": [
+    "NETWORKING/FTP File Transfer Protocol.md",
+    "ANALISIS LEXICO SINTACTICO/Parser Trees.md",
+    "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
+    "^1.md",
+    "1.md",
+    "CONCEPTS/GRAMMARS/GRAMMARS - Introduction.md",
+    "CONCEPTS/GRAMMARS/GRAMMARS - Grammars of type 2.md",
+    "CONCEPTS/GRAMMARS/Regular Expressions.md",
+    "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
+    "COMPUTATIONAL THEORY/Deterministic Finite Automaton (AFD) (DFA).md",
+    "ANALISIS LEXICO SINTACTICO/Compiler.md",
+    "AI FOR VIDEOGAMES/Pathfinding.md",
+    "AI FOR VIDEOGAMES/Bokoblin Planning.md",
+    "AI FOR VIDEOGAMES/IMAGES/pathfinding-grid-cost-parent.png",
+    "SOFTWARE QUALITY/SQ - Session 3.md",
+    "SOFTWARE QUALITY/SQ - Practice Case - VehicleComunication.md",
+    "SOFTWARE QUALITY/SQ - Practice Case - Test cases.md",
+    "SOFTWARE QUALITY/SQ - Understanding Quality.md",
+    "ANALISIS LEXICO SINTACTICO/Lexer.md",
+    "ANALISIS LEXICO SINTACTICO/Interpreter.md",
+    "ANALISIS LEXICO SINTACTICO/Lexical Analysis.md",
+    "NETWORKING/TLS.md",
+    "SOFTWARE QUALITY/SQ - Keys.md",
+    "SOFTWARE QUALITY/Testing.md",
+    "SOFTWARE QUALITY/Bug, Error Situation and failure.md",
+    "SOFTWARE QUALITY/JQUERY - TESTING.md",
+    "SOFTWARE QUALITY/SQ - Agile.md",
+    "SOFTWARE QUALITY/SQ - Refactoring.md",
+    "NETWORKING/IMAGES/symmetric_cryptography_tls.png",
     "NETWORKING/IMAGES/Captura de pantalla 2024-03-24 a las 22.17.15.png",
     "NETWORKING/IMAGES/round_trip_time_http_performance_calculation.png",
-    "NETWORKING/HTTP - Key elements.md",
-    "NETWORKING/HTTP.md",
-    "NETWORKING/SMTP.md",
-    "NETWORKING/POP3.md",
-    "NETWORKING/FTP File Transfer Protocol.md",
-    "NETWORKING/PORTS USED.md",
-    "NETWORKING/HTTP - Keywords.md",
-    "C-SHARP/CS - STRING DOCUMENTATION.md",
-    "NETWORKING/MIME.md",
-    "CONCEPTS/ASCII.md",
-    "NETWORKING/EMAIL.md",
     "NETWORKING/IMAGES/MIME_header_message_format.png",
-    "NETWORKING/IMAP.md",
-    "NETWORKING/Firewall.md",
-    "CONCEPTS/Line Feed and Form Feed characters.md",
     "NETWORKING/IMAGES/overview_email_protocols.png",
-    "NETWORKING/SMTP commands.md",
-    "NETWORKING/POP3 - Commands workflow.md",
-    "NETWORKING/TELNET - Commands.md",
-    "NETWORKING/TELNET.md",
-    "NETWORKING/TCP - Urgent Mode.md",
-    "C-SHARP/CS - Go through files in Directory.md",
-    "C-SHARP/CS - Garbage collector.md",
-    "C-SHARP/CS - JSON Parsing.md",
-    "C-SHARP/CS - IDisposable Interface.md",
-    "C-SHARP/CS - lock.md",
-    "C-SHARP/CS - Delegate introduction.md",
     "AI FOR VIDEOGAMES/IMAGES/combined_states.png",
     "INFORMATION TECHNOLOGIES/IMAGES/mongodb_lookup.png",
     "INFORMATION TECHNOLOGIES/IMAGES/mongodb_insert.png",
     "NETWORKING/IMAGES/udp_structure.png",
-    "GAME PRODUCTION/IMAGES/feature_planification_roadmap.png",
     "GAME PRODUCTION/IMAGES",
-    "GAME PRODUCTION/IMAGES/feature_planification.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/systematic_diagram_cost_based.png",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "PostgreSQL",
@@ -246,7 +236,6 @@
     "CMAKE",
     "POSTGRES SQL",
     "Untitled.canvas",
-    "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
     "UNITY/STATIC BATCHER CANVAS.canvas",

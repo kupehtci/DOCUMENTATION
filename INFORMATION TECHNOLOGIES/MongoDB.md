@@ -62,6 +62,17 @@ OR operation:
 ```
 
 
+Filtering can be done in aggregation section by using a `$match` stage and write the filtering option within it: 
+
+```JSON
+$match
+---------------------------
+{
+  classification:"Class A"
+}
+---------------------------
+```
+
 ### PROJECTIONS
 
 IN order to project (SELECT) some attributes, needs to be applied as a project. 
@@ -79,6 +90,21 @@ Data can be sorted by a value by specifying as json:
 ```json 
 {"name": 1} // Order ascendently by name
 {"name": -1} // Order descendently by name
+```
+
+### AVERAGE
+
+An average of a value can be calculated by grouping it in the aggregation: 
+```JSON
+$group 
+---------------------------
+{
+  _id: null,
+  avg_value: {
+    $avg: "$cloud_cover"
+  }
+}
+---------------------------
 ```
 
 ### JOINS
@@ -99,7 +125,7 @@ as $lookup is the pipeline step in order to enbed two collections:
 ```json
 // join
 {
-  from: 'professors',         //collection that are aggregated
+  from: 'professors',         //collection that are aggregagted
   localField: 'professor',    //field to compare in actual collection
   foreignField: 'id',         //field to compare in other collection
   as: 'professors'            //new aggregation attribute name

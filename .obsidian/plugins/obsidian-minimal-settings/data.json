@@ -2,8 +2,8 @@
   "theme": "moonstone",
   "lightStyle": "minimal-light-white",
   "darkStyle": "minimal-dark-black",
-  "lightScheme": "minimal-notion-light",
-  "darkScheme": "minimal-macos-dark",
+  "lightScheme": "minimal-default-light",
+  "darkScheme": "minimal-flexoki-dark",
   "editorFont": "",
   "lineHeight": 1.5,
   "lineWidth": 40,
@@ -15,7 +15,7 @@
   "imgWidth": "img-default-width",
   "tableWidth": "table-default-width",
   "iframeWidth": "iframe-default-width",
-  "mapWidth": "map-default-width",
+  "mapWidth": "map-wide",
   "chartWidth": "chart-default-width",
   "colorfulHeadings": false,
   "colorfulFrame": false,
@@ -32,5 +32,5 @@
   "folding": true,
   "lineNumbers": false,
   "readableLineLength": true,
-  "devBlockWidth": false
+  "devBlockWidth": true
 }

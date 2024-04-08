@@ -46,7 +46,7 @@ Another example:
 Most of the tokens can be described with a Regular Expression [[Regular Expressions]]. 
 ### TOKENS DEFINITION
 
-In order to define this tokens and the pattern needs the input to follow to be indetified each part as its correspondent token, we need to declare them using <span style="color:orange;">Regular Expressions</span>. [[Regular Expressions]]. 
+In order to define this tokens and the pattern needs the input to follow to be identified each part as its correspondent token, we need to declare them using <span style="color:orange;">Regular Expressions</span>. [[Regular Expressions]]. 
 * character --> (a|b|c|...|z|A|B|...|Z) = \[a-zA-Z\]
 * digit --> (0|1|2|3|4|5|6|7|8|9)=\[0-9\] 
 * id --> char(char|digit)*  

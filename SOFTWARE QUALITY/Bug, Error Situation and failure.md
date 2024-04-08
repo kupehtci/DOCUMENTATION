@@ -1,6 +1,5 @@
 
-In a bug or error case of a software development, it's common to distinguish between this three aspects: 
-
+In a bug or error case of a software development, it's common to <span style="color:orange;">distinguish between this three aspects</span>: 
 
 * `bug`: is the mistake that caused the error in the source code. 
 * `Error Situation`: is the system state that is hold while hapening the bug or the environment variables that causes the bug. 

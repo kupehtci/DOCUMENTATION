@@ -93,9 +93,9 @@ The different <span style="color:orange;">request methods</span> that can be use
 	* Alters the state of the server
 	* Deletes the specified resource
 
-\* Idempotent is when one single requests has same effect as making $n$ requests
-\* Safe is when the requests don't modifies the server state. 
-\* Cacheable is then once the request is executed, the response can be preserved to avoid repeating the execution. 
+\* **Idempotent** is when one single requests has same effect as making $n$ requests
+\* **Safe** is when the requests don't modifies the server state. 
+\* **Cacheable** is then once the request is executed, the response can be preserved to avoid repeating the execution. 
 
 ### HTTP Response format
 

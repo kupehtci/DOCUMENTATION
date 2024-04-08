@@ -1,7 +1,7 @@
 {
   "accentColor": "",
   "baseFontSize": 16,
-  "cssTheme": "",
+  "cssTheme": "Atom",
   "theme": "moonstone",
   "translucency": true,
   "monospaceFontFamily": "JetBrains Mono",

@@ -39,3 +39,9 @@ If a server is non-authoritative for a particular hostname, the server will cont
 
 * A NS record for the domain specifying the hostname
 * A type A record that contains the IP address of the name server in the value field of the NS record (A DNS translation of the query chain server)
+
+
+### TTL
+
+TTL is the life-span of a resource record within a server.
+It determines the time at which the resource should be removed from a cache. 
