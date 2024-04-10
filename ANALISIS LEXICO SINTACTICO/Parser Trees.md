@@ -57,5 +57,16 @@ Rules to build the FIRST:
 4. If a rule `X --> Ya` and `Y --> ε` with `Y` a production rule and `a` a terminal token, FIRST(x) = {a, ε}, including the empty or void token . 
 5.  If a rule `X --> Ya` and `Y --> ε | b ` with `Y` a production rule and `a` a terminal token, `FIRST(x) = {a, b}`, with `ε`  included following the rule 4. 
 
+
+### FOLLOW 
+
+Follow is the following terminal characters of a production rule
+
+Rules to build a FOLLOW: 
+
+1. If A is an axiom, FOLLOW(A) = { $ }
+2. If `Xy` FOLLOW(X) = { y }
+3. If B --> xA where $ε\in FIRST(B)$ so FOLLOW(A) = FIRST(B) + FOLLOW(B)
+
 ---
 [^1]:  Reference to grammars [[GRAMMARS - Introduction]] 

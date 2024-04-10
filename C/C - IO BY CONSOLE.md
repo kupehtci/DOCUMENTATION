@@ -5,7 +5,7 @@ In C programming, `printf()` is one of the main output function. The function 
 
 ### Example 1: C Output
 
-```
+```c
 #include <stdio.h>    
 int main()
 { 
@@ -24,7 +24,7 @@ int main()
 
 ### Example 2: Integer Output
 
-```
+```c
 #include <stdio.h>
 int main()
 {

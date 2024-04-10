@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Parser Trees.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21581be3a566e6be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3ab0f0315c61751",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NETWORKING/PORTS USED.md",
+                "file": "REDIS/REDIS - Cheat note.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Parsing techniques.md"
+                "file": "REDIS/REDIS - Cheat note.md"
               }
             }
           },
@@ -105,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 207.50312423706055
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -121,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
+                "file": "REDIS/REDIS - Cheat note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
+                "file": "REDIS/REDIS - Cheat note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,11 +158,27 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21581be3a566e6be",
+  "active": "105746f64d84c59e",
   "lastOpenFiles": [
-    "NETWORKING/FTP File Transfer Protocol.md",
+    "SOFTWARE QUALITY/SQ - Defect Causal Analysis.md",
+    "SOFTWARE QUALITY/IMAGES/5-Whys-Analysis.png",
+    "SOFTWARE QUALITY/IMAGES/fishbone-diagram.jpg",
+    "SOFTWARE QUALITY/IMAGES",
+    "SOFTWARE QUALITY/IMAGES/Pareto-Chart.png",
+    "SOFTWARE QUALITY/SQ - Code Reviews.md",
+    "SOFTWARE QUALITY/SQ - Refactoring.md",
+    "MATHEMATICAL CONCEPTS/Pareto diagram.md",
+    "MATHEMATICAL CONCEPTS/IMAGES/Pareto.png",
     "ANALISIS LEXICO SINTACTICO/Parser Trees.md",
+    "C/C - IO BY CONSOLE.md",
+    "REDIS/REDIS - Cheat note.md",
+    "JavaCC/JavaCC Compound tokens modifiers.md",
+    "REDIS",
+    "JavaCC/JavaCC Token definition.md",
+    "JavaCC/JavaCC Basic Parser.md",
+    "NETWORKING/Audio and Video Streaming.md",
     "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
+    "NETWORKING/FTP File Transfer Protocol.md",
     "^1.md",
     "1.md",
     "CONCEPTS/GRAMMARS/GRAMMARS - Introduction.md",
@@ -202,26 +193,11 @@
     "SOFTWARE QUALITY/SQ - Session 3.md",
     "SOFTWARE QUALITY/SQ - Practice Case - VehicleComunication.md",
     "SOFTWARE QUALITY/SQ - Practice Case - Test cases.md",
-    "SOFTWARE QUALITY/SQ - Understanding Quality.md",
-    "ANALISIS LEXICO SINTACTICO/Lexer.md",
-    "ANALISIS LEXICO SINTACTICO/Interpreter.md",
-    "ANALISIS LEXICO SINTACTICO/Lexical Analysis.md",
-    "NETWORKING/TLS.md",
-    "SOFTWARE QUALITY/SQ - Keys.md",
-    "SOFTWARE QUALITY/Testing.md",
-    "SOFTWARE QUALITY/Bug, Error Situation and failure.md",
-    "SOFTWARE QUALITY/JQUERY - TESTING.md",
-    "SOFTWARE QUALITY/SQ - Agile.md",
-    "SOFTWARE QUALITY/SQ - Refactoring.md",
     "NETWORKING/IMAGES/symmetric_cryptography_tls.png",
     "NETWORKING/IMAGES/Captura de pantalla 2024-03-24 a las 22.17.15.png",
     "NETWORKING/IMAGES/round_trip_time_http_performance_calculation.png",
     "NETWORKING/IMAGES/MIME_header_message_format.png",
     "NETWORKING/IMAGES/overview_email_protocols.png",
-    "AI FOR VIDEOGAMES/IMAGES/combined_states.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/mongodb_lookup.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/mongodb_insert.png",
-    "NETWORKING/IMAGES/udp_structure.png",
     "GAME PRODUCTION/IMAGES",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
@@ -233,8 +209,6 @@
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
     "AI FOR VIDEOGAMES/IMAGES",
     "AI FOR VIDEOGAMES",
-    "CMAKE",
-    "POSTGRES SQL",
     "Untitled.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
