@@ -1,5 +1,11 @@
+#REDIS #DATABASES 
 
-On the command pronmt in order to initialize redis database: 
+## INITIALIZE REDIS
+
+Firstly, initialize redis server app.
+
+Once is the server initialized, enter `redis-cli` in the command promt in order to initialize redis client:
+
 ```
 redis-cli
 ```
@@ -42,9 +48,9 @@ You can get the type of the value stored under a key by using `type` command:
 ```type <key_name>```
 
 ```
->hset users user1 daniel
->type users: 
-hash
+> hset users user1 daniel
+> type users: 
+> hash
 ```
 
 

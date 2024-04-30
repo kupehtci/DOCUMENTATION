@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REDIS/REDIS - Cheat note.md",
+                "file": "PIP/Update PIP.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "REDIS/REDIS - Cheat note.md"
+                "file": "PIP/Update PIP.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "REDIS/REDIS - Cheat note.md",
+                "file": "PIP/Update PIP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "REDIS/REDIS - Cheat note.md",
+                "file": "PIP/Update PIP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,45 +154,48 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "publish:Publish changes...": false
     }
   },
   "active": "105746f64d84c59e",
   "lastOpenFiles": [
-    "SOFTWARE QUALITY/SQ - Defect Causal Analysis.md",
+    "NETWORKING/IPv6.md",
+    "PIP/Update PIP.md",
+    "PIP",
+    "REDIS/REDIS - Basics.md",
+    "CSS/CSS - Import font.md",
+    "CSS/CSS-Selectors.md",
+    "CSS/CSS-Pseudo-class.md",
+    "NEO4J/NEO4J - Cheat notes.md",
+    "NEO4J/NEO4J - Basics.md",
+    "JAVA/JAVA - Stack.md",
+    "NEO4J",
+    "HTML/HTML - Form without redirecting.md",
+    "HTML/HTML - contentEditable.md",
+    "JAVASCRIPT/JS - Input event.md",
+    "CASSANDRA/CASSANDRA - Basics.md",
+    "CASSANDRA/CASSANDRA - Cheat notes.md",
+    "ANALISIS LEXICO SINTACTICO/Parser Trees.md",
+    "REDIS/REDIS - Cheat note.md",
+    "INFORMATION TECHNOLOGIES/Wide-Column Stores.md",
+    "INFORMATION TECHNOLOGIES/Views.md",
+    "JavaCC/JavaCC Token definition.md",
+    "CASSANDRA",
+    "JavaCC/JavaCC Compound tokens modifiers.md",
+    "JavaCC/JavaCC Basic Parser.md",
+    "ANALISIS LEXICO SINTACTICO/FIRST AND FOLLOW EXAMPLES.md",
+    "MATHEMATICAL CONCEPTS/Relational Algebra - Symbols.md",
+    "LATEX/LATEX - Unicode symbols.md",
+    "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
+    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
     "SOFTWARE QUALITY/IMAGES/5-Whys-Analysis.png",
     "SOFTWARE QUALITY/IMAGES/fishbone-diagram.jpg",
     "SOFTWARE QUALITY/IMAGES",
     "SOFTWARE QUALITY/IMAGES/Pareto-Chart.png",
-    "SOFTWARE QUALITY/SQ - Code Reviews.md",
-    "SOFTWARE QUALITY/SQ - Refactoring.md",
-    "MATHEMATICAL CONCEPTS/Pareto diagram.md",
     "MATHEMATICAL CONCEPTS/IMAGES/Pareto.png",
-    "ANALISIS LEXICO SINTACTICO/Parser Trees.md",
-    "C/C - IO BY CONSOLE.md",
-    "REDIS/REDIS - Cheat note.md",
-    "JavaCC/JavaCC Compound tokens modifiers.md",
     "REDIS",
-    "JavaCC/JavaCC Token definition.md",
-    "JavaCC/JavaCC Basic Parser.md",
-    "NETWORKING/Audio and Video Streaming.md",
-    "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
-    "NETWORKING/FTP File Transfer Protocol.md",
-    "^1.md",
-    "1.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Introduction.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Grammars of type 2.md",
-    "CONCEPTS/GRAMMARS/Regular Expressions.md",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
-    "COMPUTATIONAL THEORY/Deterministic Finite Automaton (AFD) (DFA).md",
-    "ANALISIS LEXICO SINTACTICO/Compiler.md",
-    "AI FOR VIDEOGAMES/Pathfinding.md",
-    "AI FOR VIDEOGAMES/Bokoblin Planning.md",
     "AI FOR VIDEOGAMES/IMAGES/pathfinding-grid-cost-parent.png",
-    "SOFTWARE QUALITY/SQ - Session 3.md",
-    "SOFTWARE QUALITY/SQ - Practice Case - VehicleComunication.md",
-    "SOFTWARE QUALITY/SQ - Practice Case - Test cases.md",
     "NETWORKING/IMAGES/symmetric_cryptography_tls.png",
     "NETWORKING/IMAGES/Captura de pantalla 2024-03-24 a las 22.17.15.png",
     "NETWORKING/IMAGES/round_trip_time_http_performance_calculation.png",
@@ -205,10 +208,7 @@
     "HTML/IMAGES",
     "MATHEMATICAL CONCEPTS/IMAGES",
     "MATHEMATICAL CONCEPTS",
-    "DOCKER",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
-    "AI FOR VIDEOGAMES/IMAGES",
-    "AI FOR VIDEOGAMES",
     "Untitled.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
