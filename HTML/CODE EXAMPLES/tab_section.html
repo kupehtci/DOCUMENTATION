@@ -1,0 +1,46 @@
+
+<!-- This is the tab section --> 
+<div id="tabbed-division">
+    <button class="tab-button" data-tab-target="tab-1">Tab 1</button>
+    <button class="tab-button" data-tab-target="tab-2">Tab 2</button>
+    <button class="tab-button" data-tab-target="tab-3">Tab 3</button>
+
+    <div id="tab-content">
+        <div class="tab-content-item" id="tab-1">
+            <h2>Tab 1 Content</h2>
+            <p>This is the content for Tab 1.</p>
+        </div>
+        <div class="tab-content-item" id="tab-2">
+            <h2>Tab 2 Content</h2>
+            <p>This is the content for Tab 2.</p>
+        </div>
+        <div class="tab-content-item" id="tab-3">
+            <h2>Tab 3 Content</h2>
+            <p>This is the content for Tab 3.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabContentItems = document.querySelectorAll('.tab-content-item');
+
+        tabButtons.forEach((button, index) => {
+            button.addEventListener('click', () => {
+
+                // Deselect all tabs and active the clicked one
+                tabButtons.forEach(button => button.classList.remove('active'));
+                tabContentItems.forEach(item => item.classList.remove('active'));
+
+                button.classList.add('active');
+                tabContentItems[index].classList.add('active');
+            });
+        });
+
+        // Begin with first selected
+        tabButtons[0].classList.add('active');
+        tabContentItems[0].classList.add('active');
+
+    });
+</script>

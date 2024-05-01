@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIP/Update PIP.md",
+                "file": "NEO4J/NEO4J - Cheat notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PIP/Update PIP.md"
+                "file": "NEO4J/NEO4J - Cheat notes.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PIP/Update PIP.md",
+                "file": "NEO4J/NEO4J - Cheat notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PIP/Update PIP.md",
+                "file": "NEO4J/NEO4J - Cheat notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,15 +159,20 @@
   },
   "active": "105746f64d84c59e",
   "lastOpenFiles": [
-    "NETWORKING/IPv6.md",
+    "NEO4J/NEO4J - Basics.md",
+    "JAVASCRIPT/JS - HTML implementation.md",
+    "JAVASCRIPT/JS - Pass variables PHP to JS.md",
+    "HTML/CODE EXAMPLES/HTML + JS - Tabbed section.md",
     "PIP/Update PIP.md",
+    "HTML/CODE EXAMPLES/tab_section.html",
+    "HTML/CODE EXAMPLES",
+    "NETWORKING/IPv6.md",
     "PIP",
     "REDIS/REDIS - Basics.md",
     "CSS/CSS - Import font.md",
     "CSS/CSS-Selectors.md",
     "CSS/CSS-Pseudo-class.md",
     "NEO4J/NEO4J - Cheat notes.md",
-    "NEO4J/NEO4J - Basics.md",
     "JAVA/JAVA - Stack.md",
     "NEO4J",
     "HTML/HTML - Form without redirecting.md",
@@ -185,9 +190,6 @@
     "JavaCC/JavaCC Basic Parser.md",
     "ANALISIS LEXICO SINTACTICO/FIRST AND FOLLOW EXAMPLES.md",
     "MATHEMATICAL CONCEPTS/Relational Algebra - Symbols.md",
-    "LATEX/LATEX - Unicode symbols.md",
-    "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
-    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
     "SOFTWARE QUALITY/IMAGES/5-Whys-Analysis.png",
     "SOFTWARE QUALITY/IMAGES/fishbone-diagram.jpg",
     "SOFTWARE QUALITY/IMAGES",
@@ -206,8 +208,6 @@
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "PostgreSQL",
     "HTML/IMAGES",
-    "MATHEMATICAL CONCEPTS/IMAGES",
-    "MATHEMATICAL CONCEPTS",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
     "Untitled.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
