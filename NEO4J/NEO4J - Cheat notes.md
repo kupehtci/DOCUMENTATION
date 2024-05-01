@@ -88,3 +88,50 @@ By visualizing the schema you can see the present relationships between the data
 ```
 call db.schema.visualization()
 ```
+
+
+### COUNT ALL NODES
+
+
+A fast way to find how many nodes, the actual database has is to use `count(n)`. 
+
+Example: 
+```
+MATCH (n) RETURN count(n)
+```
+
+### COUNT SPECIFIC NODES
+
+Also specific nodes that belongs to an specific label can be counted in a similar way: 
+
+```txt
+MATCH (n:Person) RETURN count(n) as count
+
+// Variable is optional
+
+MATCH (:Person) RETURN count(*) as count
+```
+
+
+### COUNT RELATIONSHIPS
+
+Relationships  can also be counted by using count() of the relationships without specifying labels or names for the relationships: 
+
+```
+MATCH ()-[r]->() 
+RETURN count(r) as count
+```
+
+Or for an specific relationship by using its label: 
+
+```
+MATCH ()-[r:ACTED_IN]->() 
+RETURN count(r) as count
+```
+
+For multiple tipes: 
+
+```
+MATCH ()-[r:ACTED_IN|DIRECTED]->()
+RETURN count(r) as count
+```
