@@ -1,6 +1,6 @@
 #GIT
 
-## `git add`
+### `git add`
 
 Git add command is used in order to add untracked files to the GIT file: 
 ```bash
