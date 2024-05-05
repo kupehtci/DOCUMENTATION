@@ -1,11 +1,23 @@
 #DATABASES 
 
 
+### CREATE COLLECTION
 
-`INSERT`
+Once you have created or select a database, you need to create a collection to store the values. 
 
-db.collection_name.insertMany(\[\])
+`db.createCollection(<name>, <options>)`
 
+
+### INSERT
+
+```
+db.collection_name.insertMany(\[{"att_name":"att_value", ...}, {"att_name":"att_value", ...}])
+
+// Example: 
+
+db.collection_name.insertMany(\[{"id": 3, "name": "Daniel",}, {"id": 4, "name":"Marta", "age":21}\])
+
+```
 ![[mongodb_insert.png]]
 
 
@@ -120,7 +132,7 @@ In this you need to add some stages of the pipeline that filter in each step.
 
 as $lookup is the pipeline step in order to enbed two collections: 
 
-![[./IMAGES/mongodb_lookup.png]]
+![[mongodb_lookup.png]]
 
 ```json
 // join

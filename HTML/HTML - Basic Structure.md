@@ -2,6 +2,8 @@
 
 # Basic Frame
 
+This is a basic structure to take as the beginning of a webpage. 
+
 ```HTML
 <!DOCTYPE html>
 

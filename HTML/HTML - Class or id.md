@@ -14,3 +14,22 @@ For selecting an specific tag from an external file like `css` or `javascript` i
 </body>
 ```
 
+Both elements can have id and class but only a single ID and multiple classes.  
+
+So as conclusion, you should use <span style="color:MediumSlateBlue;">class</span> if the element is repeated through the element and <span style="color:orange;">id</span> if the element is single. 
+
+### TAKE INTO ACCOUNT
+
+When naming the **id** or **class**, take into account some naming rules: 
+
+* class or id name cannot start with a number. This will end in an imposibility of 
+
+Also some differences in terms of performance and rendering need to be taken into account:
+
+* ID elements are performed before class elements because they are more specific. So the final computation order is: 
+	* Values defined as important
+	- Inline styles
+	- ID selectors
+	- Class selectors
+	- Element
+

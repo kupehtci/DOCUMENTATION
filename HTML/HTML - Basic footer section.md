@@ -65,5 +65,5 @@ For taking a look into the css properties and PHP File:
 
 
 ---
-Author: Daniel Laplana Gimeno
+Author: Daniel Laplana
 Date: 24/03/2023
