@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT/GIT - Add.md",
+                "file": "C-SHARP/CS - Dictionary class.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86be2d8660af5d2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVASCRIPT/JS - Media queries.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GIT/GIT - Add.md"
+                "file": "C-SHARP/CS - Dictionary class.md"
               }
             }
           },
@@ -80,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.50312423706055
+    "width": 219.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GIT/GIT - Add.md",
+                "file": "C-SHARP/CS - Dictionary class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GIT/GIT - Add.md",
+                "file": "C-SHARP/CS - Dictionary class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +171,17 @@
   },
   "active": "105746f64d84c59e",
   "lastOpenFiles": [
-    "GIT/GIT - Remove.md",
+    "NETWORKING/HTTP - Key elements.md",
+    "C-SHARP/CS - Dictionary class.md",
+    "NETWORKING/HTTP.md",
+    "HTML/IMAGES/HTML - picture.md",
+    "HTML/HTML - Media queries.md",
+    "CSS/CSS - Media queries.md",
+    "CSS/CSS - Responsive images.md",
+    "JAVASCRIPT/JS - Media queries.md",
+    "INFORMATION TECHNOLOGIES/Operational or Informational Systems.md",
     "GIT/GIT - Add.md",
+    "GIT/GIT - Remove.md",
     "GIT/git-cheat-sheet.pdf",
     "HTML/HTML - Line break.md",
     "CSS/CSS - REM relative values.md",
@@ -177,18 +198,9 @@
     "JAVASCRIPT/JS - Pass array JS to PHP.md",
     "JAVASCRIPT/JS - DOM function callbacks.md",
     "JAVASCRIPT/JS - document.md",
-    "HTML/HTML - Class or id.md",
-    "HTML/HTML - Basics.md",
-    "HTML/HTML - span.md",
-    "CSS/CSS - Selector Cheat Notes.md",
-    "CSS/CSS-Selectors.md",
-    "JAVASCRIPT/JS - Vanilla Carrousel.md",
     "JAVASCRIPT/CODE/vanilla-js-carousel.js",
     "JAVASCRIPT/CODE/vanilla-js-carousel.css",
     "JAVASCRIPT/CODE",
-    "NEO4J/NEO4J - Cheat notes.md",
-    "NEO4J/NEO4J - Basics.md",
-    "MongoDB/MongoDB.md",
     "MongoDB",
     "HTML/CODE EXAMPLES/tab_section.html",
     "HTML/CODE EXAMPLES",
