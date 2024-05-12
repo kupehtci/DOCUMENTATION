@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C-SHARP/CS - Dictionary class.md",
+                "file": "NETWORKING/VoIP - Echo cancellation.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C-SHARP/CS - Dictionary class.md"
+                "file": "NETWORKING/VoIP - Echo cancellation.md"
               }
             }
           },
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 219.5,
+    "collapsed": true
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C-SHARP/CS - Dictionary class.md",
+                "file": "NETWORKING/VoIP - Echo cancellation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C-SHARP/CS - Dictionary class.md",
+                "file": "NETWORKING/VoIP - Echo cancellation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,9 +172,18 @@
   },
   "active": "105746f64d84c59e",
   "lastOpenFiles": [
-    "NETWORKING/HTTP - Key elements.md",
-    "C-SHARP/CS - Dictionary class.md",
+    "C-SHARP/CS - Enum as String.md",
+    "NETWORKING/VoIP - Echo cancellation.md",
+    "C-SHARP/CS - Enum to int.md",
+    "HTTP/HTTP - Header attributes.md",
     "NETWORKING/HTTP.md",
+    "HTTP",
+    "NETWORKING/HTTP - Key elements.md",
+    "C-SHARP/CS - Arrays.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
+    "JAVASCRIPT/JS - Try catch.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING",
+    "C-SHARP/CS - Dictionary class.md",
     "HTML/IMAGES/HTML - picture.md",
     "HTML/HTML - Media queries.md",
     "CSS/CSS - Media queries.md",
@@ -191,13 +201,6 @@
     "HTML/CODE EXAMPLES/HTML + JS - Tabbed section.md",
     "HTML/HTML - Basic Structure.md",
     "HTML/HTML - Basic footer section.md",
-    "JAVASCRIPT/JS - HTML implementation.md",
-    "JAVASCRIPT/JS - Change between blocks using selector.md",
-    "JAVASCRIPT/JS - Data types.md",
-    "JAVASCRIPT/JS - Pass array PHP to JS.md",
-    "JAVASCRIPT/JS - Pass array JS to PHP.md",
-    "JAVASCRIPT/JS - DOM function callbacks.md",
-    "JAVASCRIPT/JS - document.md",
     "JAVASCRIPT/CODE/vanilla-js-carousel.js",
     "JAVASCRIPT/CODE/vanilla-js-carousel.css",
     "JAVASCRIPT/CODE",
@@ -205,8 +208,6 @@
     "HTML/CODE EXAMPLES/tab_section.html",
     "HTML/CODE EXAMPLES",
     "PIP",
-    "NEO4J",
-    "CASSANDRA",
     "SOFTWARE QUALITY/IMAGES/5-Whys-Analysis.png",
     "SOFTWARE QUALITY/IMAGES/fishbone-diagram.jpg",
     "SOFTWARE QUALITY/IMAGES/Pareto-Chart.png",

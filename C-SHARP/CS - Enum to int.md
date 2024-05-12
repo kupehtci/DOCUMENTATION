@@ -43,3 +43,5 @@ int i = (int)Enum.ToObject(e.GetType(), e);
 ```
 
 The last two are plain ugly. I prefer the first one.
+
+

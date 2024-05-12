@@ -4,7 +4,6 @@
 
 When having a string array, some considerations need to be taken: [[CS - Array of strings]]
 
-
 #### RESIZE ARRAY
 
 An array can be resize to get more capacity. 
