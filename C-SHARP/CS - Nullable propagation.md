@@ -80,7 +80,7 @@ With C# 6.0 and superior you can use null checks `?`
 int i = a?; 
 ```
 
-With a <span style="color:cyan; "> question mark [?]</span> you can tell the compiler that a variable can be null: 
+With a <span style="color:MediumSlateBlue; "> question mark [?]</span> you can tell the compiler that a variable can be null: 
 
 ```CSHARP 
 GameObject? new_go = null; 

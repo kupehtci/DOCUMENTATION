@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "90cd36341cdb8959",
+        "id": "6e3b9156df374d24",
         "type": "tabs",
         "children": [
           {
-            "id": "105746f64d84c59e",
+            "id": "20b10a577e10bd28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/VoIP - Echo cancellation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86be2d8660af5d2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVASCRIPT/JS - Media queries.md",
+                "file": "C-SHARP/CS - 2 Bytes char.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/VoIP - Echo cancellation.md"
+                "file": "C-SHARP/CS - 2 Bytes char.md"
               }
             }
           },
@@ -92,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5,
-    "collapsed": true
+    "width": 219.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/VoIP - Echo cancellation.md",
+                "file": "C-SHARP/CS - 2 Bytes char.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/VoIP - Echo cancellation.md",
+                "file": "C-SHARP/CS - 2 Bytes char.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,37 +157,38 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "105746f64d84c59e",
+  "active": "20b10a577e10bd28",
   "lastOpenFiles": [
-    "C-SHARP/CS - Enum as String.md",
-    "NETWORKING/VoIP - Echo cancellation.md",
-    "C-SHARP/CS - Enum to int.md",
-    "HTTP/HTTP - Header attributes.md",
-    "NETWORKING/HTTP.md",
-    "HTTP",
-    "NETWORKING/HTTP - Key elements.md",
-    "C-SHARP/CS - Arrays.md",
+    "C-SHARP/CS - Multi-dimensional Arrays.md",
+    "C-SHARP/CS - Path class utilities.md",
+    "C-SHARP/CS - Memory and Buffer.md",
+    "C-SHARP/CS - Nullable propagation.md",
+    "C-SHARP/CS - Mutex.md",
+    "C-SHARP/CS - 2 Bytes char.md",
+    "HTML/HTML - Email.md",
+    "CSS/CSS - Selector Cheat Notes.md",
+    "CSS/CSS - Format.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
-    "JAVASCRIPT/JS - Try catch.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING",
-    "C-SHARP/CS - Dictionary class.md",
-    "HTML/IMAGES/HTML - picture.md",
-    "HTML/HTML - Media queries.md",
-    "CSS/CSS - Media queries.md",
-    "CSS/CSS - Responsive images.md",
+    "NETWORKING/VoIP - Echo cancellation.md",
+    "ANALISIS LEXICO SINTACTICO/Parser Table.md",
+    "ANALISIS LEXICO SINTACTICO/Parser Trees.md",
+    "ANALISIS LEXICO SINTACTICO/IMAGES/parser_table.png",
+    "ANALISIS LEXICO SINTACTICO/FIRST AND FOLLOW EXAMPLES.md",
+    "ANALISIS LEXICO SINTACTICO/Compiler.md",
+    "ANALISIS LEXICO SINTACTICO/Grammars LL.md",
+    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
+    "ANALISIS LEXICO SINTACTICO/Interpreter.md",
+    "ANALISIS LEXICO SINTACTICO/Lexical Analysis.md",
+    "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
     "JAVASCRIPT/JS - Media queries.md",
-    "INFORMATION TECHNOLOGIES/Operational or Informational Systems.md",
-    "GIT/GIT - Add.md",
-    "GIT/GIT - Remove.md",
+    "NETWORKING/VoIP Architecture.md",
+    "NETWORKING/TPC - IP Layers.md",
+    "NETWORKING/TLS.md",
+    "NETWORKING/DNS - DNAME.md",
+    "NETWORKING/DNS - Record types.md",
     "GIT/git-cheat-sheet.pdf",
-    "HTML/HTML - Line break.md",
-    "CSS/CSS - REM relative values.md",
-    "CSS/CSS - EM relative values.md",
-    "CSS/CSS - line-height.md",
-    "CSS/CSS - font-size.md",
-    "HTML/CODE EXAMPLES/HTML + JS - Tabbed section.md",
-    "HTML/HTML - Basic Structure.md",
-    "HTML/HTML - Basic footer section.md",
+    "HTTP",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING",
     "JAVASCRIPT/CODE/vanilla-js-carousel.js",
     "JAVASCRIPT/CODE/vanilla-js-carousel.css",
     "JAVASCRIPT/CODE",
@@ -218,7 +206,6 @@
     "NETWORKING/IMAGES/Captura de pantalla 2024-03-24 a las 22.17.15.png",
     "NETWORKING/IMAGES/round_trip_time_http_performance_calculation.png",
     "NETWORKING/IMAGES/MIME_header_message_format.png",
-    "NETWORKING/IMAGES/overview_email_protocols.png",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",

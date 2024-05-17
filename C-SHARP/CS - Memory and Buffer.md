@@ -8,15 +8,15 @@
 ## In this article
 
 1. [Owners, consumers, and lifetime management](https://learn.microsoft.com/en-us/dotnet/standard/memory-and-spans/memory-t-usage-guidelines#owners-consumers-and-lifetime-management)
-2. [Memory<T> and the owner/consumer model](https://learn.microsoft.com/en-us/dotnet/standard/memory-and-spans/memory-t-usage-guidelines#memoryt-and-the-ownerconsumer-model)
+2. [Memory\<T\> and the owner/consumer model](https://learn.microsoft.com/en-us/dotnet/standard/memory-and-spans/memory-t-usage-guidelines#memoryt-and-the-ownerconsumer-model)
 3. [Usage guidelines](https://learn.microsoft.com/en-us/dotnet/standard/memory-and-spans/memory-t-usage-guidelines#usage-guidelines)
 4. [See also](https://learn.microsoft.com/en-us/dotnet/standard/memory-and-spans/memory-t-usage-guidelines#see-also)
 
-.NET includes a number of types that represent an arbitrary contiguous region of memory. [Span<T>](https://learn.microsoft.com/en-us/dotnet/api/system.span-1) and [ReadOnlySpan<T>](https://learn.microsoft.com/en-us/dotnet/api/system.readonlyspan-1) are lightweight memory buffers that wrap references to managed or unmanaged memory. Because these types can only be stored on the stack, they're unsuitable for scenarios such as asynchronous method calls. To address this problem, .NET 2.1 added some additional types, including [Memory<T>](https://learn.microsoft.com/en-us/dotnet/api/system.memory-1), [ReadOnlyMemory<T>](https://learn.microsoft.com/en-us/dotnet/api/system.readonlymemory-1), [IMemoryOwner<T>](https://learn.microsoft.com/en-us/dotnet/api/system.buffers.imemoryowner-1), and [MemoryPool<T>](https://learn.microsoft.com/en-us/dotnet/api/system.buffers.memorypool-1). Like [Span<T>](https://learn.microsoft.com/en-us/dotnet/api/system.span-1), [Memory<T>](https://learn.microsoft.com/en-us/dotnet/api/system.memory-1) and its related types can be backed by both managed and unmanaged memory. Unlike [Span<T>](https://learn.microsoft.com/en-us/dotnet/api/system.span-1), [Memory<T>](https://learn.microsoft.com/en-us/dotnet/api/system.memory-1) can be stored on the managed heap.
+.NET includes a number of types that represent an arbitrary contiguous region of memory. [Span\<T\>](https://learn.microsoft.com/en-us/dotnet/api/system.span-1) and [ReadOnlySpan\<T\>](https://learn.microsoft.com/en-us/dotnet/api/system.readonlyspan-1) are lightweight memory buffers that wrap references to managed or unmanaged memory. Because these types can only be stored on the stack, they're unsuitable for scenarios such as asynchronous method calls. To address this problem, .NET 2.1 added some additional types, including Memory\<T\>, ReadOnlyMemory\<T\>, IMemoryOwner|\<T\>, and MemoryPool\<T\>. Like Span\<T\>, Memory\<T\> and its related types can be backed by both managed and unmanaged memory. Unlike Span\<T\>, Memory\<T\>can be stored on the managed heap.
 
-Both [Span<T>](https://learn.microsoft.com/en-us/dotnet/api/system.span-1) and [Memory<T>](https://learn.microsoft.com/en-us/dotnet/api/system.memory-1) are wrappers over buffers of structured data that can be used in pipelines. That is, they're designed so that some or all of the data can be efficiently passed to components in the pipeline, which can process them and optionally modify the buffer. Because [Memory<T>](https://learn.microsoft.com/en-us/dotnet/api/system.memory-1) and its related types can be accessed by multiple components or by multiple threads, it's important to follow some standard usage guidelines to produce robust code.
+Both Span\<T\> and Memory\<T\>are wrappers over buffers of structured data that can be used in pipelines. That is, they're designed so that some or all of the data can be efficiently passed to components in the pipeline, which can process them and optionally modify the buffer. Because Memory\<T\>and its related types can be accessed by multiple components or by multiple threads, it's important to follow some standard usage guidelines to produce robust code.
 
-[](https://learn.microsoft.com/en-us/dotnet/standard/memory-and-spans/memory-t-usage-guidelines#owners-consumers-and-lifetime-management)
+[Learn.microsoft.com](https://learn.microsoft.com/en-us/dotnet/standard/memory-and-spans/memory-t-usage-guidelines#owners-consumers-and-lifetime-management)
 
 ## Owners, consumers, and lifetime management
 
@@ -29,7 +29,7 @@ Buffers can be passed around between APIs and can sometimes be accessed from mul
 - **Lease**. The lease is the length of time that a particular component is allowed to be the consumer of the buffer.
     
 
-The following pseudo-code example illustrates these three concepts. `Buffer` in the pseudo-code represents a [Memory<T>](https://learn.microsoft.com/en-us/dotnet/api/system.memory-1) or [Span<T>](https://learn.microsoft.com/en-us/dotnet/api/system.span-1) buffer of type [Char](https://learn.microsoft.com/en-us/dotnet/api/system.char). The `Main` method instantiates the buffer, calls the `WriteInt32ToBuffer` method to write the string representation of an integer to the buffer, and then calls the `DisplayBufferToConsole` method to display the value of the buffer.
+The following pseudo-code example illustrates these three concepts. `Buffer` in the pseudo-code represents a Memory\<T\> or Span\<T\> buffer of type [Char](https://learn.microsoft.com/en-us/dotnet/api/system.char). The `Main` method instantiates the buffer, calls the `WriteInt32ToBuffer` method to write the string representation of an integer to the buffer, and then calls the `DisplayBufferToConsole` method to display the value of the buffer.
 
 C#Copy
 

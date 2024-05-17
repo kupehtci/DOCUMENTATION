@@ -2,7 +2,6 @@
 
 ### ARRAYS WITH MORE THAN 1-D
 
-
 An array with more that one dimension act like an array of arrays.
 The most common use is a 2D array that act like a grid. 
 
@@ -71,7 +70,8 @@ static void Print2DArray(int[,] arr) {}
 
 ### Jagged arrays
 
-A `jagged array` is the one that whose elements are arrays. Works the same as multidimensional arrays. 
+A `jagged array` is an array of arrays. Similar to matrices but each array can have different lengths.
+Works similar as a multidimensional arrays. 
 Example: 
 
 ```CSHARP 
