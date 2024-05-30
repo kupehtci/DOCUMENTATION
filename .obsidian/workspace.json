@@ -15,9 +15,9 @@
               "state": {
                 "file": "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
                 "viewState": {
-                  "x": -1423.6800909739743,
-                  "y": 2154.731292001686,
-                  "zoom": -0.4354476850154442
+                  "x": -3564.9825446335212,
+                  "y": 836.1167674971882,
+                  "zoom": -2.401681766943987
                 }
               }
             }
@@ -35,7 +35,19 @@
             }
           },
           {
-            "id": "75134cf53d27137c",
+            "id": "50923212396bdc88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NETWORKING/Audio and Video Streaming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e1019410878188d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,7 +58,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas"
+                "file": "NETWORKING/Audio and Video Streaming.md"
               }
             }
           },
@@ -123,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
+                "file": "NETWORKING/Audio and Video Streaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
+                "file": "NETWORKING/Audio and Video Streaming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,45 +198,46 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2c7409f851120598",
+  "active": "50923212396bdc88",
   "lastOpenFiles": [
-    "NETWORKING/VoIP Architecture.md",
-    "NETWORKING/VoIP - Echo cancellation.md",
     "NETWORKING/IPv6.md",
-    "NETWORKING/IPv6 Header.md",
     "NETWORKING/Audio and Video Streaming.md",
+    "NETWORKING/VoIP - Echo cancellation.md",
+    "NETWORKING/Application Layer.md",
+    "PHP/PHP - MYSQLI - Bind Parameters.md",
+    "PHP/PHP - Errors.md",
+    "PHP/PHP - Cast settype().md",
+    "PHP/PHP - $_SESSION.md",
+    "PHP/PHP - $_GET.md",
+    "PHP/PHP - $_POST.md",
+    "PHP/PHP - $_SERVER.md",
+    "PHYSICS/GEOMETRY - AREAS.md",
+    "PHYSICS/Vertex(Geometry).md",
+    "PHYSICS/Vectors.md",
+    "PHYSICS/Theory of light.md",
+    "PHYSICS/PROYECTIONS.md",
+    "PHYSICS/Rotate a vector in space.md",
+    "PHYSICS/GEOMETRY - Forms.md",
+    "PIP/Update PIP.md",
+    "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
+    "NETWORKING/IMAGES/network_layers.jpeg",
+    "NETWORKING/DNS - Domain Name System.md",
+    "NETWORKING/RTT Time.md",
+    "NETWORKING/VoIP Architecture.md",
+    "NETWORKING/IPv6 Header.md",
     "NETWORKING/VoIP.md",
     "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
     "ANALISIS LEXICO SINTACTICO/Parsing Examples.md",
-    "ANALISIS LEXICO SINTACTICO/Parser Trees.md",
-    "ANALISIS LEXICO SINTACTICO/Lexical Analysis.md",
-    "ANALISIS LEXICO SINTACTICO/Grammars LL.md",
-    "ANALISIS LEXICO SINTACTICO/Interpreter.md",
-    "ANALISIS LEXICO SINTACTICO/Factor grammars.md",
     "NETWORKING/IMAGES/sip_call_message_exchange.png",
-    "MARKDOWN/MARKDOWN - Colors.md",
     "NETWORKING/IMAGES/ipv6_IP_aggregation.png",
     "NETWORKING/IMAGES/ipv6_formatr.png",
-    "NETWORKING/RTP - Real Time Protocol.md",
     "NETWORKING/IMAGES/header_extension_estructure.png",
     "NETWORKING/IMAGES/extension_header_info.png",
-    "CONCEPTS/Octet.md",
     "NETWORKING/IMAGES/ipv6_ipv4_header_comparison.png",
     "NETWORKING/IMAGES/RTP_header_structure.png",
     "NETWORKING/IMAGES/ipv6_format.png",
-    "NETWORKING/UDP - User Datagram Protocol.md",
-    "NETWORKING/SMTP commands.md",
-    "NETWORKING/SMTP.md",
-    "NETWORKING/Firewall.md",
-    "SQL/SQL - Joins.md",
-    "SQL/SQL - Natural Join.md",
     "SQL/SQL CANVAS COMANDS.canvas",
     "SQL/IMAGES/join_types.gif",
-    "PIP/Update PIP.md",
-    "NETWORKING/POP3.md",
-    "NETWORKING/OSI Layers.md",
-    "NETWORKING/NAT.md",
-    "GAME PRODUCTION/IMAGES/high_level_solution.png",
     "C-SHARP/CODE EXAMPLES",
     "GIT/git-cheat-sheet.pdf",
     "HTTP",
@@ -237,7 +251,6 @@
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
-    "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
     "Untitled.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",

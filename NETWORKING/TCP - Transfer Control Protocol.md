@@ -21,7 +21,6 @@ It consist in three basic messages:
 * Overhead: the need of a handshake introduces overhead that impact over the connection speed. 
 * Latency: due to the need of a three message handshake and more header reliability, keeps a higher latency than UDP as example[^2]
 
----
 
 [^2]: UDP or User Datagram Protocol is other of the most used transport layer protocols as well as TCP. It keep a more faster transmission but less reliable than TCP. 
 
