@@ -4,16 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "6e3b9156df374d24",
+        "id": "59e04959b771de90",
         "type": "tabs",
         "children": [
           {
-            "id": "20b10a577e10bd28",
+            "id": "2c7409f851120598",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
+                "viewState": {
+                  "x": -1423.6800909739743,
+                  "y": 2154.731292001686,
+                  "zoom": -0.4354476850154442
+                }
+              }
+            }
+          },
+          {
+            "id": "b763d2d284f7a6c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C-SHARP/CS - 2 Bytes char.md",
+                "file": "NETWORKING/VoIP - Echo cancellation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75134cf53d27137c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NETWORKING/IPv6.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,16 +80,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C-SHARP/CS - 2 Bytes char.md"
+                "file": "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas"
               }
-            }
-          },
-          {
-            "id": "1eec930ced11ba30",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
             }
           },
           {
@@ -74,13 +93,21 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "91ed0cfc8ae0143a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 209.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -96,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C-SHARP/CS - 2 Bytes char.md",
+                "file": "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C-SHARP/CS - 2 Bytes char.md",
+                "file": "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,38 +181,50 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "20b10a577e10bd28",
+  "active": "2c7409f851120598",
   "lastOpenFiles": [
-    "C-SHARP/CS - Multi-dimensional Arrays.md",
-    "C-SHARP/CS - Path class utilities.md",
-    "C-SHARP/CS - Memory and Buffer.md",
-    "C-SHARP/CS - Nullable propagation.md",
-    "C-SHARP/CS - Mutex.md",
-    "C-SHARP/CS - 2 Bytes char.md",
-    "HTML/HTML - Email.md",
-    "CSS/CSS - Selector Cheat Notes.md",
-    "CSS/CSS - Format.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
-    "NETWORKING/VoIP - Echo cancellation.md",
-    "ANALISIS LEXICO SINTACTICO/Parser Table.md",
-    "ANALISIS LEXICO SINTACTICO/Parser Trees.md",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/parser_table.png",
-    "ANALISIS LEXICO SINTACTICO/FIRST AND FOLLOW EXAMPLES.md",
-    "ANALISIS LEXICO SINTACTICO/Compiler.md",
-    "ANALISIS LEXICO SINTACTICO/Grammars LL.md",
-    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
-    "ANALISIS LEXICO SINTACTICO/Interpreter.md",
-    "ANALISIS LEXICO SINTACTICO/Lexical Analysis.md",
-    "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
-    "JAVASCRIPT/JS - Media queries.md",
     "NETWORKING/VoIP Architecture.md",
-    "NETWORKING/TPC - IP Layers.md",
-    "NETWORKING/TLS.md",
-    "NETWORKING/DNS - DNAME.md",
-    "NETWORKING/DNS - Record types.md",
+    "NETWORKING/VoIP - Echo cancellation.md",
+    "NETWORKING/IPv6.md",
+    "NETWORKING/IPv6 Header.md",
+    "NETWORKING/Audio and Video Streaming.md",
+    "NETWORKING/VoIP.md",
+    "ANALISIS LEXICO SINTACTICO/Parsing techniques.md",
+    "ANALISIS LEXICO SINTACTICO/Parsing Examples.md",
+    "ANALISIS LEXICO SINTACTICO/Parser Trees.md",
+    "ANALISIS LEXICO SINTACTICO/Lexical Analysis.md",
+    "ANALISIS LEXICO SINTACTICO/Grammars LL.md",
+    "ANALISIS LEXICO SINTACTICO/Interpreter.md",
+    "ANALISIS LEXICO SINTACTICO/Factor grammars.md",
+    "NETWORKING/IMAGES/sip_call_message_exchange.png",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "NETWORKING/IMAGES/ipv6_IP_aggregation.png",
+    "NETWORKING/IMAGES/ipv6_formatr.png",
+    "NETWORKING/RTP - Real Time Protocol.md",
+    "NETWORKING/IMAGES/header_extension_estructure.png",
+    "NETWORKING/IMAGES/extension_header_info.png",
+    "CONCEPTS/Octet.md",
+    "NETWORKING/IMAGES/ipv6_ipv4_header_comparison.png",
+    "NETWORKING/IMAGES/RTP_header_structure.png",
+    "NETWORKING/IMAGES/ipv6_format.png",
+    "NETWORKING/UDP - User Datagram Protocol.md",
+    "NETWORKING/SMTP commands.md",
+    "NETWORKING/SMTP.md",
+    "NETWORKING/Firewall.md",
+    "SQL/SQL - Joins.md",
+    "SQL/SQL - Natural Join.md",
+    "SQL/SQL CANVAS COMANDS.canvas",
+    "SQL/IMAGES/join_types.gif",
+    "PIP/Update PIP.md",
+    "NETWORKING/POP3.md",
+    "NETWORKING/OSI Layers.md",
+    "NETWORKING/NAT.md",
+    "GAME PRODUCTION/IMAGES/high_level_solution.png",
+    "C-SHARP/CODE EXAMPLES",
     "GIT/git-cheat-sheet.pdf",
     "HTTP",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING",
@@ -195,17 +234,7 @@
     "MongoDB",
     "HTML/CODE EXAMPLES/tab_section.html",
     "HTML/CODE EXAMPLES",
-    "PIP",
-    "SOFTWARE QUALITY/IMAGES/5-Whys-Analysis.png",
-    "SOFTWARE QUALITY/IMAGES/fishbone-diagram.jpg",
-    "SOFTWARE QUALITY/IMAGES/Pareto-Chart.png",
-    "MATHEMATICAL CONCEPTS/IMAGES/Pareto.png",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
-    "AI FOR VIDEOGAMES/IMAGES/pathfinding-grid-cost-parent.png",
-    "NETWORKING/IMAGES/symmetric_cryptography_tls.png",
-    "NETWORKING/IMAGES/Captura de pantalla 2024-03-24 a las 22.17.15.png",
-    "NETWORKING/IMAGES/round_trip_time_http_performance_calculation.png",
-    "NETWORKING/IMAGES/MIME_header_message_format.png",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
@@ -213,7 +242,6 @@
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
     "UNITY/STATIC BATCHER CANVAS.canvas",
-    "SQL/SQL CANVAS COMANDS.canvas",
     "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas"
   ]
 }

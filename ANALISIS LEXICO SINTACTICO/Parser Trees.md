@@ -54,10 +54,10 @@ Rules to build the FIRST:
 1. If exists a production rule `X --> a` being `a` a terminal token, this imply that FIRST(x) = { a }
 2. If exists a production rule `X --> ε`, imply that FIRST(x) = ε
 3. If `X --> Y` we search `Y` production rule and follow step 1 or 2. 
-4. If a rule `X --> Ya` and `Y --> ε` with `Y` a production rule and `a` a terminal token, FIRST(x) = {a, ε}, including the empty or void token . 
+4. If a rule `X --> Ya` and `Y --> ε` with `Y` a production rule and `a` a terminal token, FIRST(x) = {a, ε}, including the empty or void token . \[\*1\]
 5.  If a rule `X --> Ya` and `Y --> ε | b ` with `Y` a production rule and `a` a terminal token, `FIRST(x) = {a, b}`, with `ε`  included following the rule 4. 
 
-You can take a look into some examples in [[FIRST AND FOLLOW EXAMPLES]]. 
+\[\*1\] - This is because Y can not exist and this will mean that `X --> a`. 
 
 ### FOLLOW 
 
@@ -69,12 +69,19 @@ Rules to build a FOLLOW:
 1. If A is an axiom, FOLLOW(A) = { $ }
 2. If `Xy` FOLLOW(X) = { y }
 3. When no terminal symbols follow a non-terminal symbol `X --> T` imply that FOLLOW(T) = FOLLOW(X) 
-4. If B --> xA where $ε\in FIRST(B)$ so FOLLOW(A) = FIRST(B) + FOLLOW(B)
-5. If `A --> Bh` and  `B --> TE` imply that FOLLOW(E) = FOLLOW(B) because one non-terminal symbol imply the other. 
+4. If `B --> xA` where $ε\in FIRST(B)$ so $FOLLOW(A) = FIRST(B) + FOLLOW(B)$
+5. If `A --> Bh` and  `B --> TE` imply that $FOLLOW(E) = FOLLOW(B)$ because one non-terminal symbol imply the other. 
 6. If `X --> ABC` and `C --> 0 | 1` imply that FOLLOW(B) = FIRST(C) if C doesn't contain empty (ε). 
 7. If $ε\in FIRST(C)$ imply that B cannot have something at its back, so FOLLOW(B) = FIRST(C) + FOLLOW(X). Meaning that need take a look into previous rule in the hierarchy. 
 
 You can take a look into some examples in [[FIRST AND FOLLOW EXAMPLES]]. 
 
+
+This means that: 
+
+
+Rule 7 --> If B if followed by A (X --> BA), rule 6 imply that FOLLOW(B) = FIRST(A) but if A doesn't contain `ε`. If contains `ε` imply that FOLLOW(B) = FOLLOW(X)
+
 ---
-[^1]:  Reference to grammars [[GRAMMARS - Introduction]] 
+[^1]:  Reference to grammars [[GRAMMARS - Introduction]]. 
+[^2]: You can take a look into some examples in [[FIRST AND FOLLOW EXAMPLES]]. 

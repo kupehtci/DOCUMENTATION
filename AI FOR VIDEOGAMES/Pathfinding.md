@@ -1,14 +1,21 @@
 
 ### Pathfinding
 
+Pathfinding is the technique used in videogames and other areas to find the best path from a point A to a point B. 
+
+Firstly we need to define a group of pieces to calculate the path and the best way to do this is to convert a 3D field into a 2D grid, in order to calculate the pathfinding algorithms calculating distances between two cells within the grid. 
+
+This "celling" algorithms when use irregular or non-polygonal boundaries to fill close regions are known as <span style="color:#ff7518;">"flood-fill"</span> or  <span style="color:#ff7518;">"bushfire"</span> algorithms. 
+
 In order to find the best path , the intention is to visit all nodes following a certain algorithm and to find the best nodes to reach the `target` the best way is to calculate the : 
 
 * g cost: total cost from the initial node to the node evaluated
-* heuristic cost: an absolute minimum <span style="color:orange;">estimated distance</span> cost to reach the target from the evaluated target. 
+* heuristic cost: an absolute minimum <span style="color:orange;">estimated distance</span> cost to reach the target from the evaluated target [^1]. 
 
 And using this cost and tending to minimize $f(n) = g(n) + h(n)$ to search the best path. 
 
 ## DIJKSTRA ALGORITHM
+
 
 
 
@@ -68,3 +75,8 @@ There are different heuristics than can be used to calculate this $h(n)$ cost.
 ##### CHEBYSHEV DISTANCE
 
 ##### MANHATTAN DISTANCE
+
+
+---
+
+[^1]: See how the heuristics in Pathfinding work and how they can be calculated in [[Heuristic Function]]. 

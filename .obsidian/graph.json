@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
-  "search": "tag:#NET",
-  "showTags": false,
+  "search": "networking",
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -74,6 +74,6 @@
   "repelStrength": 15.7511393229167,
   "linkStrength": 0.783487955729167,
   "linkDistance": 312,
-  "scale": 0.6465519616709843,
+  "scale": 0.5956539895545606,
   "close": false
 }
