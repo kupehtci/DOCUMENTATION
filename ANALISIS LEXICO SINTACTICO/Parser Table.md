@@ -1,8 +1,5 @@
 #CONCEPTS 
 
-
-### PARSER TABLE
-
 ### PARSING TABLE
 
 A <span style="color:orange;">parsing table</span> is a table that given a grammar, indicates the rule that needs to be followed in order to get that terminal element (horizontal - columns) by the given non-terminal element (vertical - rows). 

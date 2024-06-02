@@ -48,6 +48,33 @@ A data mart is a single functional data area of an organization. Contains a litt
 
 Is a logical subdivision of a Data Warehouse. 
 
+
+### Data warehousing components
+
+| Operational systems                                         | Data staging area                 | Data presentation area                                                        | Data access control                                                                                     |
+| ----------------------------------------------------------- | --------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Captures the transactions of the bussiness. Common database | Storage area and processes as ETL | Data is organized, stored and made available for users, report data and more. Capabilities provided to business users to  to access presentation area for analytic decision making.  a  |
+
+#### Architectures
+
+There are three main structures for data warehouses: 
+
+- Single Tier Architecture
+
+Minimize the amount of the data stored reducing data redundancy. 
+All components of data warehousing are located in the same server. 
+
+This structure can be condensed into different Data Marts that contains subsets of the data stored in the warehouse. 
+
+- Two Tier Architecture
+
+Physically available sources and the data warehouse are separated- 
+Data can be accesses through an API like ODBC or JDBC, from the client side program. 
+
+- Three Tier Architecture
+
+There is another layer between the client and the server. The client in order to communicate with the Data warehouses goes through a OLAP server. 
+
 ---
 
 [^1]: Differences between operational and informational data systems [[Operational or Informational Systems]]

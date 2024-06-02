@@ -9,7 +9,6 @@ Echo is caused by the return of the speaker's voice to the speaker. Echo by itse
 * `Hybrid echo`: improper balance of hybrid circuit, two to four-wire interface can allow the signal to appear in the receive path
 * `Acoustic echo`: by the handsets or speaker mode, allows the microphone to pick up sounds from an earpiece. 
 
-
 To deal with this additional latency due to the return of the signal, <span style="color:orange;">Acoustic Echo Suppression (AES)</span> or <span style="color:orange;">Acoustic Echo Cancelation (AEC)</span> circuitry was created. This suppression is done by Digital Signal Processors (DSPs). 
 
 But if latency is too high or the DSP don't have enough memory or CPU to precess the amplitude leves, echo can pass through the receiver. 

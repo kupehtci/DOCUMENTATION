@@ -8,14 +8,14 @@ In contrast, <span style="color:orange;">informational systems</span> store data
 
 In comparison [^1] : 
 
-| Operational Systems                                                                          | Informational Systems                                                                            |
-| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| Operational systems are designed to deal with the running values of data.                    | Informational Systems deals with the collection, compilation and deriving information from data. |
-| In operational systems, optimization of data structure is done for transactions.             | In informational systems, optimization of data structure is done for complex queries.            |
-| Operational systems have response time of sub-seconds.                                       | While informational systems have a response time of few seconds to minutes.                      |
-| Operational systems are generally suited for small volumes of data.                          | Informational Systems are mainly designed for large volumes of data and hence convenient to use. |
-| Operational systems are process oriented.                                                    | While informational systems are subject oriented.                                                |
-| Operational systems supports various data access operations such as read, update and delete. | Informational systems only supports read operation for data access.                              |
+| Operational Systems                                                                                                 | Informational Systems                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Operational systems are designed to deal with the running values of data.                                           | Informational Systems deals with the collection, compilation and deriving information from data.                         |
+| In operational systems, optimization of data structure is done for <span style="color:orange;">transactions</span>. | In informational systems, optimization of data structure is done for <span style="color:orange;">complex queries</span>. |
+| Operational systems have response time of sub-seconds.                                                              | While informational systems have a response time of few seconds to minutes.                                              |
+| Operational systems are generally suited for small volumes of data.                                                 | Informational Systems are mainly designed for large volumes of data and hence convenient to use.                         |
+| Operational systems are process oriented.                                                                           | While informational systems are subject oriented.                                                                        |
+| Operational systems supports various data access operations such as read, update and delete.                        | Informational systems only supports read operation for data access.                                                      |
 
 ---
 

@@ -5,6 +5,7 @@
 Grammar are syntactical rules for conversation in natural languages. 
 This can be applied in the <span style="color:#ababf5;">theory of formal languages</span>. Noam Chomsky gave a mathematical model to represent and write computer languages. 
 
+The grammar is defined by a set of production rules with an axiom that can form a set of symbols that belong to its language. 
 
 ## Grammar mathematical model
 
@@ -40,7 +41,7 @@ A grammar can have different characteristics:
 
 ## Derivations from a Grammar
 
-Strings need to be derived from a certain grammar using its production rules. 
+Strings need to be derived[^1] from a certain grammar using its production rules. 
 
 If a grammar <span style="color:orange;">G</span> has a production rule <span style="color:orange;">a ::= b</span>, we can say that <span style="color:orange;">xay ::= xby</span> or that xay derived in xby or can be replaced with. 
 
@@ -52,3 +53,6 @@ S ⇒ aAb using production S → aAb
 ⇒ aaAbb using production aA → aAb
 ⇒ aaaAbbb using production aA → aaAb
 ⇒ aaabbb using production A → ε
+
+
+[^1]: Derivation of a grammar [[Derivation]]

@@ -9,15 +9,20 @@ This allows the database to be easily adapted in order to waterfall project plan
 
 Also they provide more <span style="color:orange;">scalability</span> because are designed to scale horizontally using **distributed clusters**. 
 
-Have <span style="color:orange;">high performance</span> compared to SQL databases because are optimized for data models or specific data access patterns. 
+Have <span style="color:IndianRed;">high performance</span> compared to SQL databases because are optimized for data models or specific data access patterns. 
 
-Can store multiple variable data types because of their <span style="color:orange;">high functionality</span> of having strong APIs for data manage and more data types. 
+Can store multiple variable data types because of their <span style="color:DodgerBlue;">high functionality</span> of having strong APIs for data manage and more data types. 
 
-Also can be distributed between distributed structures of data replicated, allowing a <span style="color:orange;">high availiability</span>. 
+Also can be distributed between distributed structures of data replicated, allowing a <span style="color:MediumSlateBlue;">high availiability</span>. 
+
+### PROS
+
+* Flexibility: Easily to adapt to a project more than Entity-Relationship models
+* Horizontal Scalability: scale in number of servers, not in server consumption
+* Performance: supports <span style="color:IndianRed;">query optimization</span> for large amounts of data. 
+* High availability: support distributed structures with data replicated. This replication minimizes latency. 
 
 ### DRAWBACKS
-
-* Eventual consistency
 
 * Non-Compatibility with SQL
 	no-SQL databases has their own characteristics and not are always compatible with relational databases. 
@@ -27,6 +32,10 @@ Also can be distributed between distributed structures of data replicated, allow
 	
 * Multiplatform support
 	Most of No-SQL databases are only prepared for Linux, not being multiplatform. 
+
+* Eventual consistency
+	no all NoSQL consider atomicity and integrity of the data. 
+
 
 
 ### How they work
@@ -46,13 +55,17 @@ There are 4 forms of storing No-SQL data:
 
 * Document `MongoDB` 
 	Data is stored as semi-structured documents, such as XML or JSON and can be queried as this
+	
 * Key-Value `Redis`
-	The data is stored as tuples or Key and a value, optimized for simple and fast read operations
-	 
+	The data is stored as <span style="color:IndianRed;">tuples</span> or Key and a value, optimized for sim. le and fast read operations
+
 * Wide-Column `Cassandra`
-	Stored data as columns families and each one of them is considered as an entity. Optimized for large amount of data
+	Stored data as columns families and each one of them is considered as an entity. Optimized for large amount of data. 
+	
 * Graph `Neo4j`
 	Stores data as nodes and edges and can handle easily complex relationships between data. 
+
+![[types_nosql.png]]
 
 ### AID OPERATIONS or CRUD OPERATIONS
 

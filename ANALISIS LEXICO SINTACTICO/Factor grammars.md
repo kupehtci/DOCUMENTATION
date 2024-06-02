@@ -1,7 +1,6 @@
 #CONCEPTS 
 
-
-To factor a grammar you need to check the alternatives of productions (those separated by `|`) whether they have some common symbols in sequence. For example, whether they have a common prefix (that is, whether they start with the same symbol). Join together as many subsequet common symbols (common factors) as you can, and put the rest into parentheses. For example, look at the productions for `item`:
+To factor a grammar you need to check the alternatives of productions (those separated by `|`) whether they have some common symbols in sequence. For example, whether they have a common prefix (that is, whether they start with the same symbol). Join together as many subsequent common symbols (common factors) as you can, and put the rest into parentheses. For example, look at the productions for `item`:
 
 ```
 item --> NAME price | NAME quantity price
@@ -13,7 +12,6 @@ You can rewrite all alternatives one below the other to better see the common pr
 item --> NAME price
 item --> NAME quantity price
 ```
-
 
 
 Factorization is done in order to remove recursivity in grammars. 
@@ -48,8 +46,26 @@ Factorization:
 E --> TE'
 E'--> +TE'
 E'--> ε
-T --> *FT'
-T'--> FT'
+T --> FT'
+T'--> *FT'
 T'--> ε
 F --> (E) | id
 ```
+
+Also to avoid ambiguity : 
+
+```txt
+Y -> aB | aC
+
+More clear as: 
+
+Y -> aB
+Y -> aC
+
+Factorize into: 
+
+Y -> aY'
+Y'-> B
+Y'-> C
+```
+

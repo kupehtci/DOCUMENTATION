@@ -26,14 +26,21 @@ Also the objetives are:
 🟢 Real-time services support
 🟢 Rich transition scheme
 
+
 The IPv6 features are: 
 
 🔷 Aggregation
 Multiple prefixes per site enables multihoming without affecting the aggregation. 
 
+🔷 Support for resource allocation. 
+By the use of `flow label` (ToS) field, can label packets of specific traffic flow and special handling (real time video)
+
 🔷 Auto-configuration (plug and play)
 Dynamic address assignment (DHCPv6)
 Host assign addresses by themselves, no depending on the router.
+
+🔷 Renumbering
+By use of autoconfiguration and multiple prefixes, a router can indicate their devices to regenerate their IP's. 
 
 🔷 Multicast
 No broadcast allow efficient use of the network. 
@@ -48,10 +55,10 @@ IPv4 and IPv6 interaction
 Modern CPU's best access memories are 64 bits.
 
 🔷 No checksum
-Reduce processing time by adding  checksum in other layers. 
+Reduce processing time by adding checksum in other layers. 
 
 🔷 New ICMPv6 
-Additional message types like "Packet too big"
+Additional message types like "Packet too big" and multicast group management functions. 
 
 
 
@@ -72,7 +79,7 @@ IPv6 uses multicast instead of broadcast. Multicast uses bandwidth-intensive pac
 
 * Simplified networks configuration
 
-Address auto-configuration (address assignment) is built in to IPv6. A router will send the prefix of the local link in its router advertisements. A host can generate its own IP address by appending its link-layer (MAC) address, converted into Extended Universal Identifier (EUI) 64-bit format, to the 64 bits of the local link prefix.
+Address auto-configuration (address assignment) is built in to IPv6. A router will send the prefix of the local link in its router advertisements. A host can generate its own IP address by appending its link-layer (MAC) address, converted into Extended Universal Identifier (EUI) 64-bit format [[Convert to EUI-64]], to the 64 bits of the local link prefix.
 
 * More services and more robust
 

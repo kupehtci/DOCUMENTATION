@@ -43,7 +43,7 @@
 | <span style="color:#add8e6;">Light Blue</span>                    |                                      | \#add8e6              |     |
 | <span style="color:#87cefa;">Light Sky Blue</span>                |                                      | \#87cefa              |     |
 | <span style="color:#00bfff;">Deep Sky Blue</span>                 |                                      | \#00bfff              |     |
-| <span style="color:#1e90ff;">Dodger Blue</span>                   |                                      | \#1e90ff              |     |
+| <span style="color:#1e90ff;">Dodger Blue</span>                   | <input type="color" value="#1e90ff"> | \#1e90ff \/DodgerBlue |     |
 | <span style="color:#4169e1;">Royal Blue</span>                    |                                      | \#4169e1              |     |
 | <span style="color:#0000ff;">Blue</span>                          |                                      | \#0000ff              |     |
 | <span style="color:#0000cd;">Medium Blue</span>                   |                                      | \#0000cd              |     |

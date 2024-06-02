@@ -72,9 +72,9 @@ A IPv6 address looks like:
 ```XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX```
 
 Where each group of X is a 16-bit hexadecimal number. 
-Example: ```68E6:8C64:FFFF:FFFF:0:1180:96A:FFFF```
+Example:  ```68E6:8C64:FFFF:FFFF:0:1180:96A:FFFF```
 
-Also consecutive 0's can be omitted:
+Also consecutive 0's can be omitted, but only one time to avoid confusion:
 
 * `47CD:0000:0000:0000:0000:0000:A456:0124` = `47CD::A456:0124`
 * `0000:0000:0000:0000:0AFF:A456:000F:0024` = `::AFF:A456:F:24`
@@ -93,13 +93,20 @@ Other option is:
 
 ### IPv6 Addressing Structure
 
-Addresses have a scope, defining a <span style="color:orange;">region</span> where an address can be defined as unique. 
+Addresses have a scope and this score define a <span style="color:MediumSlateBlue;">region</span> where an address can be defined as unique. 
+
 This span can be: 
 
-* Link: corresponding to link-local addresses. Only used between nodes in same link
-* unique local: between nodes in same site network
-* global: unique in global addresses
+* <span style="color:DodgerBlue;">Link</span>: corresponding to link-local addresses. Only used between nodes in same link
+* <span style="color:Olive;">unique local</span>: between nodes in same site network
+* <span style="color:IndianRed;">global</span>: unique in global addresses. Allocated by the IANA [^4]. 
 
+| LINK                                      | UNIQUE LOCAL                                   | GLOBAL                                                           |
+| ----------------------------------------- | ---------------------------------------------- | ---------------------------------------------------------------- |
+| Link-local addresses                      |                                                | For generic global reachable IPv6 usage                          |
+| Only between nodes with the same link     | Only between nodes in same site network        |                                                                  |
+| Cannot be routed on internet              | Cannot be routed on internet                   | Routable across the internet                                     |
+| FE80 + remaining(54b) + interface ID(64b) | FD00 + Global_ID(40b)+Subnet_ID + Interface_ID | Registry + ISP_Prefix + Site_Prefix+Subnet_Prefix + Interface_ID |
 
 ##### Special addresses
 
@@ -109,11 +116,22 @@ This span can be:
 * <span style="color:PowderBlue">IPv6 multicast prefix</span>: FF00::/8, valid for sending packet to a multicast group
 
 ![[ipv6_formatr.png]]
+
+Global unicast: 
+* Routable across internet
+* Structured as hierarch to allow address aggregation
+* | Register | Global ISP | Intermediate ISP | Site prefix | Subnet prefix | Interface ID |
 ![[ipv6_IP_aggregation.png]]
 
 ### Convert to EUI-64 (Extended Universal Identifier)
 
-Because MAC is only 48bits, in order to extend to 64 bits, fill the begin of the identifier fith FF:FE:"MAC"
+In order to expand from a 48b IEE 802 MAC address to a 64-bits Extender Unique Identifier[^5] here is a method to transform from this MAC to the EUI format.
+
+Broke the MAC address by the middle, Insert "FF:FE" and convert from the first 8 bits to binary and flip the 7th bit in order to define as globally unique. 
+
+The first part is filled with this FF:FE and the prefix of the router assigned from the ISP and the other half of the IP is the MAC of the device. 
+
+
 
 
 ---
@@ -122,3 +140,7 @@ Because MAC is only 48bits, in order to extend to 64 bits, fill the begin of the
 [^2]: Octet: Equivalent to 1 Byte or 8 bits. Term used in data transmission. 
 
 [^3]: Jumbogram packet is a packet that exceeds the size of a MTU size. In case of IPv6 is the case that has a payload bigger than 65.535octets. 
+
+[^4]: IANA is the Internet Assigned Numbers Authority. Is the entity in charge of granting the different IP's. 
+
+[^5]: More information about the steps to pass from one format to other at [[Convert to EUI-64]]. 
