@@ -10,15 +10,5 @@ An horizontal partition is a <span style="color:orange;">shard</span> in No-SQL 
 
 ## SCALABILITY 
 
-* **Vertical scaling** is increasing the properties of the same server or database
-* **Horizontal scaling** is increasing the number of databases
-
-## CAP THEOREM
-
-CAP stand for Consistency, Availiability and partition tolerance (Shard tolerance)
-
-This theorem says that a database can only guarantee two of this aspects. 
-
-* Consistency: All clients see the same data at the same time
-* Availability: System continues to operate even in in the presence of node failures
-* Partition-Tolerance: The system continues to operate despite of network failures
+* **Vertical scaling** is increasing the properties of the same server or database for a better performance
+* **Horizontal scaling** is increasing the number of databases distributed within servers. 

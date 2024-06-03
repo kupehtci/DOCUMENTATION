@@ -15,63 +15,75 @@ Can store multiple variable data types because of their <span style="color:Dodge
 
 Also can be distributed between distributed structures of data replicated, allowing a <span style="color:MediumSlateBlue;">high availiability</span>. 
 
-### PROS
+### 📈 PROS
 
-* Flexibility: Easily to adapt to a project more than Entity-Relationship models
-* Horizontal Scalability: scale in number of servers, not in server consumption
-* Performance: supports <span style="color:IndianRed;">query optimization</span> for large amounts of data. 
-* High availability: support distributed structures with data replicated. This replication minimizes latency. 
+* <span style="color:Salmon;">Flexibility</span>
+	Easily to adapt to a project more than Entity-Relationship models
 
-### DRAWBACKS
+* <span style="color:Salmon;">Horizontal Scalability</span>
+	Scale in number of servers, not in server consumption
 
-* Non-Compatibility with SQL
-	no-SQL databases has their own characteristics and not are always compatible with relational databases. 
+* <span style="color:Salmon;">Performance</span>:
+	Supports <span style="color:IndianRed;">query optimization</span> for large amounts of data. 
 
-* Lack of standarization
+* <span style="color:Salmon;">High availability</span>: 
+	Support distributed structures with data replicated. This replication minimizes latency. 
+
+### 📉 DRAWBACKS
+
+* <span style="color:Salmon;">Non-Compatibility with SQL</span>: 
+	No-SQL databases has their own characteristics and not are always compatible with relational databases. 
+
+* <span style="color:Salmon;">Lack of estandarization</span>
 	There are so many NO-SQLs technologies and each one has their own usage. 
 	
-* Multiplatform support
+* <span style="color:Salmon;">Multiplatform support</span>
 	Most of No-SQL databases are only prepared for Linux, not being multiplatform. 
 
-* Eventual consistency
-	no all NoSQL consider atomicity and integrity of the data. 
+* <span style="color:Salmon;">Eventual consistency</span>
+	No all NoSQL consider atomicity and integrity of the data. 
 
-
-
-### How they work
-
-The No-SQL databases store multiple data models to access and administrate the data. 
-Usually they are defined using JSON (Javascript Object Notation) [[JSON - BASICS]]. 
-
-As in comparison with SQL databases: 
-
-* A book is currently stored in a table with other values stored as this table attributes or other linked tables
-* In No-SQL, this book data is stored as a document for each book record. 
-
-
+* <span style="color:Salmon;">Access control</span>
+	Different views [^views] or different access capabilities can not easily or even restricted in different no-SQL technologies. 
+ 
 ### IMPORTANT TYPES
 
 There are 4 forms of storing No-SQL data: 
 
-* Document `MongoDB` 
+* Document `MongoDB`
 	Data is stored as semi-structured documents, such as XML or JSON and can be queried as this
 	
-* Key-Value `Redis`
+* Key-Value `Redis` and `DynamoDB`
 	The data is stored as <span style="color:IndianRed;">tuples</span> or Key and a value, optimized for sim. le and fast read operations
 
-* Wide-Column `Cassandra`
+* Wide-Column `Cassandra` and `HBase`
 	Stored data as columns families and each one of them is considered as an entity. Optimized for large amount of data. 
 	
-* Graph `Neo4j`
+* Graph `Neo4j` and `Memgraph`
 	Stores data as nodes and edges and can handle easily complex relationships between data. 
 
 ![[types_nosql.png]]
 
-### AID OPERATIONS or CRUD OPERATIONS
+##### TECHNOLOGIES COMPARISON
 
-- General customer support: help()
-- Database-level operations: db.help()
-- Collection level operations: 
+| Feature                 | MongoDB                                 | Redis                                      | Cassandra                                                   | Neo4j                                   |
+| ----------------------- | --------------------------------------- | ------------------------------------------ | ----------------------------------------------------------- | --------------------------------------- |
+| **Platform**            | Any                                     | Any (No windows builds)                    | Any (No windows builds)                                     | Any                                     |
+| **GUI**                 | Yes                                     | No                                         | No                                                          | Yes                                     |
+| **Orientation**         | Flexibility                             | Performance and fast                       | Distributed data per nodes. High availability               |                                         |
+| **Type**                | Document                                | Key-value                                  | Wide-column                                                 | Graph                                   |
+| **Data Model**          | JSON-like documents                     | Key-value pairs                            | Column families                                             | Labeled property graph                  |
+| **Query Language**      | MongoDB Query Language (MQL)            | Redis commands and data types              | CQL (Cassandra Query Language)                              | Cypher Query Language                   |
+| **Consistency**         | Configurable (Eventual to Strong)       | Configurable (Eventual to Strong)          | Eventual consistency                                        | ACID transactions, Strong consistency   |
+| **Partition Tolerance** | Shard                                   | Shard                                      | Shard                                                       | No                                      |
+| **Scalability**         | Horizontally scalable                   | Horizontally scalable                      | Horizontally scalable                                       | Vertical scalable                       |
+| **CAP**                 | CP                                      | CP                                         | AP                                                          | CA                                      |
+| **ACID**                | Yes                                     | Yes                                        | No                                                          | Yes                                     |
+| **FK**                  | Reference                               | -                                          | -                                                           | Relations                               |
+| **Durability**          | Configurable                            | Non-persistent                             | Configurable                                                | Configurable                            |
+| **Use Cases**           | Content Management, Real-time Analytics | Caching, Pub/Sub messaging, Session store, | Time Series Data (Health tracker), IoT, Distributed systems | Social networks, Recommendation engines |
 
 
+---
 
+[^views]:  [[Views]]

@@ -11,7 +11,7 @@ A view can have all the rows of a "visible" table or specific rows under certain
 Imagine the following data table in the database
 
 ```SQL
-| USERS                   |
+|         USERS           |
 | id | name   | city      |
 |----|--------|-----------|
 | 1  | Daniel | Zaragoza  |

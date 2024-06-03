@@ -4,7 +4,7 @@
 
 There are some protocols to prevent concurrency problems in a multiuser database: 
 
-### <span style="color:#A8F9E3;">Database locking</span>
+### <span style="color:DodgerBlue; background-color:SeaShell; border-radius:0.5rem;padding:0.3rem;">Database locking</span>
 
 Only one transaction has access to a certain part of the database at a time. 
 
@@ -15,7 +15,7 @@ This locking can be done at different <span style="color:MediumSlateBlue;">level
 * Page level: when performing an <span style="color:orange;">UNION</span> when performing a select, this set of tables is readed in a "virtual" table named as <span style="color:orange;">page</span>. 
 * Row level: blocks a single row in the database. 
 * Field level: blocks a single field in the database. 
-### <span style="color:#A8F9E3;">Time-Stamp Based protocol</span>
+### <span style="color:DodgerBlue; background-color:SeaShell; border-radius:0.5rem;padding:0.3rem;">Time-Stamp Based protocol</span>
 
 Each transaction is issued a timestamp when it enters the system. 
 
@@ -51,7 +51,6 @@ Transactions can be defined with a level of isolation using the following code i
 ```PostgreSQL
 BEGIN TRANSACTION ISOLATIONN LEVEL <isolation_level_name>
 ```
-
 
 #### Why not use serializable always? 
 

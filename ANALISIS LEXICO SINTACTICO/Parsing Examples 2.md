@@ -4,7 +4,7 @@
 
 Consider the following grammar: 
 
-|       |                 | FIRST   | FOLOW         |
+|       | Production rule | FIRST   | FOLOW         |
 | ----- | --------------- | ------- | ------------- |
 | 1     | E → TE'         | {id, (} | {$, )}        |
 | 2 - 3 | E'→ +TE' l ε    | {+, ε}  | {$, )}        |

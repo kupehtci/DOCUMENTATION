@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2601e1859569d4a5",
+            "id": "efd09bd27bb20763",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Parsing Examples 2.md",
+                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Parsing Examples 2.md"
+                "file": "INFORMATION TECHNOLOGIES/No-SQL.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Parsing Examples 2.md",
+                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ANALISIS LEXICO SINTACTICO/Parsing Examples 2.md",
+                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,47 +158,47 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2601e1859569d4a5",
+  "active": "efd09bd27bb20763",
   "lastOpenFiles": [
-    "NETWORKING/Audio and Video Streaming.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Derivation tree.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Constructions and transformations.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Grammars of type 2.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Grammar cleaning.md",
-    "ANALISIS LEXICO SINTACTICO/AST Abstract Syntax Tree.md",
-    "ANALISIS LEXICO SINTACTICO/Derivation.md",
-    "ANALISIS LEXICO SINTACTICO/Interpreter.md",
-    "ANALISIS LEXICO SINTACTICO/Factor grammars.md",
-    "ANALISIS LEXICO SINTACTICO/First and Follow.md",
-    "CONCEPTS/GRAMMARS/GRAMMARS - Introduction.md",
-    "ANALISIS LEXICO SINTACTICO/Grammars LL.md",
-    "ANALISIS LEXICO SINTACTICO/Parsing Examples 2.md",
-    "INFORMATION TECHNOLOGIES/No-SQL.md",
-    "ANALISIS LEXICO SINTACTICO/Parsing Examples.md",
-    "ANALISIS LEXICO SINTACTICO/FIRST AND FOLLOW EXAMPLES.md",
-    "ANALISIS LEXICO SINTACTICO/Parser.md",
-    "ANALISIS LEXICO SINTACTICO/Parser Table.md",
-    "INFORMATION TECHNOLOGIES/Examples.md",
-    "INFORMATION TECHNOLOGIES/IMAGES/types_nosql.png",
+    "INFORMATION TECHNOLOGIES/SQL vs No-SQL.md",
+    "INFORMATION TECHNOLOGIES/Concurrency Control Solutions.md",
+    "INFORMATION TECHNOLOGIES/Concurrency Control Schedules.md",
+    "INFORMATION TECHNOLOGIES/Concurrency Control Problems.md",
+    "INFORMATION TECHNOLOGIES/Composite Attributes.md",
+    "INFORMATION TECHNOLOGIES/CAP Theorem.md",
+    "INFORMATION TECHNOLOGIES/Class Exercise - Query Optimization.md",
     "INFORMATION TECHNOLOGIES/Access Control.md",
-    "INFORMATION TECHNOLOGIES/Operational or Informational Systems.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Warehousing.md",
+    "AJAX/XMLHttpRequest.md",
+    "AJAX/AJAX - PHP - Send array.md",
+    "AJAX/AJAX - Basics.md",
+    "CASSANDRA/CASSANDRA - Basics.md",
+    "INFORMATION TECHNOLOGIES/No-SQL.md",
+    "INFORMATION TECHNOLOGIES/Database Transactions.md",
+    "INFORMATION TECHNOLOGIES/ACID.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/ACID.png",
+    "MARKDOWN/MARKDOWN - Native colors.md",
+    "INFORMATION TECHNOLOGIES/CRUD - Create, Read, Update and Delete.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/CRUD_OPERATIONS.png",
+    "INFORMATION TECHNOLOGIES/Sharding or Replication.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Operational or Informational Systems.md",
+    "INFORMATION TECHNOLOGIES/Mapping ER Model to Relational Model.md",
+    "INFORMATION TECHNOLOGIES/DCL - Data Control Language.md",
+    "INFORMATION TECHNOLOGIES/Views.md",
+    "INFORMATION TECHNOLOGIES/Weak Relationship.md",
+    "INFORMATION TECHNOLOGIES/Replication.md",
+    "HTML/HTML - Native colors.md",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/cap_theorem_distribution.png",
+    "INFORMATION TECHNOLOGIES/IMAGES/types_nosql.png",
     "Exercises 4.1 - Big Data.pdf",
     "ANALISIS LEXICO SINTACTICO/IMAGES/generated_parser_tree.png",
     "ANALISIS LEXICO SINTACTICO/IMAGES/parsing_table_1.png",
-    "ANALISIS LEXICO SINTACTICO/Lexer.md",
-    "ANALISIS LEXICO SINTACTICO/CFG - Context Free grammars.md",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
     "UNITY/IMAGES/light_vectors_representation.png",
     "PHP/CODE FORMULAS",
     "NETWORKING/IMAGES/network_layers.jpeg",
     "NETWORKING/IMAGES/sip_call_message_exchange.png",
     "NETWORKING/IMAGES/ipv6_IP_aggregation.png",
-    "NETWORKING/IMAGES/ipv6_formatr.png",
-    "NETWORKING/IMAGES/header_extension_estructure.png",
-    "NETWORKING/IMAGES/extension_header_info.png",
     "SQL/SQL CANVAS COMANDS.canvas",
     "C-SHARP/CODE EXAMPLES",
     "GIT/git-cheat-sheet.pdf",

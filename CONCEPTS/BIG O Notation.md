@@ -95,3 +95,4 @@ Algorithms depends from:
 Author: Daniel Laplana 
 Date: 21 - 12 - 2023 
 CONCEPTS ABOUT COMPUTER SCIENCE
+%%TODO Translate into english%%

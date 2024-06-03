@@ -74,7 +74,7 @@ Rules to build a FOLLOW:
 6. If `X --> ABC` and `C --> 0 | 1` imply that FOLLOW(B) = FIRST(C) if C doesn't contain empty (ε). 
 7. If $ε\in FIRST(C)$ imply that B cannot have something at its back, so FOLLOW(B) = FIRST(C) + FOLLOW(X). Meaning that need take a look into previous rule in the hierarchy. 
 
-You can take a look into some examples in [[FIRST AND FOLLOW EXAMPLES]]. 
+You can take a look into some examples in [[First and Follow Examples]]. 
 
 
 This means that: 
