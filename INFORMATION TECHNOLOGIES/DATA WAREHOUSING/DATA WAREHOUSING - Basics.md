@@ -18,12 +18,12 @@ In terms of data it uses <span style="color:orange;">informational data</span> i
 
 The main <span style="color:orange;">goals</span> of Data warehousing: 
 
-* Information easily accesible: data is intuitive to the business user, not only the developer. 
-* Present the information consistently: data is carefully assembled from different sources, cleaned, quality assured and refined for the final user consumption. 
-* Adaptative and resilient to changes: existing data won't be disrupted for the new questions or new data. 
-* Protect the information: the data warehouses must effectively control access to the organization confidential information. 
-* Foundation the information: a data warehouse must have the right data in order to support the decision making. 
-* Accepted by the business community: or easy to understand. 
+* <span style="color:CornflowerBlue;">Information easily accesible</span>: data is intuitive to the business user, not only the developer. 
+* <span style="color:CornflowerBlue;">Present the information consistently</span>: data is carefully assembled from different sources, cleaned, quality assured and refined for the final user consumption. 
+* <span style="color:CornflowerBlue;">Adaptative and resilient to changes</span>: existing data won't be disrupted for the new questions or new data. 
+* <span style="color:CornflowerBlue;">Protect the information</span>: the data warehouses must effectively control access to the organization confidential information. 
+* <span style="color:CornflowerBlue;">Foundation the information</span>: a data warehouse must have the right data in order to support the decision making. 
+* <span style="color:CornflowerBlue;">Accepted by the business community</span>: or easy to understand. 
 
 This data can be taken from **various sources**: 
 

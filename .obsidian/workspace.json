@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
+                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md"
+                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
+                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
+                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,12 +160,13 @@
   },
   "active": "775b0fbed9e67f56",
   "lastOpenFiles": [
-    "INFORMATION TECHNOLOGIES/BIG DATA/Data Partitioning.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md",
+    "INFORMATION TECHNOLOGIES/BIG DATA/Data Partitioning.md",
+    "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Operational or Informational Systems.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Lake.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/BI - Business Intelligence.md",
     "INFORMATION TECHNOLOGIES/Access Control.md",
     "INFORMATION TECHNOLOGIES/ACID.md",
@@ -181,7 +182,6 @@
     "INFORMATION TECHNOLOGIES/Database Transactions.md",
     "REDIS/REDIS - Transactions.md",
     "INFORMATION TECHNOLOGIES/CAP Theorem.md",
-    "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
     "REDIS/REDIS - Query Optimization.md",
     "REDIS/REDIS - Basics.md",
     "MongoDB/MongoDB - Transactions.md",
