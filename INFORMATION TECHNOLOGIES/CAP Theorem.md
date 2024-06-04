@@ -26,7 +26,7 @@ Availability imply that each request gets a return at any time.
 
 Partition tolerance refers to the potential of a node to respond if even there is a breakdown between the nodes within the system. 
 
-### ONLY 2?
+### CAN ONLY MEET 2?
 
 Only two of them can be meet by a technology, because of the nature of this properties. 
 

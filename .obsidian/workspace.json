@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "59e04959b771de90",
+        "id": "1ff514ec807097f1",
         "type": "tabs",
         "children": [
           {
-            "id": "efd09bd27bb20763",
+            "id": "775b0fbed9e67f56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
+                "file": "INFORMATION TECHNOLOGIES/CAP Theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "e w l",
+                "query": "mart",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/No-SQL.md"
+                "file": "INFORMATION TECHNOLOGIES/CAP Theorem.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
+                "file": "INFORMATION TECHNOLOGIES/CAP Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/No-SQL.md",
+                "file": "INFORMATION TECHNOLOGIES/CAP Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,56 +158,56 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "efd09bd27bb20763",
+  "active": "775b0fbed9e67f56",
   "lastOpenFiles": [
-    "INFORMATION TECHNOLOGIES/SQL vs No-SQL.md",
-    "INFORMATION TECHNOLOGIES/Concurrency Control Solutions.md",
-    "INFORMATION TECHNOLOGIES/Concurrency Control Schedules.md",
-    "INFORMATION TECHNOLOGIES/Concurrency Control Problems.md",
-    "INFORMATION TECHNOLOGIES/Composite Attributes.md",
-    "INFORMATION TECHNOLOGIES/CAP Theorem.md",
-    "INFORMATION TECHNOLOGIES/Class Exercise - Query Optimization.md",
-    "INFORMATION TECHNOLOGIES/Access Control.md",
-    "AJAX/XMLHttpRequest.md",
-    "AJAX/AJAX - PHP - Send array.md",
-    "AJAX/AJAX - Basics.md",
-    "CASSANDRA/CASSANDRA - Basics.md",
-    "INFORMATION TECHNOLOGIES/No-SQL.md",
-    "INFORMATION TECHNOLOGIES/Database Transactions.md",
     "INFORMATION TECHNOLOGIES/ACID.md",
+    "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
+    "INFORMATION TECHNOLOGIES/BIG DATA/Data Partitioning.md",
+    "REDIS/REDIS - Query Optimization.md",
+    "REDIS/REDIS - Basics.md",
+    "MongoDB/MongoDB - Transactions.md",
+    "MongoDB/MongoDB - Query Optimization.md",
+    "INFORMATION TECHNOLOGIES/No-SQL.md",
+    "REDIS/REDIS - Cheat note.md",
+    "REDIS/REDIS - Transactions.md",
+    "PostgreSQL/PostgreSQL - Isolation Level.md",
+    "MongoDB/MongoDB_Query_Optimization.pdf",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/BI - Business Intelligence.md",
+    "MongoDB/MongoDB - Access Control.md",
+    "REDIS/REDIS - Access Control.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Lake.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_three_tier.png",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_two_tier.png",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Untitled.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_single_tier.png",
+    "INFORMATION TECHNOLOGIES/CAP Theorem.md",
+    "a0018b6a-0e64-4dc6-a389-0cd77a5fa7b8_1999x1837.jpg",
+    "INFORMATION TECHNOLOGIES/BIG DATA/IMAGES",
+    "INFORMATION TECHNOLOGIES/BIG DATA/IMAGES/a0018b6a-0e64-4dc6-a389-0cd77a5fa7b8_1999x1837.jpg",
+    "MongoDB/MongoDB.md",
+    "MongoDB/IMAGES/ACID.png",
+    "REDIS/IMAGES",
+    "REDIS/IMAGES/redis_acl_1.png",
     "INFORMATION TECHNOLOGIES/IMAGES/ACID.png",
-    "MARKDOWN/MARKDOWN - Native colors.md",
-    "INFORMATION TECHNOLOGIES/CRUD - Create, Read, Update and Delete.md",
-    "INFORMATION TECHNOLOGIES/IMAGES/CRUD_OPERATIONS.png",
+    "MongoDB/IMAGES",
+    "MongoDB/IMAGES/mongo_db_transactions.png",
     "INFORMATION TECHNOLOGIES/Sharding or Replication.md",
+    "INFORMATION TECHNOLOGIES/SQL vs No-SQL.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
+    "INFORMATION TECHNOLOGIES/IMAGES/data_mart.jpg",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/OLAP - Online Analytical Processing.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Operational or Informational Systems.md",
-    "INFORMATION TECHNOLOGIES/Mapping ER Model to Relational Model.md",
-    "INFORMATION TECHNOLOGIES/DCL - Data Control Language.md",
-    "INFORMATION TECHNOLOGIES/Views.md",
-    "INFORMATION TECHNOLOGIES/Weak Relationship.md",
-    "INFORMATION TECHNOLOGIES/Replication.md",
-    "HTML/HTML - Native colors.md",
-    "MARKDOWN/MARKDOWN - Colors.md",
-    "INFORMATION TECHNOLOGIES/IMAGES/cap_theorem_distribution.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/types_nosql.png",
+    "MARKDOWN/MARKDOWN - Native colors.md",
+    "INFORMATION TECHNOLOGIES/BIG DATA",
     "Exercises 4.1 - Big Data.pdf",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/generated_parser_tree.png",
-    "ANALISIS LEXICO SINTACTICO/IMAGES/parsing_table_1.png",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
-    "UNITY/IMAGES/light_vectors_representation.png",
     "PHP/CODE FORMULAS",
-    "NETWORKING/IMAGES/network_layers.jpeg",
-    "NETWORKING/IMAGES/sip_call_message_exchange.png",
-    "NETWORKING/IMAGES/ipv6_IP_aggregation.png",
     "SQL/SQL CANVAS COMANDS.canvas",
     "C-SHARP/CODE EXAMPLES",
     "GIT/git-cheat-sheet.pdf",
-    "HTTP",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING",
-    "JAVASCRIPT/CODE/vanilla-js-carousel.js",
-    "JAVASCRIPT/CODE/vanilla-js-carousel.css",
-    "JAVASCRIPT/CODE",
-    "MongoDB",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",

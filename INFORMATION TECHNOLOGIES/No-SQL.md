@@ -74,12 +74,14 @@ There are 4 forms of storing No-SQL data:
 | **Type**                | Document                                | Key-value                                  | Wide-column                                                 | Graph                                   |
 | **Data Model**          | JSON-like documents                     | Key-value pairs                            | Column families                                             | Labeled property graph                  |
 | **Query Language**      | MongoDB Query Language (MQL)            | Redis commands and data types              | CQL (Cassandra Query Language)                              | Cypher Query Language                   |
-| **Consistency**         | Configurable (Eventual to Strong)       | Configurable (Eventual to Strong)          | Eventual consistency                                        | ACID transactions, Strong consistency   |
+| **Consistency**         | Strong                                  | Strong                                     | Eventual consistency                                        | Strong, ACID transactions               |
 | **Partition Tolerance** | Shard                                   | Shard                                      | Shard                                                       | No                                      |
 | **Scalability**         | Horizontally scalable                   | Horizontally scalable                      | Horizontally scalable                                       | Vertical scalable                       |
 | **CAP**                 | CP                                      | CP                                         | AP                                                          | CA                                      |
-| **ACID**                | Yes                                     | Yes                                        | No                                                          | Yes                                     |
+| **ACID**                | Yes                                     | No                                         | No                                                          | Yes                                     |
 | **FK**                  | Reference                               | -                                          | -                                                           | Relations                               |
+| **Transactions**        | Yes                                     |                                            |                                                             |                                         |
+| **Query Optimization**  | Yes                                     | No, only pipelining                        |                                                             |                                         |
 | **Durability**          | Configurable                            | Non-persistent                             | Configurable                                                | Configurable                            |
 | **Use Cases**           | Content Management, Real-time Analytics | Caching, Pub/Sub messaging, Session store, | Time Series Data (Health tracker), IoT, Distributed systems | Social networks, Recommendation engines |
 

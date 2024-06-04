@@ -1,6 +1,6 @@
 #CONCEPTS #DATABASES #INFORMATION_TECHNOLOGIES 
 
-### SHARDING
+# SHARDING
 
 <span style="color:IndianRed;">Sharding</span> is the method of dividing a database into multiple <span style="color:DodgerBlue">fragments or shards</span>. 
 
@@ -8,9 +8,9 @@ Each of this <span style="color:DodgerBlue">shards</span> contains a part of the
 
 Its also known as <span style="color:Salmon;">horizontal partitioning</span> because is the same as partitioning the data by rows in a table. 
 
-Its not the same as <span style="color:LightSeaGreen">Replication</span>, because each shard its a slice of the whole database and don't share data with other shards. 
+Its not the same as <span style="color:Salmon">Replication</span>, because each shard its a slice of the whole database and don't share data with other shards. 
 
-### Replication
+# Replication
 
 <span style="color:IndianRed">Replication</span> is the method of keeping an updated copy of the data within different servers. 
 
@@ -18,10 +18,27 @@ In order to keep a <span style="color:LightBlue;">consistency between databases<
 
 Can have various systems: 
 
-* Master-slave replication: a master that allows read-write with a replicated slave that is read-only. 
-* Master-master: two masters allows read-write and synchronize the data between them. 
+* <span style="color:DodgerBlue;">Master-slave replication</span>: a master that allows read-write with a replicated slave that is read-only. 
+* <span style="color:DodgerBlue;">Master-master replication</span>: two masters allows read-write and synchronize the data between them. 
 
-### COMPARISON
+Also the volume of data replicated can differ: 
+
+* <span style="color:SkyBlue;">Full replication</span>: the row or the table is stored at all sites
+* <span style="color:SkyBlue;">Fully redundant</span>: the whole database is stored at all sites. 
+
+<span style="color:green;">ADVANTAGES</span>
+
+* Availability: data is available in several servers.
+* Parallelism: queries can be processed by various nodes at the same time. 
+* Reduce data transfer: data is available locally at each site. 
+
+<span style="color:red;">DISADVANTAGES</span>
+
+* Increase cost of updates
+* Increase complexity of concurrency control
+
+
+## COMPARISON
 
 PURPOSE
 

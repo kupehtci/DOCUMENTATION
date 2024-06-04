@@ -11,12 +11,15 @@ A view can have all the rows of a "visible" table or specific rows under certain
 Imagine the following data table in the database
 
 ```SQL
+|-------------------------|
 |         USERS           |
+|----|--------|-----------|
 | id | name   | city      |
 |----|--------|-----------|
 | 1  | Daniel | Zaragoza  |
 | 2  | Marta  | Madrid    |
 | 3  | Hugo   | Barcelona |
+|----|--------|-----------|
 ```
 
 We can define an external view for a certain user that we want to be able to search other people, but are not able to see the city they belong to. 

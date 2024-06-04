@@ -4,10 +4,12 @@
 
 A <span style="color:MediumSlateBlue;">Data warehouse</span> is a subject oriented, integrated, non-volatile, time-variant collection of data in support of management's decisions. 
 
-* Subject-oriented: discard the information that is not important for that study subject
-* Integrated: Board only contains information to solve the questions
-* Non-volatile: data is permanent
-* Time-variant: as you include more data, you can see the evolution regarding the time. 
+*Also is: 
+* <span style="color:MediumSlateBlue;">Subject Oriented</span>: related to a subject of interest
+* <span style="color:CornflowerBlue;">Integrated</span>: follow common standards and formats
+* <span style="color:MediumSlateBlue;">Time-variant</span>: stores time data
+* <span style="color:CornflowerBlue;">Non volatile</span>: persistent data, don't gets deleted
+* <span style="color:MediumSlateBlue;">Summarized</span>: segmented in order to help future analysis. 
 
 The information stored within the data warehouse helps to make future decisions. 
 
@@ -28,32 +30,25 @@ This data can be taken from **various sources**:
 * Semi-structured data (JSON or XML)
 * Unstructured data (plain text, videos, audios, ...)
 
+Data can also be stored in: 
+* [[Data Mart]]
+* [[Data Lake]]
+
 ### ETL - Extract, Transform, Load
 
 Extract, Transform and Load are three simple database functions that are combined into one tool to pull data out from a database and place in another one. 
 
 Is used to build a **Data warehouse**: 
 
-* **Extract**: obtain relevant information from a business point of view
-* **Transformation**: transform from different sources into a single format. (Usually relational data , normally used in Data warehouses). 
-* **Loading**: once the data has been transformed, it must be stored. 
-
-##### DATA LAKE
-
-A data lake is a **centralized** database that integrates data from multiple sources for corporate reporting and analysis. 
-
-##### DATA MART
-
-A data mart is a single functional data area of an organization. Contains a little and specific piece of data within a more bigger data system. 
-
-Is a logical subdivision of a Data Warehouse. 
-
+* <span style="color:MediumSlateBlue">Extract</span>: obtain the relevant information from a certain bussines point
+* <span style="color:CornflowerBlue">Transform</span>: transform the heterogeneous data into a single format. 
+* <span style="color:Orchid">Load</span>: once the data is transformed, it must be stored. 
 
 ### Data warehousing components
 
-| Operational systems                                         | Data staging area                 | Data presentation area                                                        | Data access control                                                                                     |
-| ----------------------------------------------------------- | --------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Captures the transactions of the bussiness. Common database | Storage area and processes as ETL | Data is organized, stored and made available for users, report data and more. Capabilities provided to business users to  to access presentation area for analytic decision making.  a  |
+| Operational systems                                         | Data staging area                 | Data presentation area                                                                                                                                                                 | Data access control                                                   |
+| ----------------------------------------------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Captures the transactions of the business. Common database. | Storage area and processes as ETL | Data is organized, stored and made available for users, report data and more. Capabilities provided to business users to  to access presentation area for analytic decision making.  a | Tools provided to business users in order to analitic decision making |
 
 #### Architectures
 
@@ -66,14 +61,21 @@ All components of data warehousing are located in the same server.
 
 This structure can be condensed into different Data Marts that contains subsets of the data stored in the warehouse. 
 
+![[dw_single_tier.png]]
+
 - Two Tier Architecture
 
 Physically available sources and the data warehouse are separated- 
 Data can be accesses through an API like ODBC or JDBC, from the client side program. 
 
+![[dw_two_tier.png]]
+
 - Three Tier Architecture
 
 There is another layer between the client and the server. The client in order to communicate with the Data warehouses goes through a OLAP server. 
+
+This OLAP server presents an abstract view of the database acting as a mediator between the end-user and the database. 
+![[dw_three_tier.png]]
 
 ---
 
