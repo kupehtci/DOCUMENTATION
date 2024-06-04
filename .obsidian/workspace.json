@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/CAP Theorem.md",
+                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/CAP Theorem.md"
+                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/CAP Theorem.md",
+                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/CAP Theorem.md",
+                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,47 +160,47 @@
   },
   "active": "775b0fbed9e67f56",
   "lastOpenFiles": [
-    "INFORMATION TECHNOLOGIES/ACID.md",
-    "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Lake.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Operational or Informational Systems.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/OLAP - Online Analytical Processing.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Logical Schemas in DW.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/constellation_logical_schema.jpg",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/Snowflake-Schema.png.webp",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
+    "INFORMATION TECHNOLOGIES/No-SQL.md",
     "INFORMATION TECHNOLOGIES/BIG DATA/Data Partitioning.md",
+    "INFORMATION TECHNOLOGIES/ACID.md",
+    "INFORMATION TECHNOLOGIES/Relational Model.md",
+    "INFORMATION TECHNOLOGIES/Relational Model Structure.md",
+    "INFORMATION TECHNOLOGIES/Sharding or Replication.md",
+    "INFORMATION TECHNOLOGIES/Normalization.md",
+    "INFORMATION TECHNOLOGIES/Database Transactions.md",
+    "REDIS/REDIS - Transactions.md",
+    "INFORMATION TECHNOLOGIES/CAP Theorem.md",
+    "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
     "REDIS/REDIS - Query Optimization.md",
     "REDIS/REDIS - Basics.md",
     "MongoDB/MongoDB - Transactions.md",
     "MongoDB/MongoDB - Query Optimization.md",
-    "INFORMATION TECHNOLOGIES/No-SQL.md",
     "REDIS/REDIS - Cheat note.md",
-    "REDIS/REDIS - Transactions.md",
     "PostgreSQL/PostgreSQL - Isolation Level.md",
     "MongoDB/MongoDB_Query_Optimization.pdf",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/BI - Business Intelligence.md",
     "MongoDB/MongoDB - Access Control.md",
     "REDIS/REDIS - Access Control.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Lake.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_three_tier.png",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_two_tier.png",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Untitled.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_single_tier.png",
-    "INFORMATION TECHNOLOGIES/CAP Theorem.md",
     "a0018b6a-0e64-4dc6-a389-0cd77a5fa7b8_1999x1837.jpg",
     "INFORMATION TECHNOLOGIES/BIG DATA/IMAGES",
     "INFORMATION TECHNOLOGIES/BIG DATA/IMAGES/a0018b6a-0e64-4dc6-a389-0cd77a5fa7b8_1999x1837.jpg",
-    "MongoDB/MongoDB.md",
     "MongoDB/IMAGES/ACID.png",
     "REDIS/IMAGES",
     "REDIS/IMAGES/redis_acl_1.png",
     "INFORMATION TECHNOLOGIES/IMAGES/ACID.png",
     "MongoDB/IMAGES",
-    "MongoDB/IMAGES/mongo_db_transactions.png",
-    "INFORMATION TECHNOLOGIES/Sharding or Replication.md",
-    "INFORMATION TECHNOLOGIES/SQL vs No-SQL.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
-    "INFORMATION TECHNOLOGIES/IMAGES/data_mart.jpg",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/OLAP - Online Analytical Processing.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Operational or Informational Systems.md",
-    "MARKDOWN/MARKDOWN - Native colors.md",
     "INFORMATION TECHNOLOGIES/BIG DATA",
     "Exercises 4.1 - Big Data.pdf",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",

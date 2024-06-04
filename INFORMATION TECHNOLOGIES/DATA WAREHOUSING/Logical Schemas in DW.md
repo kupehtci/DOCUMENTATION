@@ -19,13 +19,18 @@ This schemas are designed to address very larger databases for analytical purpos
 There are three main types of multidimensional schemas: 
 
 * Star schema
+
 One fact table and several associated dimension tables. 
 The fat table contains specific measurable primary data. 
 
 * Snowflake schema
+
 Extension of <span style="color:DeepSkyBlue;">star schema</span> adding additional dimensions.
 Dimension tables are normalized with data splitted into additional tables.
 
+![[Snowflake-Schema.png.webp]]
 * Fact Constellation schema or Galaxy Schema
+
 Two fact table that share dimension tables. 
 
+![[constellation_logical_schema.jpg]]

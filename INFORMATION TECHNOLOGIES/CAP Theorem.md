@@ -6,9 +6,9 @@ CAP stand for Consistency, Availability and partition tolerance (Shard tolerance
 
 This theorem says that a database can only guarantee two of this aspects. 
 
-* Consistency: All clients see the same data at the same time
-* Availability: System continues to operate even in in the presence of node failures
-* Partition-Tolerance: The system continues to operate despite of network failures
+* <span style="color:#795fad;">Consistency</span>: All clients see the same data at the same time
+* <span style="color:#795fad;">Availability</span>: System continues to operate even in in the presence of node failures
+* <span style="color:#795fad;">Partition-Tolerance</span>: The system continues to operate despite of network failures
 
 ![[cap_theorem_distribution.png]]
 
