@@ -15,8 +15,8 @@ This is made in order to:
 
 There are various types of data partitioning: 
 
-* Vertical partitioning: division into independent parts. From a table, create a relation independent table. 
-* Horizontal partitioning: separate rows of the database. 
+* <span style="color:orange;">Vertical partitioning</span>: division into independent parts. From a table, create a relation independent table. 
+* <span style="color:orange;">Horizontal partitioning</span>: separate rows of the database. 
 
 ![[a0018b6a-0e64-4dc6-a389-0cd77a5fa7b8_1999x1837.jpg]]
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md",
+                "file": "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md"
+                "file": "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md",
+                "file": "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md",
+                "file": "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,17 +160,20 @@
   },
   "active": "775b0fbed9e67f56",
   "lastOpenFiles": [
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Lake.md",
+    "INFORMATION TECHNOLOGIES/BIG DATA/Data Partitioning.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Operational or Informational Systems.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Lake.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
+    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/BI - Business Intelligence.md",
+    "INFORMATION TECHNOLOGIES/Access Control.md",
+    "INFORMATION TECHNOLOGIES/ACID.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/OLAP - Online Analytical Processing.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Logical Schemas in DW.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/constellation_logical_schema.jpg",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/Snowflake-Schema.png.webp",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
     "INFORMATION TECHNOLOGIES/No-SQL.md",
-    "INFORMATION TECHNOLOGIES/BIG DATA/Data Partitioning.md",
-    "INFORMATION TECHNOLOGIES/ACID.md",
     "INFORMATION TECHNOLOGIES/Relational Model.md",
     "INFORMATION TECHNOLOGIES/Relational Model Structure.md",
     "INFORMATION TECHNOLOGIES/Sharding or Replication.md",
@@ -186,9 +189,6 @@
     "REDIS/REDIS - Cheat note.md",
     "PostgreSQL/PostgreSQL - Isolation Level.md",
     "MongoDB/MongoDB_Query_Optimization.pdf",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/BI - Business Intelligence.md",
-    "MongoDB/MongoDB - Access Control.md",
-    "REDIS/REDIS - Access Control.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_three_tier.png",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_two_tier.png",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES",

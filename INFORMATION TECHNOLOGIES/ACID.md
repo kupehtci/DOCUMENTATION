@@ -13,4 +13,4 @@ If the <span style="color:Salmon;">ACID</span> properties are meet, the applicat
 ![[INFORMATION TECHNOLOGIES/IMAGES/ACID.png]]
 
 
-[^1] transactions a sequence of operations that are done within a single unit of work. This means that the whole operation is only correctly executed if all the operations within it are correctly executed. [[Database Transactions]]
+[^1]: transactions a sequence of operations that are done within a single unit of work. This means that the whole operation is only correctly executed if all the operations within it are correctly executed. [[Database Transactions]]

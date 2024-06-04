@@ -3,8 +3,9 @@
 ### DATA WAREHOUSES
 
 A <span style="color:MediumSlateBlue;">Data warehouse</span> is a subject oriented, integrated, non-volatile, time-variant collection of data in support of management's decisions. 
+The Data warehouses are then analyzed though BI[^2] techniques
 
-*Also is: 
+Also is: 
 * <span style="color:MediumSlateBlue;">Subject Oriented</span>: related to a subject of interest
 * <span style="color:CornflowerBlue;">Integrated</span>: follow common standards and formats
 * <span style="color:MediumSlateBlue;">Time-variant</span>: stores time data
@@ -46,9 +47,9 @@ Is used to build a **Data warehouse**:
 
 ### Data warehousing components
 
-| Operational systems                                         | Data staging area                 | Data presentation area                                                                                                                                                                 | Data access control                                                   |
-| ----------------------------------------------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| Captures the transactions of the business. Common database. | Storage area and processes as ETL | Data is organized, stored and made available for users, report data and more. Capabilities provided to business users to  to access presentation area for analytic decision making.  a | Tools provided to business users in order to analitic decision making |
+| Operational systems                                         | Data staging area                 | Data presentation area                                                                                                                                                              | Data access control                                                   |
+| ----------------------------------------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Captures the transactions of the business. Common database. | Storage area and processes as ETL | Data is organized, stored and made available for users, report data and more. Capabilities provided to business users to  to access presentation area for analytic decision making. | Tools provided to business users in order to analitic decision making |
 
 #### Architectures
 
@@ -80,3 +81,5 @@ This OLAP server presents an abstract view of the database acting as a mediator 
 ---
 
 [^1]: Differences between operational and informational data systems [[Operational or Informational Systems]]
+
+[^2]: Business intelligence [[BI - Business Intelligence]]
