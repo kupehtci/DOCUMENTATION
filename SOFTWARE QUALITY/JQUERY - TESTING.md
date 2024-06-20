@@ -3,7 +3,7 @@
 
 Testings can be done by using `jquery's` qunit library: 
 
-FOr defining an HTML that uses JQuery qunit testing framework: 
+For defining an HTML that uses jQuery qunit testing framework: 
 
 ```html
 <html>  

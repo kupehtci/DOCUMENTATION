@@ -135,7 +135,7 @@ incr score
 Also by using a step, the value can be increased more: 
 
 ```
-> incrby score 3
+incrby score 3
 (integer) 14
 ```
 

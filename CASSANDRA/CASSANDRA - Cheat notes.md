@@ -77,9 +77,10 @@ We can insert using a SQL-like syntax, data into a created table:
 ### CONDITIONAL SELECT
 
 We can select data from a table and filter the select with a condition, similar to SQL. 
-```cassandra
-> select * from <table_name> where <condition> [allow filtering]
 
+```select * from <table_name> where <condition> [allow filtering];```
+
+```cassandra
 > select * from error_logs where location=2;
 
  location | type_error    | description | number_error | time_error
@@ -96,9 +97,9 @@ We can select data from a table and filter the select with a condition, similar 
 
 Concatenate conditions: 
 
-```txt
-> select * from <table_name> where <condition1> and <condition2>; 
+```select * from <table_name> where <condition1> and <condition2> [allow filtering];```
 
+```
 > select * from error_logs where location=2 and type_error='access_denied';
 
 location | type_error    | description | number_error | time_error

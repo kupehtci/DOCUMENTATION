@@ -66,25 +66,26 @@ There are 4 forms of storing No-SQL data:
 
 ##### TECHNOLOGIES COMPARISON
 
-| Feature                 | MongoDB                                 | Redis                                      | Cassandra                                                   | Neo4j                                   |
-| ----------------------- | --------------------------------------- | ------------------------------------------ | ----------------------------------------------------------- | --------------------------------------- |
-| **Type**                | Document                                | Key-value                                  | Wide-column                                                 | Graph                                   |
-| **Orientation**         | Flexibility                             | Performance and fast                       | Distributed data per nodes. High availability               | Relationships between data              |
-| **Platform**            | Any                                     | Any (No windows builds)                    | Any (No windows builds)                                     | Any                                     |
-| **GUI**                 | Yes                                     | No                                         | No                                                          | Yes                                     |
-| **Data Model**          | JSON-like documents                     | Key-value pairs                            | Column families                                             | Labeled property graph                  |
-| **Query Language**      | MongoDB Query Language (MQL)            | Redis commands and data types              | CQL (Cassandra Query Language)                              | Cypher Query Language                   |
-| **Consistency**         | Strong                                  | Strong                                     | Eventual consistency                                        | Strong, ACID transactions               |
-| **CAP**                 | CP                                      | CP                                         | AP                                                          | CA                                      |
-| **Partition Tolerance** | Shard                                   | Shard                                      | Shard                                                       | No                                      |
-| **Availability**        | Eventual                                | Eventual                                   | Always                                                      | Always                                  |
-| **Scalability**         | Horizontally scalable                   | Horizontally scalable                      | Horizontally scalable                                       | Vertical scalable                       |
-| **ACID**                | Yes                                     | No                                         | No                                                          | Yes                                     |
-| **FK**                  | Reference                               | No                                         | No                                                          | Relations                               |
-| **Transactions**        | Yes                                     | Serial                                     | No                                                          | Yes                                     |
-| **Query Optimization**  | Yes                                     | No, only pipelining                        |                                                             |                                         |
-| **Durability**          | Configurable                            | Non-persistent                             | Configurable                                                | Configurable                            |
-| **Use Cases**           | Content Management, Real-time Analytics | Caching, Pub/Sub messaging, Session store, | Time Series Data (Health tracker), IoT, Distributed systems | Social networks, Recommendation engines |
+| Feature                 | MongoDB                                 | Redis                                      | Cassandra                                                   | Neo4j                                      |
+| ----------------------- | --------------------------------------- | ------------------------------------------ | ----------------------------------------------------------- | ------------------------------------------ |
+| **Type**                | Document                                | Key-value                                  | Wide-column                                                 | Graph                                      |
+| **Orientation**         | Flexibility                             | Performance and fast                       | Distributed data per nodes. High availability               | Relationships between data                 |
+| **Platform**            | Any                                     | Any (No windows builds)                    | Any (No windows builds)                                     | Any                                        |
+| **GUI**                 | Yes                                     | No                                         | No                                                          | Yes                                        |
+| **Data Model**          | JSON-like documents                     | Key-value pairs                            | Column families                                             | Labeled property graph                     |
+| **Query Language**      | MongoDB Query Language (MQL)            | Redis commands and data types              | CQL (Cassandra Query Language)                              | Cypher Query Language                      |
+| **Consistency**         | Strong                                  | Strong                                     | Eventual consistency                                        | Strong, ACID transactions                  |
+| **CAP**                 | CP                                      | CP                                         | AP                                                          | CA                                         |
+| **Partition Tolerance** | Shard                                   | Shard                                      | Shard                                                       | No                                         |
+| **Availability**        | Eventual                                | Eventual                                   | Always                                                      | Always                                     |
+| **Scalability**         | Horizontally scalable                   | Horizontally scalable                      | Horizontally scalable                                       | Vertical scalable                          |
+| **ACID**                | Yes                                     | No                                         | No                                                          | Yes                                        |
+| **FK**                  | Reference                               | No                                         | No                                                          | Relations                                  |
+| **Transactions**        | Yes                                     | Serial                                     | No                                                          | Yes                                        |
+| **Query Optimization**  | Yes                                     | No, only pipelining                        | No, but have monitor                                        | Yes and can decide which optimization use. |
+| **Access Control**      | Yes, users, roles and views             | Yes, users with privileges                 | Yes, users with privileges and views                        | Yes, users and roles with privileges       |
+| **Durability**          | Configurable                            | Non-persistent                             | Configurable                                                | Configurable                               |
+| **Use Cases**           | Content Management, Real-time Analytics | Caching, Pub/Sub messaging, Session store, | Time Series Data (Health tracker), IoT, Distributed systems | Social networks, Recommendation engines    |
 
 
 ---

@@ -8,8 +8,3 @@ In terms of quality, there side from which the quality of a software product can
 
 * <span style="color:LIghtSeaGreen;">Internal Quality</span>: from the developer perspective. Even the best developers will make mistakes in the code and by following certain techniques, this mistakes can be reduced, 
 * <span style="color:LIghtSeaGreen;">External Quality</span>: from the end-user perspective. The features and the minimal inpact of the non-removed defect are what is noticeable from the users side. 
-
-
-And has some properties related to its quality: 
-
-* 

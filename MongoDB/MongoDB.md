@@ -7,7 +7,6 @@ Once you have created or select a database, you need to create a collection to s
 
 `db.createCollection(<name>, <options>)`
 
-
 ### INSERT
 
 ```
@@ -19,7 +18,6 @@ db.collection_name.insertMany(\[{"id": 3, "name": "Daniel",}, {"id": 4, "name":"
 
 ```
 ![[mongodb_insert.png]]
-
 
 ### FIND
 
@@ -77,12 +75,10 @@ OR operation:
 Filtering can be done in aggregation section by using a `$match` stage and write the filtering option within it: 
 
 ```JSON
-$match
----------------------------
+$match: 
 {
   classification:"Class A"
 }
----------------------------
 ```
 
 ### PROJECTIONS
@@ -108,15 +104,13 @@ Data can be sorted by a value by specifying as json:
 
 An average of a value can be calculated by grouping it in the aggregation: 
 ```JSON
-$group 
----------------------------
+$group: 
 {
   _id: null,
   avg_value: {
     $avg: "$cloud_cover"
   }
 }
----------------------------
 ```
 
 ### JOINS
@@ -146,7 +140,9 @@ as $lookup is the pipeline step in order to enbed two collections:
 
 ### ACCESSING ARRAYS
 
-in order to access an attribute inside an array, just use a dot ".": 
+When a `$lookup`is done, the joined attributes are joined as an array. Also if the BSON or JSON that we have use to define the document incorporates an array, we need to be able to enter within the array values: 
+
+In order to access an attribute inside an array, just use a dot ".": 
 
 ```json
 $exercises.score

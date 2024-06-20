@@ -6,10 +6,10 @@ A <span style="color:MediumSlateBlue;">Data warehouse</span> is a subject orient
 The Data warehouses are then analyzed though BI[^2] techniques
 
 Also is: 
-* <span style="color:MediumSlateBlue;">Subject Oriented</span>: related to a subject of interest
-* <span style="color:CornflowerBlue;">Integrated</span>: follow common standards and formats
-* <span style="color:MediumSlateBlue;">Time-variant</span>: stores time data
-* <span style="color:CornflowerBlue;">Non volatile</span>: persistent data, don't gets deleted
+* <span style="color:MediumSlateBlue;">Subject Oriented</span>: related to a subject of interest. 
+* <span style="color:CornflowerBlue;">Integrated</span>: follow common standards and formats. 
+* <span style="color:MediumSlateBlue;">Time-variant</span>: stores time data. 
+* <span style="color:CornflowerBlue;">Non volatile</span>: persistent data, don't gets deleted.
 * <span style="color:MediumSlateBlue;">Summarized</span>: segmented in order to help future analysis. 
 
 The information stored within the data warehouse helps to make future decisions. 

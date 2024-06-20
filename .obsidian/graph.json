@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "#INFORMATION_TECHNOLOGIES",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -74,6 +74,6 @@
   "repelStrength": 15.7511393229167,
   "linkStrength": 0.783487955729167,
   "linkDistance": 312,
-  "scale": 0.43278661783797073,
-  "close": true
+  "scale": 0.7040173049961093,
+  "close": false
 }

@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "775b0fbed9e67f56",
+            "id": "28c70c4e19ec450b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
+                "file": "CSS/CSS - Media queries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ae17028c4ac7380",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md"
+                "file": "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md"
               }
             }
           },
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
+                "file": "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
+                "file": "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,48 +171,50 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "775b0fbed9e67f56",
+  "active": "7ae17028c4ac7380",
   "lastOpenFiles": [
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/DATA WAREHOUSING - Basics.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Mart.md",
-    "INFORMATION TECHNOLOGIES/BIG DATA/Data Partitioning.md",
-    "INFORMATION TECHNOLOGIES/BIG DATA/Big Data.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Dimensional Design.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Operational or Informational Systems.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Data Lake.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/BI - Business Intelligence.md",
-    "INFORMATION TECHNOLOGIES/Access Control.md",
-    "INFORMATION TECHNOLOGIES/ACID.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/OLAP - Online Analytical Processing.md",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/Logical Schemas in DW.md",
+    "CSS/CSS - Media queries.md",
+    "CSS/CSS - REM relative values.md",
+    "CSS/CSS - Responsive images.md",
+    "CSS/CSS - Selector Cheat Notes.md",
+    "CSS/CSS-CANVAS.canvas",
+    "CSS/CSS - line-height.md",
+    "CSS/CSS - font-size.md",
+    "UNIX/rm - documentation.md",
+    "UNIX/du - documentation.md",
+    "UNIX/List formulas with size.md",
+    "SOFTWARE QUALITY/SQ - Quality Measures.md",
+    "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md",
+    "MARKDOWN/MARKDOWN - Mathematics.md",
+    "MARKDOWN/MARKDOWN - Native colors.md",
+    "SOFTWARE QUALITY/SQ - Software Configuration Management.md",
+    "SOFTWARE QUALITY/JQUERY - TESTING.md",
+    "CASSANDRA/CASSANDRA - Transactions.md",
+    "SOFTWARE QUALITY/IMAGES/coupling_afc_efc.png",
+    "SOFTWARE QUALITY/IMAGES/cyclomatic_complexity_2.png",
+    "SOFTWARE QUALITY/IMAGES/cyclomatic_complexity.png",
+    "SOFTWARE QUALITY/IMAGES/DRP_measure.png",
+    "SOFTWARE QUALITY/IMAGES/defect_density_over_time.png",
+    "CONCEPTS/Greek Symbols.md",
+    "HTML/HTML - Native colors.md",
+    "SOFTWARE QUALITY/SQ - Keys.md",
+    "SOFTWARE QUALITY/SQ - Session 3.md",
+    "SOFTWARE QUALITY/SQ - Session 2.md",
+    "SOFTWARE QUALITY/Practice Cases/SQ - Practice Case - Iphone alarm.md",
+    "SOFTWARE QUALITY/Practice Cases/SQ - Practice Case - Zune player.md",
+    "SOFTWARE QUALITY/Practice Cases",
+    "SOFTWARE QUALITY/Practice Cases/SQ - Practice Case - VehicleComunication.md",
+    "SOFTWARE QUALITY/Practice Cases/SQ - Practice Case - Test cases.md",
+    "SOFTWARE QUALITY/Practice Cases/SQ - Practice Case - LivingApps Movistar.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/constellation_logical_schema.jpg",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/Snowflake-Schema.png.webp",
-    "INFORMATION TECHNOLOGIES/No-SQL.md",
-    "INFORMATION TECHNOLOGIES/Relational Model.md",
-    "INFORMATION TECHNOLOGIES/Relational Model Structure.md",
-    "INFORMATION TECHNOLOGIES/Sharding or Replication.md",
-    "INFORMATION TECHNOLOGIES/Normalization.md",
-    "INFORMATION TECHNOLOGIES/Database Transactions.md",
-    "REDIS/REDIS - Transactions.md",
-    "INFORMATION TECHNOLOGIES/CAP Theorem.md",
-    "REDIS/REDIS - Query Optimization.md",
-    "REDIS/REDIS - Basics.md",
-    "MongoDB/MongoDB - Transactions.md",
-    "MongoDB/MongoDB - Query Optimization.md",
-    "REDIS/REDIS - Cheat note.md",
-    "PostgreSQL/PostgreSQL - Isolation Level.md",
     "MongoDB/MongoDB_Query_Optimization.pdf",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_three_tier.png",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_two_tier.png",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_single_tier.png",
-    "a0018b6a-0e64-4dc6-a389-0cd77a5fa7b8_1999x1837.jpg",
     "INFORMATION TECHNOLOGIES/BIG DATA/IMAGES",
-    "INFORMATION TECHNOLOGIES/BIG DATA/IMAGES/a0018b6a-0e64-4dc6-a389-0cd77a5fa7b8_1999x1837.jpg",
-    "MongoDB/IMAGES/ACID.png",
     "REDIS/IMAGES",
-    "REDIS/IMAGES/redis_acl_1.png",
-    "INFORMATION TECHNOLOGIES/IMAGES/ACID.png",
     "MongoDB/IMAGES",
     "INFORMATION TECHNOLOGIES/BIG DATA",
     "Exercises 4.1 - Big Data.pdf",
@@ -207,14 +222,12 @@
     "PHP/CODE FORMULAS",
     "SQL/SQL CANVAS COMANDS.canvas",
     "C-SHARP/CODE EXAMPLES",
-    "GIT/git-cheat-sheet.pdf",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "Untitled.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
-    "UNITY/STATIC BATCHER CANVAS.canvas",
-    "CONCEPTS/BVH - Bounding Volume Hierarchy/DBVH -.canvas"
+    "UNITY/STATIC BATCHER CANVAS.canvas"
   ]
 }
