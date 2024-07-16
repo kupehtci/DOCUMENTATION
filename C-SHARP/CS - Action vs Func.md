@@ -25,7 +25,7 @@ public static void Sum(int number1, int number2)
         
 ```
 
-See more documentation in: [[CS - Delegate Action<>]]
+See more documentation in: [[CS - Delegate Action]]
 
 ### FUNC\<\>
 
@@ -57,7 +57,7 @@ public static string SumAsStringFunc(int number1, int number2)
 }
 ```
 
-See more documentation in: [[CS - Delegate Func<>]]
+See more documentation in: [[CS - Delegate Func]]
 
 
 ### CONCLUSION 

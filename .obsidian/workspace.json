@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md",
+                "file": "C-SHARP/CS - Delegate Func.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md"
+                "file": "C-SHARP/CS - Delegate Func.md"
               }
             }
           },
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 344.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md",
+                "file": "C-SHARP/CS - Delegate Func.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md",
+                "file": "C-SHARP/CS - Delegate Func.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,39 +173,41 @@
   },
   "active": "7ae17028c4ac7380",
   "lastOpenFiles": [
+    "C-SHARP/CS - Delegate Action.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
     "CSS/CSS - Media queries.md",
+    "NETWORKING/Archivo.zip",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION.zip",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Ontologies.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge Representation.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge Reasoning.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge.md",
+    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
+    "MACHINE LEARNING/DEEP LEARNING - Convolutional Neural Networks.md",
+    "MACHINE LEARNING/DEEP LEARNING - Layer node activation.md",
+    "MACHINE LEARNING/DROPOUT Technique.md",
+    "MACHINE LEARNING/KERAS - Data linearly separable.md",
+    "MACHINE LEARNING/KERAS - ERROR SOLUTION.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Unsupervised learning.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Supervised Learning.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Reinforcement Learning.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Over-fitting.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Model Evaluation.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Effect of Multicollinearity.md",
+    "MACHINE LEARNING/MACHINE LEARNING - Data analysis and preparation.md",
+    "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md",
     "CSS/CSS - REM relative values.md",
     "CSS/CSS - Responsive images.md",
     "CSS/CSS - Selector Cheat Notes.md",
     "CSS/CSS-CANVAS.canvas",
     "CSS/CSS - line-height.md",
     "CSS/CSS - font-size.md",
-    "UNIX/rm - documentation.md",
-    "UNIX/du - documentation.md",
-    "UNIX/List formulas with size.md",
-    "SOFTWARE QUALITY/SQ - Quality Measures.md",
-    "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md",
-    "MARKDOWN/MARKDOWN - Mathematics.md",
-    "MARKDOWN/MARKDOWN - Native colors.md",
-    "SOFTWARE QUALITY/SQ - Software Configuration Management.md",
-    "SOFTWARE QUALITY/JQUERY - TESTING.md",
-    "CASSANDRA/CASSANDRA - Transactions.md",
     "SOFTWARE QUALITY/IMAGES/coupling_afc_efc.png",
     "SOFTWARE QUALITY/IMAGES/cyclomatic_complexity_2.png",
     "SOFTWARE QUALITY/IMAGES/cyclomatic_complexity.png",
     "SOFTWARE QUALITY/IMAGES/DRP_measure.png",
     "SOFTWARE QUALITY/IMAGES/defect_density_over_time.png",
-    "CONCEPTS/Greek Symbols.md",
-    "HTML/HTML - Native colors.md",
-    "SOFTWARE QUALITY/SQ - Keys.md",
-    "SOFTWARE QUALITY/SQ - Session 3.md",
-    "SOFTWARE QUALITY/SQ - Session 2.md",
-    "SOFTWARE QUALITY/Practice Cases/SQ - Practice Case - Iphone alarm.md",
-    "SOFTWARE QUALITY/Practice Cases/SQ - Practice Case - Zune player.md",
     "SOFTWARE QUALITY/Practice Cases",
-    "SOFTWARE QUALITY/Practice Cases/SQ - Practice Case - VehicleComunication.md",
-    "SOFTWARE QUALITY/Practice Cases/SQ - Practice Case - Test cases.md",
-    "SOFTWARE QUALITY/Practice Cases/SQ - Practice Case - LivingApps Movistar.md",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/constellation_logical_schema.jpg",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/Snowflake-Schema.png.webp",
     "MongoDB/MongoDB_Query_Optimization.pdf",
@@ -219,9 +221,7 @@
     "INFORMATION TECHNOLOGIES/BIG DATA",
     "Exercises 4.1 - Big Data.pdf",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
-    "PHP/CODE FORMULAS",
     "SQL/SQL CANVAS COMANDS.canvas",
-    "C-SHARP/CODE EXAMPLES",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",

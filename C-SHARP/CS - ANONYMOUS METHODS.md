@@ -43,7 +43,7 @@ class Program
 }
 ```
 
-Take a look into <span style="color:orange;">delegates</span> in [[CS - Delegate introduction]], [[CS - Delegate Func<>]], 
+Take a look into <span style="color:orange;">delegates</span> in [[CS - Delegate introduction]], [[CS - Delegate Func]], 
 
 ---
 See: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/delegate-operator
