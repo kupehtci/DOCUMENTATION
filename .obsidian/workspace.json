@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C-SHARP/CS - Delegate Func.md",
+                "file": "KUBERNETES/KUBERNETES - Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C-SHARP/CS - Delegate Func.md"
+                "file": "KUBERNETES/KUBERNETES - Basics.md"
               }
             }
           },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C-SHARP/CS - Delegate Func.md",
+                "file": "KUBERNETES/KUBERNETES - Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C-SHARP/CS - Delegate Func.md",
+                "file": "KUBERNETES/KUBERNETES - Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,6 +173,8 @@
   },
   "active": "7ae17028c4ac7380",
   "lastOpenFiles": [
+    "KUBERNETES/KUBERNETES - Architecture.md",
+    "C-SHARP/CS - Delegate Func.md",
     "C-SHARP/CS - Delegate Action.md",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
     "CSS/CSS - Media queries.md",
@@ -200,8 +202,6 @@
     "CSS/CSS - Responsive images.md",
     "CSS/CSS - Selector Cheat Notes.md",
     "CSS/CSS-CANVAS.canvas",
-    "CSS/CSS - line-height.md",
-    "CSS/CSS - font-size.md",
     "SOFTWARE QUALITY/IMAGES/coupling_afc_efc.png",
     "SOFTWARE QUALITY/IMAGES/cyclomatic_complexity_2.png",
     "SOFTWARE QUALITY/IMAGES/cyclomatic_complexity.png",
