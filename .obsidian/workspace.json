@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/CSS - Media queries.md",
+                "file": "TERRAFORM/AKS/AKS - Log Analytics.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KUBERNETES/KUBERNETES - Basics.md",
+                "file": "MARKDOWN/MARKDOWN - Colors.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KUBERNETES/KUBERNETES - Basics.md"
+                "file": "TERRAFORM/AKS/AKS - Log Analytics.md"
               }
             }
           },
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KUBERNETES/KUBERNETES - Basics.md",
+                "file": "TERRAFORM/AKS/AKS - Log Analytics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KUBERNETES/KUBERNETES - Basics.md",
+                "file": "TERRAFORM/AKS/AKS - Log Analytics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,36 +170,36 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "7ae17028c4ac7380",
+  "active": "28c70c4e19ec450b",
   "lastOpenFiles": [
-    "KUBERNETES/KUBERNETES - Architecture.md",
-    "C-SHARP/CS - Delegate Func.md",
-    "C-SHARP/CS - Delegate Action.md",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Taxonomy.md",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "TERRAFORM/AKS/AKS - Storage Account.md",
+    "TERRAFORM/AKS/AKS - Log Analytics.md",
+    "TERRAFORM/AKS/AKS - Network Security Group.md",
+    "TERRAFORM/AKS/AKS - Network Security Rule.md",
+    "TERRAFORM/TERRAFORM - Backend.md",
     "CSS/CSS - Media queries.md",
+    "TERRAFORM/AKS/AKS - Subnet.md",
+    "AZURE/AZURE - Storage.md",
+    "ToDo.md",
+    "UNITY/UNITY - Color.md",
+    "HTML/HTML - Media queries.md",
+    "HTML/HTML - Spaces.md",
+    "HTML/HTML - Native colors.md",
+    "GAME SOUND THEORY/Gameplay Grammar.md",
+    "GAME SOUND THEORY/5 - Producción sonora.md",
+    "DEVELOPMENT METHODOLOGIES/Agile.md",
+    "CPP/namespaces.md",
+    "CPP/main.md",
+    "CPP/CPP - Operator Overload.md",
+    "CMAKE/CMAKE - System variables.md",
+    "CMAKE/CMAKE - Platform differentiations.md",
+    "CMAKE/CMAKE - If statement.md",
+    "CMAKE/CMAKE - CPU handler.md",
+    "UNITY/UNITY - RANDOM.md",
+    "UNITY/UNITY - Mouse and sprites interaction.md",
     "NETWORKING/Archivo.zip",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION.zip",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Ontologies.md",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge Representation.md",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge Reasoning.md",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Knowledge.md",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION/KR - Fuzzy Logic.md",
-    "MACHINE LEARNING/DEEP LEARNING - Convolutional Neural Networks.md",
-    "MACHINE LEARNING/DEEP LEARNING - Layer node activation.md",
-    "MACHINE LEARNING/DROPOUT Technique.md",
-    "MACHINE LEARNING/KERAS - Data linearly separable.md",
-    "MACHINE LEARNING/KERAS - ERROR SOLUTION.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Unsupervised learning.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Supervised Learning.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Reinforcement Learning.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Over-fitting.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Model Evaluation.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Effect of Multicollinearity.md",
-    "MACHINE LEARNING/MACHINE LEARNING - Data analysis and preparation.md",
-    "SOFTWARE QUALITY/Practice Cases/Reliability and DD exercises.md",
-    "CSS/CSS - REM relative values.md",
-    "CSS/CSS - Responsive images.md",
-    "CSS/CSS - Selector Cheat Notes.md",
     "CSS/CSS-CANVAS.canvas",
     "SOFTWARE QUALITY/IMAGES/coupling_afc_efc.png",
     "SOFTWARE QUALITY/IMAGES/cyclomatic_complexity_2.png",

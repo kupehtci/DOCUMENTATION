@@ -15,8 +15,8 @@
 | <span style="color:#548d9d;"> Pastel purple</span>                | <input type="color" value="#548d9d"> | \#548d9d              |     |
 | <span style="color:PowderBlue;">Powder Blue</span>                | <input type="color" value="#b0e0e6"> | PowderBlue / \#b0e0e6 |     |
 | <span style="color:#64eda8">Pastel fluorescent green</span>       | <input type="color" value="#64eda8"> | \#64eda8              |     |
-| <span style="color:#9ff5ca">Pastel green</span>                   |                                      | \#9ff5ca              |     |
-| <span style="color:MediumSpringGreen;">Medium Spring Green</span> |                                      | Medium Spring green   |     |
+| <span style="color:#9ff5ca">Pastel green</span>                   | <input type="color" value="#9ff5ca"> | \#9ff5ca              |     |
+| <span style="color:MediumSpringGreen;">Medium Spring Green</span> | <input type="color" value="#00fa9a"> | Medium Spring green   |     |
 | <span style="color:#ff0000;">Red</span>                           |                                      | \#ff0000              |     |
 | <span style="color:#f83333;">Tomato Red</span>                    |                                      | \#f83333              |     |
 | <span style="color:#fd5c63;">Coral Red</span>                     |                                      | \#fd5c63              |     |

@@ -18,3 +18,13 @@ resource "azurerm_network_security_group" "aks_main_nsg" {
 }
 ```
 
+##### Take into account
+
+If the network security group and its rules are going to be applied into a subnet, add a `azurerm_subnet_network_security_group_association` item that associate both together
+
+```hcl
+resource "azurerm_subnet_network_security_group_association" "example" {
+  subnet_id                 = azurerm_subnet.example.id
+  network_security_group_id = azurerm_network_security_group.example.id
+}
+```
