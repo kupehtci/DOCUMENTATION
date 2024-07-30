@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1ff514ec807097f1",
+        "id": "c8a47eca27a3e495",
         "type": "tabs",
         "children": [
           {
-            "id": "28c70c4e19ec450b",
+            "id": "65a32c6caabdc60f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TERRAFORM/AKS/AKS - Log Analytics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ae17028c4ac7380",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MARKDOWN/MARKDOWN - Colors.md",
+                "file": "PIP/Update PIP.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TERRAFORM/AKS/AKS - Log Analytics.md"
+                "file": "PIP/Update PIP.md"
               }
             }
           },
@@ -108,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TERRAFORM/AKS/AKS - Log Analytics.md",
+                "file": "PIP/Update PIP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TERRAFORM/AKS/AKS - Log Analytics.md",
+                "file": "PIP/Update PIP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +131,7 @@
             }
           },
           {
-            "id": "7fd2bccc6133a2e0",
+            "id": "e6ccfa2f6871c8a2",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -155,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,34 +157,44 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "28c70c4e19ec450b",
+  "active": "65a32c6caabdc60f",
   "lastOpenFiles": [
-    "MARKDOWN/MARKDOWN - Colors.md",
-    "TERRAFORM/AKS/AKS - Storage Account.md",
-    "TERRAFORM/AKS/AKS - Log Analytics.md",
-    "TERRAFORM/AKS/AKS - Network Security Group.md",
-    "TERRAFORM/AKS/AKS - Network Security Rule.md",
+    "HLSL/HLSL - Unity Cheat Sheet.md",
+    "HLSL/HLSL - Properties.md",
+    "HLSL/HLSL - clip.md",
+    "NETWORKING/DNS - Domain Name System.md",
+    "NETWORKING/DNS - CNAME.md",
+    "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
+    "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
+    "BPMN-PARSING-UNITY/2024-01-08 - Reunion Raul.md",
+    "BPMN-PARSING-UNITY/2024-01-02 - REUNION RAUL.md",
+    "CONCEPTS/Aceleration Structures.md",
+    "HELLO.md",
+    "CONCEPTS/Data Tree - Basics.md",
+    "NETWORKING/Convert to EUI-64.md",
+    "PHP/PHP - Arrays.md",
+    "PHP/PHP - $_SERVER.md",
+    "PostgreSQL/PostgreSQL - Numeric values.md",
+    "PostgreSQL/PostgreSQL - Foreign Keys.md",
+    "PostgreSQL/PostgreSQL - Foreign key to weak entity.md",
+    "NETWORKING/SSL - One line.md",
+    "NETWORKING/IMAGES/ssl_one_line_3.webp",
+    "NETWORKING/IMAGES/ssl_one_line_3.webp.crdownload",
+    "NETWORKING/IMAGES/ssl_one_line_2.webp",
+    "NETWORKING/IMAGES/ssl_one_line_2.webp.crdownload",
+    "NETWORKING/IMAGES/ssl_one_line_1.webp",
+    "NETWORKING/IMAGES/ssl_one_line_1.webp.crdownload",
+    "TERRAFORM/HELM/TERRAFORM - HELM Release.md",
     "TERRAFORM/TERRAFORM - Backend.md",
-    "CSS/CSS - Media queries.md",
-    "TERRAFORM/AKS/AKS - Subnet.md",
-    "AZURE/AZURE - Storage.md",
-    "ToDo.md",
-    "UNITY/UNITY - Color.md",
-    "HTML/HTML - Media queries.md",
-    "HTML/HTML - Spaces.md",
-    "HTML/HTML - Native colors.md",
-    "GAME SOUND THEORY/Gameplay Grammar.md",
-    "GAME SOUND THEORY/5 - Producción sonora.md",
-    "DEVELOPMENT METHODOLOGIES/Agile.md",
-    "CPP/namespaces.md",
-    "CPP/main.md",
-    "CPP/CPP - Operator Overload.md",
-    "CMAKE/CMAKE - System variables.md",
-    "CMAKE/CMAKE - Platform differentiations.md",
-    "CMAKE/CMAKE - If statement.md",
-    "CMAKE/CMAKE - CPU handler.md",
-    "UNITY/UNITY - RANDOM.md",
-    "UNITY/UNITY - Mouse and sprites interaction.md",
+    "TERRAFORM/HELM",
+    "TERRAFORM/Untitled.md",
+    "KUBERNETES/KUBERNETES - ServiceAccounts.md",
+    "HELM/HELM.md",
+    "HELM",
+    "WSL/WSL - File path.md",
+    "WSL/WSL - Access windows files.md",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "ME/ADMIN.md",
     "NETWORKING/Archivo.zip",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION.zip",
     "CSS/CSS-CANVAS.canvas",
@@ -210,19 +207,9 @@
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/constellation_logical_schema.jpg",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/Snowflake-Schema.png.webp",
     "MongoDB/MongoDB_Query_Optimization.pdf",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_three_tier.png",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_two_tier.png",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/dw_single_tier.png",
-    "INFORMATION TECHNOLOGIES/BIG DATA/IMAGES",
-    "REDIS/IMAGES",
-    "MongoDB/IMAGES",
-    "INFORMATION TECHNOLOGIES/BIG DATA",
-    "Exercises 4.1 - Big Data.pdf",
-    "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
     "SQL/SQL CANVAS COMANDS.canvas",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
-    "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
     "Untitled.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",

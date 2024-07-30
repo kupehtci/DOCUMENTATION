@@ -5,8 +5,8 @@ If configuration is changed, the build is updated with the execution plan, only 
 Once the changes are made into configuration we can apply those changes by input: 
 
 ```bash
-terraform init      //init the configuration
-terraform apply     //Apply the new configuration and respond to the confirmation
+terraform init      #init the configuration
+terraform apply     #Apply the new configuration and respond to the confirmation
 ```
 
 

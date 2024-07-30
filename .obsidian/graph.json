@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "#INFORMATION_TECHNOLOGIES",
+  "search": "CONCEPTS",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "section:(PHP)",
+      "query": "tag:#PHP",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -64,7 +64,7 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -1,
   "nodeSizeMultiplier": 3.17266845703125,
@@ -74,6 +74,6 @@
   "repelStrength": 15.7511393229167,
   "linkStrength": 0.783487955729167,
   "linkDistance": 312,
-  "scale": 0.7040173049961093,
-  "close": false
+  "scale": 0.6316046762907533,
+  "close": true
 }
