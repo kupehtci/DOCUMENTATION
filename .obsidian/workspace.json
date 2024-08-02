@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PIP/Update PIP.md",
+                "file": "GIT/GIT - Add.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PIP/Update PIP.md"
+                "file": "GIT/GIT - Add.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PIP/Update PIP.md",
+                "file": "GIT/GIT - Add.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PIP/Update PIP.md",
+                "file": "GIT/GIT - Add.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,6 +160,14 @@
   },
   "active": "65a32c6caabdc60f",
   "lastOpenFiles": [
+    "GIT/GIT - Change branch.md",
+    "GIT/GIT - Remove.md",
+    "GIT/GIT - Store credentials.md",
+    "GIT/git-cheat-sheet.pdf",
+    "AZURE/AZURE CLI - Cheat Sheet.md",
+    "KUBERNETES/KUBERNETES - Deployment Strategies.md",
+    "YAML",
+    "PIP/Update PIP.md",
     "HLSL/HLSL - Unity Cheat Sheet.md",
     "HLSL/HLSL - Properties.md",
     "HLSL/HLSL - clip.md",
@@ -188,13 +197,7 @@
     "TERRAFORM/TERRAFORM - Backend.md",
     "TERRAFORM/HELM",
     "TERRAFORM/Untitled.md",
-    "KUBERNETES/KUBERNETES - ServiceAccounts.md",
-    "HELM/HELM.md",
     "HELM",
-    "WSL/WSL - File path.md",
-    "WSL/WSL - Access windows files.md",
-    "MARKDOWN/MARKDOWN - Colors.md",
-    "ME/ADMIN.md",
     "NETWORKING/Archivo.zip",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION.zip",
     "CSS/CSS-CANVAS.canvas",
@@ -206,8 +209,6 @@
     "SOFTWARE QUALITY/Practice Cases",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/constellation_logical_schema.jpg",
     "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/Snowflake-Schema.png.webp",
-    "MongoDB/MongoDB_Query_Optimization.pdf",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES",
     "SQL/SQL CANVAS COMANDS.canvas",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",

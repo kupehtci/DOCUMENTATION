@@ -17,6 +17,10 @@ Perform a test of how the files would be added, but without currently adding the
 
 Add all the files untracked or not updated that are in the `<git_root_path>` or in the path specified in the command.
 
+* `-u` or update
+
+Similar to add all but only update the tracked files, not all. This takes into consideration the files excluded by the `.gitignore` 
+
 `--refresh`
 
 Don't all the files to the tracking, but only refresh their index. 

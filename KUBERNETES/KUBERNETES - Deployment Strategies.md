@@ -17,7 +17,6 @@ Maintains a high availability of the service sacrificing resources.
 The recreate deployment involves shutting down the old version before deploying the new one. 
 Is simpler and involves less resources, but the service is disrupted. 
 
-
 #### Blue / Green deployment
 
 In blue/green deployment, two versions coexist in separate environments (Known each one as blue and green). 
