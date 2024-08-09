@@ -8,7 +8,6 @@ A <span style="color:orange;">volume</span> is a way to store, retrieve and pers
 
 A volume mounted in a pod, is a directory which is accessible to the containers in a pod. 
 
-
 In order to use a volume: 
 
 * Specify the volume to provide in `.specs.volumes`

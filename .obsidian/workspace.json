@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8dfb831144fc7102",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TERRAFORM/AKS/AKS - Velero.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mart",
+                "query": "Daemon",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GIT/GIT - Add.md"
+                "file": "TERRAFORM/AKS/AKS - Velero.md"
               }
             }
           },
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GIT/GIT - Add.md",
+                "file": "TERRAFORM/AKS/AKS - Velero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GIT/GIT - Add.md",
+                "file": "TERRAFORM/AKS/AKS - Velero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,45 +171,45 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "65a32c6caabdc60f",
+  "active": "8dfb831144fc7102",
   "lastOpenFiles": [
-    "GIT/GIT - Change branch.md",
-    "GIT/GIT - Remove.md",
-    "GIT/GIT - Store credentials.md",
-    "GIT/git-cheat-sheet.pdf",
-    "AZURE/AZURE CLI - Cheat Sheet.md",
+    "TERRAFORM/AKS/AKS - Kubernetes cluster.md",
+    "TERRAFORM/AKS/AKS - Velero.md",
+    "TERRAFORM/AKS/AKS - VM Size.md",
+    "TERRAFORM/AKS/AKS - Virtual network.md",
+    "TERRAFORM/AKS/AKS - Subnet network security group.md",
+    "TERRAFORM/AKS/AKS - Storage Account.md",
+    "TERRAFORM/AKS/AKS - Network Security Group.md",
+    "TERRAFORM/AKS/AKS - Network Security Rule.md",
+    "TERRAFORM/AKS/AKS - Resource group.md",
+    "AWS/AWS - ARNs.md",
+    "KUBERNETES/KUBERNETES - Daemonset.md",
     "KUBERNETES/KUBERNETES - Deployment Strategies.md",
+    "KUBERNETES/KUBERNETES - Deployment.md",
+    "KUBERNETES/KUBERNETES - DataDisk.md",
+    "KUBERNETES/KUBERNETES - Velero.md",
+    "KUBERNETES/KUBERNETES - Storage in pods.md",
+    "KUBERNETES/KUBERNETES - ReplicaSets.md",
+    "CONCEPTS/Deployment Strategies.md",
+    "TERRAFORM/AKS/AKS - Subnet.md",
+    "GIT/GIT - Remove current changes.md",
+    "KUBERNETES/KUBERNETES - Services.md",
+    "KUBERNETES/KUBERNETES - ServiceAccounts.md",
+    "HELM/HELM - Chart.yaml.md",
+    "BOILERPLATE - Notes.md",
+    "GIT/GIT - Add.md",
+    "GIT/GIT - Change branch.md",
+    "GIT/git-cheat-sheet.pdf",
     "YAML",
-    "PIP/Update PIP.md",
-    "HLSL/HLSL - Unity Cheat Sheet.md",
-    "HLSL/HLSL - Properties.md",
-    "HLSL/HLSL - clip.md",
-    "NETWORKING/DNS - Domain Name System.md",
-    "NETWORKING/DNS - CNAME.md",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
-    "BPMN-PARSING-UNITY/2024-01-08 - Reunion Raul.md",
-    "BPMN-PARSING-UNITY/2024-01-02 - REUNION RAUL.md",
-    "CONCEPTS/Aceleration Structures.md",
-    "HELLO.md",
-    "CONCEPTS/Data Tree - Basics.md",
-    "NETWORKING/Convert to EUI-64.md",
-    "PHP/PHP - Arrays.md",
-    "PHP/PHP - $_SERVER.md",
-    "PostgreSQL/PostgreSQL - Numeric values.md",
-    "PostgreSQL/PostgreSQL - Foreign Keys.md",
-    "PostgreSQL/PostgreSQL - Foreign key to weak entity.md",
-    "NETWORKING/SSL - One line.md",
     "NETWORKING/IMAGES/ssl_one_line_3.webp",
     "NETWORKING/IMAGES/ssl_one_line_3.webp.crdownload",
     "NETWORKING/IMAGES/ssl_one_line_2.webp",
     "NETWORKING/IMAGES/ssl_one_line_2.webp.crdownload",
     "NETWORKING/IMAGES/ssl_one_line_1.webp",
     "NETWORKING/IMAGES/ssl_one_line_1.webp.crdownload",
-    "TERRAFORM/HELM/TERRAFORM - HELM Release.md",
-    "TERRAFORM/TERRAFORM - Backend.md",
     "TERRAFORM/HELM",
-    "TERRAFORM/Untitled.md",
     "HELM",
     "NETWORKING/Archivo.zip",
     "MACHINE LEARNING/KNOWLEDGE REPRESENTATION.zip",

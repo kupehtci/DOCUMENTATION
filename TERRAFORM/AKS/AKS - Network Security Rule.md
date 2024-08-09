@@ -6,7 +6,7 @@ This network security rules are rules that allow or deny the inbound or outbound
 
 The rules need to be assigned to a <span style="color:orange;">Network Security Group</span> in order to manage the group of resources to which this rules apply. 
 
-#### Definition
+#### Terraform Definition
 
 This rules can be defined inside the `azurerm_network_security_group` in a `security_rule` block or in separated `azurerm_network_security_rule` and link them with the group by the parameter `network_security_group_name`. 
 
