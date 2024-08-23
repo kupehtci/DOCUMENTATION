@@ -4,7 +4,6 @@ To cooperate over a shared resources, by using HCP Terraform account you need to
 
 ```bach
 terraform login
-
 terraform init
 ```
 

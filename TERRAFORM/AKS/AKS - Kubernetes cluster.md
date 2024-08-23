@@ -129,8 +129,6 @@ The `upgrade_settings` block must define the parameter for an scaling.
 * `node_soak_duration_in_minutes`: The amount of time to wait after draining a node and moving into next one. Default = 0. 
 * `max_surge`: the maximum number or percentage of nodes which will be added to the Node Pool Size during an upgrade. 
 
-
-
 #### Storage profile
 
 An `storage_profile` block is used to allow or forbid different persistent storage types.

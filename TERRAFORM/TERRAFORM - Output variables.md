@@ -23,3 +23,21 @@ output "instance_public_ip" {
 }
 ```
 
+
+### Sensitive values
+
+When working with values marked as sensitive, in order to be outputted when apply, within the output block. `sensitive = true` needs to be marked. 
+
+This is done to expose the variable but knowing that is a sensible value. 
+
+Once it is outputted is is shown as: 
+```
+<variable-name> = (sensitive)
+```
+
+And in order to retrieve its value, you need to write: 
+```bash
+terraform output <variable-name>
+```
+
+This command will show the output value without the `(sensitive)` tag. 

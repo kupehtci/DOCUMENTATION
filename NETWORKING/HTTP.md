@@ -144,10 +144,6 @@ There are three types of <span style="color:violet;">persistent connections</spa
 * **with pipelining (HTTP/1.1)**: $n$ requests can be sent over a TCP connection without waiting for responses and responses will arrive in same order as sent. 
 * **with multiplexing (HTTP/2.0)**: $n$ requests are sent *concurrently* over a single TCP connection and responses arrive at any order.
 
-![[ipv6_format.png]]
-
-
-
 ##### PERFORMANCE TIME CALCULATION
 
 Given an HTML file, accessible at https://sample.com/file.html within

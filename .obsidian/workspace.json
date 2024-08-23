@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c8a47eca27a3e495",
+        "id": "20f489113ee17c21",
         "type": "tabs",
         "children": [
           {
-            "id": "65a32c6caabdc60f",
+            "id": "5abb2fabdb2a7922",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT/GIT - Add.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8dfb831144fc7102",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TERRAFORM/AKS/AKS - Velero.md",
+                "file": "BOILERPLATE/AZURE BOILERPLATE - Apps.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Daemon",
+                "query": "alias",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TERRAFORM/AKS/AKS - Velero.md"
+                "file": "BOILERPLATE/AZURE BOILERPLATE - Apps.md"
               }
             }
           },
@@ -93,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 266.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TERRAFORM/AKS/AKS - Velero.md",
+                "file": "BOILERPLATE/AZURE BOILERPLATE - Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TERRAFORM/AKS/AKS - Velero.md",
+                "file": "BOILERPLATE/AZURE BOILERPLATE - Apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,57 +158,57 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8dfb831144fc7102",
+  "active": "5abb2fabdb2a7922",
   "lastOpenFiles": [
-    "TERRAFORM/AKS/AKS - Kubernetes cluster.md",
-    "TERRAFORM/AKS/AKS - Velero.md",
-    "TERRAFORM/AKS/AKS - VM Size.md",
-    "TERRAFORM/AKS/AKS - Virtual network.md",
-    "TERRAFORM/AKS/AKS - Subnet network security group.md",
-    "TERRAFORM/AKS/AKS - Storage Account.md",
-    "TERRAFORM/AKS/AKS - Network Security Group.md",
-    "TERRAFORM/AKS/AKS - Network Security Rule.md",
+    "AZURE/AZURE - Roles.md",
+    "AZURE/AZURE - Service Account.md",
+    "AZURE/AZURE - Service Principal.md",
+    "AZURE/AZURE - RBAC.md",
+    "BOILERPLATE/AZURE BOILERPLATE - Apps.md",
+    "BOILERPLATE/AZURE BOILERPLATE - Overview.md",
+    "BOILERPLATE/VELERO - Storage.md",
+    "AZURE/AZURE - Azure Container Registry.md",
+    "AZURE/AZURE - BLOB STORAGE.md",
+    "AZURE/AZURE - Error troubleshooting.md",
+    "AZURE/AZURE - Resource group.md",
+    "AZURE/AZURE - Storage.md",
+    "TERRAFORM/AKS/AKS - Service Principal.md",
     "TERRAFORM/AKS/AKS - Resource group.md",
-    "AWS/AWS - ARNs.md",
-    "KUBERNETES/KUBERNETES - Daemonset.md",
-    "KUBERNETES/KUBERNETES - Deployment Strategies.md",
-    "KUBERNETES/KUBERNETES - Deployment.md",
-    "KUBERNETES/KUBERNETES - DataDisk.md",
-    "KUBERNETES/KUBERNETES - Velero.md",
-    "KUBERNETES/KUBERNETES - Storage in pods.md",
-    "KUBERNETES/KUBERNETES - ReplicaSets.md",
-    "CONCEPTS/Deployment Strategies.md",
-    "TERRAFORM/AKS/AKS - Subnet.md",
-    "GIT/GIT - Remove current changes.md",
-    "KUBERNETES/KUBERNETES - Services.md",
-    "KUBERNETES/KUBERNETES - ServiceAccounts.md",
-    "HELM/HELM - Chart.yaml.md",
-    "BOILERPLATE - Notes.md",
-    "GIT/GIT - Add.md",
-    "GIT/GIT - Change branch.md",
+    "TERRAFORM/AKS/AKS - Azure Container Registry.md",
+    "TERRAFORM/AKS/AKS - Kubernetes cluster.md",
+    "TERRAFORM/TERRAFORM - Kubernetes.md",
+    "TERRAFORM/TERRAFORM - Kubeconfig.md",
+    "NETWORKING/PORTS USED.md",
+    "NETWORKING/POP3.md",
+    "NETWORKING/NAT.md",
+    "NETWORKING/Networking Ports.md",
+    "NETWORKING/IPv4.md",
+    "NETWORKING/Internet Protocols.md",
+    "NETWORKING/HTTP.md",
+    "NETWORKING/DNS - Record types.md",
+    "VELERO/IMAGES/velero-restore-create.png",
+    "VELERO/IMAGES/velero-backup-describe.png",
+    "Pasted image 20240821084455.png",
+    "VELERO/IMAGES/velero-backup-get.png",
+    "VELERO/IMAGES",
+    "4913",
+    "ATLANTIS",
+    "VELERO",
+    "PROMETHEUS/prometheus_service_discovery.webp",
+    "PROMETHEUS/prometheus_service_discovery.webp.crdownload",
+    "PROMETHEUS",
+    "Nueva carpeta",
+    "BOILERPLATE",
     "GIT/git-cheat-sheet.pdf",
     "YAML",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "NETWORKING/IMAGES/ssl_one_line_3.webp",
-    "NETWORKING/IMAGES/ssl_one_line_3.webp.crdownload",
     "NETWORKING/IMAGES/ssl_one_line_2.webp",
-    "NETWORKING/IMAGES/ssl_one_line_2.webp.crdownload",
     "NETWORKING/IMAGES/ssl_one_line_1.webp",
-    "NETWORKING/IMAGES/ssl_one_line_1.webp.crdownload",
-    "TERRAFORM/HELM",
-    "HELM",
-    "NETWORKING/Archivo.zip",
-    "MACHINE LEARNING/KNOWLEDGE REPRESENTATION.zip",
     "CSS/CSS-CANVAS.canvas",
     "SOFTWARE QUALITY/IMAGES/coupling_afc_efc.png",
     "SOFTWARE QUALITY/IMAGES/cyclomatic_complexity_2.png",
-    "SOFTWARE QUALITY/IMAGES/cyclomatic_complexity.png",
-    "SOFTWARE QUALITY/IMAGES/DRP_measure.png",
-    "SOFTWARE QUALITY/IMAGES/defect_density_over_time.png",
-    "SOFTWARE QUALITY/Practice Cases",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/constellation_logical_schema.jpg",
-    "INFORMATION TECHNOLOGIES/DATA WAREHOUSING/IMAGES/Snowflake-Schema.png.webp",
     "SQL/SQL CANVAS COMANDS.canvas",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
