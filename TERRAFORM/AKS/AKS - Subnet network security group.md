@@ -7,7 +7,6 @@ A network security group contains a list of network security rules.
 
 It uses this rules in order to enable or deny inbound or outbound traffic. 
 
-
 ### Terraform definition
 
 This is an example of the format to create a subnet nsg: 

@@ -2,7 +2,6 @@
 
 We must use the storage account in order to store the <span style="color:MediumSlateBlue;">tfstate</span> 
 
-
 It can be accessed like an endpoint: 
 
 ```

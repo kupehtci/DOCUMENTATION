@@ -10,11 +10,32 @@ Before starting the recovery or restore some resources from the backup, you need
 *  `velero` cli installed in the Command line of preference
 * `kubectl` cli installed in the command line of preference
 
+Ensure that the new Kubernetes cluster version where you are restoring the backup is running a compatible version with the one used in the backup. Ideally needs to be the same or close to the version of the source cluster. 
+Also ensure that the target cluster has enough resources provisioned for running all the backup resources and a little more to handle the restore workload.
+
+For dynamic provisioned PersistentVolumes make sure that the target cluster can dynamically provision storage within the provider. 
+
+Check that the existing cluster resources won't make namespace conflict with the one in the backup. 
+
+Ensure that there are not persistent volumes reclaim policies existing with a `Retain` policy . In this case, manually release or delete them after the restore. 
+### Terraform considerations 
+
+Take into account that if the restored items were initially deployed using Terraform kubernetes or Helm provider, this resources can be not correctly refreshed by terraform if don't synchronize them as they are similar as the ones that are declared in the solution. 
+
+To solve this, you can re-import them back using `terraform import <resource> <id>`
+
+For `helm_release` resources: 
+* `helm get -A` to get the resources' ID  
+* `terraform import helm_release.<release-name> <namespace>/<resource-id>` to import the resource
+For `kubernetes_manifest` resources: 
+* `kubectl get <resource-kind> -n <namespace>` to find the resource. 
+* `terraform import <kubernetes_resource_type>.<resource-name> <namespace>/<resource-name>` to import the currently deployed resource. 
+
+You can also use `import blocks` for massive im
+ports of multiple resources in kubernetes provider.
 ### Velero recover from a disaster
 
-If the infrastructure is managed by terraform, re-deploy the aks using terraform or restart the cluster. 
-
-Once its initialized, only restore velero manually, by terraform or just by installing it in the cluster and other desired resources that are wanted to be restored with the backup. Remember that `velero` namespace must be exclusively keep for velero resources in order to perform the backups correctly. 
+Once the cluster is correctly initialized, only restore velero manually, by terraform or just by installing it in the cluster and other desired resources that are wanted to be restored with the backup. Remember that `velero` namespace must be exclusively keep for velero resources in order to perform the backups correctly. 
 
 Take into account that Velero is configured correctly depending on the provider and the BackupStorageLocations and VolumeSnaphotLocations properties are correctly set to the locations that currently hold the backup. 
 
@@ -37,8 +58,11 @@ velero backup describe <backup-name>
 
 In the describe we can see the number of resources that have been backup, when did the backup were made and the PVC associated with this backup. 
 
-When restoring this backup take into account that the PVC that will be restored, will be rename has `restored-` and the PersistentVolume associated with the new resource restored will be linked with this new disk. 
+If we need to make sure all the kubernetes resources that will be restored to make sure that won't be any conflict, we can see all the resources contained in the backup with: 
 
+`velero backup describe <backup-name> --details`
+
+When restoring this backup take into account that the PVC that will be restored, will be rename has `restored-` and the PersistentVolume associated with the new resource restored will be linked with this new disk. 
 
 To create the restore, create it indicating the included or excluded namespaces to be restored. If both are not specified, all namespaces resources keep in the backup will be restored. Take into account that `velero` resources won't be backed up and also restored, they remain untouched. 
 
@@ -69,6 +93,20 @@ Velero is configured to be non-destructive, so when doing the restore, the backu
 
 Some warning may appear in the warnings.namespaces.\<namespace-name\> like the one in the image, indicating that some items have not been restored if they are currently present in the cluster.  
 
+### HOOKS
+
+If some hooks are configured to execute some actions when a restore is done, make sure that they execute correctly. 
+
+This hooks are defined in the pods annotations like: 
+```yaml
+
+    pre.hook.backup.velero.io/command='["/sbin/fsfreeze", "--freeze", "/var/log/nginx"]' 
+    pre.hook.backup.velero.io/container=fsfreeze 
+    post.hook.backup.velero.io/command='["/sbin/fsfreeze", "--unfreeze", "/var/log/nginx"]' 
+    post.hook.backup.velero.io/container=fsfreeze
+```
+
+This commands can be seen in the container logs that they are launched previously to a restore and once the restore has been completed. 
 ### Notes
 
 ##### Labeling

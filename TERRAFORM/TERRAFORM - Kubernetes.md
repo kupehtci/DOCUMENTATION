@@ -21,4 +21,5 @@ In the <span style="color:orange;">provider block</span>, the credentials must b
 
 The configuration must have: 
 
-* Defined the kubeconfig path 
+* Defined the kubeconfig path or the host, client certificate and key and cluster ca certificate defined
+

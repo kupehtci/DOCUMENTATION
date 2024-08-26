@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "TERRAFORM/TERRAFORM - Locals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee4a5a16bf7c4d54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "BOILERPLATE/AZURE BOILERPLATE - Apps.md",
                 "mode": "source",
                 "source": false
@@ -53,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BOILERPLATE/AZURE BOILERPLATE - Apps.md"
+                "file": "TERRAFORM/TERRAFORM - Locals.md"
               }
             }
           },
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BOILERPLATE/AZURE BOILERPLATE - Apps.md",
+                "file": "TERRAFORM/TERRAFORM - Locals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BOILERPLATE/AZURE BOILERPLATE - Apps.md",
+                "file": "TERRAFORM/TERRAFORM - Locals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,32 +172,32 @@
   },
   "active": "5abb2fabdb2a7922",
   "lastOpenFiles": [
-    "AZURE/AZURE - Roles.md",
-    "AZURE/AZURE - Service Account.md",
-    "AZURE/AZURE - Service Principal.md",
-    "AZURE/AZURE - RBAC.md",
+    "TERRAFORM/HELM/TERRAFORM - Import Helm Release.md",
     "BOILERPLATE/AZURE BOILERPLATE - Apps.md",
     "BOILERPLATE/AZURE BOILERPLATE - Overview.md",
     "BOILERPLATE/VELERO - Storage.md",
-    "AZURE/AZURE - Azure Container Registry.md",
-    "AZURE/AZURE - BLOB STORAGE.md",
-    "AZURE/AZURE - Error troubleshooting.md",
-    "AZURE/AZURE - Resource group.md",
-    "AZURE/AZURE - Storage.md",
-    "TERRAFORM/AKS/AKS - Service Principal.md",
-    "TERRAFORM/AKS/AKS - Resource group.md",
-    "TERRAFORM/AKS/AKS - Azure Container Registry.md",
-    "TERRAFORM/AKS/AKS - Kubernetes cluster.md",
+    "VELERO/VELERO - Troubleshooting.md",
     "TERRAFORM/TERRAFORM - Kubernetes.md",
+    "BOILERPLATE - Notes.md",
     "TERRAFORM/TERRAFORM - Kubeconfig.md",
-    "NETWORKING/PORTS USED.md",
-    "NETWORKING/POP3.md",
-    "NETWORKING/NAT.md",
-    "NETWORKING/Networking Ports.md",
-    "NETWORKING/IPv4.md",
-    "NETWORKING/Internet Protocols.md",
-    "NETWORKING/HTTP.md",
-    "NETWORKING/DNS - Record types.md",
+    "TERRAFORM/TERRAFORM - Install.md",
+    "TERRAFORM/TERRAFORM - HCP account.md",
+    "TERRAFORM/TERRAFORM - Gitignore.md",
+    "TERRAFORM/TERRAFORM - Destroy.md",
+    "TERRAFORM/TERRAFORM - Change infrastructure.md",
+    "TERRAFORM/TERRAFORM - BASICS.md",
+    "TERRAFORM/TERRAFORM - AWS Authenticate.md",
+    "TERRAFORM/AKS/AKS - Kubernetes cluster.md",
+    "TERRAFORM/AKS/AKS - Virtual network.md",
+    "TERRAFORM/AKS/AKS - Subnet network security group.md",
+    "TERRAFORM/AKS/AKS - Subnet.md",
+    "TERRAFORM/AKS/AKS - Velero.md",
+    "VELERO/VELERO - Hooks.md",
+    "VELERO/VELERO - Disaster Recovery.md",
+    "VELERO/VELERO - Backup process.md",
+    "KUBERNETES/KUBERNETES - Persistent Volumes.md",
+    "VELERO/VELERO.md",
+    "VELERO/VELERO - AKS.md",
     "VELERO/IMAGES/velero-restore-create.png",
     "VELERO/IMAGES/velero-backup-describe.png",
     "Pasted image 20240821084455.png",
