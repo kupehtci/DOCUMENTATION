@@ -10,8 +10,6 @@ You can create this file as: `\home\<user>|.git-credentials`:
 https://<username>:<password>@<remote_repo_url>
 ```
 
-
-
 Another simpler method is use the command: 
 
 ```
