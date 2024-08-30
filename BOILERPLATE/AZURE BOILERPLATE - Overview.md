@@ -16,7 +16,6 @@ The key features of the structure are:
 * Atlantis running in an Azure Container Instance isolated and scalable environment. 
 * Azure Monitor to collect and analyze infrastructure relative data by using Log Analytics workspace that query metrics from the entire environment. 
 
-
 ### In-Cluster Infrastructure overview 
 
 Within the AKS cluster, the following tools and services are automatically deployed and fully configured using terraform:

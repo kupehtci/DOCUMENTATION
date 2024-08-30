@@ -3,9 +3,6 @@
 An Azure Container Instance or ACI is a single container running environment without an underlying infrastructure.
 This results in quick starting, simple and easy to maintain isolated containers 
 
-
-
-
 #### Scaling
 
 Azure Container Instances are not meant to support scaling out, but you can manually create and manage multiple instances within the same <span style="color:DodgerBlue;">Azure Container Group</span> or use orchestration tools like Kubernetes auto scaling. 

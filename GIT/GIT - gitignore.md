@@ -37,6 +37,10 @@ Otherwise, you can remove the cache of a single file:
 
 `git rm -r --cached <file_name.ext>`
 
+If you clear all the cache, some files that has no changes can be candidates for commit when making `git status` because there is no cache about their state in the remote repository. In order to update this, do: 
+
+`git fetch`
+
 Once you clear the existing cache, add/stage file/files in the current directory and commit
 
 - `git add .` // To add all the files
