@@ -4,6 +4,7 @@
 
 ## Availability Zones
 
+An availability Zone is a single data center or a group of data centers within a region. 
 Availability zones are isolated zones within a region. 
 
 ## List of regions
