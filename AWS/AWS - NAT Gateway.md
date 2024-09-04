@@ -26,3 +26,19 @@ resource "aws_nat_gateway" "example" {
 }
 ```
 
+A NAT gateway requires a <span style="color:DodgerBlue;">route table</span> resource, that can be defined in terraform and associated to the NAT gateway using an `aws_route_table_association` resource that associates the route table with the gateway or the subnet.
+
+```hcl
+resource "aws_route_table" "eks_subnet_route_table" {
+  vpc_id = aws_vpc.main
+
+  # Other parameters like tags Name
+}
+
+resource "aws_route_table_association" "eks_subnet_nat_gw_route_table" {
+  gateway_id = aws_nat_gateway.eks_subnet_nat_gw.id
+  route_table_id = aws_route_table.eks_subnet_route_table.id
+	# Other parameters like tags sName
+}
+```
+
