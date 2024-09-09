@@ -60,6 +60,7 @@ For configuring the ingress without NGINX checkout documentation about AKS / AWS
 
 ArgoCD's Custom Resource Definitions (CRD) are installed via terraform kubernetes provider before deploying ArgoCD chart. This avoid possible versioned error 
 
+<<<<<<< Updated upstream
 #### 2.1. ArgoCD Prometheus
 
 To enable or disable the ArgoCD metrics `enabled: true` and also enable/disable `serviceMonitor`: 
@@ -169,3 +170,15 @@ And define:
       readOnly: true
 
 ```
+=======
+### Prometheus and Grafana
+
+
+
+### Velero
+
+Velero have two main Velero's Custom Resources, BackupStorageLocation[^bsl] and VolumeSnapshotLocation[^vsl]
+
+[^bsl]: BackupStorageLocation Velero's CRD [[VELERO - BackupStorageLocation]]
+[^vsl]: VolumeSnapshotLocation Velero's CRD [[VELERO - VolumeSnapshotLocation]]
+>>>>>>> Stashed changes
