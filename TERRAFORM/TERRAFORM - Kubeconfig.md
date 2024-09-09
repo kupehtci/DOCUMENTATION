@@ -1,4 +1,4 @@
-#TERRAFORM 
+#TERRAFORM #AWS #EEKS #GKE #AZURE #AKS #KUBERNETES 
 
 For providers that manage resources within the Kubernetes Cluster, the kube config file is needed. 
 
@@ -9,12 +9,12 @@ In Amazon Web Service EKS (Elastic Kubernetes Service), you can retrieve the kub
 aws eks --region <region> update-kubeconfig --name <cluster_name>
 ```
 
-For Google GKE (Google Kubernetes Engine), use the following command: 
+For <span style="color:#ffec8b;">Google GKE (Google Kubernetes Engine)</span>, use the following command: 
 ```bash
 gcloud container clusters get-credentials <cluster_name> --region <region>
 ```
 
-For Azure AKS (Azure Kubernetes Service), use the following command: 
+For <span style="color:DodgerBlue;">Azure AKS (Azure Kubernetes Service)</span>, use the following command: 
 ```bash
 az aks get-credentials --resource-group <resource_group> --name <cluster_name>
 ```
