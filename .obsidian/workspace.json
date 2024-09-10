@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5abb2fabdb2a7922",
+            "id": "cad0775ae89a8db6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/AWS - EKS VPC requirements.md",
+                "file": "AWS/AWS - CLI EKS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72b8c30a05a2260a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/AWS - EKS Compute instances.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "alias",
+                "query": "CD",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/AWS - EKS VPC requirements.md"
+                "file": "AWS/AWS - CLI EKS.md"
               }
             }
           },
@@ -80,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/AWS - EKS VPC requirements.md",
+                "file": "AWS/AWS - CLI EKS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/AWS - EKS VPC requirements.md",
+                "file": "AWS/AWS - CLI EKS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,43 +166,49 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5abb2fabdb2a7922",
+  "active": "cad0775ae89a8db6",
   "lastOpenFiles": [
-    "AWS/AWS - ELB Stickiness.md",
-    "AWS/AWS - ELB Listeners.md",
-    "AWS/AWS - Edge Location.md",
-    "AWS/AWS - ALB Application Load Balancer.md",
-    "AWS/AWS - A2C.md",
-    "GIT/GIT - Add.md",
-    "AWS/AWS - Copilot.md",
-    "AWS - A2C.md",
-    "AWS/AWS - App Runner.md",
-    "GIT/GIT - Fetch.md",
-    "GIT/GIT - Change branch.md",
     "GIT/GIT - Remote repositories.md",
-    "BOILERPLATE/AZURE BOILERPLATE - Apps.md",
-    "AZURE/AZURE - Roles.md",
-    "AZURE/AZURE - Service Account.md",
-    "AZURE/AZURE - Service Principal.md",
-    "AZURE/AZURE - RBAC.md",
-    "BOILERPLATE/AZURE BOILERPLATE - Overview.md",
-    "BOILERPLATE/VELERO - Storage.md",
-    "AZURE/AZURE - Azure Container Registry.md",
-    "AZURE/AZURE - BLOB STORAGE.md",
-    "AZURE/AZURE - Error troubleshooting.md",
-    "AZURE/AZURE - Resource group.md",
-    "AZURE/AZURE - Storage.md",
-    "TERRAFORM/AKS/AKS - Service Principal.md",
-    "TERRAFORM/AKS/AKS - Resource group.md",
+    "GIT/GIT - Fetch.md",
+    "AWS/AWS - Copilot.md",
+    "AWS/AWS - App Runner.md",
+    "AWS/AWS - A2C.md",
+    "AWS/AWS - EKS Security group.md",
+    "AWS/AWS - CLI EKS.md",
+    "AWS/AWS - EKS Compute instances.md",
+    "TERRAFORM/TERRAFORM - Kubeconfig.md",
+    "AWS/AWS - ELB Stickiness.md",
+    "AWS/AWS - EKS Elastic Kubernetes Service.md",
+    "AWS/AWS - EKS VPC requirements.md",
+    "AWS/AWS - NAT Gateway.md",
+    "ATLANTIS/ATLANTIS - Kubeconfig.md",
+    "MARKDOWN/MARKDOWN - Colors.md",
+    "AWS/AWS - EKS addons.md",
+    "AWS/AWS - EKS taints.md",
+    "CONCEPTS/Round Robin.md",
+    "AWS/AWS - ELB Target Groups.md",
+    "AWS/AWS - Terraform - troubleshooting.md",
+    "AWS/AWS - EKS ALB integration.md",
+    "AWS/AWS - ELB Listeners.md",
+    "AWS/AWS - ENI Elastic Network Interfaces.md",
+    "TERRAFORM/AWS/TERRAFORM - LB Target groups.md",
+    "AWS/AWS - ELB Elastic Load Balancing.md",
+    "AWS/AWS - EIP Elastic IP.md",
+    "TERRAFORM/AWS",
+    "AWS/IMAGES",
+    "AWS/IMAGES/private-linkuse-cases.png",
+    "Untitled.canvas",
+    "4913",
     "VELERO/IMAGES/velero-restore-create.png",
     "VELERO/IMAGES/velero-backup-describe.png",
     "Pasted image 20240821084455.png",
     "VELERO/IMAGES/velero-backup-get.png",
     "VELERO/IMAGES",
-    "4913",
     "ATLANTIS",
     "VELERO",
     "PROMETHEUS/prometheus_service_discovery.webp",
@@ -197,8 +216,6 @@
     "PROMETHEUS",
     "Nueva carpeta",
     "BOILERPLATE",
-    "GIT/git-cheat-sheet.pdf",
-    "YAML",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "NETWORKING/IMAGES/ssl_one_line_3.webp",
@@ -206,11 +223,9 @@
     "NETWORKING/IMAGES/ssl_one_line_1.webp",
     "CSS/CSS-CANVAS.canvas",
     "SOFTWARE QUALITY/IMAGES/coupling_afc_efc.png",
-    "SOFTWARE QUALITY/IMAGES/cyclomatic_complexity_2.png",
     "SQL/SQL CANVAS COMANDS.canvas",
     "CONCEPTS/GRAMMARS/GRAMMARS NOTES.canvas",
     "BPMN-PARSING-UNITY/BPMN XML->CODE.canvas",
-    "Untitled.canvas",
     "C-SHARP/XML_PARSING/XML Parsing.canvas",
     "Untitled 1.canvas",
     "UNITY/STATIC BATCHER CANVAS.canvas"
