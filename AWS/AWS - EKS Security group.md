@@ -14,7 +14,7 @@ And add some tags to the security group:
 * `aws:eks:<cluster-name>` = `<cluster-name>`
 * `Name` = `eks-cluster-sg-<cluster-name>-<generated-id>`. 
 
-In case of create a custom security group remember to add this Tags and keep some rules in the custom one. 
+In case of create a **custom security group** for the EKS remember to add this Tags and keep some rules in the custom one. 
 
 |Rule type|Protocol|Port|Destination|
 |---|---|---|---|
@@ -30,7 +30,7 @@ Take into account adding rules for the following possible traffic:
 - Access to  Amazon S3 [^s3].
 - Separate rules are required for `IPv4` and `IPv6` addresses.
 
-### Resources
+### Resources associated
 
 This security group is associated with the two or four Network Interfaces[^2] that are created for the EKS and network interfaces of the nodes that are controlled by the managed node group allocated for the EKS. 
 
