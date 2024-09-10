@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TERRAFORM/AWS/AWS - Basic EKS deployment.md",
+                "file": "KUBERNETES/ArgoCD/ArgoCD - Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,6 +172,7 @@
   },
   "active": "cad0775ae89a8db6",
   "lastOpenFiles": [
+    "TERRAFORM/AWS/AWS - Basic EKS deployment.md",
     "AWS/AWS - EKS Compute instances.md",
     "KUBERNETES/ArgoCD/ArgoCD - Application.md",
     "KUBERNETES/ArgoCD",
@@ -198,7 +199,6 @@
     "AWS/AWS - ELB Target Groups.md",
     "AWS/AWS - Terraform - troubleshooting.md",
     "AWS/AWS - EKS ALB integration.md",
-    "AWS/AWS - ELB Listeners.md",
     "TERRAFORM/AWS",
     "AWS/IMAGES",
     "AWS/IMAGES/private-linkuse-cases.png",
