@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/AWS - CLI EKS.md",
+                "file": "KUBERNETES/ArgoCD/ArgoCD - Application.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/AWS - CLI EKS.md"
+                "file": "KUBERNETES/ArgoCD/ArgoCD - Application.md"
               }
             }
           },
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "fe67a3fa4dae9ebf",
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/AWS - CLI EKS.md",
+                "file": "KUBERNETES/ArgoCD/ArgoCD - Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/AWS - CLI EKS.md",
+                "file": "KUBERNETES/ArgoCD/ArgoCD - Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,14 +172,19 @@
   },
   "active": "cad0775ae89a8db6",
   "lastOpenFiles": [
+    "AWS/AWS - EKS Compute instances.md",
+    "KUBERNETES/ArgoCD/ArgoCD - Application.md",
+    "KUBERNETES/ArgoCD",
+    "KUBERNETES/A.md",
+    "TERRAFORM/AWS/TERRAFORM - aws_eks_cluster.md",
+    "AWS/AWS - ARNs.md",
+    "AWS/AWS - CLI EKS.md",
     "GIT/GIT - Remote repositories.md",
     "GIT/GIT - Fetch.md",
     "AWS/AWS - Copilot.md",
     "AWS/AWS - App Runner.md",
     "AWS/AWS - A2C.md",
     "AWS/AWS - EKS Security group.md",
-    "AWS/AWS - CLI EKS.md",
-    "AWS/AWS - EKS Compute instances.md",
     "TERRAFORM/TERRAFORM - Kubeconfig.md",
     "AWS/AWS - ELB Stickiness.md",
     "AWS/AWS - EKS Elastic Kubernetes Service.md",
@@ -195,10 +199,6 @@
     "AWS/AWS - Terraform - troubleshooting.md",
     "AWS/AWS - EKS ALB integration.md",
     "AWS/AWS - ELB Listeners.md",
-    "AWS/AWS - ENI Elastic Network Interfaces.md",
-    "TERRAFORM/AWS/TERRAFORM - LB Target groups.md",
-    "AWS/AWS - ELB Elastic Load Balancing.md",
-    "AWS/AWS - EIP Elastic IP.md",
     "TERRAFORM/AWS",
     "AWS/IMAGES",
     "AWS/IMAGES/private-linkuse-cases.png",
@@ -215,7 +215,6 @@
     "PROMETHEUS/prometheus_service_discovery.webp.crdownload",
     "PROMETHEUS",
     "Nueva carpeta",
-    "BOILERPLATE",
     "NETWORKING/CANVAS - NETWORK PROTOCOL.canvas",
     "BPMN-PARSING-UNITY/BPMN Parsing pipeline.canvas",
     "NETWORKING/IMAGES/ssl_one_line_3.webp",
