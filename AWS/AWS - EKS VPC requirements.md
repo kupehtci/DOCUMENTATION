@@ -22,7 +22,7 @@ For more specifications about the VPC configuration for an EKS, take a look into
 Taking into account that the EKS needs two subnets and place two Elastic Network Interfaces, one per each subnet, the most recommended infrastructure is to set two private subnets and two public IPs. 
 
 This ensure the AWS resources in the private subnets to be accessed from the internet, securing them 
-In order to route the trafsfic from the private subnets to the public subnets, a route to a NAT gateway[^6] must be created. 
+In order to route the traffics from the private subnets to the public subnets, a route to a NAT gateway[^6] must be created. 
 
 [^1]: Amazon Web Services [[AWS - Basics]]
 [^2]:Virtual Private cloud is a resource within AWS that let group the resources and manage them in terms of networking.  [[AWS - VPC Virtual Private Cloud]]
