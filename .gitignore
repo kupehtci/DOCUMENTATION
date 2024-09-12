@@ -1,5 +1,4 @@
 pc_specs.md
 
-**/.obsidian/**
-.obsidian/*
-
+# Workspace is ommited because saves device specific information about the state of program
+workspace.json
