@@ -1,0 +1,79 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#PHP",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "section:(KERAS)",
+      "color": {
+        "a": 1,
+        "rgb": 5457970
+      }
+    },
+    {
+      "query": "path:(\"COMPUTATIONAL THEORY\" ) ",
+      "color": {
+        "a": 1,
+        "rgb": 11540727
+      }
+    },
+    {
+      "query": "section:(JS)",
+      "color": {
+        "a": 1,
+        "rgb": 14810880
+      }
+    },
+    {
+      "query": "section:(SQL)",
+      "color": {
+        "a": 1,
+        "rgb": 25343
+      }
+    },
+    {
+      "query": "tag:#UNITY  ",
+      "color": {
+        "a": 1,
+        "rgb": 16760888
+      }
+    },
+    {
+      "query": "tag:#CSHARP  ",
+      "color": {
+        "a": 1,
+        "rgb": 13874425
+      }
+    },
+    {
+      "query": "tag:#NETWORKING  ",
+      "color": {
+        "a": 1,
+        "rgb": 16621340
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 3.17266845703125,
+  "lineSizeMultiplier": 4.40384928385417,
+  "collapse-forces": false,
+  "centerStrength": 0.625447591145833,
+  "repelStrength": 15.7511393229167,
+  "linkStrength": 0.783487955729167,
+  "linkDistance": 312,
+  "scale": 0.2292013594174989,
+  "close": true
+}

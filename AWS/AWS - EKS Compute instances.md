@@ -47,10 +47,6 @@ In this setup, you manage your own EC2 instances that are registered as nodes in
 | **Customizability**          | High, can use custom AMIs, networking, and instance types | Low, no control over underlying infrastructure          | High, full control over instance configurations                 |
 | **Use Case**                 | Performance-intensive workloads, custom configurations    | Simplicity, serverless applications, unpredictable loads | Custom networking, storage, or specialized configurations |
 
-## Conclusion
-
-Amazon EKS provides flexibility in how you manage compute resources, allowing you to choose between fully managed serverless options like Fargate, managed EC2 instances with node groups, or self-managed EC2 instances. The choice of compute resource depends on your specific workload requirements, cost considerations, and the level of control you need over your infrastructure.
-
 
 [^1]: Kubernetes cluster running in elastic service[[AWS - EKS Elastic Kubernetes Service]]
 [^2]: Kubernetes pods are the minimal resource. Its in charge of run and maintain one or more containers [[KUBERNETES - Pods]]

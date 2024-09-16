@@ -1,4 +1,4 @@
-#TERRAFORM #AWS #EEKS #GKE #AZURE #AKS #KUBERNETES 
+#TERRAFORM #AWS #EKS #GKE #AZURE #AKS #KUBERNETES 
 
 For providers that manage resources within the Kubernetes Cluster, the kube config file is needed. 
 

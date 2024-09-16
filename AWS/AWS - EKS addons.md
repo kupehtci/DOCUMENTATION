@@ -8,18 +8,35 @@ This enables to add essential components like networking, security, observabilit
 
 By using EKS addons instead of Helm[^2] releases or similar, you ensure that the components are highly compatible with EKS versions. 
 
-Some <span style="color:DodgerBlue;">common EKS add-ons</span> are: 
+The EKS provider addons list are: 
 
+| Description                                                                                                                                                                                                                                           | Name                                  | EKS name                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --------------------------------- |
+| Provide native VPC networking for your cluster                                                                                                                                                                                                        | Amazon VPC CNI plugin for Kubernetes  | `vpc-cni`                         |
+| A flexible, extensible DNS server that can serve as the Kubernetes cluster DNS                                                                                                                                                                        | CoreDNS                               | `coredns`                         |
+| Maintain network rules on each Amazon EC2 node                                                                                                                                                                                                        | Kube-proxy                            | `kube-proxy`                      |
+| Provide Amazon EBS storage for your cluster                                                                                                                                                                                                           | Amazon EBS CSI driver                 | `aws-ebs-csi-driver`              |
+| Provide Amazon EFS storage for your cluster                                                                                                                                                                                                           | Amazon EFS CSI driver                 | `aws-efs-csi-driver`              |
+| Provide Amazon S3 storage for your cluster                                                                                                                                                                                                            | Mountpoint for Amazon S3 CSI Driver   | `aws-mountpoint-s3-csi-driver`    |
+| Enable the use of snapshot functionality in compatible CSI drivers, such as the Amazon EBS CSI driver                                                                                                                                                 | CSI snapshot controller               | `snapshot-controller`             |
+| Secure, production-ready, AWS supported distribution of the OpenTelemetry project                                                                                                                                                                     | AWS Distro for OpenTelemetry          | `adot`                            |
+| Security monitoring service that analyzes and processes foundational data sources including AWS CloudTrail management events and Amazon VPC flow logs. Amazon GuardDuty also processes features, such as Kubernetes audit logs and runtime monitoring | Amazon GuardDuty agent                | `aws-guardduty-agent`             |
+| Monitoring and observability service provided by AWS. This add-on installs the CloudWatch Agent and enables both CloudWatch Application Signals and CloudWatch Container Insights with enhanced observability for Amazon EKS                          | Amazon CloudWatch Observability agent | `amazon-cloudwatch-observability` |
+| Ability to manage credentials for your applications, similar to the way that EC2 instance profiles provide credentials to EC2 instances                                                                                                               | EKS Pod Identity Agent                | `eks-pod-identity-agent`          |
 
+### How to get an addon and its version 
 
-### How to get an addon version 
+To list all the available addons for the EKS cluster, you can execute the following command: 
+```zsh
+aws eks describe-addon-versions | grep addonName
+```
 
 To list the available versions of an addon, the following command can be uses in the AWS CLI tool: 
 
 ```bash
  aws eks describe-addon-versions \
 	 --kubernetes-version=1.26 \
-	 --addon-name=aws-ebs-csi-driver\
+	 --addon-name=<addon-name>\
 	 --query='addons[].addonVersions[].addonVersion'
 ```
 
@@ -78,7 +95,7 @@ Also a more configurable way and more legible, will be in case of needing to add
 Do this by following this basic structure: 
 
 ```hcl
-# xxxx.tf 
+# ------------------- xxxx.tf ---------------------------------------------
 resource "aws_eks_addon" "addons" {
   for_each                = { for addon in var.eks_addons : addon.name => addon }
   cluster_name            = aws_eks_cluster.eks.name
@@ -87,7 +104,7 @@ resource "aws_eks_addon" "addons" {
   resolve_conflicts_on_update = "OVERWRITE"
 }
 
-# variables.tf 
+# ------------------- variables.tf ----------------------------------------
 
 variable "eks_addons" {
   type = list(object({
@@ -95,34 +112,16 @@ variable "eks_addons" {
     version = string
   }))
 
-  default = [
-    {
-      name    = "kube-proxy"
-      version = "v1.26.15-eksbuild.5"
-    },
-    {
-      name    = "vpc-cni"
-      version = "v1.18.3-eksbuild.2"
-    },
-    {
-      name    = "coredns"
-      version = "v1.9.3-eksbuild.17"
-    },
-    {
-      name    = "aws-ebs-csi-driver"
-      version = "v1.34.0-eksbuild.1"
-    }
-  ]
-
+  default = [] 
   description = "Addons for installing in the EKS cluster"
 }
 
-# Terraform.tfvars
+# ------------------- Terraform.tfvars ------------------------------------
 
 eks_addons = [
     {
       name    = "kube-proxy"
-      version = "v1.27.1-eksbuild.1"
+      version = "v1.30.3-eksbuild.2"
     },
     {
       name    = "vpc-cni"
@@ -130,11 +129,15 @@ eks_addons = [
     },
     {
       name    = "coredns"
-      version = "v1.11.1-eksbuild.11"
+      version = "v1.11.3-eksbuild.1"
     },
     {
       name    = "aws-ebs-csi-driver"
-      version = "v1.25.0-eksbuild.1"
+      version = "v1.34.0-eksbuild.1"
+    },
+    {
+        name = "eks-pod-identity-agent"
+        version = "v1.3.2-eksbuild.2"
     }
   ]
 ```

@@ -69,8 +69,7 @@ As a summary:
 
 ### CA - Certificate Authority
 
-The certificate authority is some well-know institutions or tech companies that signs, issues and verificates certificates for other actors. 
-
+The certificate authority is some well-know institutions or tech companies that signs, issues and verifies certificates for other actors. 
 
 #### THE CIA TRIAD
 
