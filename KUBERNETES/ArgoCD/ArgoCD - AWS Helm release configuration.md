@@ -6,7 +6,6 @@ This is a basic documentation about how to configure ArgoCD helm release for AWS
 
 ArgoCD is configured to use AWS ALB[^ALB]. 
 
-
 ### Resources Namespace
 
 The namespace is not needed to be set in the different `.yaml` configuration file due to its settled by Helm release by specifying it in the `helm_release.argocd.namespace` resource.

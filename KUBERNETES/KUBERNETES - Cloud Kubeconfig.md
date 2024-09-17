@@ -4,7 +4,7 @@ For providers that manage resources within the Kubernetes Cluster, the kube conf
 
 This `kubeconfig` file contains the necessary credentials and API server address for connecting and manage the Kubernetes cluster. 
 
-In Amazon Web Service EKS (Elastic Kubernetes Service), you can retrieve the kubeconfig file with this command: 
+In <span style="color:MediumSlateBlue;">Amazon Web Service EKS (Elastic Kubernetes Service)</span>, you can retrieve the kubeconfig file with this command: 
 ```bash
 aws eks --region <region> update-kubeconfig --name <cluster_name>
 ```

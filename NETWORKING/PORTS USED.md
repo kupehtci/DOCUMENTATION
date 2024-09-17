@@ -1,6 +1,6 @@
 #NETWORKING 
 
-By default and in order of standarization, all protocols usually have a default por assigned for its usage. 
+By default and in order of standardization, all protocols usually have a default port assigned for its usage. 
 
 In the following table, all the reserved ports are detailed: 
 
