@@ -20,7 +20,9 @@ In the case of not having the resource group resource, get it as data by filling
 
 This properties need to be configured in the terraform file: 
 
-* BackupStorageLocation Storage account must be the name of the storage account that velero will use to store the backups data. This value can be hard-coded or get it via data resource. 
+* Keep `velero` as namespace for this helm release. In case of changing it, take a look into how to configure Velero CLI default namespace in the `namespace` section of this documentation. 
+
+* **BackupStorageLocation** Storage account must be the name of the storage account that velero will use to store the backups data. This value can be hard-coded or get it via data resource. 
 
 ```hcl
 set {
@@ -38,7 +40,7 @@ set {
 }
 ```
 
-* backupStorageLocation resource group parameter must be the resource group where the Storage account is placed. 
+* **BackupStorageLocation resource group** parameter must be the resource group where the Storage account is placed. 
 
 ```hcl
 set {
@@ -47,7 +49,7 @@ set {
   }
 ```
 
-* volumeSnapshotLocation resource group parameter mus tbe the resource group where velero will place the volume snapshots of the managed disks of the AKS. Can be the same resource group as the storage account. 
+* **VolumeSnapshotLocation resource group** parameter must be the resource group where velero will place the volume snapshots of the managed disks of the AKS. Can be the same resource group as the storage account and its recommended to be the same as the AKS'. 
 
 ```hcl
 set {
@@ -66,12 +68,12 @@ set {
 ```
 
 * The credentials secretContent Cloud parameter can be inputed via file or hard-coded at it is in this terraform. All the configuration parameters depend on the provider, so various need to be set: 
-	* AZURE_SUBSCRIPTION_ID: is the subscription ID, same as specifyed earlier. Set it with same value as the specified in the providers section
-	* AZURE_TENANT_ID: tenant ID. Set it with same value as the specified in the providers section
-	* AZURE_RESOURCE_GROUP: resource group of the AKS resources. Need to be the MC_*** generated one, no the one specified earlier. 
-	* AZURE_CLIENT_ID: Service principal or Managed identity ID for velero to be able to authenticate and have permissions over the resources it needs. 
-	* AZURE_CLIENT_SECRET: Service principal or managed identity for velero. 
-	* AZURE_CLOUD_NAME: Cloud can be set to `AzurePublicCloud`, `AzureUSGovernmentCloud`, `AzureChinaCloud`. But in normal cases. need to be set to `AzurePublicCloud`. 
+	* **AZURE_SUBSCRIPTION_ID**: is the subscription ID, same as specifyed earlier. Set it with same value as the specified in the providers section
+	* **AZURE_TENANT_ID**: tenant ID. Set it with same value as the specified in the providers section
+	* **AZURE_RESOURCE_GROUP**: resource group of the AKS resources. Need to be the `MC_***` generated one for the AKS resources, no the one specified earlier. 
+	* **AZURE_CLIENT_ID**: Service principal or Managed identity ID for velero to be able to authenticate and have permissions over the resources it needs. 
+	* **AZURE_CLIENT_SECRET**: Service principal or managed identity for velero. 
+	* **AZURE_CLOUD_NAME**: Cloud can be set to `AzurePublicCloud`, `AzureUSGovernmentCloud`, `AzureChinaCloud`. But in normal cases. need to be set to `AzurePublicCloud`. 
 ```hcl
 set {
     name  = "credentials.secretContents.cloud"
@@ -120,7 +122,7 @@ Example, access the second backup storage location:
 
 ```hcl
 set {
-	name  = "configuration.backupStorageLocation[0].config.storageAccount"
+	name  = "configuration.backupStorageLocation[1].config.storageAccount"
 	value = "defaultstorageaccount"
 }
 set {
@@ -147,7 +149,7 @@ In the case of using terraform, the best way is to create a Service Principal wi
 Also needs permissions for disk backups operator level and snapshot contributor in order to be able to create, modify and delete volume snapshots. 
 
 The required permissions in Azure RBAC format are: 
-
+```
 Back Compatability and Restic
 * Microsoft.Storage/storageAccounts/read
 * Microsoft.Storage/storageAccounts/listkeys/action
@@ -175,6 +177,7 @@ Disk Management
 * Microsoft.Compute/snapshots/delete
 * Microsoft.Compute/disks/beginGetAccess/action
 * Microsoft.Compute/disks/endGetAccess/action
+```
 
 In this case, for azure, all the permissions are granted through built-in roles added to the Service Principal that is next assigned to velero by specifying its id and secret in the `credentials.secretContents.cloud`. 
 
@@ -231,7 +234,7 @@ resource "azurerm_role_assignment" "velero_disk_backup_reader" {
   scope                = data.azurerm_resource_group.rg.id
 }
 
-#Role to let velero perform disk restoring operations from snapshots
+# Role to let velero perform disk restoring operations from snapshots
 resource "azurerm_role_assignment" "velero_disk_backup_operator_mc" {
   principal_id         = azuread_service_principal.velero_sp.object_id
   role_definition_name = "Disk Restore Operator"
@@ -243,7 +246,7 @@ resource "azurerm_role_assignment" "velero_disk_backup_operator" {
   scope                = data.azurerm_resource_group.rg.id
 }
 
-#Role to let velero perform disk snapshot write operations
+# Role to let velero perform disk snapshot write operations
 resource "azurerm_role_assignment" "velero_disk_snapshot_contributor_mc" {
   principal_id         = azuread_service_principal.velero_sp.object_id
   role_definition_name = "Disk Snapshot Contributor"
@@ -260,7 +263,7 @@ resource "azuread_service_principal" "velero_sp" {
   client_id = azuread_application.app.client_id
   owners    = [data.azurerm_client_config.current.object_id]
 }
-
+# Get the Password secret of the velero service principal
 resource "azuread_service_principal_password" "velero_sp_pass" {
   service_principal_id = azuread_service_principal.velero_sp.object_id
 }
@@ -290,6 +293,16 @@ schedules:
       storageLocation: <name-of-backup-storage-location
       includedNamespaces:
       - <mongodb-namespace-example>
+```
+
+##### Namespace
+
+Velero is installed by default in the `velero` namespace and its recommended to keep it within it. 
+
+By default if using Velero CLI to do the backups and restores. will try to find the resources in this namespace. In case of changing the **namespace**, set the namespace that Velero CLI searches, using the following command:
+
+```bash
+velero client config set namespace=<NAMESPACE_VALUE>
 ```
 
 
