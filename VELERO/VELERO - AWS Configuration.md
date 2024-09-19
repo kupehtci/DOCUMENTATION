@@ -341,6 +341,20 @@ default   aws
 # Check the created schedules
 > velero schedule get
 ```
+
+
+If we make a backup using `velero backup create` we should see the following data stored in the S3 section > Click on correspondent S3 bucket >  :
+
+![[aws_s3_bucket.png| 400]]
+
+And inside the `backups/` directory, a folder per each backup with the backup's files: 
+
+![[aws_s3_bucket_backups.png|400]]
+
+And in **EC2 section > Elastic Blob Store > Snapshots**, we should see the correspondent snapshots created of the cluster volumes: 
+
+![[aws_snapshot.png| 450]]
+
 #### Default backup and volume snapshot location
 
 By default, velero will use the backup storage location and volume snapshot location that are called 'default'. 

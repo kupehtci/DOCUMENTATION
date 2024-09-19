@@ -4,8 +4,6 @@
 
 Velero deploys various CustomResourceDefiniton resources while being deployed. This are used to represent service monitors, applications  
 
-
-
 This is a list of the basic CustomResourceDefiniton that Velero creates: 
 
 ```txt
@@ -23,3 +21,6 @@ schedules.velero.io
 serverstatusrequests.velero.io
 volumesnapshotlocations.velero.io
 ```
+
+[^1]: [[VELERO - BackupStorageLocation]]
+[^2]: [[VELERO - VolumeSnapshotLocation]]
