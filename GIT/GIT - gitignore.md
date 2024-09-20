@@ -1,6 +1,6 @@
 #GIT 
 
-## GITIGNORE file
+## `.gitignore` file
 
 The `.gitignore` file is a file written following a certain format that indicates the files or directories that are excluded from being committed to the local or remote repository. 
 
@@ -21,7 +21,7 @@ Two consecutive asterisks `**` indicates everything but has certain meanings:
 Differences between single asterisk `*` and double `**` are like: 
 
 * The pattern `hello/*` matches `hello/example.txt` but not `hello/world/example.txt`. 
-* The pattern `hello/*` matches `hello/example.txt` and also `hello/world/example.txt`. 
+* The pattern `hello/**` matches `hello/example.txt` and also `hello/world/example.txt`. 
 
 ### Force git to update following `.gitignore`
 

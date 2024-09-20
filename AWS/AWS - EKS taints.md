@@ -2,11 +2,13 @@
 
 # EKS Taints
 
-In AWS EKS or Elastic Kubernetes Service[^1] , you can create additional node pools (referred to as "Node Groups" in AWS terminology) to segregate workloads, allocate different resources, or isolate different applications. This allows you to tailor the node configurations (e.g., instance types, auto-scaling settings) based on the specific needs of each application. Here's how you can create another node pool (Node Group) in EKS using Terraform.
+In AWS EKS or Elastic Kubernetes Service[^1] , you can create additional node groups to split workloads, allocate different resources, or isolate different applications. 
+
+This is a basic documentation about how to split this allocations using EKS taints 
 
 ### Steps to Create Another Node Pool for Different Applications in AWS EKS
 
-#### 1. **Define the New Node Group in Terraform**
+### 1. Define the New Node Group in Terraform
 
 You can add another `aws_eks_node_group` resource in your Terraform to create a new node pool for specific resources within the Kubernetes cluster
 
@@ -36,30 +38,23 @@ resource "aws_eks_node_group" "additional_node_group" {
   }]
 }
 ```
-#### 2. **Customize the Node Group Configuration**
 
-- **Instance Types:** You can choose the appropriate instance type based on your application requirements. For example, use `t3.large` for compute-intensive applications or `r5.large` for memory-intensive workloads.
-- **Scaling:** Adjust the `desired_capacity`, `min_size`, and `max_size` based on the expected load.
-- **Labels:** Adding labels allows you to schedule specific workloads to this node group. For example, you can use the label `app=my-application` to identify the node pool for a specific application.
-- **Taints:** Use taints to ensure that only specific pods are scheduled on this node pool. In the above example, the taint `dedicated=my-application` with `NO_SCHEDULE` ensures that only pods tolerating this taint are scheduled on these nodes.
+### 2. Customize node group
 
-#### 3. **Deploy the Node Group**
+For the new group you can choose the appropriate instance type based on your application requirements. For example, use `t3.large` for computing applications or `r5.large` for memory demanding workloads.
 
-After defining the new node group in your Terraform configuration, run the following commands to deploy the new node pool:
+You can also adjust the `desired_capacity`, `min_size`, and `max_size` based on the expected load.
+ 
+ Its mandatory to add labels to the new node group in order to schedule specific workloads to this node group. In this example,  `app=my-application` its used to identify the node pool for directing workloads. 
+ 
+ Define this labels in the taints to make sure that only specific pods are scheduled on this node pool. In the example, the taint `dedicated=my-application` with `NO_SCHEDULE` ensures that only pods tolerating this taint are scheduled on these nodes.
 
-sh
 
-Copy code
+### 3. Schedule Applications to the New Node Group
 
-`terraform init terraform apply`
+Once the node pool is created, you can configure your Kubernetes workloads to run on this node pool. For this use this ways: 
 
-Terraform will create the additional node group in your EKS cluster.
-
-#### 4. **Schedule Applications to the New Node Group**
-
-Once the node pool is created, you can configure your Kubernetes workloads to run on this node pool. There are two primary ways to do this:
-
-- **Node Selector:** Use `nodeSelector` in your pod specification to ensure that pods are scheduled on the correct nodes.
+- **Node Selector:** 
 
 ```yaml
 apiVersion: v1
@@ -74,7 +69,7 @@ spec:
     app: my-application
 ```
 
-- **Tolerations:** If you’ve added taints to the node group, you'll need to add tolerations to your pod specification.
+- **Tolerations:** 
 
 ```yaml
 apiVersion: v1
@@ -93,14 +88,5 @@ spec:
 ```
 
 This ensures that your application pods are only scheduled on the nodes in the correct node pool.
-
-#### 5. **Manage and Scale the Node Group**
-
-After deployment, you can manage and scale your node groups independently, based on application demands. AWS EKS supports auto-scaling based on metrics like CPU, memory, or custom metrics. You can also manually scale the node group using Terraform by adjusting the `desired_capacity`, `min_size`, and `max_size` values.
-
-### Conclusion
-
-By creating multiple node pools (node groups) in AWS EKS, you can optimize resource allocation and isolate workloads across different applications. This setup allows you to tailor the infrastructure to meet specific requirements and ensure better performance and scalability for each application running in your Kubernetes cluster.
-
 
 [^1]: Elastic Kubernetes Service [[AWS - EKS Elastic Kubernetes Service]]

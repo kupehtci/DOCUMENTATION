@@ -30,6 +30,14 @@ Take into account adding rules for the following possible traffic:
 - Access to  Amazon S3 [^s3].
 - Separate rules are required for `IPv4` and `IPv6` addresses.
 
+Also some interesting ports may be enabled for some purposes: 
+
+| Rule type | Protocol  | Port | Purpose                                        |
+| --------- | --------- | ---- | ---------------------------------------------- |
+| Inbound   | TCP & UDP | 53   | DNS discovery                                  |
+| Inbound   | TCP       | 1025 | Port-forwarding to the pods within the cluster |
+| Inbound   | TCP       | 9443 | AWS internal API ports for ALB[^4]             |
+
 ### Resources associated
 
 This security group is associated with the two or four Network Interfaces[^2] that are created for the EKS and network interfaces of the nodes that are controlled by the managed node group allocated for the EKS. 
@@ -46,3 +54,4 @@ aws eks describe-cluster --name <cluster-name> --query cluster.resourcesVpcConfi
 
 [^2]: Elastic Network Interfaces [[AWS - ENI Elastic Network Interfaces]]
 [^s3]: Amazon Simple Storage Service or S3 [[AWS - S3]]
+[^4]: Application Load Balancer [[AWS - ALB Application Load Balancer]]

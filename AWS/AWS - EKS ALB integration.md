@@ -104,6 +104,6 @@ The following tags must be provided in order to be able to register into the ALB
 In case of requiring certificates, this ones can be provided by: 
 `alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:region:account-id:certificate/certificate-id`
 
-
+If the private subnets are not tagged with `_` and the public with `_`, you must need to specify the subnets from where the Ingress is available in order to deploy the target group. For doing this, you must specify the subnets in the `ingress.metadata.annotations` with `alb.ingress.kubernetes.io/subnets: "subnet-xxxxx , subnet-xxxxxx"`   
 
 [^ing]: Ingress kubernetes resources [[KUBERNETES - Ingress]]

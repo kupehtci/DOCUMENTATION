@@ -10,7 +10,22 @@ VolumeSnapshotLocation manifest don't need to be defined manually, they are depl
 
 ### Example
 
-The different VolumeSnapshotLocation CRDs created by velero will have the following format: 
+This is a sample YAML manifest of a `VolumeSnapshotLocation`: 
+
+```yaml
+apiVersion: velero.io/v1
+kind: VolumeSnapshotLocation
+metadata:
+  name: aws-default
+  namespace: velero
+spec:
+  provider: aws
+  config:
+    region: us-west-2
+    profile: "default"
+```
+
+The different VolumeSnapshotLocation CRDs created by velero will have the following format for Azure: 
 
 ```yaml
 apiVersion: velero.io/v1
@@ -26,31 +41,6 @@ metadata:
     app.kubernetes.io/managed-by: Helm # In case of being deployed with Helm 
     app.kubernetes.io/name: velero
     helm.sh/chart: velero-7.0.0
-  managedFields:
-    - apiVersion: velero.io/v1
-      fieldsType: FieldsV1
-      fieldsV1:
-        f:metadata:
-          f:annotations:
-            .: {}
-            f:meta.helm.sh/release-name: {}
-            f:meta.helm.sh/release-namespace: {}
-          f:labels:
-            .: {}
-            f:app.kubernetes.io/instance: {}
-            f:app.kubernetes.io/managed-by: {}
-            f:app.kubernetes.io/name: {}
-            f:helm.sh/chart: {}
-        f:spec:
-          .: {}
-          f:config:
-            .: {}
-            f:resourceGroup: {}
-            f:subscriptionId: {}
-          f:provider: {}
-      manager: terraform-provider-helm_v2.13.0_x5
-      operation: Update
-      time: '20XX-XX-XXTHH:MM:SSZ'
   name: default
   namespace: velero
   resourceVersion: 'XXXX'
