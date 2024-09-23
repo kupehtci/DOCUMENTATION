@@ -38,5 +38,8 @@ A message or the quantity of the data that can be coded in binary (1 and 0):
 * x = quantity of data
 * with `n` bits we can codify $2^n$ different values. 
 * so we can calculate \[n\] number of bits to transmit a signal with x number of possible values. 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 $$x=2^n  \ \ \ \ \ n = log_2(x)$$ If each unit of data has an equal probability of appearing in a 
