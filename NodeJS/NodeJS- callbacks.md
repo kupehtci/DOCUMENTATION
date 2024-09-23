@@ -20,5 +20,12 @@ function getData(callback){
 		callback("data fetched"); 
 	}, 1000)
 }
+
+// Also can be defined as an arrow function
+function getData((arg1) => {console.log("Hello World")}); 
 ```
+
+### setTimeout function
+
+We can use `setTimeout(callback_function, time)` function in order to invoke a function after certain time. 
 
