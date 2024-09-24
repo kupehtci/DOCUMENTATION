@@ -18,7 +18,11 @@ Europe --> europe-west2 --> (europe-west2-a, europe-west2-b, europe-west2-c)
 
 Unlike AWS, each edge zone or zone, its not always a physical data center, but act at is. 
 
-A <span style="color:orange;">region</span> is a geographical area where RTT[^1] from one VM to another is less than 1ms
+
+A <span style="color:orange;">region</span> is a geographical area where RTT[^1] from one VM to another is less than 1ms. 
+A <span style="color:DodgerBlue;">Zone</span> is a deployment area within a region isolated from others.
+
+
 
 
 [^1]: RTT or Round Trip Time [[RTT Time]]
