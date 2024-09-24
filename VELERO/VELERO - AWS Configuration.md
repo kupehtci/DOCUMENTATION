@@ -175,8 +175,22 @@ In case you have created an S3 bucket for this solution, replace `${local.s3_buc
 * The `aws_iam_access_key` resource is used to generate an access id and access secret to be able by Velero pod to authenticate in the AWS cloud. 
 * The `aws_iam_user` resource is used to grant only access to the Velero pod and don't assign an Assumable Role to the EKS node group. 
 * The `aws_iam_user_policy` resource sets the permissions allowed to the Velero IAM User. This policy grants permissions over the following resources: 
-	* EC2: volumes and snapshots. This allows Velero for generating snapshots of the current persistent volumes
+	* EC2: volumes and snapshots. This allows Velero for generating snapshots of the current persistent volumes. 
 	* S3: Generate objects, delete and upload in order to store the backups related information. 
+
+### Velero configuration
+
+To select an appropriate version for Velero and the AWS plugin, you must check the following table: 
+
+| Plugin Version | Velero Version | Chart Version | Chart Release Date | Image                 | K8S version |
+| -------------- | -------------- | ------------- | ------------------ | --------------------- | ----------- |
+| v1.10.x        | v1.14.x        | v7.2.x        | 5 Sep 2024         | velero/velero:v1.14.1 | >1.27.9     |
+| v1.9.x         | v1.13.x        | v7.2.x        | 4 Sep 2024         | velero/velero:v1.13.x | >1.26.5     |
+| v1.8.x         | v1.12.x        | v7.1.5        | 15 Aug 2024        | velero/velero:v1.12.x | >1.25.7     |
+| v1.7.x         | v1.11.x        | -             | -                  | -                     | -           |
+| v1.6.x         | v1.10.x        | -             | -                  | -                     | -           |
+
+The `-` ones are not recommended to be installed due to low compatibility with >1.29.x kubernetes version. Its recommended to install the previous one to the  latest.  
 
 The `helm_release` for velero sets the values that need to be granted from other Terraform resources by replacing some values inside `values-velero.yaml` using `templatefile()` function. 
 
@@ -184,24 +198,26 @@ The `helm_release` for velero sets the values that need to be granted from other
 resource "helm_release" "velero" {
   name = "velero"
 
-  chart      = "velero"
-  
   repository = "https://vmware-tanzu.github.io/helm-charts"
-  version    = "7.2.1"
+  chart      = "velero"
+  version    = local.velero_chart_version
 
   namespace        = local.velero_namespace
   create_namespace = true
-  
+
   atomic = true
 
+  ## Custom Values for velero deployment. 
+  ## In case you have created or set a new S3 bucket, replace its ID in '${data.aws_s3_bucket.s3.id}' 
   values = [
-        "${templatefile("${path.module}/values-velero.yaml", {
-    ACCESS_KEY = "${aws_iam_access_key.iam_user_velero_access_key.id}", 
-    SECRET_ACCESS_KEY = "${aws_iam_access_key.iam_user_velero_access_key.secret}", 
-    BUCKET = "${data.aws_s3_bucket.s3.id}", 
-    REGION = "${local.aws_region}"
-  })}"
- ]
+    "${templatefile("${path.module}/values-velero.yaml", {
+      AWS_PLUGIN_VERSION = "${local.aws_plugin_version}",
+      ACCESS_KEY         = "${aws_iam_access_key.iam_user_velero_access_key.id}",
+      SECRET_ACCESS_KEY  = "${aws_iam_access_key.iam_user_velero_access_key.secret}",
+      BUCKET             = "${data.aws_s3_bucket.s3.id}",
+      REGION             = "${local.aws_region}"
+    })}"
+  ]
 }
 ```
 

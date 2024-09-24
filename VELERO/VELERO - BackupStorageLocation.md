@@ -51,7 +51,6 @@ In this case, in azure provider, the backup location needs to be in a bucket wit
 
 Also `.spec.credentials` is not defined in case that Velero credentials are defined externally like for example with a Service Principal [^sp]
 
-
 ### Providers
 
 Depending on the provider of the infrastructure it will store the Backups in different resources: 
