@@ -20,7 +20,6 @@ velero backup create <backup-name> --include-namespaces <namespace>
 
 `--include-resources <resources>` the resources to include in the backup (optional). If not specified, all resources are included in the backup
 
-
 You can **list all the backups** available by using `velero backup get`
 
 ### Restore process

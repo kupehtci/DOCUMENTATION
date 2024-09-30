@@ -12,10 +12,10 @@ It offers the main keys from a Cloud Provider:
 * <span style="color:DodgerBlue;">Rapid Elasticity</span>: Get more resources as quickly as needed. 
 * <span style="color:DodgerBlue;">Measured service</span>: Pay for what you consume. 
 
-You also have two main approvisioning methods: 
+You also have two different provision methods: 
 
-* Virtualized: user configured infrastructure and maintained. 
+* <span style="color:MediumSlateBlue;">Virtualized</span>: user configured infrastructure and maintained. 
 * <span style="color:LightSeaGreen;">Serverless</span>[^2]: fully automated infrastructure for running apps within it. 
 
 
-[^2]: _--- 
+[^2]: Serverless managed infrastructures are infrastructures where you deploy the application and don't need to take care about the resources to run it, its fully managed and automated by a provider[[Serverless]] 

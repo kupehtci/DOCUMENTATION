@@ -25,13 +25,16 @@ The default VPC has additional firewall rules including a `default-allow-interna
 
 * `Routes`
 
-Routes tell VM instances and the VPC network how to send traffic from an instance to a destination, routing certain IP or CIDR blocks to a certain resource.
+Routes[^3] tell VM instances and the VPC network how to send traffic from an instance to a destination, routing certain IP or CIDR blocks to a certain resource.
 
 * `Forwarding rules`
 
 Forwarding rules direct traffic to a google cloud resource inside an VPC based on the IP address, protocol or port. 
 Some of this rules forwatd traffic from outside the GCloud and others direct traffic from inside the network. 
 
+* `subnets`
+
+While VPC resource is global, we can set regional subnets in order to deploy resources within it. This subnets hold different resources with predefined routes, internal communication and external communication using router services. 
 ### Terraform
 
 This resource can be created and managed using terraform GCP provider resource: 
@@ -51,3 +54,4 @@ resource "google_compute_network" "vpc_network" {
 
 [^1]: Compute Engine Virtual Machines are VMs within the Google Cloud [[GCP - CEVM Computer Engine Virtual Machine]]
 [^2]: IP addresses [[IPv4]]
+[^3]: Routes within GCP [[GCP - Routes]]

@@ -8,9 +8,8 @@ VPC have some properties:
 
 * VPC networks have no region or zone. 
 * VPC networks with associated routes and firewall rules. 
-* Each subnet defines a range of IPv4 addresses or CIDR block and auto-provision IPs to resources that belong to it within this CIDR block. 
+* Each subnet[^3] defines a range of IPv4 addresses or CIDR block and auto-provision IPs to resources that belong to it within this CIDR block. 
 * Instances must have an internal IPv4 to communicate with Google API services
-
 
 ### Other resources
 
@@ -23,3 +22,4 @@ VPC can be complemented with other resources following certain properties or req
 
 [^1]: VPC or Virtual Private Cloud [[GCP - VPC - Virtual Private Cloud]]
 [^2]: IAM Identity Access Management [[GCP - IAM Identity and Access Management]]
+[^3]: Network subnets [[GCP - Subnets]]

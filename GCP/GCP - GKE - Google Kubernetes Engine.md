@@ -2,7 +2,7 @@
 
 # GKE Google Kubernetes Engine
 
-Google Kubernetes Engine offers a cloud kubernetes managed cluster while providing integration of this service with other Google Cloud services like monitorization, storage, DNS, networking, role access and more. 
+Google Kubernetes Engine offers a cloud kubernetes managed cluster while providing integration of this service with other Google Cloud services like monitoring, storage, DNS, networking, role access and more. 
 
 It provides the orchestration of a Kubernetes solution to run managed and auto controlled containerized applications. 
 
@@ -16,7 +16,7 @@ The main virtual services where the Nodes resides are <span style="color:DodgerB
 
 This nodes have some specific features: 
 
-* Auto-repair: monitorize health checks of the nodes and change them if needed. 
+* Auto-repair: monitor health checks of the nodes and change them if needed. 
 * Auto-update: keep the nodes updates with the newer version of Kubernetes and GKE
 * Auto-scaling: re dimension the cluster if the compute needs are needed. 
 * Auto-provision: create Node Groups that automatically adjusts to the workloads
