@@ -14,7 +14,7 @@ IAM allows to manage a granular access to the resources within your google cloud
 
 You can grant <span style="color:magenta;">roles</span> to these principals to give them permissions to perform actions over Google Resources. 
 
-Permissions are the most basic Unit of the IAM, its an allowed action over a certain resource or type of resources. 
+Permissions[^1] are the most basic Unit of the IAM, its an allowed action over a certain resource or type of resources. 
 
 This <span style="color:magenta;">roles</span> are a set of one or more permissions over some resources and the set of all roles granted to a resource are called an <span style="color:LightSalmon;">IAM policy</span>. 
 
@@ -52,7 +52,7 @@ Policies can be one of this types:
 * **PAB policies**: Restricting the resources that a principal can access. 
 
 
-### IAM Roles in terraform
+### IAM Custom Roles in terraform
 
 You can define custom IAM Roles in Google Cloud: 
 
@@ -72,4 +72,4 @@ You only need to set the same properties as described before, and a lis of permi
 The id of the role will be defined as: `projects/<PROJECT-ID>/roles/<ROLE-ID>`. 
 
 
-
+[^1]: Permissions are the basic actions that can be granted or denied to a role. By default, each action that is not specifically granted, is denied by default. 

@@ -49,4 +49,4 @@ Remember that persistent volume claim can be:
 * ReadWriteMany
 * ReadWriteOncePod
 
-[^stoclass]: Kubernetes Storage class resource [[KUBERNETES - Storage Class]]
+[^stoclass]: Kubernetes Storage class resource [[KUBERNETES - Storage Class]] 
