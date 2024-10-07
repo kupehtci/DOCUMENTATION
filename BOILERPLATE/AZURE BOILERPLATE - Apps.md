@@ -60,7 +60,6 @@ For configuring the ingress without NGINX checkout documentation about AKS / AWS
 
 ArgoCD's Custom Resource Definitions (CRD) are installed via terraform kubernetes provider before deploying ArgoCD chart. This avoid possible versioned error 
 
-<<<<<<< Updated upstream
 #### 2.1. ArgoCD Prometheus
 
 To enable or disable the ArgoCD metrics `enabled: true` and also enable/disable `serviceMonitor`: 
@@ -118,6 +117,8 @@ Velero needs various roles assigned in order to have access to different resourc
 
 The authentication within the cluster that is needed is automatically created through the Helm deployment with a `ClusterRole` resource that has "get" permissions to almost all resources. 
 
+Velero have two main Velero's Custom Resources, BackupStorageLocation[^bsl] and VolumeSnapshotLocation[^vsl]
+
 ##### 4.1. Velero AKS roles
 
 The authentication and permissions to the elements in the Azure provider, needs to be granted in order to have permissions over the Storage Account, blob container to store the backups, disk backups reader and writer, snapshots contribution and disk restoration permissions. 
@@ -170,15 +171,8 @@ And define:
       readOnly: true
 
 ```
-=======
-### Prometheus and Grafana
 
-
-
-### Velero
-
-Velero have two main Velero's Custom Resources, BackupStorageLocation[^bsl] and VolumeSnapshotLocation[^vsl]
 
 [^bsl]: BackupStorageLocation Velero's CRD [[VELERO - BackupStorageLocation]]
 [^vsl]: VolumeSnapshotLocation Velero's CRD [[VELERO - VolumeSnapshotLocation]]
->>>>>>> Stashed changes
+

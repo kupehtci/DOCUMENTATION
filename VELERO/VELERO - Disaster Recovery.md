@@ -25,13 +25,13 @@ Take into account that if the restored items were initially deployed using Terra
 To solve this, you can re-import them back using `terraform import <resource> <id>`
 
 For `helm_release` resources: 
-* `helm get -A` to get the resources' ID  
+* `helm get -A` to get the resources' ID . 
 * `terraform import helm_release.<release-name> <namespace>/<resource-id>` to import the resource
 For `kubernetes_manifest` resources: 
 * `kubectl get <resource-kind> -n <namespace>` to find the resource. 
 * `terraform import <kubernetes_resource_type>.<resource-name> <namespace>/<resource-name>` to import the currently deployed resource. 
 
-You can also use `import blocks` for massive im
+You can also use `import blocks` for massive importations. 
 ports of multiple resources in kubernetes provider.
 ### Velero recover from a disaster
 

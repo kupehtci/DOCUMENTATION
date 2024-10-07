@@ -1,6 +1,8 @@
 #AWS 
 
+# AWS Route 53
 
+Amazon Route 53 offers a highly available Domain Name System (DNS[^1]), domain name registration and Health checking for cloud services. 
 
 
 
@@ -59,3 +61,4 @@ data "aws_route53_zone" "main"{
 To get the resource, can be used as selector the `zone_id` or `name` property (But not either)
 
 
+[^1]: Domain Name System [[DNS - Domain Name System]]

@@ -14,6 +14,16 @@ For <span style="color:#ffec8b;">Google GKE (Google Kubernetes Engine)</span>, u
 gcloud container clusters get-credentials <cluster_name> --region <region>
 ```
 
+In order to authenticate over GCloud you will need `gke-gcloud-auth-plugin` to be able to use as client.go. For installing it you can do one of the following commands: 
+
+```bash
+#Using apt
+sudo apt-get install google-cloud-cli-gke-gcloud-auth-plugin
+
+#Or using GCloud CLI 
+gcloud components install gke-gcloud-auth-plugin
+```
+  
 For <span style="color:DodgerBlue;">Azure AKS (Azure Kubernetes Service)</span>, use the following command: 
 ```bash
 az aks get-credentials --resource-group <resource_group> --name <cluster_name>
