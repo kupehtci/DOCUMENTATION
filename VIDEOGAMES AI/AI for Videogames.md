@@ -30,7 +30,7 @@ Example: chest game, reactive just make movement taking into account the player 
 
 * Chase / Evade
 
-If chasing an objetive, the "predator" moves to the prey, you are never gone win. For a more natural movement, 
+If chasing an objetive, the "predator" moves to the prey, you are never going to win. For a more natural movement, 
 
 * Obstacle avoidance
 

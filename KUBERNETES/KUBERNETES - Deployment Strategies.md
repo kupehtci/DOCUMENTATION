@@ -39,4 +39,28 @@ A shadow deployment is when the new version receives real-world traffic in paral
 
 To implement this, the pods can be duplicated and traffic can be mirrored to these shadow pods. 
 
+### Manifests
+
+The deployment strategy is defined in the manifest in `spec.strategy` as: 
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+	name: myapp
+	namespace: default
+spec: 
+	strategy: 
+		type: <type>
+		rollingUpdate: 
+			maxUnavailable: 1
+			maxSurge: 1
+	replicas: 4
+	selector: 
+		matchLabels: 
+			app: myapp
+	template: 
+		#... 
+```
+
 [^1]: Kubernetes deployment object [[KUBERNETES - Deployment]]

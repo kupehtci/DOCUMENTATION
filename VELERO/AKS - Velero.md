@@ -101,5 +101,5 @@ az role definition create --role-definition '{
 
 
 [^1]: [[KUBERNETES - Velero]]
-[^2]: Kubernetes cluster [[AKS - Kubernetes cluster]]
-[^3]: Azure storage account[[AKS - Storage Account]]
+[^2]: Kubernetes cluster [[AZURE - AKS Azure Kubernetes Service]] Service]]]]
+[^3]: Azure storage account[[AZURE - Storage Account]]]]

@@ -304,8 +304,6 @@ You can then use this credentials to login using docker and then push the correc
 docker login <acr-name>.azurecr.io -u <admin-username> -p <admin-password>
 ```
 
-
-
 ### . Configure Atlantis
 
 The remote repository configuration will depend on the git repository provider used. In this case, if using Gitlab Enterprise as an standard, this are the steps to follow to configure the webhooks for atlantis: 

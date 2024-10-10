@@ -1,5 +1,7 @@
 #TERRAFORM 
 
+# TERRAFORM `replace` function
+
 The `replace(string, substring, replacement)` searches in the given `string` the occurrence of a `substring` and replace it with a `replacement` string. 
 
 

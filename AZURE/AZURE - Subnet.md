@@ -1,4 +1,4 @@
-#AKS #AZURE 
+#AKS #AZURE #CLOUD
 
 ### Terraform Azure subnet 
 

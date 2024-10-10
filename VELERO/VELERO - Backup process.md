@@ -52,6 +52,6 @@ velero logs
 ```
 
 
-[^1]: Azure Kubernetes Service [[AKS - Kubernetes cluster]]
-[^2]: Azure Storage account [[AKS - Storage Account]]
+[^1]: Azure Kubernetes Service [[AZURE - AKS Azure Kubernetes Service]] Service]]]]
+[^2]: Azure Storage account [[AZURE - Storage Account]]]]
 [^3]: BackupStoreLocation of velero [[]]

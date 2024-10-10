@@ -6,7 +6,7 @@ Manages a network security group that contains a list network security rules.
 This groups enable inbound or outbound traffic to be enabled or denied. 
 
 
-In order to use this group, the set of rules that apply to it, need to be defined afterwards [[AKS - Network Security Rule]]. 
+In order to use this group, the set of rules that apply to it, need to be defined afterwards [[AZURE - Network Security Rule]]. 
 
 This is the format to create the `azurerm_network_security_group` resource: 
 

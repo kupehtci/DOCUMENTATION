@@ -10,7 +10,7 @@ Azure Container Instances are not meant to support scaling out, but you can manu
 #### Networking 
 
 By default, ACI instances can be exposed to the internet with a Public IP and a FQDN[^fqdn]. 
-
+In terms of networking, each ACI works as a server and its provided with an IP with an Network Interface for communication.
 ##### Storage
 
 In case of needing <span style="color:orange;">data persistence</span> you can mount Azure File Shares[^afs] to store the container persistent data. 

@@ -11,4 +11,4 @@ With Helm you can add bitnami repository that contains the MongoDB charts and in
 
 
 
-[^1]: Kubernetes cluster [[AKS - Kubernetes cluster]]
+[^1]: Kubernetes cluster [[AZURE - AKS Azure Kubernetes Service]] Service]]]]

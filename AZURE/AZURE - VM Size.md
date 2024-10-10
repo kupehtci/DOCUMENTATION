@@ -1,7 +1,10 @@
+#AZURE  #AKS #CLOUD 
 
+# AZURE VM Size
+
+The most recommended VMs[^1] for AKS usage are the Standard ones, recommended for general purpose workloads. 
 
 Here is a list of the Dv2 series of AKS (General purpose)
-
 
 | Size              | vCPU | Memory: GiB | Temp storage (SSD) GiB | Max temp storage throughput: IOPS/Read MBps/Write MBps | Max data disks | Throughput: IOPS | Max NICs | Expected network bandwidth (Mbps) |
 | ----------------- | ---- | ----------- | ---------------------- | ------------------------------------------------------ | -------------- | ---------------- | -------- | --------------------------------- |
