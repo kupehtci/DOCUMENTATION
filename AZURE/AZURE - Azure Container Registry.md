@@ -90,7 +90,7 @@ This is an example of how to declare it:
 
 ```hcl
 resource "azurerm_container_registry" "acr" {
-  name                = "boilerplateacr1"
+  name                = "exampleacr1"
   resource_group_name = azurerm_resource_group.azure-boilerplate-aks.name
   location            = var.location
   sku                 = "Basic"

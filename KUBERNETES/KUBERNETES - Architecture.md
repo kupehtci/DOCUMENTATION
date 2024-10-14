@@ -17,7 +17,6 @@ The node can be registered into the API server in two ways:
 
 The Node is uniquely identified by its `metadata.name` that its a valid DNS subdomain name. 
 
-
 ### Pods
 
 A Pod is a group of one or more containers with shared storage and network resources. 
