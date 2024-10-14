@@ -4,7 +4,6 @@
 
 Helm is the package manager for Kubernetes. 
 
-
 Help manages Kubernetes resources packages through Charts, which are the collection of files organized in a directory structure. 
 
 This <span style="color:orange;">chars</span> files can be archived through repositories and shared. 
@@ -46,8 +45,7 @@ This will shows a list of the linting and some failures that may encounter.
 ### Install 
 
 Once we have verified that the helm chart works correctly, we can run the `helm install` command into the cluster: 
-
-```
+```bash
 helm install --name <name> /<dir>
 
 # example
@@ -58,7 +56,6 @@ helm install --name hello-world ./hello-world
 ### Get
 
 To see the charts that are installed, we can list them: 
-
 ```bash
 helm ls --all
 ```
