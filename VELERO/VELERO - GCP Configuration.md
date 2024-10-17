@@ -15,7 +15,7 @@ In order to simplify the definition and documentation about the resources create
 
 ### Prerequisites 
 
-In order to deploy Velero and configurate it for running in a GKE we need: 
+In order to deploy Velero and configure it for running in a GKE we need: 
 
 * An active GKE cluster with a workload pool assigned to `<project-id>.svc.id.goog` where the service account and workload identity may reside. 
 * An active Google Account with owner or collaborator roles or at least `roles/container.admin` and `roles/iam.serviceAccountAdmin` roles attached to the account to the desired project. 

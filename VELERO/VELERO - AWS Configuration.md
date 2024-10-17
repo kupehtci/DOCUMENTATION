@@ -223,6 +223,7 @@ resource "helm_release" "velero" {
 
 In case you have created an S3 bucket for this solution, replace `${data.aws_s3_bucket.s3.id}` with your newly created S3 bucket's name. 
 
+We need to 
 ### Once its installed
 
 Once it has been correctly deployed, we can check some resources in order to check that all has been deployed correctly. 

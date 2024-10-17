@@ -4,6 +4,7 @@
 
 This infrastructure consist in several different components that work together to provide a basic template for almost all use cases of Azure Kubernetes Infrastructures. 
 
+![Azure diagram](./IMAGES/azure-architecture-base2.png)
 #### Azure Infrastructure overview
 
 The key features of the structure are: 

@@ -124,7 +124,6 @@ serviceAccount:<gcp-project-id>.svc.id.goog[<k8s-namespace>/<ser-account-name>}]
 serviceAccount:hiberus-boilerplate.svc.id.goog[monitor/grafana-sa}]
 ```
 
-
 ### GKE Configuration
 
 This section summarizes the configuration of the main Google Kubernetes Engine of the infrastructure. 

@@ -82,8 +82,6 @@ Three different resources help you manage your IAM policy for a service account.
 
 Examples: 
 
-
-
 * google service account iam binding: 
 
 ```json
