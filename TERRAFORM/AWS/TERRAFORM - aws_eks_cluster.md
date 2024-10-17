@@ -1,4 +1,4 @@
-
+#EKS #AWS #TERRAFORM #CLOUD
 # TERRAFORM `aws_eks_cluster`
 
 The `aws_eks_cluster` resource manages an AWS Elastic Kubernetes Service[^1] cluster for Kubernetes. 

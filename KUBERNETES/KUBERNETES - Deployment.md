@@ -5,7 +5,7 @@
 
 Is a <span style="color:DodgerBlue;">workload API object</span> that manages updates for Pods [^1] and ReplicaSets[^2]. 
 
-In a deployment you set a <span style="color:MediumSlateBlue;">desired state</span> and the deployment changes the state at a controlled rate in order to reach and maintain this state. 
+In a <span style="color:DodgerBlue;">deployment</span> you set a <span style="color:MediumSlateBlue;">desired state</span> and the deployment changes the state at a controlled rate in order to reach and maintain this state. 
 
 This deployments can create ReplicaSets that control their pods. 
 

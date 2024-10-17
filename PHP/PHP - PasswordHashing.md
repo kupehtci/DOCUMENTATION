@@ -46,7 +46,6 @@ Here is a short example using PDO to manage the SQL.
   $stmt = $this->database->prepare("INSERT INTO accounts (account_name, account_passwd) VALUES (?, ?)");
   $stmt->bind_params("ss", $name, $hash);
 
-
   try
   {
     $stmt->execute($values);
@@ -58,7 +57,6 @@ Here is a short example using PDO to manage the SQL.
     die();
   }
 ```
-
 
 ## VERIFY PASSWORDS
 
@@ -73,7 +71,7 @@ THis results in having two similars passwords are hashed and the hashees are not
   echo "Equal: $equal"; 
   var_dump($equal); 
 ```
-Those comparision will return a false as a result of having same password but different salt in each of them. 
+Those comparison will return a false as a result of having same password but different salt in each of them. 
 
 Just to compare two hashed passwords and ensure if they are equal, use ```password_verify($password1, $password2);```
 

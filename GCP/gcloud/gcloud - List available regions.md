@@ -7,7 +7,7 @@ You can list all the available regions for deploying GCP resources by using the 
 ```bash
 gcloud compute regions list
 ```
-
+z
 It will get an output like this: 
 
 ```bash

@@ -67,6 +67,6 @@ Depending on the provider of the infrastructure it will store the Backups in dif
 ```
 
 
-[^k]: Kubernetes [[AKS - Kubernetes cluster]]
-[^sa]: Azure Storage account [[AKS - Storage Account]]
+[^k]: Kubernetes [[AZURE - AKS Azure Kubernetes Service]] Service]]]]
+[^sa]: Azure Storage account [[AZURE - Storage Account]]]]
 [^sp]: Service principal role,  access and permissions setting in azure [[AZURE - Service Principal]]

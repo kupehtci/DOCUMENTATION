@@ -306,5 +306,5 @@ velero client config set namespace=<NAMESPACE_VALUE>
 ```
 
 
-[^1]: Kubernetes cluster [[AKS - Kubernetes cluster]]
-[^2]: Azure Storage account [[AKS - Storage Account]] 
+[^1]: Kubernetes cluster [[AZURE - AKS Azure Kubernetes Service]] Service]]]]
+[^2]: Azure Storage account [[AZURE - Storage Account]]]] 

@@ -64,4 +64,4 @@ Something to take into account when configuring a backend:
 
 
 
-[^1]: Azure storage account for persistent data [[AKS - Storage Account]]
+[^1]: Azure storage account for persistent data [[AZURE - Storage Account]]]]

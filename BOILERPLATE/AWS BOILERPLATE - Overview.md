@@ -4,6 +4,7 @@
 
 This infrastructure consist in several different components that work together to provide a basic template as a common infrastructure core for deploying an Elastic Kubernetes Service (EKS). 
 
+![AWS Boilerplate diagram](./IMAGES/aws-architecture-base.png)
 #### AWS Infrastructure overview
 
 The key features of the structure are: 

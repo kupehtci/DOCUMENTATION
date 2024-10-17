@@ -6,7 +6,6 @@ AWS S3 or Simple Storage Service is a **general object storage** on the cloud.
 
 Its highly scalable, highly available, durable and easily integrated with other AWS resources. 
 
-
 There are different ways to access a s3 bucket: 
 
 * By URL: `https://s3.amazonaws.com/<BUCKET_NAME>/<OBJECT_NAME>` but by default, a s3 bucket is not public accesible. 

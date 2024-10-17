@@ -18,10 +18,7 @@ Good and Bad Quality costs:
 - The cost of Good Quality is basically all the cost QA Activities require.
 - Spending a lot of money in order to have the best possible quality might not be the best possible option from a pure economic point of view. Typically, the best way to optimize the cost of Quality is looking for the minimal value of the sum of the costs of bad and good quality.
 - With respect to the cost of fixing a problem, we learnt that the later we fix a problem, the more expensive it’s going to be. The cheapest way to remove defects is preventing them: “an ounce of prevention is worth a pound of cure”
-- We watched a video about a problem that Galaxy Note S7 devices had. That problem caused batteries to blow up.
-    - It’s a typical example of the cost of late detection. The cost was million of dollars because Samsung had reputational costs, the needed to handle returns, new devices, logistics, etc. because it was detected when millions of devices where already sold.
-    - After this problem, Samsung invested a lot of time and money making a full disclose of the problem behind the explosions. Including a press conference.
-    - They also introduced an 8 point battery check system. Why this was not done before? Because, as we learnt today, that had a cost, and it was deemed too expensive compared to the benefits of its adoption. Obviously, this calculation was wrong.
+
 
 **Section 1.6:** We’ve also learned what is SQE (**Software Quality Engineering) how** SQ Activities should be used during a software project.
 

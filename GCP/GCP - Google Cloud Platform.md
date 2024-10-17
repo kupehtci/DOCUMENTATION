@@ -18,4 +18,4 @@ You also have two different provision methods:
 * <span style="color:LightSeaGreen;">Serverless</span>[^2]: fully automated infrastructure for running apps within it. 
 
 
-[^2]: Serverless managed infrastructures are infrastructures where you deploy the application and don't need to take care about the resources to run it, its fully managed and automated by a provider[[Serverless]] 
+[^2]: Serverless managed infrastructures are infrastructures where you deploy the application and don't need to take care about the resources to run it, its fully managed and automated by a provider [[Serverless]] 

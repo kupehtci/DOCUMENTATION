@@ -13,3 +13,15 @@ The resource group can be used in the Azure Portal to create views for:
 * Diagnostics
 
 
+### Terraform declaration
+
+Its declaration follows this format: 
+
+```hcl
+resource "azurerm_resource_group" "example" {
+  name     = "example-resources"
+  location = "West Europe"
+}
+```
+
+

@@ -28,4 +28,4 @@ With:
 * `--account-name` name of the storage account that holds the storage share (optional)
 
 
-[^1]: Azure Storage Account [[AKS - Storage Account]]
+[^1]: Azure Storage Account [[AZURE - Storage Account]]]]

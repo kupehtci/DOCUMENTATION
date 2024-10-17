@@ -1,8 +1,8 @@
 #SoftwareQuality 
 
-# REFACTORING AS A QA ACTIVITY
+# Refactoring as a QA activity
 
-Refactoring consists in modifying software to improve its readability, maintainability and extensibility without changing its characteristics and behaviour. 
+Refactoring consists in modifying software to improve its readability, maintainability and extensibility without changing its characteristics and behavior. 
 
 Is related to prevention. Actions that intend to <span style="color:orange;">minimize the number of defects</span> that are injected in the software by developers. 
 

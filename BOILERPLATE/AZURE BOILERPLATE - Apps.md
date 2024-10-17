@@ -1,7 +1,6 @@
 #AZURE #AKS 
 
-
-The apps are deployed to the Kubernetes cluster by using Helm provider of terraform. 
+The apps are deployed to the Kubernetes cluster using Helm provider of terraform. 
 
 Deploys the application from a remote helm charts repository by selecting the version and overwrite values in the default `values.yaml` provided in the repository, through the yaml file in the terraform repository. 
 
@@ -9,7 +8,7 @@ Deploys the application from a remote helm charts repository by selecting the ve
 
 Nginx by default is configured to listen and control all the ingresses that include the alias `ingressClassName:nginx`. 
 
-Its configured to act as Load Balancer. This can be set to "LoadBalancer", "NodePort" or "ClusterIP" in `service.type`
+Its configured to act as Load Balancer. This can be set to "LoadBalancer", "NodePort" or "ClusterIP" in `service.type`. 
 
 To use an specified IP, can be set in `service.loadBalancerIP:"XXX.XXX.XXX.XXX"`, by default te Load Balancer will automatically deploy a Public IP resource depending on the provider and use this IP as Load Balancer entry point. 
 
@@ -125,6 +124,7 @@ The authentication and permissions to the elements in the Azure provider, needs 
 
 This roles are created and assigned to a **service principal** assigned to it.
 
+
 ### 5. Cert Manager
 
 Cert manager is not pre-configured by default. It need to be configured on demand depending on the project. 
@@ -134,7 +134,6 @@ All of the most relevant configuration parameters are left in the values.yaml th
 In case of using Cert manager, remember to set an appropriate domain name and set it in an Azure Domain Zone and set an NS record in the domain register pointing to this domain authoritative server. 
 
 To set the Cert Manager configuration to use the NGINX ingress controller, you can take a look to the tutorial: [Securing NGINX-ingress - cert-manager Documentation](https://cert-manager.io/docs/tutorials/acme/nginx-ingress/) and for a basic installation without the NGINX, look at the appropriate tutorial for deploying Cert manager to a cluster within the correct provider: \[AKS, EKS or GKE\] [cert-manager - cert-manager Documentation](https://cert-manager.io/docs/). 
-
 
 For configuring TLS for prometheus ingress, un comment  `tls-acme` annotation in prometheus for Certificate issue the external URL exposed for Prometheus monitoring: 
 
@@ -172,6 +171,8 @@ And define:
 
 ```
 
+The rest of the configuration depends on the type of Certificate validation methodology that is going to be used and the CA Entity that validated the certificates. 
+This should be configured depending on the project. 
 
 [^bsl]: BackupStorageLocation Velero's CRD [[VELERO - BackupStorageLocation]]
 [^vsl]: VolumeSnapshotLocation Velero's CRD [[VELERO - VolumeSnapshotLocation]]

@@ -1,5 +1,10 @@
 #TERRAFORM #AZURE #AKS
 
+# Azure Kubernetes Service
+
+Azure Kubernetes Service is an Azure managed Kubernetes cluster fully integrated with all the Azures resources like storage, artifact, container registry and networking. 
+
+%%TODO: Add more%% 
 ### Azure Terraform - Kubernetes cluster
 
 Manages a managed kubernetes cluster also known as <span style="color:orange;">AKS</span>. 
@@ -68,7 +73,7 @@ Its set as a block that can define:
 * `network_plugin`: plugin used for networking (azure, kubenet or none)
 * `network_mode`: network mode to use with Azure CNI. Can be `bridge` or `transparent`. 
 * `network_policy`: allows to control the <span style="color:grey;">pods' traffic control</span> (`calico` or `azure`). 
-* `dns_service_ip`: IP address within the Kubernetes CIDR [[AKS - Virtual network]] that will be used for cluster service discovery (<span style="color:LightSeaGreen;">kube-dns</span>)
+* `dns_service_ip`: IP address within the Kubernetes CIDR [[AZURE - Virtual network]] that will be used for cluster service discovery (<span style="color:LightSeaGreen;">kube-dns</span>)
 * `docker_bridge_cidr`: IP address in CIDR used as docker bridge IP address in nodes. 
 * `outbound_type`: outbound routing method. Can be `loadBalancer`, `userDefinedRouting`, `managedNATGateway` and `userAssignedNATGateway`. Defaults to `loadBalancer`.
 * `pod_cidr`: The CIDR to use for Pod IP Addresses. Only when network_plugin == kubenet. 

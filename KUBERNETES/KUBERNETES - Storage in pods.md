@@ -13,7 +13,6 @@ In order to use a volume:
 * Specify the volume to provide in `.specs.volumes`
 * Declare where to mount those volumes into containers in `.specs.containers[*].volumeMounts`. 
 
-
 Format to mount volumes: 
 
 ```yaml
@@ -25,9 +24,6 @@ spec:
     containers:
     - name: mysql
       image: mysql
-      env:
-      - name: MYSQL_ROOT_PASSWORD
-        value: "rootpasswd"
       volumeMounts:
       - mountPath: /var/lib/mysql
         name: site-data
