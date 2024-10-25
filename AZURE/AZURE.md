@@ -14,7 +14,7 @@ It offers:
 * **Monitoring**: analyze and monitor the application performance and other resources metrics with Azure Monitor and log analytics [^10]. 
 * **AI**: AI and machine learning with Azure Machine Learning for building, training and handle Machine learning workloads or use Cognitive Services for using built-in APIs for Ai capabilities. 
 
-[^1]: Azure Vºrtual machines [[AZURE - Virtual machines size]]
+[^1]: Azure Virtual machines [[AZURE - Virtual machines size]]
 [^2]: Serverless solutions for executing workloads [[AZURE - Azure Container Instance]] [[AZURE - Azure Container Apps]]
 [^3]: Azure functions are event driven code execution [[AZURE - Functions]]
 [^4]: Azure networking [[AZURE - Virtual network]]

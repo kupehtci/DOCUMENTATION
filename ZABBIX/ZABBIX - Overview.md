@@ -14,9 +14,6 @@ The Zabbix architecture consist in various components:
 * **Web Interface**: easy access to Zabbix through web from anywhere and from any platform. 
 * **Proxy**: collect performande and availability data on behalf of zabbix server. (Its an optional part). Can distribute the load of a single Zabbix server. 
 * **Agent**: Installed in each monitoring targets to actively monitor local resources and applications and report this data to Zabbix server.
-* **Data flow**: 
-
-
 
 ### Definitions
 

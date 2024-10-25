@@ -3,7 +3,10 @@
 
 #### COMPLEX DATA STRUCTURE
 
+This is an example of a complex data structure stored in JSON format. 
+
 An array of orders that also each order has an array of products. 
+
 ```JSON
 [
   {
