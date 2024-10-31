@@ -24,7 +24,7 @@ If you are linking directly against the Vulkan loader then you can skip this sec
 
 If you are loading the Vulkan loader dynamically instead of linking directly against it, you can check for the availability of a loader and ICD with [glfwVulkanSupported](https://www.glfw.org/docs/3.3/group__vulkan.html#ga2e7f30931e02464b5bc8d0d4b6f9fe2b).
 ```CPP
-if (glfwVulkanSupported
+if (glfwVulkanSupported)
 {
 	// Vulkan is available, at least for compute
 }
