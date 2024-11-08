@@ -3,10 +3,14 @@
 To get the weather in a unix system using the terminal you can launch the command: 
 
 ```bash
-wttr.in/City
+curl wttr.in/<city>
 ```
 
 For example, Madrid in Spain: 
+
+```bash
+curl wttr.in/Zaragoza
+```
 
 ```txt
 Weather report: Madrid
