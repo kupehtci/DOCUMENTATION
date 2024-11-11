@@ -23,3 +23,4 @@ When reviewing the logs of the service that are placed by default in `/var/log/z
 In case that agent cannot connect to the server, we can check the error here in the logs. 
 
 In the shown case, it cannot connect to the 10051 port, which is the one used by Zabbix to send data from the agent to the server. Review if this port is open and can be reached from the agent with a `telnet <ip> <port>`
+

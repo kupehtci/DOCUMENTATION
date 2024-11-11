@@ -6,5 +6,5 @@ Also it has some light documentation about Machine Learning, artificial intellig
 
 ### Explanation
 
-All of this documentation has been created to gather all the technologies and concepts reviewed during the computer science career and some self-learning time involved in expanding some concepts that are related to the main ones. 
+All of this documentation has been created to gather all the technologies and concepts reviewed during the computer science career and some self-learning time involved in expanding some concepts related to Cloud Engineering, Video-games and web development and other related with the main ones. 
 

@@ -17,5 +17,6 @@ Zabbix agents can perform two types of checks:
     These require more complex processing.
     The agent retrieves a list of items from the Zabbix server for independent processing and periodically sends new values back to the server.
 
-To configure whether to perform passive or active checks, select the appropriate monitoring item type. 
+To configure whether to perform passive or active checks, select the appropriate monitoring item type by setting in the agent `Server` or `ServerActive` respectively. 
+
 Zabbix agent processes items of type `Zabbix agent` or `Zabbix agent (active)`.

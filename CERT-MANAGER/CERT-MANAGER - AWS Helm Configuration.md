@@ -4,7 +4,6 @@
 
 This is a guide of how to configure Cert-manager when using its helm release to deploy it within a Kubernetes cluster. 
 
-
 ### Create a public domain name
 
 In order to have a certificate signed public domain, you need to have a registered domain in a domain name registrar. 

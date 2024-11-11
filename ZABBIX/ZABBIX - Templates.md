@@ -28,8 +28,8 @@ Also you can still using all the built-in templates that Zabbix offers by defaul
 In order to trigger alarms we can define triggers that will execute an action: 
 
 Triggers define conditions for raising alarms. They include:
-- **Expression**: The condition that must be met (e.g., CPU load > 80%).
-- **Severity**: The level of importance of the trigger (e.g., critical, warning).
+- **Expression**: The condition that must be met (example: CPU load > 80%).
+- **Severity**: The level of importance of the trigger (example: critical, warning).
 - **Dependencies**: Links between triggers to prevent duplicate alerts.
 
 ### Graphs
