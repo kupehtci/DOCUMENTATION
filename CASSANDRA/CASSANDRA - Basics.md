@@ -18,8 +18,6 @@ If we choose `SimpleStrategy` would link the different nodes in a circular way.
 
 
 
-
-
 As you can see from the previous questions, Cassandra is not designed to execute read queries efficiently (without ALLOW FILTERING). In fact, Cassandra's strong point is writing, and Cassandra should be used when the insertion rate is much higher than the reading rate.
 
 
