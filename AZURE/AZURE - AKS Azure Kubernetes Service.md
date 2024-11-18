@@ -24,7 +24,7 @@ resource "azurerm_kubernetes_cluster" "example" {
   dns_prefix          = "exampleaks1"
   azure_policy_enabled              = true
   role_based_access_control_enabled = true
-  kubernetes_version                = "xxx"
+  kubernetes_version               z = "X.X.X"
 
   lifecycle{} 
   service_principal{}
@@ -62,7 +62,6 @@ resource "azurerm_kubernetes_cluster" "example" {
 * `private_cluster_enabled`:
 * `node_resource_group`: 
 * `sku_tier`:  ("Free" | "Standard"), Don't use "Free" in production
-* 
 
 #### Network Profile
 
