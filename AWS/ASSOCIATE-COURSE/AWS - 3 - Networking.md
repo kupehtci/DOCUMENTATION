@@ -29,6 +29,10 @@ In a public subnet, the most common entry in the **Route table** is to redirect 
 AWS creates a default VPC with the CIDR block 172.31.0.0/16 in each region for the AWS account. If no VPC is specified when creating a resource, it will be created in this VPC that has public internet access. 
 
 
+##### Route tables
+
+A route table contains a set of rules, called routes, that are used to determine where network traffic is directed. To use an internet gateway, your subnet’s route table must contain a route that directs internet-bound traffic to the internet gateway. You can scope the route to all destinations not explicitly known to the route table (0.0.0.0/0 for IPv4 or ::/0 for IPv6), or you can scope the route to a narrower range of IP addresses. If your subnet is associated with a route table that has a route to an internet gateway, it’s known as a public subnet.
+
 ##### Elastic IP Addresses
 
 Its an owned static IP address that can be associated with an instance or a network interface and reassociated to a new resource inmediately. 
@@ -66,6 +70,7 @@ It allows the traffic based on IP, protocol, port or IP address and is **statefu
 For all request or response that goes through the Network interface, the rules defined in the security group are evaluated.  
 
 The main differences between this two "virtual firewall" are: 
+
 
 | Network Access Control List (ACLs)                               | Security Group                               |
 | ---------------------------------------------------------------- | -------------------------------------------- |

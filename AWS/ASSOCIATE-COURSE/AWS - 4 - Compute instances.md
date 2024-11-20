@@ -34,6 +34,8 @@ EC2 is a virtual machine within the AWS cloud. Its like a traditional Virtualize
 #### AMI
 
 
+AMIs can also be set to public, so can be freely use by the community or share with other AWS accounts. 
+
 #### Instance types
 
 The virtualized hardware of the EC2 machines is defined by the type of the machine and its size.
@@ -59,3 +61,23 @@ Elastic Network Interface > Elastic Network Adapter > Elastic Fabric Adapter
 When creating an EC2, we can define User Data, that is a little script that will be run when the EC2 is launched.
 
 This can be used for example to install a little HTTP server, install SQL server or other procedures. 
+
+
+### Spot machines
+
+The spot machines use the same infrastructure and hardware as on demand and savings plan. 
+You get the best value for the machines by setting the price that you want to pay for the machines and if they are "on discount" you provide more machines and if the price goes up, they are removed. 
+
+This can be use to schedule workloads for when the machines for handling its workload are more cheap.
+
+Also image rendering and use for  big data and analytics. 
+
+
+### AWS Lambda
+
+
+AWS lambda is a serverless event-driven 
+
+All the resources that the AWS lambda needs, need to be in serverless AWS services, configurations, files, users, data, databases and others. 
+
+It helps to runs an workload in response to an event. It most commonly used for isolated 
