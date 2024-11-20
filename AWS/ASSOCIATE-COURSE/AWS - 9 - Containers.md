@@ -45,3 +45,12 @@ Amazon Elastic Container Registry or ECR is a managed Docker Container registry.
 
 You can push container images to Amazon ECR and can pull those images to launch the containers. 
 With ECR you can also manage versioning and image tags.
+
+
+#### Elastic Kubernetes Service (EKS)
+
+Kubernetes is an open-source to deploy a managed containerized applications at scale. 
+Kubernetes manages clusters of Amazon EC2 compute instances and run containers in those instancess with processes for deployment, maintenance and scaling. 
+
+EKS is a managed kubernetes service in AWS cloud that provide high availabililty and secvure clusters with automate tasks such as patching, node provisioning and updates. 
+
