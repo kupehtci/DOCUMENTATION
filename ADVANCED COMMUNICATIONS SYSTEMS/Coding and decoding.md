@@ -19,8 +19,8 @@ Digital to Analogical:
 Also known as BASK, BFSK and BPSK (Binary-) and with a number as prefix that indicates the number of possible values that can be represented or states that signal has. 
 
 Analogical to digital: 
-* AM: Amplitude Modulation
-* FM: Frequency Modulation
-* PM: Phase Modulation
+* **AM**: Amplitude Modulation
+* **FM**: Frequency Modulation
+* **PM**: Phase Modulation
 
 ![[am_fm_pm_comparison.jpg]]

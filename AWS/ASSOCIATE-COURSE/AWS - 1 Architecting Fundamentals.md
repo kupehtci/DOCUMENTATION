@@ -70,7 +70,6 @@ And once it has been planed and research about details of how to create the desi
 
 [^lp]: Least privileges is a principle that establish that each access to a resource or service must have the least privileges and permissions over it in order to access it and preserve maximum security. [[Least Privilege Principle]]
 
-
 ##### Connecting to AWS service
 
 In order to connect and manage AWS services you can interact with AWS using: 
@@ -78,3 +77,4 @@ In order to connect and manage AWS services you can interact with AWS using:
 * AWS launch portal (Management console)
 * AWS Command Line interface
 * IaC tools. 
+

@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 #ADVANCED_COMMUNICATIONS_SYSTEM
 
 ## Entropy concepts
@@ -18,7 +18,7 @@ A message or the quantity of the data that can be coded in binary (1 and 0):
 * x = quantity of data
 * with `n` bits we can codify $2^n$ different values. 
 
-=======
+
 #ADVANCED_COMMUNICATIONS_SYSTEM
 
 ## Entropy concepts
