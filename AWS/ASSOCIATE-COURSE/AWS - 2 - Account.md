@@ -1,6 +1,5 @@
-
+ 
 # AWS Account
-
 
 ##### Why to split in some AWS accounts
 
@@ -8,20 +7,23 @@ Dividing the resources between different AWS accounts has some benefits:
 
 * **Many teams**: splitting the resources between teams or applications. 
 * 
-* **Billing**: Splitting the resources between diferent AWS accounts brings granular imputation of payments of the different resources.  
+* **Billing**: Splitting the resources between different AWS accounts brings granular imputation of payments of the different resources.  
 
 ### Users
 
 In order to create an AWS account we need to create a root user that holds the root administration of the AWS account and the payments. 
+This **root user** should not be used to make day-to-day interactions of management of the AWS resources. 
+Other users, management of resources and authorization within AWS its made through <span style="color:DodgerBlue;">IAM Users</span>.
 
-Other users, management of resources and authorization within AWS its made through IAM Users.
-
-###### Principal 
+By creating <span style="color:DodgerBlue;">IAM users</span>, you manage efficiently and provide granular access to the resources depending on the type of access that a user need to have.
+Its important to maintain the <span style="color:#d291bc;">principle of least priviledge</span>. 
+##### Principal 
 
 A principal is an identity that can authorize within AWS and has some permissions over AWS resources.
 This principal can be a person, application, federated user through another provider or an assumed role. 
+An AWS Principal can also be an AWS Service like an Amazon EC2 that need to access and modify other resources or an Identity through an Identity Provider (IdP). 
 
-##### Types of access
+##### Types of access to different Identities
 
 Principals or Users can access through User Console or Programmatic Access (Through CLI or via SDK)
 
