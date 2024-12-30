@@ -2,7 +2,7 @@
 
 # NodeJS Layered Architecture
 
-A layered architecture design consist in dividing an application into distinct layers, each one of them with specific responsabilities and dependencies. 
+A layered architecture design consist in dividing an application into distinct layers, each one of them with specific responsibilities and dependencies. 
 
 Each layer maintains modularity by separating the application's logic into different parts. 
 
