@@ -6,11 +6,9 @@ AWS Amplify allows to develop and deploy cloud powered mobile and web applicatio
 
 This service provides front-end libraries, UI components and backend for building fullstack applications for AWS. 
 
-With <span style="color:purple;">Amplify hosting</span> you are allowed to do continuous delivery and hosting a service for this applications within the Cloud. 
-
+With <span style="color:orange;">Amplify hosting</span> you are allowed to do continuous delivery and hosting a service for this applications within the Cloud. 
 
 You can link amplify to a local / remote repository and do CD with it to the AWS infrastructure. 
-
 
 This means that you can build an application that will be granted with this services: 
 

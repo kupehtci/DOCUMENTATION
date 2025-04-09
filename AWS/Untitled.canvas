@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"211ecc2e4236b069","x":-220,"y":-120,"width":680,"height":540,"type":"file","file":"AWS/AWS - Basics.md"},
+		{"id":"c4aa5b635aa3724f","x":869,"y":-157,"width":250,"height":60,"color":"1","type":"text","text":"IDENTITY AND ACCESS IS MANAGED WITH"},
+		{"id":"3d4edcc8552738ca","x":1360,"y":-362,"width":860,"height":470,"color":"1","type":"file","file":"AWS/IAM/AWS - IAM.md"},
+		{"id":"1fc78342585d06ff","x":2360,"y":-178,"width":268,"height":103,"color":"1","type":"text","text":"ROLES AND PERMISSIONS ARE GRANTED THROUGH"},
+		{"id":"3dd243b6f6bff40f","x":2900,"y":-318,"width":913,"height":383,"color":"1","type":"file","file":"AWS/IAM/AWS - IAM Roles.md"}
+	],
+	"edges":[
+		{"id":"debeaae92f875cfa","fromNode":"211ecc2e4236b069","fromSide":"right","toNode":"c4aa5b635aa3724f","toSide":"left"},
+		{"id":"21bc583b55cb165f","fromNode":"c4aa5b635aa3724f","fromSide":"right","toNode":"3d4edcc8552738ca","toSide":"left"},
+		{"id":"d5b5b3b6e4b6757e","fromNode":"3d4edcc8552738ca","fromSide":"right","toNode":"1fc78342585d06ff","toSide":"left"},
+		{"id":"f8aba05b552c3f34","fromNode":"1fc78342585d06ff","fromSide":"right","toNode":"3dd243b6f6bff40f","toSide":"left"}
+	]
+}

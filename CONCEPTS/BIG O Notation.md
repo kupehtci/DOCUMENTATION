@@ -39,12 +39,15 @@ const food = ['🍿', '🍔', '🍩', '🍗'];
 selectedFood(food); // 🍿🍿​​​​​ 🍔🍔​​​​​ ​​​​🍩🍩​​​​​ ​​​​​🍗🍗​​​​​
 ```
 
-## O(n2) — notación cuadrática
+## O(n2) — Quadratic notation
 
-Indica que el crecimiento en complejidad es proporcional al cuadrado del tamaño del **_input._** Estos algoritmos suelen ser los menos eficientes, no se recomiendan para datos grandes y normalmente se dan cuando usamos_ciclos for_ o iteraciones anidadas; es decir, si dentro de cada iteración de un arreglo lo vuelves a iterar, tendrás un algoritmo de complejidad cuadrada. Estos pueden llegar a complejidades cúbicas o factoriales.
+Indicates that the increment in complexity is proportional to the square of the size of the input. 
+This algorithms are less efficient, so they are not recommended for huge sizes of data. 
+They are normally originated when we use nested loops. 
 
-_Ejemplo_:
+Example:
 
+```javascript
 function bubbleSort(array){  
   array = array.slice();  
   for (let i = 0; i < array.length; i++) {  
@@ -55,14 +58,17 @@ function bubbleSort(array){
     }  
   }  
   return array;  
-}var array = [ 4, 3, 2, 1];console.log(bubbleSort(array)); // [ 1, 2, 3, 4]
+}
+var array = [ 4, 3, 2, 1];
+console.log(bubbleSort(array)); // [ 1, 2, 3, 4]
+```
+## O(log n) — Logarithmic notation
 
-## O(log n) — notación logarítmica
+The logarithmic notation indicates that the time increases linearly, while `n` scales exponentially. 
+Si if it takes 1 second to calculate 10 elements, it will take 2 seconds for 100 elements and 3 for 1000 and so on. 
 
-Indica que el tiempo aumenta linealmente, mientras que `n` sube exponencialmente. Entonces, si se tarda `1` segundo en calcular `10`elementos, se necesitarán `2` para `100`, `3` para `1000` y así sucesivamente.
-
-_Ejemplo_:
-
+Example:
+```javascript
 function binarySearch(array, element, start = 0, end = (array.length - 1)) {  
   if (end < start) return -1;  
   var middle = Math.floor((start + end) / 2);  
@@ -71,10 +77,13 @@ function binarySearch(array, element, start = 0, end = (array.length - 1)) {
     : element < array[middle]  
       ? binarySearch(array, element, start, middle - 1)  
       : binarySearch(array, element, middle + 1, end);  
-}var unsortedArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];console.log("Index of 2: ", binarySearch(unsortedArray, 2));    // Index of 2: 1  
-console.log("22 not found: ", binarySearch(unsortedArray, 22)); // 22 not found: -1
+}
+var unsortedArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log("Index of 2: ", binarySearch(unsortedArray, 2)); // Index of 2:1  
+console.log("22 not found: ", binarySearch(unsortedArray, 22)); // 22 not found: -1 
+```
 
-Bien, teniendo en cuenta estas expresiones, quiero mostrarles un resumen visual de **Aditya Y. Bhargav** en su libro [**grokking algorthims**](https://www.manning.com/books/grokking-algorithms)**,** que muestra una comparativa genial de tiempo y tamaño de ejecución de lo que acabamos de ver:
+A good comparison: 
 
 ![](https://miro.medium.com/v2/resize:fit:1188/1*L69ET_yAApxwq7vSxWivPA.png)
 

@@ -57,7 +57,16 @@ Use cases:
 * **Request offloading**: move slow operations off of interactive request paths by queuing the request. 
 * **Autoscaling instances**: Use SQS queues to determine the load of an application. Also you can scale an autoscaling EC2 group based on the traffic of the SQS. 
 
+Amazon SQS offers two types of Queues: 
 
+* Standard Queues: at-least-once message delivery and best-effort ordering. Messages are generally delivered in the same order as sent. Can handle nearly unlimited number of API calls. 
+* FIFO Queues: enhance messaging when the order of operations and events are critical. It has a limited number of API calls per second. 
+
+Don't use SQS if the mesages are large and you need to only retrieve specific messages. 
+
+#### Amazon SNS
+
+###### Differences between SNS and SQS
 
 | Features            | Amazon SNS | Amazon SQS    |
 | ------------------- | ---------- | ------------- |

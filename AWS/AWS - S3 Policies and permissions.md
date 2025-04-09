@@ -10,9 +10,7 @@ This policies specific certain actions on a certain resource and define the cond
 The policy is composed of the following elements: 
 
 * <span style="color:DodgerBlue;">resource</span>: the amazon S3 bucket, object, access point or job that the policy applies to. It must be defined using ARN[^arn] of the resource: 
-
-Example: `"Resource":"arn:aws:s3:::<bucket_name>`
-
+	Example: `"Resource":"arn:aws:s3:::<bucket_name>`
 * <span style="color:DodgerBlue;">Actions</span>: operations that can be done with the specified resource that can be allowed or denied.
 * <span style="color:DodgerBlue;">Effect</span>: the effect that request an action on that resource will cause (`Allow` or `Deny`)
 * <span style="color:DodgerBlue;">Principal</span>: account or user who is allowed access to the actions over the resources specified in the policy. 

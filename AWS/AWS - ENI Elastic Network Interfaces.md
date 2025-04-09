@@ -10,6 +10,7 @@ An ENI consists in a primary private IPv4 address, one or more secondary IPv4 ad
 
 ENIs are fundamental building blocks in AWS networking and provide flexibility for managing and configuring network access and communication.
 
+> NOTE: Primary ENIs of an EC2 instance cannot be moved between resources. In case of needing a dynamic ENI, attach and use a secondary onez.  
 ### Components of an ENI
 
 An ENI typically includes the following components:
