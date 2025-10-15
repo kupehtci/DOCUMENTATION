@@ -42,9 +42,9 @@ You should also put blank lines before and after a heading for compatibility.
 
 To create paragraphs, use a blank line to separate one or more lines of text.
 
-|Markdown|HTML|Rendered Output|
-|---|---|---|
-|`I really like using Markdown.      I think I'll use it to format all of my documents from now on.`|`<p>I really like using Markdown.</p>      <p>I think I'll use it to format all of my documents from now on.</p>`|I really like using Markdown.<br><br>I think I'll use it to format all of my documents from now on.|
+| Markdown                                                                                            | HTML                                                                                                              | Rendered Output                                                                                     |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `I really like using Markdown.      I think I'll use it to format all of my documents from now on.` | `<p>I really like using Markdown.</p>      <p>I think I'll use it to format all of my documents from now on.</p>` | I really like using Markdown.<br><br>I think I'll use it to format all of my documents from now on. |
 
 ### Paragraph Best Practices[](https://www.markdownguide.org/basic-syntax/#paragraph-best-practices)
 
@@ -72,9 +72,9 @@ For compatibility, use trailing white space or the `<br>` HTML tag at the end 
 
 There are two other options I don’t recommend using. CommonMark and a few other lightweight markup languages let you type a backslash (`\`) at the end of the line, but not all Markdown applications support this, so it isn’t a great option from a compatibility perspective. And at least a couple lightweight markup languages don’t require anything at the end of the line — just type return and they’ll create a line break.
 
-|✅  Do this|❌  Don't do this|
-|---|---|
-|`First line with two spaces after.     And the next line.      First line with the HTML tag after.<br>   And the next line.      `|`First line with a backslash after.\   And the next line.      First line with nothing after.   And the next line.      `|
+| ✅  Do this                                                                                                                         | ❌  Don't do this                                                                                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `First line with two spaces after.     And the next line.      First line with the HTML tag after.<br>   And the next line.      ` | `First line with a backslash after.\   And the next line.      First line with nothing after.   And the next line.      ` |
 
 ## Emphasis[](https://www.markdownguide.org/basic-syntax/#emphasis)
 
@@ -84,11 +84,11 @@ You can add emphasis by making text bold or italic.
 
 To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
 
-|Markdown|HTML|Rendered Output|
-|---|---|---|
-|`I just love **bold text**.`|`I just love <strong>bold text</strong>.`|I just love **bold text**.|
-|`I just love __bold text__.`|`I just love <strong>bold text</strong>.`|I just love **bold text**.|
-|`Love**is**bold`|`Love<strong>is</strong>bold`|Love**is**bold|
+| Markdown                     | HTML                                      | Rendered Output            |
+| ---------------------------- | ----------------------------------------- | -------------------------- |
+| `I just love **bold text**.` | `I just love <strong>bold text</strong>.` | I just love **bold text**. |
+| `I just love __bold text__.` | `I just love <strong>bold text</strong>.` | I just love **bold text**. |
+| `Love**is**bold`             | `Love<strong>is</strong>bold`             | Love**is**bold             |
 
 #### Bold Best Practices[](https://www.markdownguide.org/basic-syntax/#bold-best-practices)
 

@@ -12,7 +12,7 @@ ATW or Automatic Target Weights is a new weighted random load balancer algorithm
 
 ### TLS offloading 
 
-When an HTTPs listener is created, it encrypts the connection (SSL offload[^5]) the connection between the clients and the load balancer by initializing SSL or TLS sessions. 
+When an HTTPs listener is created, it encrypts the connection (SSL offload [^5]) the connection between the clients and the load balancer by initializing SSL or TLS sessions. 
 
 ---
 

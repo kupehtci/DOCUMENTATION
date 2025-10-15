@@ -8,33 +8,19 @@ Its highly scalable.
 
 There are various types of EC2 instances depending on computing, memory or storage need:
 
-* `General purpose instance`
-
-This instance balances between computing, memory and networking resources. 
-
-
-* `Compute optimized instance`
-
-This instances are the best for a high compute. 
+* `General purpose instance`: This instance balances between computing, memory and networking resources. 
+* `Compute optimized instance`: This instances are the best for a high compute. 
 Good for application servers, gaming servers and web applications. 
 
-* `Memory optimized instance`
-
-This type can deliver large dataset workloads faster for temporary storage area. 
+* `Memory optimized instance`: This type can deliver large dataset workloads faster for temporary storage area. 
 It allows to load from storage, hold the data and processes before compute it. 
 
 It enables to pre-load a computer program and give the CPU whole access to it.
 
-* `Accelerated computing instances`
-
-Use hardware accelerators to boost data processing. 
+* `Accelerated computing instances`: Use hardware accelerators to boost data processing. 
 Its the best for graphics applications and streaming. 
 
-* `Storage optimized instances`
-
-This type is the best for large dataset within the instance. 
-
-Optimized for large file systems, data warehouses and online transaction systems. 
+* `Storage optimized instances`: This type is the best for large dataset within the instance. Optimized for large file systems, data warehouses and online transaction systems. 
 
 
 ### EC2 scalability

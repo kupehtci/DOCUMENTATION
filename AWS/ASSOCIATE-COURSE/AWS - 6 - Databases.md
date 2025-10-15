@@ -20,19 +20,19 @@ AWS provide different Databases as services:
 Relational and no-relational Databases depends on the type of data that is going to be stored and the language used to realize CRUD operations over it. 
 
 
-#### Amazon RDS
+### Amazon RDS
 
 It uses Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle and SQL Server and estandarized the configuration, operations and usage independent of the SQL database used as backend. 
 
-##### Amazon RDS Multi-AZ failover
+#### Amazon RDS Multi-AZ failover
 
 An Amazon RDS can have an slave in multiple Availability Zones, and in case of the master fails, it recover the availability by exchanging with the other one present in the other availability zone. 
 
-##### Amazon RDS read replicas
+#### Amazon RDS read replicas
 
 You can create read replicas of the database and AWS keeps them synced. 
 They help to relieve pressure on the primary node and bring data closer to different AWS regions. 
-#### Amazon Aurora
+### Amazon Aurora
 
 Is a MySQL and PostgreSQL compatible relational database designed specially for the cloud. 
 It offer a high performance, high available and durable database, also maintaining high security standard.
@@ -46,7 +46,7 @@ An aurora cluster volume is a virtual database storage volume that spans multipl
 
 **Aurora Serverless** is an scaling autoconfiguration for Aurora that automatically scales the capacity to handle requests. 
 
-#### Amazon DynamoDB
+### Amazon DynamoDB
 
 Amazon DynamoDB is a fully managed NoSQL key-value storage service.
 The service automatically manages the distributed NoSQL database and offer autoscaling. 

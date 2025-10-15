@@ -8,7 +8,7 @@ public delegate TResult Func<in T,out TResult>(T arg);
 ---
 #### PARAMETERS 
 
-<div style="border: 1px solid white; border-radius: 1rem; padding: 0.5rem;">
+<div style="border: 1px solid white; border-radius: 0.5rem; padding: 1rem;">
 
 <span style="color:#f5a5f5; ">T</span>
 The type of the parameter of the method that this delegate encapsulates.

@@ -55,6 +55,11 @@ You can use it in 3 different ways:
 * `CMD["executable", "parameter1", "parameter2"]`
 * `CMD["parameter1", "parameter2"]` used as default parameters for `ENTRYPOINT`. It will run the command specified in `ENTRYPOINT` with the parameters specified in this line. 
 * `CMD command parameter1 parameter2` in a shell format. 
+
 ###### `ENTRYPOINT`
 
 Allows to configure a container to run as an executable
+
+###### `ARG`
+
+Creates a build-time variable. 

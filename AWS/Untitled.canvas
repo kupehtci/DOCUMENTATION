@@ -1,15 +1,19 @@
 {
 	"nodes":[
-		{"id":"211ecc2e4236b069","x":-220,"y":-120,"width":680,"height":540,"type":"file","file":"AWS/AWS - Basics.md"},
-		{"id":"c4aa5b635aa3724f","x":869,"y":-157,"width":250,"height":60,"color":"1","type":"text","text":"IDENTITY AND ACCESS IS MANAGED WITH"},
-		{"id":"3d4edcc8552738ca","x":1360,"y":-362,"width":860,"height":470,"color":"1","type":"file","file":"AWS/IAM/AWS - IAM.md"},
-		{"id":"1fc78342585d06ff","x":2360,"y":-178,"width":268,"height":103,"color":"1","type":"text","text":"ROLES AND PERMISSIONS ARE GRANTED THROUGH"},
-		{"id":"3dd243b6f6bff40f","x":2900,"y":-318,"width":913,"height":383,"color":"1","type":"file","file":"AWS/IAM/AWS - IAM Roles.md"}
+		{"id":"211ecc2e4236b069","type":"file","file":"AWS/AWS - Basics.md","x":-220,"y":-120,"width":680,"height":540},
+		{"id":"c4aa5b635aa3724f","type":"text","text":"IDENTITY AND ACCESS IS MANAGED WITH","x":869,"y":-157,"width":250,"height":60,"color":"1"},
+		{"id":"3d4edcc8552738ca","type":"file","file":"AWS/IAM/AWS - IAM.md","x":1360,"y":-362,"width":860,"height":470,"color":"1"},
+		{"id":"1fc78342585d06ff","type":"text","text":"ROLES AND PERMISSIONS ARE GRANTED THROUGH","x":2360,"y":-178,"width":268,"height":103,"color":"1"},
+		{"id":"3dd243b6f6bff40f","type":"file","file":"AWS/IAM/AWS - IAM Roles.md","x":2900,"y":-318,"width":913,"height":383,"color":"1"},
+		{"id":"cd4a82469a605932","x":1360,"y":240,"width":860,"height":360,"type":"text","text":"# AWS - Databases\n\n#AWS \n"},
+		{"id":"de499a7d6d0c02e5","x":869,"y":280,"width":250,"height":60,"type":"text","text":"# DATABASES"}
 	],
 	"edges":[
 		{"id":"debeaae92f875cfa","fromNode":"211ecc2e4236b069","fromSide":"right","toNode":"c4aa5b635aa3724f","toSide":"left"},
 		{"id":"21bc583b55cb165f","fromNode":"c4aa5b635aa3724f","fromSide":"right","toNode":"3d4edcc8552738ca","toSide":"left"},
 		{"id":"d5b5b3b6e4b6757e","fromNode":"3d4edcc8552738ca","fromSide":"right","toNode":"1fc78342585d06ff","toSide":"left"},
-		{"id":"f8aba05b552c3f34","fromNode":"1fc78342585d06ff","fromSide":"right","toNode":"3dd243b6f6bff40f","toSide":"left"}
+		{"id":"f8aba05b552c3f34","fromNode":"1fc78342585d06ff","fromSide":"right","toNode":"3dd243b6f6bff40f","toSide":"left"},
+		{"id":"e909f35b6a4585bc","fromNode":"211ecc2e4236b069","fromSide":"right","toNode":"de499a7d6d0c02e5","toSide":"left"},
+		{"id":"36e3ebfbebdcb202","fromNode":"de499a7d6d0c02e5","fromSide":"right","toNode":"cd4a82469a605932","toSide":"left"}
 	]
 }

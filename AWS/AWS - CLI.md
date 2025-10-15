@@ -6,8 +6,6 @@ AWS CLI or command line interface is a powerful tool that allows users to intera
 
 Through it you can manage, control, deploy and configure AWS services through simple commands
 
-
-
 ### Configure the credentials
 
 To configure the credentials to login into AWS: 

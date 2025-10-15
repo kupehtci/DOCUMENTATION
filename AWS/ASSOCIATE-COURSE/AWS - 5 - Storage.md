@@ -93,12 +93,12 @@ Depending on the access rate and in order to have a better cost of the S3 storag
 
 The basic types are: 
 
-* S3 Standard: Active frequent access. Miliseconds to access. 
-* S3 Standard IA: Infrequent access. Miliseconds to access. 
-* S3 One Zone IA: Recreateable less accessed data. Miliseconds of access
-* S3 Glacier Instant Retrieval: Archived data that need fast restore times. 
-* S3 Glacier Flexible Retrieval: Unpredictable restore needs. Minutes to hours to retrieve. 
-* S3 Glacier Deep Archive: the data is not likely to be restored. 12h or less to restore. 
+* **S3 Standard**: Active frequent access. Miliseconds to access. 
+* **S3 Standard IA**: Infrequent access. Miliseconds to access. 
+* **S3 One Zone IA**: Recreateable less accessed data. Miliseconds of access
+* **S3 Glacier Instant Retrieval**: Archived data that need fast restore times. 
+* **S3 Glacier Flexible Retrieval**: Unpredictable restore needs. Minutes to hours to retrieve. 
+* **S3 Glacier Deep Archive**: the data is not likely to be restored. 12h or less to restore. 
 
 IA doesn't means Artifical Intelligence, it means Infrequent Access. 
 The S3 buckets considered as Glacier, it has cost per each retrieve of data. 
@@ -124,7 +124,17 @@ Also S3 Object lock for data retention or protection can be use as Write Once Re
 ##### Amazon S3 Lifecycle policies
 
 WIth Lifecycle policies, you can delete or move objects based on age. 
-The lifecycle followed is "older than 30 days"  > S3  Standard IA > "older than 365" > S3 glacier deep archive 
+The lifecycle followed is "older than 30 days"  > S3  Standard IA > "older than 365" > S3 glacier deep archive. 
+
+Its used for: 
+* **Transition objects**: move objects between storage classes depending on age. 
+* **Expire objects**: permanently delete objects after a defined period.
+* **Abort incomplete mulipart uploads**: automatically clean up aborted uploads. 
+
+Each lifecycle rule has 3 components: 
+* **Filter** which objects it applies to (By prefix, object tags or whole bucket). 
+* **Action**: transition, expiration or abort. 
+* **Time condition** when to perform the action (Example, after 30 days since creation). 
 
 ##### Amazon S3 multipart upload
 
@@ -133,6 +143,11 @@ The lifecycle followed is "older than 30 days"  > S3  Standard IA > "older than 
 
 
 ##### Amazon S3 Event notifications
+
+
+##### Amazon S3 Storage lens
+
+<b>S3 Storage Lens</b> is a native feature that provides organization-wide visibility about S3 usage and activity
 
 
 #### Amazon File Share

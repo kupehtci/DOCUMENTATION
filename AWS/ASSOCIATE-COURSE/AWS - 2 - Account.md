@@ -1,17 +1,27 @@
  
 # AWS Account
 
+An **AWS Account** is the fundamental container and security boundary for using AWS services. 
+
+It represents an independent identity, billing entity and resource container within the AWS Environment. 
+
+* **Identity**: an AWS Account is tied to an unique root user (email + password). This root identity owns the account and has full administrative access. 
+* **Billing**: each account has its own billing and usage tracking. Even when its part of AWS Organizations (Consolidated billing), costs can be tracked per account. 
+* **Security boundary**: resources within one account are isolated from those in another account by default. 
+
+An AWS Account can only belong to one organization at a time
+
 ##### Why to split in some AWS accounts
 
 Dividing the resources between different AWS accounts has some benefits: 
 
-* **Many teams**: splitting the resources between teams or applications. 
-* 
+* **Many teams**: splitting the resources between teams or applications. * 
 * **Billing**: Splitting the resources between different AWS accounts brings granular imputation of payments of the different resources.  
 
 ### Users
 
 In order to create an AWS account we need to create a root user that holds the root administration of the AWS account and the payments. 
+
 This **root user** should not be used to make day-to-day interactions of management of the AWS resources. 
 Other users, management of resources and authorization within AWS its made through <span style="color:DodgerBlue;">IAM Users</span>.
 
