@@ -26,3 +26,8 @@ managing servers or infrastructure.
 - **AWS**: S3, RDS, Redshift, DynamoDB, JDBC databases, FSx for Lustre    
 - **On-premises**: via JDBC or connectors
 - **Other sources**: SaaS via connectors (e.g., Salesforce, Snowflake)
+
+
+# AWS - Glue DataBrew
+
+**AWS Glue DataBrew** is a fully managed data preparation service that can clean, normalize and transform data without writing custom code. 

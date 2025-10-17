@@ -65,3 +65,21 @@ When owning multiple S3 buckets accessed by applications running in different VP
 Also in certain cases, you want to define 
 
 
+
+### Data Replication
+
+Amazon S3 supports different types of replication for keeping objects in sync across buckets or regions. 
+
+* **S3 Same-Region Replication**: replicates objects across buckets between the same AWS region. 
+* **S· Cross-Region replication**: replicates objects automatically from an S3 bucket in a region to another S3 bucket in other AWS region. 
+
+For both types of replication, versioning is required to be enabled in both buckets. 
+
+Support all storage classes including S3 standard, Standard-IA and Glacier ones, so you can replicate objects between same type or different storage classes like S3 Standard to S3 Intelligent-Tiering or S3 Standard-IA. 
+
+If the **objects are KMS-encrypted** with a customer managed KMS key, the destination bucket must have permissions to decrypt and encrypt. 
+
+S3 Data Replication applies to new object but can be enables to replicate also existing objects using **S3 Batch Replication**. 
+
+
+

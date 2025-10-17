@@ -16,9 +16,15 @@ Key characteristics:
 * Serverles -> Doesnt need to manage a server.
 
 
+## Recovery
+
+### Point-in-Time Recovery (PITR)
+
+DynamoDB's PITR automatically maintains a continuous backup of the table data for the last 35 days, allowing you to restore the table to any second within the last retention periods. 
+
 ### Amazon DynamoDB Accelerator (DAX)
 
-Amazon DynamoDB Accelerator is a fuly managed, in-memory cache designed to speed-up read-heavy workloads for Amazon DynamoDB. 
+Amazon DynamoDB Accelerator is a fully managed, in-memory cache designed to speed-up read-heavy workloads for Amazon DynamoDB. 
 
 With DAX, reads are served from in-memory DAX cluster (latency in **microseconds**). 
 
