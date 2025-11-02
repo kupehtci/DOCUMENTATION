@@ -58,12 +58,36 @@ As a summary and quick look:
 [^1]: If objects have not been accessed in 30 days, are classified as Infrequent access.  
 [^2]: IA stands for Infrequent Access 
 
-### Manage access
+## Glacier retrievals
+
+For archived data in S3 Glacier, where data that is not needed instantly is placed, you can choose different retrieval tiers for accessing the data: 
+
+### Glacier Flexible
+
+| Type of Retrieval | Expected time  | Cost         | Usage                           |
+| ----------------- | -------------- | ------------ | ------------------------------- |
+| Expedited         | 1 to 5 minutes | Highest cost | Urgent data                     |
+| Standard          | 3 to 5 hours   | Moderate     | Normal restored from Glacier    |
+| Bulk              | 5 to 12 hours  | Lowest       | Large datasets with low urgency |
+
+### Glacier Deep Archive
+
+It has the lowest cost storage but also is the slowest to retrieve from: 
+
+| Type of Retrieval | Expected time  | Cost   | Usage               |
+| ----------------- | -------------- | ------ | ------------------- |
+| Standars          | 12 hours       | Low    | Long-term archival  |
+| Bulk              | Up to 48 hours | Lowest | Very large archives |
+
+### Glacier instant retrieval
+
+It similar to Standard-IA but cheaper. 
+Retrieve should last miliseconds. 
+
+
+## Manage access
 
 When owning multiple S3 buckets accessed by applications running in different VPCs. 
-
-Also in certain cases, you want to define 
-
 
 
 ### Data Replication
@@ -71,7 +95,7 @@ Also in certain cases, you want to define
 Amazon S3 supports different types of replication for keeping objects in sync across buckets or regions. 
 
 * **S3 Same-Region Replication**: replicates objects across buckets between the same AWS region. 
-* **S· Cross-Region replication**: replicates objects automatically from an S3 bucket in a region to another S3 bucket in other AWS region. 
+* **S3 Cross-Region replication**: replicates objects automatically from an S3 bucket in a region to another S3 bucket in other AWS region. 
 
 For both types of replication, versioning is required to be enabled in both buckets. 
 
@@ -82,4 +106,63 @@ If the **objects are KMS-encrypted** with a customer managed KMS key, the destin
 S3 Data Replication applies to new object but can be enables to replicate also existing objects using **S3 Batch Replication**. 
 
 
+## Multi-Region Access Points
 
+**Multi-Region Access Points** or **MRAP** allows a single global endpoints for multiple S3 buckets and will automatically route requests to the nearest bucket. 
+
+It offers automatic failover and enabling cross-region replication they will maintain the same data. 
+
+# S3 Encryption
+
+S3 offers different types of encryption
+
+## S3 Encryption with SSE-S3 
+
+**SSE-S3** or **Server Side Encryption** (SSE) offers encryption of the S3 data at rest, meaning that data is encrypted when stored in the S3 bucket and decrypted when the data is accessed. 
+
+This type of encryption is fully managed by AWS so you don't manage any keys of the objects. 
+
+It is enabled by selecting "Default Encryption" at the S3 bucket level.
+
+## S3 Encryption with SSE-KMS
+
+AWS KMS [^1]
+
+
+## S3 Headers
+
+You can add headers to S3 objects such as `Cache-Control` or `Expires` as they are reachable through an URI[^1].
+
+The available headers [^2] are: 
+
+* `Cache-Control`
+* `Content-Type`
+* `Content-Encoding`
+* `Expires`
+* `Content-Disposition`
+* `x-amz-meta-*`: Custom metadata
+
+This cache related headers are used by CloudFront[^3]
+
+You can set the headers in the AWS Management console in Properties > Metadata or using AWS CLI: 
+
+```bash
+aws s3 cp index.html s3://<bucket-endpoint>/<object> \
+  --cache-control "max-age=86400" \
+  --content-type "text/html"
+```
+
+Or using terraform for controlling the S3's object: 
+```yaml
+resource "aws_s3_object" "example" {
+  bucket        = "my-bucket"
+  key           = "index.html"
+  source        = "index.html"
+  content_type  = "text/html"
+  cache_control = "max-age=86400"
+}
+```
+
+[^1]: URI or Uniform Resources Identifier [[CS - URI]]
+[^2]: HTTP and HTTPs Available headers [[HTTP - Header attributes]]
+[^3]: CloudFront is a content delivery network service in AWS used for caching content near to the end client [[AWS - CloudFront]]

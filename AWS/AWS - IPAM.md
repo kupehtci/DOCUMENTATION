@@ -2,7 +2,7 @@
 
 # AWS IPAM 
 
-
+xw
 AWS IPAM or IP Address Manager is a VPC[^1] feature that helps to plan, track, manage and provision IP addresses for the AWS workloads. 
 
 It simplifies the IP address management in complex setups that imply cross-regions and cross-accounts setups. 

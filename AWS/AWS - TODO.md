@@ -11,3 +11,7 @@
 	* [ ] AWS Inspector
 	* [ ] IAM Access Analyzer
 * [ ] AWS Managed Services (AMS)
+* [ ] AWS Comprehend
+* [x] Elastic Block Storage (EBS)
+* [x] AWS Recycle Bin
+* [ ] AWS EFS

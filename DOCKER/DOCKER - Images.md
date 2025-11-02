@@ -15,3 +15,5 @@ When the docker image is built, all the configurations and instructions defined 
 The code of the application and its dependencies are bind into the application because its copied into it when doing the `COPY` in dockerfile when the image its built. 
 
 [^1]: Dockerfile is the main instruction and configuration defined when creating a Docker image. [[Dockerfile]]
+
+

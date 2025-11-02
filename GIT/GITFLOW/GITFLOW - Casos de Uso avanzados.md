@@ -150,7 +150,6 @@ gitGraph
    merge hotfix/1.1.1 id: "Sync hotfix"
 ```
 
-
 # Feature Toggles
 
 Un **feature toggle** es una flag que permite activar o desactivar una funcionalidad en tiempo de ejecución sin tener que desplegar una nueva versión. 

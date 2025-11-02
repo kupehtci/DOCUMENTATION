@@ -15,7 +15,6 @@ The key characteristics of this service are:
 
 
 Main use cases of this **trustworthy database**: 
-
 * **Financial or accounting systems** for tracking all transactions with an inmutable history
 * **Supply chain management**: record all changes in inventory or shipments.
 * **regulatory compliance** with auditable records. 

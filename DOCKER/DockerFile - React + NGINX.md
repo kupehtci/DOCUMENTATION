@@ -17,3 +17,5 @@ COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
+
+It uses node image to install the dependencies of the project and compile and NGINX image to build an nginx server that expose and run the service. 
