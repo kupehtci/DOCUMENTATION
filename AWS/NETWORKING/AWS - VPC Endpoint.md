@@ -14,9 +14,13 @@ This interface endpoint is a set of elastic network interfaces with a private ad
 
 This type of endpoints are used for redirect traffic to an Amazon DynamoDB[^db] or Amazon S3[^2]. 
 
+### Gateway Endpoint vs Interface endpoint
+
+Gateway endpoint is only for routing S3 or DynamoDB traffic through the barebone of AWS and has no cost while Interface endpoint supplies an ENI[^eni] in a VPC linked to the service (EC2, SNS, SQS, CloudWatch, Secrets Manager or other resources). 
 
 
 [^1]: AWS Private link is a service to link VPCs between then and access resources between this clouds. [[AWS - Private Link]]. 
 [^db]: Amazon DynamoDB is a NoSQL database [[AWS - DynamoDB]]
 [^2]: Amazon S3 or Simple Storage Service [[AWS - S3]]
 [^ge] Gateway endpoints [[AWS - Gateway endpoint]]
+[^eni]: Elastic Network Interface or ENI[[AWS - ENI Elastic Network Interfaces]]

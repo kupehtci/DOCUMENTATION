@@ -1,5 +1,7 @@
 #HTTP #NET 
 
+# HTTP headers
+
 ### Connection
 
 The **connection** header attribute specified what happens with the connection once the current transaction is performed.
@@ -40,3 +42,12 @@ It is used to:
 * **Content negotiation**: server can adapt the response to send mobile or desktop pages. 
 * **Analytics and logging**: helps to track types of clients and usage analytics. 
 * **Access control**: can be used to deny connections to specific clients. 
+
+### Content-Type
+
+### Content-Encoding
+
+### Expires
+
+### Content-Disposition
+
