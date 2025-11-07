@@ -51,6 +51,20 @@ Cognito also serves as a federation hub, allowing users to also login with:
 * SAML 2.0 providers (Okta, Azure AD)
 * OpenID Connect Providers
 
+# Other features
+## Risk-based adaptive authentication
+
+Cognito Risk-based adaptive authentication is a security feature that automatically detects and respond to potentially risks sign-in attempts. 
+
+Its based in different factors: 
+* Device fingerprint
+* IP Address
+* Sign-in patterns
+* Geolocation
+* Multiple sign-in attempts
+
+Based on the risk result (low, medium or high) you can configure certain actions like allow, require MFA, block or notify user. 
+
 # Integrations
 
 Its integrates with other services: 

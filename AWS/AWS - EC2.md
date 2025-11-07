@@ -55,3 +55,8 @@ There are different types of EC2 machines in terms of costs and flexibility:
 		* Normally for batch processing, CI/CD, data analytics, machine learning training and similar.
 	* Its extremely cheap compared to On-Demand instances
 	* The capacity and runtime is not guaranteed. 
+
+
+Once a Savings plan has been purchased it will automatically apply across the entire AWS Organization if: 
+* Accounts are int the same Organization including the account that bought the savings plan. 
+* **Discount sharing is enabled**. 

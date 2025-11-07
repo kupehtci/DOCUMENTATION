@@ -6,7 +6,7 @@
 		{"id":"7077e024f0005d40","type":"file","file":"AWS/IAM/AWS - IAM User.md","x":429,"y":-396,"width":691,"height":396},
 		{"id":"4f16a415be50a6d9","type":"file","file":"AWS/IAM/AWS - IAM.md","x":-400,"y":-468,"width":580,"height":540,"color":"6"},
 		{"id":"1554ce6d4b67efee","type":"file","file":"AWS/IAM/AWS - IAM Roles.md","x":475,"y":120,"width":600,"height":410},
-		{"id":"7d88854bccb3b149","type":"file","file":"AWS/AWS - EKS node IAM role.md","x":-1560,"y":-436,"width":603,"height":477,"color":"5"},
+		{"id":"7d88854bccb3b149","type":"file","file":"AWS/EKS/AWS - EKS node IAM role.md","x":-1560,"y":-436,"width":603,"height":477,"color":"5"},
 		{"id":"dcb50ac192e19309","type":"file","file":"AWS/IAM/AWS - IAM Common Policies.md","x":-335,"y":1280,"width":550,"height":386},
 		{"id":"8c1cd317c926b7cf","x":-859,"y":2000,"width":749,"height":680,"type":"file","file":"AWS/IAM/AWS - IAM Policy conditions.md"},
 		{"id":"7d59644ad2dd5480","x":29,"y":2000,"width":611,"height":680,"type":"file","file":"AWS/AWS - S3 Policies and permissions.md"}

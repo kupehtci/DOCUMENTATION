@@ -1,12 +1,27 @@
 {
 	"nodes":[
-		{"id":"211ecc2e4236b069","type":"file","file":"AWS/AWS - Basics.md","x":-220,"y":-120,"width":680,"height":540},
-		{"id":"c4aa5b635aa3724f","type":"text","text":"IDENTITY AND ACCESS IS MANAGED WITH","x":869,"y":-157,"width":250,"height":60,"color":"1"},
+		{"id":"21b127455b6bb2ea","type":"group","x":1340,"y":-480,"width":2493,"height":608,"color":"1","label":"IAM or Identities and permissions management"},
+		{"id":"84c2d5d83f6af05a","type":"group","x":-360,"y":-1080,"width":1120,"height":718,"label":"DATA VISUALIZATION"},
 		{"id":"3d4edcc8552738ca","type":"file","file":"AWS/IAM/AWS - IAM.md","x":1360,"y":-362,"width":860,"height":470,"color":"1"},
 		{"id":"1fc78342585d06ff","type":"text","text":"ROLES AND PERMISSIONS ARE GRANTED THROUGH","x":2360,"y":-178,"width":268,"height":103,"color":"1"},
+		{"id":"cd4a82469a605932","type":"text","text":"# AWS - Databases\n\n#AWS \n","x":1360,"y":240,"width":860,"height":360},
+		{"id":"85139bc7631730a0","type":"text","text":"# ENCRYPTION","x":-688,"y":200,"width":250,"height":60},
+		{"id":"884396cf719f12d6","type":"text","text":"# REAl-TIME DATA ANALYSIS","x":-728,"y":-109,"width":250,"height":60},
+		{"id":"cfdb7970d640417d","type":"file","file":"AWS/AWS - Kinesis.md","x":-1600,"y":-560,"width":723,"height":400},
+		{"id":"211ecc2e4236b069","type":"file","file":"AWS/AWS - Basics.md","x":-220,"y":-120,"width":680,"height":540},
+		{"id":"e3d52660c3c9b39b","type":"file","file":"AWS/AWS - QuickSight.md","x":-194,"y":-880,"width":600,"height":400},
 		{"id":"3dd243b6f6bff40f","type":"file","file":"AWS/IAM/AWS - IAM Roles.md","x":2900,"y":-318,"width":913,"height":383,"color":"1"},
-		{"id":"cd4a82469a605932","x":1360,"y":240,"width":860,"height":360,"type":"text","text":"# AWS - Databases\n\n#AWS \n"},
-		{"id":"de499a7d6d0c02e5","x":869,"y":280,"width":250,"height":60,"type":"text","text":"# DATABASES"}
+		{"id":"9529c4205422ab70","type":"file","file":"AWS/AWS - KMS Key Management Service.md","x":-1191,"y":600,"width":628,"height":400,"color":"6"},
+		{"id":"336846734a96b903","type":"file","file":"AWS/AWS - SQS Simple Queue Service.md","x":-893,"y":1522,"width":628,"height":400},
+		{"id":"c4aa5b635aa3724f","type":"text","text":"IDENTITY AND ACCESS IS MANAGED WITH","x":869,"y":-157,"width":250,"height":60,"color":"1"},
+		{"id":"de499a7d6d0c02e5","type":"text","text":"# DATABASES","x":869,"y":280,"width":250,"height":60},
+		{"id":"ef1312f01583233a","type":"file","file":"AWS/AWS - SNS Simple Notification Service.md","x":350,"y":1522,"width":519,"height":400},
+		{"id":"e379fe0957f4adc0","type":"text","text":"# ASYNCRHONOUS\n# EVENT-DRIVEN or Orchestration","x":-296,"y":935,"width":471,"height":130},
+		{"id":"3440272c257eb01d","type":"file","file":"AWS/AWS - Step Functions.md","x":994,"y":1522,"width":640,"height":400},
+		{"id":"0e82df7a70f4ba67","x":-1020,"y":2220,"width":320,"height":140,"type":"text","text":"# S3\nSQS can receive S3 object-created events"},
+		{"id":"d3291a34acf44ad4","x":-248,"y":2250,"width":250,"height":210,"type":"text","text":"# AWS Step Functions\n* Step Functions can push a message to an SQS queue\n* Step Functions can pause until an SQS' message arrive"},
+		{"id":"14bd50b8e797a668","x":-248,"y":1980,"width":250,"height":144,"type":"text","text":"# SNS \nCan send messages to multiple queues"},
+		{"id":"9fab6e5817404221","x":-691,"y":2537,"width":311,"height":243,"type":"text","text":"# Amazon EC2\nA custom application can receive SQS messages through an SDK. "}
 	],
 	"edges":[
 		{"id":"debeaae92f875cfa","fromNode":"211ecc2e4236b069","fromSide":"right","toNode":"c4aa5b635aa3724f","toSide":"left"},
@@ -14,6 +29,22 @@
 		{"id":"d5b5b3b6e4b6757e","fromNode":"3d4edcc8552738ca","fromSide":"right","toNode":"1fc78342585d06ff","toSide":"left"},
 		{"id":"f8aba05b552c3f34","fromNode":"1fc78342585d06ff","fromSide":"right","toNode":"3dd243b6f6bff40f","toSide":"left"},
 		{"id":"e909f35b6a4585bc","fromNode":"211ecc2e4236b069","fromSide":"right","toNode":"de499a7d6d0c02e5","toSide":"left"},
-		{"id":"36e3ebfbebdcb202","fromNode":"de499a7d6d0c02e5","fromSide":"right","toNode":"cd4a82469a605932","toSide":"left"}
+		{"id":"36e3ebfbebdcb202","fromNode":"de499a7d6d0c02e5","fromSide":"right","toNode":"cd4a82469a605932","toSide":"left"},
+		{"id":"484c9902b4c675cf","fromNode":"336846734a96b903","fromSide":"top","toNode":"9529c4205422ab70","toSide":"bottom","fromEnd":"arrow","label":"SSE-SQS"},
+		{"id":"27d6cd3af34def63","fromNode":"211ecc2e4236b069","fromSide":"left","toNode":"85139bc7631730a0","toSide":"right"},
+		{"id":"30555e0ab1980610","fromNode":"85139bc7631730a0","fromSide":"left","toNode":"9529c4205422ab70","toSide":"top"},
+		{"id":"8d91a00299129882","fromNode":"211ecc2e4236b069","fromSide":"left","toNode":"884396cf719f12d6","toSide":"right"},
+		{"id":"341031e459728690","fromNode":"884396cf719f12d6","fromSide":"left","toNode":"cfdb7970d640417d","toSide":"right"},
+		{"id":"a33c14236bd31a64","fromNode":"e3d52660c3c9b39b","fromSide":"left","toNode":"cfdb7970d640417d","toSide":"right","fromEnd":"arrow"},
+		{"id":"d0f07e2cb2c9dc04","fromNode":"e379fe0957f4adc0","fromSide":"bottom","toNode":"336846734a96b903","toSide":"top"},
+		{"id":"9ac72b7e7c48cbb3","fromNode":"211ecc2e4236b069","fromSide":"bottom","toNode":"e379fe0957f4adc0","toSide":"top"},
+		{"id":"7dc8f81e721e1685","fromNode":"e379fe0957f4adc0","fromSide":"bottom","toNode":"ef1312f01583233a","toSide":"top"},
+		{"id":"b56186a4ff590377","fromNode":"e379fe0957f4adc0","fromSide":"bottom","toNode":"3440272c257eb01d","toSide":"top"},
+		{"id":"cce5082a6e04394c","fromNode":"336846734a96b903","fromSide":"bottom","toNode":"0e82df7a70f4ba67","toSide":"top","label":"integrated with"},
+		{"id":"0566cf28ebf19f62","fromNode":"336846734a96b903","fromSide":"bottom","toNode":"14bd50b8e797a668","toSide":"left","label":"integrated with"},
+		{"id":"07f69615be8bb5d4","fromNode":"14bd50b8e797a668","fromSide":"right","toNode":"ef1312f01583233a","toSide":"left","label":"Integrated SQS + SNS for \nasyncronous syststems"},
+		{"id":"7168c967362d86a3","fromNode":"336846734a96b903","fromSide":"bottom","toNode":"d3291a34acf44ad4","toSide":"left","label":"integrated with"},
+		{"id":"e0885325e5964708","fromNode":"d3291a34acf44ad4","fromSide":"right","toNode":"3440272c257eb01d","toSide":"bottom","label":"integrated with SNS for orchestration depending on a message or send a message to an SQS"},
+		{"id":"de1b0dbcb5925e38","fromNode":"336846734a96b903","fromSide":"bottom","toNode":"9fab6e5817404221","toSide":"top"}
 	]
 }

@@ -55,8 +55,6 @@ As a summary and quick look:
 |                                 | S3 Glacier Deep Archive       | Lowest-cost storage for long-term archiving, with no real-time access.                                                  |
 
 
-[^1]: If objects have not been accessed in 30 days, are classified as Infrequent access.  
-[^2]: IA stands for Infrequent Access 
 
 ## Glacier retrievals
 
@@ -84,12 +82,7 @@ It has the lowest cost storage but also is the slowest to retrieve from:
 It similar to Standard-IA but cheaper. 
 Retrieve should last miliseconds. 
 
-
-## Manage access
-
-When owning multiple S3 buckets accessed by applications running in different VPCs. 
-
-
+---
 ### Data Replication
 
 Amazon S3 supports different types of replication for keeping objects in sync across buckets or regions. 
@@ -105,16 +98,18 @@ If the **objects are KMS-encrypted** with a customer managed KMS key, the destin
 
 S3 Data Replication applies to new object but can be enables to replicate also existing objects using **S3 Batch Replication**. 
 
-
+---
 ## Multi-Region Access Points
 
 **Multi-Region Access Points** or **MRAP** allows a single global endpoints for multiple S3 buckets and will automatically route requests to the nearest bucket. 
 
 It offers automatic failover and enabling cross-region replication they will maintain the same data. 
 
+---
+
 # S3 Encryption
 
-S3 offers different types of encryption
+S3 offers different types of encryption: 
 
 ## S3 Encryption with SSE-S3 
 
@@ -124,11 +119,13 @@ This type of encryption is fully managed by AWS so you don't manage any keys of 
 
 It is enabled by selecting "Default Encryption" at the S3 bucket level.
 
+> Take into account that S3 rotates the key automatically without notifying and key usage and rotation doesn't have integration with CloudTrail. 
+
 ## S3 Encryption with SSE-KMS
 
 AWS KMS [^1]
 
-
+---
 ## S3 Headers
 
 You can add headers to S3 objects such as `Cache-Control` or `Expires` as they are reachable through an URI[^1].
@@ -166,3 +163,19 @@ resource "aws_s3_object" "example" {
 [^1]: URI or Uniform Resources Identifier [[CS - URI]]
 [^2]: HTTP and HTTPs Available headers [[HTTP - Header attributes]]
 [^3]: CloudFront is a content delivery network service in AWS used for caching content near to the end client [[AWS - CloudFront]]
+
+
+## Requester pays
+
+By default, the bucket owner pays for all the Amazon S3 storage, data transfer and replication costs but you can configure a general purpose S3 bucket as *Requester Pays* bucket. 
+With *Requester Pays* buckets, the requester pays for the costs of the request and data download instead of the owner and the owner pays for the storage of the data. 
+
+> If Requester Pays is enabled on a general purpose bucket, anonymous data retrieval is disabled and each requester needs to be identified with an IAM Identity. 
+> When the requester assumes an AWS Identity and Access Management (IAM) role before making their request, the account to which the role belongs is charged for the request
+
+
+
+---
+
+[^1]: If objects have not been accessed in 30 days, are classified as Infrequent access.  
+[^2]: IA stands for Infrequent Access 

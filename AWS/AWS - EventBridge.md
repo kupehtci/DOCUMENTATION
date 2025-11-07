@@ -29,20 +29,6 @@ flowchart LR
 
 It can also be used together with <span style="color: DodgerBlue">SNS topics</span> and then the SNS will distribute the events to multiple subscribers (SQS, lambda, HTTP endpoints, emails or more)
 
-```mermaid
-flowchart LR
-    subgraph Producer
-        A[App / AWS Service / SaaS] -->|Send Event| B[EventBridge Bus]
-    end
-
-    subgraph EventBridge
-        B -->|Rule: EC2 State Change| E[SNS Topic]
-    end
-
-    subgraph Consumers
-        E --> G[HTTP Endpoints]
-    end
-```
 Together with <span style="color:DodgerBlue;">SQS</span> to buffer and retry the event response of the consumers like lambda or EC2 process them. 
 
 ### Scheduled events
@@ -50,6 +36,12 @@ Together with <span style="color:DodgerBlue;">SQS</span> to buffer and retry the
 EventBridge can also run **cron jobs** or scheduled events.
 
 Example question can be: *A company needs to run a Lambda function every day at 2 a.m. Which service should they use?*
+
+# Integrations
+
+It can be integrated to respond under events from different AWS resources: 
+* S3 object creation / deletion
+* ACM AWS Certificate Manager can send an event to Event Bridge for managing certificate lifecycle changes like Approaching expiration, certificate expired or certificate renewed. 
 
 ### When its used
 
