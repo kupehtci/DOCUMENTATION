@@ -29,6 +29,11 @@ This are the different types of EBS volumes:
 | **st1**                 | Throughput-optimized HDD | High throughput (MB/s) optimized, not IOPS.                                                                    | Up to 500 IOPS              | Data warehouse or analytics workloads              |
 | **sc1**                 | Cold HDD                 | Lowest-cost HDD. For infrequent access.                                                                        | ~80 IOPS                    | Archival or infrequently accessed data             |
 
+# EBS Multi-attach
+
+EBS Multi-attach allows to attach a single EBS (Provisiones IOPS io1 and io2) to multiple EC2 instances at the same time. 
+EBS Multi-attach is only available in this type of instances in io1 and io2 volume types
+The EC2 instances need to be in the same Availability Zone. 
 
 
 ## EBS Snapshots

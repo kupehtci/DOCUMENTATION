@@ -14,7 +14,7 @@ There are various ways to execute. maintain, manage and scale this containers in
 
 And also various resources related to containers:
 
-* Amazon A2C (Apps2Container) [[AWS - A2C]] helps to containerize Java and .Net applications 
+* Amazon A2C (Apps2Container) [[AWS - A2C Apps2Container]] helps to containerize Java and .Net applications 
 * Amazon App Runner [[AWS - App Runner]] creates and implement web applications that runs in containers automatically, balancing the workload and configuration. 
 * Amazon Copilot [[AWS - Copilot]] is a CLI tool to launch and manage containerized applications running in AWS. 
 

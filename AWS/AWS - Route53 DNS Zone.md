@@ -5,7 +5,24 @@
 Amazon Route 53 offers a highly available Domain Name System (DNS[^1]), domain name registration and Health checking for cloud services. 
 
 
+## Policies
 
+Route 53 offers different types of routing policies optimized for different goals: 
+
+* **Simple**: single endpoint per name, just returns a single record. 
+* **Weighted**: distributes traffic between different records by percentages settled (Example 80/20).
+* **Latency-based**: send users to the region with lowest measured latency. 
+	* For multi-region active-active to improve *user performance*
+* **Failover**: Primary is always returned when its healthy and traffic shifts to secondary in case of a health check failure. 
+	* For active-pasive infrastructure or DR patterns 
+* **Geolocation**: routes (returns record) depending on user's geographic origin. 
+	* Used to meet compliance, licensing or localization rules (Serve different content depending on location)
+* **Geoproximity**: routes depending on users distance to the resource locations. 
+	* Steer traffic between nearby regions. 
+* **Multivalue**: returns up to 8 healthy records using a random algorithm.
+	* Used for redundancy and imitate an ALB service.
+
+Each policy can be attached to an Route 53 record. 
 
 ### Terraform
 

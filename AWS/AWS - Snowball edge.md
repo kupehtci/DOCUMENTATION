@@ -23,3 +23,10 @@ The AWS Snowball edge is normally used for:
 * **Disaster recovery**: copy backup data to snowball and ship to AWS. 
 * **Edge processing** to collect and/or process data on remote locations and run the compute before sending results or interact with other AWS resources. 
 * **Bandwidth-limited environments**
+
+## Other similar resources
+
+AWS also offers other variants of the Snow family: 
+
+* **Snowcone**: the smallest and most portable. 
+* **Snowmobile**: for massive-scale data migration (up to exabyte)

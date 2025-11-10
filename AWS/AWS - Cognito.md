@@ -97,7 +97,7 @@ Cognito Identity Pools map the authenticated and unauthenticated users to specif
 
 
 [^1]: JWT or JSON Web Tokens [[JWT JSON Web tokens]]
-[^2]: Amazon API Gateway [[AWS - Amazon API gateway]]
+[^2]: Amazon API Gateway [[AWS - API gateway]]
 [^3]: Amazon Lambda [[AWS - Lambda]]
 [^4]: Amazon S3 buckets [[AWS - S3]]
 [^5]: IAM Identity [[AWS - IAM]]

@@ -36,6 +36,9 @@ SQS integrates with many AWS services as origin or target of the messages:
 	* Can be integrated with SQS for scheduled events so a message is received by EventBridge.
 * **Amazon S3**: Can send object-created events to SQS. 
 * **EC2**: A custom application can recieve SQS messages through an SDK. 
+* **AutoScaling group**: An autoscaling group can access two different metrics to scale up or down depending on them: 
+	* `ApproximateNumberOfMessages` (queue depth)
+	* `ApproximateAgeOfOldestMessage` (message wait time)
 
 ## Redrive policy
 

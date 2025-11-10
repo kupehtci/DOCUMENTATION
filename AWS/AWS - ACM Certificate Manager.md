@@ -12,3 +12,4 @@
 
 It can be integrated with the following services: 
 * **EventBridge**: ACM can send events under certificate approaching expiration, certificate expired and certificate renewed to an EventBridge to trigger other actions. 
+* **ALB**: can use the ACM's stored certificate to terminate SSL connections. 

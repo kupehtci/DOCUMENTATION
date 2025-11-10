@@ -63,8 +63,11 @@
 
 ## 🔐 Security & Governance
 * [ ] AWS Identity & Access Management (IAM)
-	* [ ] STS, Roles, Federation
-	* [ ] IAM Policies evaluation logic
+	* [x] STS -> Federation
+	* [x] Roles
+	* [ ] Federation
+	* [x] Users and Groups
+	* [x] IAM Policies evaluation logic
 * [ ] AWS KMS
 * [ ] AWS Organizations
 * [ ] AWS Control Tower

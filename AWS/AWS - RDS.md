@@ -2,7 +2,7 @@
 
 # AWS RDS
 
-**Amazon RDS** is a fully managed service and AWS handles the OS, database software installation, patching, backups and maintenance
+**Amazon RDS** or **Relational Database Service** is a fully managed service and AWS handles the OS, database software installation, patching, backups and maintenance
 
 
 ### AWS RDS Custom
@@ -35,6 +35,19 @@ The different EBS volume types that RDS supports are:
 | **st1**                 | Throughput-optimized HDD | High throughput (MB/s) optimized, not IOPS.                                                                    | Up to 500 IOPS              | Data warehouse or analytics workloads              |
 | **sc1**                 | Cold HDD                 | Lowest-cost HDD. For infrequent access.                                                                        | ~80 IOPS                    | Archival or infrequently accessed data             |
 
+## RDS PRoxy
+
+RDS Proxy is an highly available and fully managed proxy that keeps between the application and an RDS or Aurora DB[^2] to pool and share connections. 
+
+It adds different features: 
+* Failover behaviour between RDS instances
+* Authentication
+* TLS controls.
+
+All the applications connect to that stable endpoint and it minimizes the connections to a more efficient set of DB Connections. 
+
+Usefull to reduce spikes of traffic caused by frequent open/close connections from serverless services. 
+
 ## Recovery
 
 ### Point-in-Time Recovery (PITR)
@@ -43,3 +56,4 @@ RDS's PITR automatically maintains a continuous backup of the table data for the
 
 
 [^1]: EBS or Elastic Block Store [[AWS - EBS Elastic Block Store]]
+[^2]: Aurora DB [[AWS - Aurora]]
