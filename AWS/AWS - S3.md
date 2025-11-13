@@ -106,6 +106,34 @@ S3 Data Replication applies to new object but can be enables to replicate also e
 It offers automatic failover and enabling cross-region replication they will maintain the same data. 
 
 ---
+# BucketVersioning
+
+
+# Object-Lock
+
+**Object Lock** its an immutability \[[[IMMUTABILITY]]\] feature that allows WORM (Write Once Read Many) feature so once the object is written it cannot be deleted or overwritten.
+Its used for compliance, ransomware protection or preventing accidental deletions.
+
+Requires bucket versioning to be enabled.
+
+It has two different configurations: 
+* **Retention period**: Locks an object until a certain date
+* **Legal Hold**: indefinitely
+
+
+## Legal Hold
+
+A **Legal Hold** is an object lock feature that prevents the object from being deleted or overwritten. Unlike retention period, Legal Hold has no expiration date.
+
+`s3:PutObjectLegalHold` its the permission needed to allow a principal to place or remove a Legal Hold over an specific version of an S3 object with **Object Lock** retention. 
+
+It requires Bucket versioning and Object Lock to be enabled in the bucket.
+
+
+
+
+
+---
 
 # S3 Encryption
 

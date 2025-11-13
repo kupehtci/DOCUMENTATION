@@ -29,5 +29,17 @@ When an alarm transitions into an specific state it can trigger predefined actio
 
 To run other custom actions you can attach the actions to an SNS topic with an AWS Lambda [^1] subscriptor that will run custom code. 
 
+# Cloudwatch dashboard
+
+An Amazon Cloudwatch dashboard is a custom interactive display that allows to visualize metrics and logs from multiple AWS Services. 
+## Sharing
+
+You can share Dashboards directly without creating a proper IAM User, just by creating a **shareable URL**: 
+* Makes the dashboard publicly available to anyone with the URL without AWS Login
+* Viewers has **read-only access**.
+* Usefull for sharing management reports or public status pages to people without IAM management permissions or AWS users. 
+ 
+
+
 
 [^1]: AWS Lambda [[AWS - Lambda]]

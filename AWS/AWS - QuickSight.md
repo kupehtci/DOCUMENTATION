@@ -21,3 +21,7 @@ flowchart LR
 A[AWS SageMaker] --> |Generate predictions|B[S3]
 B --> |Read data through Dashboards|C[AWS QuickSight]
 ```
+
+## QuickSight users
+
+Amazon QuickSight its not normally managed by IAM users, it supports native QuickSight' users and groups that are created within the service or federated users via an IDP. 

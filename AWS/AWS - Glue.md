@@ -20,7 +20,6 @@ managing servers or infrastructure.
 	* on a schedule
 	* in response to events (Via EventBridge). 
 
-
 ### Connections to data storages
 
 - **AWS**: S3, RDS, Redshift, DynamoDB, JDBC databases, FSx for Lustre    
@@ -28,6 +27,15 @@ managing servers or infrastructure.
 - **Other sources**: SaaS via connectors (e.g., Salesforce, Snowflake)
 
 
-# AWS - Glue DataBrew
+# Glue DataBrew
 
 **AWS Glue DataBrew** is a fully managed data preparation service that can clean, normalize and transform data without writing custom code. 
+
+# Glue Scala and Glue PySpark
+
+Both are programming options for coding an AWS Glue ETL job that runs in an Apache Spark environment. 
+
+Glue Scala uses Scala libraries (Dynamic Frame and Relationalize as an example) while PySpark uses this library with Python's extensions like DynamicFrame or transforms for schema handling and ETL patterns. 
+
+Both ETL jobs are charged by DPU-hour, costing aroing 0.44 USD per hour of execution. (1 DPU its 4vCPUs and 16GB RAM): 
+* Normally higher cost than a Lambda job execution. 
