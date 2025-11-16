@@ -80,4 +80,4 @@ Firstly in order, to establish an SMTP connection, it needs a TCP connection bet
 
 ### DATA FORMAT
 
-Data in a basic SMTP email is just ASCII message being simple and limited. In order to expand the number of characters available in a message, [[MIME]]  is used and defined for different parts of the email in order to be able to send special media. 
+Data in a basic SMTP email is just ASCII message being simple and limited. In order to expand the number of characters available in a message, [[NETWORKING/MIME]]  is used and defined for different parts of the email in order to be able to send special media. 
