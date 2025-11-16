@@ -4,7 +4,7 @@
 
 **AWS Directory Service** is a service that enables to connect AWS resources with Microsoft Active Directory (AD). 
 
-The Microsoft Active Directory (AD) can be in the cloud or on-premise. 
+The Microsoft Active Directory (AD) can be in the cloud oron-premise. 
 
 It has different options: 
 * **AWS Managed Microsoft AD**: a fully managed AD in AWS compatible with windows workloads. 

@@ -95,6 +95,10 @@ An SCP looks like:
 }
 ```
 
+SCPs can also be attached to AWS Accounts or to Organizational Units (OU), so for enforcing new policies you can: 
+* Attach the new SCP to the appropriate AWS Account directly. 
+* Create an OU, move the AWS Account to the OU and attach the SCP to the OU. 
+
 ### SCPs vs AWS Config
 
 AWS Control Tower's SCPs prevent actions (Block) from happening. AWS Config otherwise, detects when something happens and notify when an resource configuration it's not-compliant. 

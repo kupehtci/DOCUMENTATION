@@ -35,7 +35,7 @@ The different EBS volume types that RDS supports are:
 | **st1**                 | Throughput-optimized HDD | High throughput (MB/s) optimized, not IOPS.                                                                    | Up to 500 IOPS              | Data warehouse or analytics workloads              |
 | **sc1**                 | Cold HDD                 | Lowest-cost HDD. For infrequent access.                                                                        | ~80 IOPS                    | Archival or infrequently accessed data             |
 
-## RDS PRoxy
+## RDS Proxy
 
 RDS Proxy is an highly available and fully managed proxy that keeps between the application and an RDS or Aurora DB[^2] to pool and share connections. 
 
@@ -47,6 +47,8 @@ It adds different features:
 All the applications connect to that stable endpoint and it minimizes the connections to a more efficient set of DB Connections. 
 
 Usefull to reduce spikes of traffic caused by frequent open/close connections from serverless services. 
+
+RDS Proxy can also be used to pool AuroraDB[^2] connections and scalability between multiple instances. In case of autoscaling Aurora DB write replicas, RDS Proxy can redirect traffic to new replicas.  
 
 ## Recovery
 

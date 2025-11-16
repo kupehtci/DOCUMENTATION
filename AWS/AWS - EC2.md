@@ -59,6 +59,11 @@ There are different types of EC2 machines in terms of costs and flexibility:
 	* Its extremely cheap compared to On-Demand instances
 	* The capacity and runtime is not guaranteed. 
 
+* **Reserved instances and Savings Plan**: 
+	* Agreement on 1 to 3 years of an EC2 usage in exchange of great discounts. 
+	* Similar characteristics as On-Demand. 
+	* Recommended for high utilization. 
+
 
 Once a Savings plan has been purchased it will automatically apply across the entire AWS Organization if: 
 * Accounts are int the same Organization including the account that bought the savings plan. 

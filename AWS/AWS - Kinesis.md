@@ -10,14 +10,18 @@ Its normally used for:
 * Feed the data into data lakes or warehouses (Like S3 or Redshift)
 
 ---
-### Components
+## Components
 
 It has different components: 
 
-#### Kinesis Data Streams (KDS)
+### Kinesis Data Streams (KDS)
 
 Is a streaming platform por real-time data ingestion. 
-You manage shards ans scaling and consumers like EC2 or Lambda reads and process  the stream.
+You manage shards and scaling and consumers like EC2 or Lambda reads and process  the stream.
+
+A **shard** is a unit of capacity in Kinesis Data Stream of 1MB write capacity and 2Mb for reading. You can define a **partition key** of the incoming data to map the data to a shard. 
+
+Items in the same shard are always in the same order that provided to the KDS.
 
 ### Kinesis Data Firehose
 

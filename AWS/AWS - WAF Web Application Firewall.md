@@ -36,6 +36,6 @@ And evaluate the configured rules to determine when to apply one of the followin
 
 
 [ˆ1]: Amazon CloudFront its a CDN service by AWS that allows caching and static content serve [[AWS - CloudFront]]
-[^2]: ALB or Application Load Balancer is a Layer 7 Application balancer service by AWS [[AWS - ALB]]
+[^2]: ALB or Application Load Balancer is a Layer 7 Application balancer service by AWS [[AWS - ALB Application Load Balancer]]
 [^3]: API Gateway [[AWS - API gateway]]
 [^4]: AWS AppSync [[AWS - AppSync]]

@@ -117,6 +117,13 @@ https://dasnk123def456.lambda-url.us-east-1.on.aws/
 
 Its only recommendable for simple APIs, webhooks or internal tools as cannot be protected by a WAF, caching response, request throttling or rate limiting features.
 
+---
+
+## Lambda Layer
+
+A Lambda Layer is a reusable package in .Zip that contains code or data, normally to be used as libraries, SDKs, custom runtimes or shared utilities that can be attached to various Lambda functions. 
+
+This avoid to bundle those dependencies directly in each function. 
 
 
 [^s3]: Amazon Simple Storage Service or S3 [[AWS - S3]]

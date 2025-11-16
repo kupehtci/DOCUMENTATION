@@ -11,7 +11,7 @@ There are different ways to access a s3 bucket:
 * By URL: `https://s3.amazonaws.com/<BUCKET_NAME>/<OBJECT_NAME>` but by default, a s3 bucket is not public accesible. 
 * Using python boro3 SDK or similar API to access the S3 bucket and store data within it in the application code. 
 
-### S3 Storage classes
+# S3 Storage classes
 
 For covering different purposes, it has various types of S3 buckets objects in order to optimize the storage for different types of data: 
 
@@ -53,8 +53,6 @@ As a summary and quick look:
 | **Rarely Accessed Objects**     | S3 Glacier Instant Retrieval  | Low-cost storage with milliseconds retrieval for rarely accessed data.                                                  |
 |                                 | S3 Glacier Flexible Retrieval | Portions of data can be retrieved in minutes, not real-time access.                                                     |
 |                                 | S3 Glacier Deep Archive       | Lowest-cost storage for long-term archiving, with no real-time access.                                                  |
-
-
 
 ## Glacier retrievals
 
@@ -108,7 +106,6 @@ It offers automatic failover and enabling cross-region replication they will mai
 ---
 # BucketVersioning
 
-
 # Object-Lock
 
 **Object Lock** its an immutability \[[[IMMUTABILITY]]\] feature that allows WORM (Write Once Read Many) feature so once the object is written it cannot be deleted or overwritten.
@@ -120,7 +117,6 @@ It has two different configurations:
 * **Retention period**: Locks an object until a certain date
 * **Legal Hold**: indefinitely
 
-
 ## Legal Hold
 
 A **Legal Hold** is an object lock feature that prevents the object from being deleted or overwritten. Unlike retention period, Legal Hold has no expiration date.
@@ -129,6 +125,16 @@ A **Legal Hold** is an object lock feature that prevents the object from being d
 
 It requires Bucket versioning and Object Lock to be enabled in the bucket.
 
+
+# Governance vs Compliance mode
+
+S3's Object Lock has two different types of modes to prevent accidental deletion of S3's objects: 
+* **Governance mode**: Protect objects from accidental deletion
+	* Can be bypassed with `s3:BypassGovernanceRetention` permission. 
+	* Useful for internal policies but cannot guarantee an regulatory compliance.
+* **Compliance mode**: enforce some regulatory retention (immutable): 
+	* Cannot be bypassed. 
+	* Designed for legal or regulatory compliance. 
 
 
 

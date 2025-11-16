@@ -10,9 +10,37 @@ It works by having a listener resource that listen the requests that income from
 
 ATW or Automatic Target Weights is a new weighted random load balancer algorithm that provides availability of an application that is distributed between various resources. 
 
+ALB is **DNS-only** meaning that cannot attach an static IP and can only be references by DNS name. If an static IP is required use an AWS Network Load Balancer [[AWS - NLB Network Load Balancer]].  
+
 ### TLS offloading 
 
 When an HTTPs listener is created, it encrypts the connection (SSL offload [^5]) the connection between the clients and the load balancer by initializing SSL or TLS sessions. 
+
+---
+
+# Target Selection Algorithm
+
+Target Selection algorithms define which target receives the response within a group: 
+
+* **Round Robin**: distributes new requests across healthy target at a "random". 
+* **Least Outstanding responses**: prefer targets with fewest "in-flight" requests to reduce queuing on busy instances. 
+
+---
+
+# CloudWatch metrics to balance traffic
+
+ALB's least outstanding responses target selection algorithm can take into account CloudWatch metrics to balance traffic. As arbitrary metrics cannot be used by there are some interesting key metrics to balance the traffic: 
+
+* `RequestCount` or `RequestCountPerTarget`: total requests and average per healthy target. 
+	* Recommended for detecting uneven load. 
+* `ActiveConnectionCount` and `NewConnectionCount`: current and newly stablished connections. 
+	* Useful for "least outstanding requests". 
+* `TargetResponseTime`: time from target selection until the target responses. 
+* `ELB-level Latency` alongside with `TargetResponseTime` helps to differenciate network latency versus target processing issues. 
+* `HTTPCode_Target_4XX_Count` or `HTTPCode_Target_5XX_Count`: count of 4XX or 5XX errors indicating target issues: 
+	* Helpful for routing to healthy targets. 
+* `HealthyHostCount` or `UnHealthyHostCount`: Health status for routing eligibility. 
+* `RejectedConnectionCount`: connections rejected due to max connections reached. This is a strong signal for scaling up. 
 
 ---
 

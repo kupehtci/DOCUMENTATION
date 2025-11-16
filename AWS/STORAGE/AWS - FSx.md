@@ -2,7 +2,21 @@
 
 # AWS - FSx
 
+FSX is a fully managed and high performance file storage service that provide some exclusive features in AWS. 
 
+As fully managed imply a serverless storage solution. 
+
+It offer different options: 
+* **FSx for Windows File Server**: Offer native SMB and CIFS transferences with Windows features: 
+	* ACLs
+	* Active Directory integration
+	* Distributed File System (DFS)
+	* User quotas
+	* VSS snapshots
+	* Multi-AZ deployment for high availability
+* **FSX for Lustre**: POSIX high throughput parallel file system optimized for HPC or High Performance. 
+* **FSX for NetApp ONTAP**: Multi-protocol (NFS, SMB and iSCSI) with ONTAP features like snapshots, cloning, tiering, quotas and replication. 
+* **FSX for OpenZFS**: NFS features with ZFS features like snapshots, clones, compression and low-latency performance. 
 
 # FSx for Lustre
 

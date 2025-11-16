@@ -39,7 +39,8 @@ API Gateway allow different types of API endpoints connections:
 * **WebSocket API**[^4]: Full duplex, event-driven communication over WebSocket protocol. 
 	* Bidirectional and low-latency interaction. 
 	* Ideal for chat, live dashboards or multiplayer videogames signaling. 
-	* 
+
+HTTP API has less cost associated than REST API but less functionalities for establishing an HTTP endpoint. 
 
 
 # Features
