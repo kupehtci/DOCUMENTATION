@@ -49,4 +49,10 @@ resource "aws_ecr_repository" "ecr" {
 ```
 
 
-You can enable to ECR to scan the images thgat are pushed 
+## Scan on push
+
+You can enable to scan the images that are pushed with "scan on push" functionality, 
+This feature, searches for common CVEs [^1]
+
+
+[^1]: CVEs or Common Vulnerabilities and Exposures [[CVEs Common Vulnerabilities and Exposures]]

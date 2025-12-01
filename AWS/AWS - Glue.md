@@ -26,6 +26,27 @@ managing servers or infrastructure.
 - **On-premises**: via JDBC or connectors
 - **Other sources**: SaaS via connectors (e.g., Salesforce, Snowflake)
 
+# When its used? 
+
+## ETL pipelines
+
+You can set automatic extraction, transformation and load of data (ETL) between various sources like S3 or DynamoDB for warehousing. 
+
+## Data Cataloging
+
+Automatically discovers, organized and manages metadata from all the data storages and databases across AWS. 
+
+
+## Data Lake ingestion
+
+You can congregate data from different sources into centralized data lakes on S3, after an ETL pipeline. 
+
+## Analytics
+
+AWS Glue can be used for data analytics over different databases using **connectors** without affecting the DB performance by using exported data rather than direct connection. 
+
+It can perform complex operations like filtering, joining and aggregating large datasets, useful for data analytics
+
 
 # Glue DataBrew
 
@@ -39,3 +60,14 @@ Glue Scala uses Scala libraries (Dynamic Frame and Relationalize as an example) 
 
 Both ETL jobs are charged by DPU-hour, costing aroing 0.44 USD per hour of execution. (1 DPU its 4vCPUs and 16GB RAM): 
 * Normally higher cost than a Lambda job execution. 
+
+
+# Connectors
+
+AWS Glue uses **connectors** for integrating with different data storages or databases: 
+
+## DynamoDB export connector
+
+Allows AWS Glue jobs to export data from a DynamoDB table directly into an Amazon S3 without impacting table's provisiones throughput. 
+
+It uses a table's snapshot to run the Glue Job instead of connecting directly to the data table. 

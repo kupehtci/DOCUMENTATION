@@ -42,6 +42,8 @@ Example IAM policy:
 }
 ```
 
+Secrets Manager can also store certificates. 
+
 ### SSM Parameter Store
 
 You can also store the secret under **SSM Parameter Store** as a `SecureString`type. 

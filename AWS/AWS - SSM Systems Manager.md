@@ -35,10 +35,25 @@ You define a baseline:
 
 Also instances can be organized into patch groups like dev, test and prod using **tags**. 
 
+---
+## Systems Manager Automation Document
+
+An **Automation Document** or **runbook** is a type of AWS Systems Manager document that define automated workflows to perform common maintenance or remediation tasks on AWS Resources. 
+
+These documents are written in JSON or YAML format and include the steps and parameters that need to be executed in sequential order. 
+
+The most common use cases for **runbooks** are: 
+* **Automate maintenance tasks** like patching, creating AMIs or restarting instances
+* **Deployment automation**: updating CloudFormation stacks and configuring resources. 
+* **Remediation automation**: respond to events, compliance checks and backups
+* **Complex orchestration**: removing instances from load balancers for patching like `AWSEC2-PatchLoadBalancerInstance` runbook. 
+
+---
 ## Systems Manager Run Command
 
 **Run Command** allows to execute commands in parallel across multiple EC2 instances instantly. 
 
+---
 ## Systems Manager Session Manager
 
 Secure and fully managed service to connect to an EC2 instance with an interactive CLI without using SSH keys, open ports or bastion hosts. 

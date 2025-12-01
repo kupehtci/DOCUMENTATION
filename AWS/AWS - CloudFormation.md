@@ -8,3 +8,10 @@ It lets you create templates that define AWS services as you want and deploy the
 
 It helps handling dependencies in an easier way. 
 
+
+---
+
+## Storing template in S3
+
+The best way to restrict the access to a cloudformation template stored in S3 is to link the CloudFormation using S3 pre-signed URLs
+

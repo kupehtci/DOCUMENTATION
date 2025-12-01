@@ -23,6 +23,16 @@ They prevent usage of non-approved regions to deploy resources and can block or 
 
 Can be used to block VPC connection to internet or creation of Internet Gateway resources. 
 
+## AWS Control Tower Account Factory
+
+**Account Factory** is a component of AWS Control Tower that automates the creation and management of new AWS accounts in a *Multi-Account Landing Zone* or MALZ. 
+
+It provides an standardized and configurable template for the accounts that define a baseline that complies with the organization's security and governance standards: 
+* Networking
+* Guardrails
+* Region restrictions
+* SSO
+
 ## SCP or Service Control Policies
 
 **SCPs** or **Service Control Policies** are guardrails that **prevent actions**: 

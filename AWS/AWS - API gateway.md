@@ -48,6 +48,11 @@ HTTP API has less cost associated than REST API but less functionalities for est
 
 Import-to-update is an API Gateway feature that allow to import an OpenAPI (swagger) definition and apply to an existing API REST to update its resources and methods without manually recreate the API. 
 
+## Private Integration
+
+Private Integration allows to route incoming API Requests directly to private resources like EC2 or containers without exposing those resources to the internet. 
+
+In this case, the API Gateway acts as a managed entry point that routes the private backend services. 
 
 
 

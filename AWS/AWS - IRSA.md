@@ -17,5 +17,5 @@ Allows to:
 
 [^1]: EKS or Elastic Kubernetes Service is a Kubernetes cluster resource within the AWS cloud [[./AWS - EKS Elastic Kubernetes Service]]
 [^2]: IAM access based services in AWS [[AWS - IAM]]
-[^3]: Kubernetes Service Account Resource [[../KUBERNETES/KUBERNETES - ServiceAccounts]]
+[^3]: Kubernetes Service Account Resource [[KUBERNETES - Service Accounts]]
 

@@ -40,6 +40,19 @@ You can share Dashboards directly without creating a proper IAM User, just by cr
 * Usefull for sharing management reports or public status pages to people without IAM management permissions or AWS users. 
  
 
+## Composite alarms
+
+%%TODO%%
+
+# CloudWatch Synthetics Canaries
+
+**CloudWatch Synthetics Canaries** are configurable scripts that run on a schedule to proactively monitor an endpoint, API and web applications. 
+
+This scritps simulate a real customer behaviour interacting with a web application or an API. 
+
+This helps to check correct behavior of the WEB or API and measures load time and take screenshots of the UI. 
+Also tracks in the case of APIs, http status codes, response times and error rates. 
+
 
 
 [^1]: AWS Lambda [[AWS - Lambda]]

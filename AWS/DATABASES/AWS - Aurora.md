@@ -25,3 +25,32 @@ You have two different type of Amazon Aurora deployments:
 * **Provisioned**: choose the instance size.
 * **Aurora Serverless v2**: auto scale compute capacity depending on the demand.
 
+---
+## Aurora Serverless v2 configuration types
+
+Aurora Serverless v2 offer two storage configurations: 
+
+* **Aurora standard**: 
+	* Lower storage cost: recommended for high volume of data
+	* Separate I/O charges
+* **Aurora I/O-Optimized**: 
+	* Higher storage costs than standard
+	* No I/O charges: Best for high traffic. 
+
+---
+
+## Activity Streams
+
+Amazon Aurora **Activity Streams** is a feature that provides near-real time monitoring of database activity that capture each database event (SELECT, INSERT, CONNECT and other SQL commands) and push them to **Amazon Kinesis Data Stream**
+
+---
+
+## Zero Downtime Restart 
+
+**Zero Downtime Restart** or **ZDP** is an Aurora feature that preserve client connections during database restarts. 
+
+This helps to prevent downtime under patching or minor version upgrades. 
+
+
+[^1]: Amazon Kinesis Data Stream [[AWS - Kinesis]]
+

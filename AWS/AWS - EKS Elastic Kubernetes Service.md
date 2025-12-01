@@ -14,5 +14,10 @@ This EKS plugin allows to do custom networking ENIConfig to assign Pod IPs from 
 
 If set, Pods will recieve IPs from custom subnets defined with ENIConfig resources within the Kubernetes cluster. 
 
+---
+
+
+
+
 
 [^1]:  Kubernetes automates the management, scaling, deployment and configuration of containerized applications and its interoperability [[KUBERNETES - Basics]]

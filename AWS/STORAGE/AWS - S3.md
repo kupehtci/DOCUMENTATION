@@ -199,6 +199,29 @@ resource "aws_s3_object" "example" {
 [^3]: CloudFront is a content delivery network service in AWS used for caching content near to the end client [[AWS - CloudFront]]
 
 
+# Costs
+## S3 bucket costs
+
+The different types of Amazon S3 buckets ordered by cost, from most expensive to least expensive: 
+* S3 Standard
+* S3 Intelligent Tearing (With frequent access)
+* S3 Standard-IA
+* S3 Intelligent Tearing (With infrequent access)
+* S3 One Zone-IA
+* S3 Express One Zone
+* S3 Glacier Instant Retrieval
+* S3 Glacier Flexible Retrieval
+* S3 Glacier Deep Archive
+
+## Costs's components
+
+In S3 you pay for different aspects: 
+* **Storage** is charged per GB / Month based on the type of S3 storage. 
+* **Requests and retrievals** have associated costs in Glacier Classes.
+* **Data transfer** if moving data from an S3 to another S3 over 
+* Other services for **data management and analytics** like S3 Inventory, S3 Analytics and S3 Object Tagging has an associated cost. 
+* **Replication** for copying objects across regions. 
+
 ## Requester pays
 
 By default, the bucket owner pays for all the Amazon S3 storage, data transfer and replication costs but you can configure a general purpose S3 bucket as *Requester Pays* bucket. 

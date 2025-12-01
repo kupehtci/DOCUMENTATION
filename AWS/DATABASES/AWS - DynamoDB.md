@@ -8,19 +8,24 @@ Offers single digit miliseconds latency at any scale with high availability, sca
 
 Key characteristics: 
 
-* NoSQL database -> stores data in key-value structures 
-* Managed service -> No need to manage servers, replication, patching or scaling. 
-* Performance -> Consistently fast.
-* Scalable -> Scales automatically. 
-* Highly available -> Data is replicated across multiple AZ in a region. 
-* Serverles -> Doesnt need to manage a server.
+* **NoSQL database** -> stores data in key-value structures 
+* **Managed service** -> No need to manage servers, replication, patching or scaling. 
+* **Performance** -> Consistently fast.
+* **Scalable** -> Scales automatically. 
+* **Highly available** -> Data is replicated across multiple AZ in a region. 
+* **Serverles** -> Doesnt need to manage a server.
 
+
+## Global tables
+
+Enables multi-region and multi-active data replication. 
+This lets the application connected to the DynamoDB to be available worlwide.
 
 ## Recovery
 
 ### Point-in-Time Recovery (PITR)
 
-DynamoDB's PITR automatically maintains a continuous backup of the table data for the last 35 days, allowing you to restore the table to any second within the last retention periods. 
+DynamoDB's PITR automatically maintains a continuous backup of the table data **for the last 35 days**, allowing you to restore the table to any second within the last retention periods. 
 
 ## Caching
 ### Amazon DynamoDB Accelerator (DAX)

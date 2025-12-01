@@ -67,4 +67,4 @@ resource "aws_iam_role" "iam_role_pods_identity" {
 }
 ```
 
-[^sa]: Service Accounts kubernetes resource [[KUBERNETES - ServiceAccounts]]
+[^sa]: Service Accounts kubernetes resource [[KUBERNETES - Service Accounts]]
