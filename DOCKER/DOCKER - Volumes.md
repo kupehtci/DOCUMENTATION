@@ -4,6 +4,29 @@
 
 
 
+## Types
+
+Docker has different types of storage solutions: 
+
+### Volumes
+
+Managed by docker and mounted under `/var/lib/docker/volumes` on the host. 
+Allows: 
+* Persistent Data that survive container restarts or removal. 
+* Can be shared between different containers
+* Work both in linux and windows containers. In MacOS is available but as Docker Desktop runs within a "VM", you cannot access freely the host's path. 
+
+* Bind Mounts: mounts an specific host's directory or file to a container path. 
+	* Usefull for development where you can see directly the live code updates. 
+	* Full host system access.
+* Tmpfs Mounts (Only in Linux): Stored in host memory only and never written into disc. 
+	* Its temporary storage, as it is deleted when the container stops. 
+	* Fast performance for temporary files
+	* Limited by RAM. 
+* Named Pipes 
+
+Volumes's data persists once the associated container is removed using `docker rm` until its explicitly removed using `docker volume rm` or with a "prune" command. 
+
 ## Command cheat sheet
 
 This is a set of commands to interact with docker's volumes: 

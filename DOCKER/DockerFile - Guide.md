@@ -28,3 +28,6 @@ CMD ["<command>", "arg1", "arg2"]
 ```
 
 Each instruction or line in the `DockerFile` creates a layer in the image. This layers are cached so are taken into account for rebuilds. 
+
+
+

@@ -22,5 +22,11 @@ EXPOSE 80
 ENTRYPOINT ["dotnet", "MyApi.dll"]
 ```
 
+Its a multi-stage docker file, so the "runtime" stage only has the necessary artifact from the compilation and doesn't has the unnecessary SDK in the final image.
 
 
+It uses two different base images: 
+* sdk: contains the full .Net SDK: compilers, build, tools, dotnet cli and nuget. 
+	* Intended for development and build stages
+* aspnet: contains the .NET Runtime plus the ASP.NET core runtime and libraries for hosting the web applications.
+	* Has no compilers or build tools, unnecessary in the final image for running the application. 
