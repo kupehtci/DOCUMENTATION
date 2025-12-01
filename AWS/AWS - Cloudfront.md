@@ -75,6 +75,13 @@ aws cloudfront create-invalidation \
     --paths "/index.html"
 ```
 
+---
+# Certificates
+
+For assigning certificates to CloudFront using an AWS ACM, the certificate needs to be **created in us-east-1 region** independently of the CloudFront origin resources' Region. 
+
+---
+
 # WAF
 
 Cloudfront can be integrated with a Web Application Firewall[^2] and adds an extra layer of security: 
