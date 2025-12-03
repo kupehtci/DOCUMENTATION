@@ -50,6 +50,15 @@ resource "google_compute_network" "vpc_network" {
 * `name` is required for the VPC and must meet this regex: `[a-z]([-a-z0-9]*[a-z0-9])?` with first character a lowercase and the following characters a dash, lowercase or digit except last character that cannot be a dash. 
 * `description` is a description of the resource. Only allow to create this parameter the first time where is created. 
 
+---
+## CIDR
+
+When an VPC is created you need to define a CIDR block for the resources deployed within it. 
+
+Take into account the CIDR block assigned when stablishing an VPC peering, as IPs must not overlap between them. 
+
+The maximum allowed CIDR block is /28, so /32 common ones are not allowed, so use normally /24. 
+
 
 
 [^1]: Compute Engine Virtual Machines are VMs within the Google Cloud [[GCP - CEVM Computer Engine Virtual Machine]]

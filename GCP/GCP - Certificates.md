@@ -9,4 +9,4 @@ You can have two different types of certificates, the ones managed by Google or 
 
 
 
-[^1] TLS or Transport Layer Security [[TLS]]. 
+[^1] TLS or Transport Layer Security [[TLS - Transport Layer Security]]. 
