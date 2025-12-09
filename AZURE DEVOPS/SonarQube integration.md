@@ -103,7 +103,6 @@ With:
 
 You can skip the SonarQube analysis of the pipeline for a certain Java module by using `<sonar.skip>true</sonar.skip>` in the `pom.xml` of the module you want to exclude. 
 
-
 ---
 
 # SonarQube publishing
