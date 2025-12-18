@@ -42,6 +42,8 @@ The authenticity of host 'sample.ssh.com' cannot be established.
 If `yes` is introduces, it would save into `known_hosts` file the host key. 
 
 This file is stored in `/.ssh/known_hosts`. 
+
+
 ### Keys
 
 Runs on TCP (Transmision Control Protocol) [[TPC - IP Layers]] on port 22. [[Networking Ports]]. 

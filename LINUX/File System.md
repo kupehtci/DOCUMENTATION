@@ -1,4 +1,4 @@
-#LINUX
+#Linux
 # FILE SYSTEM
 
 In a Linux there is a hierarchical structure for holding the data known as the file system. 

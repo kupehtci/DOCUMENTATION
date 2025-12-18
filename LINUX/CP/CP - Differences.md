@@ -1,4 +1,4 @@
-#LINUX 
+#Linux
 
 # CP (Copy) Diferences using recursive
 
