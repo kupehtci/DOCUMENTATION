@@ -1,6 +1,6 @@
 #GIT
 
-### `git rm`
+### GIT remove
 
 Git rm command let you delete files or directories from a *Git repository*. 
 
