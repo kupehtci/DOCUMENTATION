@@ -4,6 +4,8 @@
 
 **Trivy** is an open-source security scanner that can be used to detect common vulnerabilities and misconfigurations in filesystems ("Plain applications"), container images, code repositories and cloud infrastructure. 
 
+It performs SCA ([[SCA Software Composition Analysis]]) scans over the code. 
+
 Trivi focuses in detecting CVEs ([[CVEs Common Vulnerabilities and Exposures]]) in OS packages and application dependencies in addition to exposed secrets exposure and insecure configurations. 
 
 Trivy can scan: 
