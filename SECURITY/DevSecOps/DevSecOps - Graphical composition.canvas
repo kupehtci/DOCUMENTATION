@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"977b50f264f62c39","type":"text","text":"# DevSecOps","x":-240,"y":-160,"width":250,"height":60},
+		{"id":"28627f308651ff38","type":"text","text":"Types of analysis: \n* SAST\n* DAST\n* SCA\n* Secret Scanning","x":199,"y":-148,"width":250,"height":208},
+		{"id":"62bbbf7ca8befbe9","type":"text","text":"SCA: Deberiamos implementar OWASP Dependency Check","x":619,"y":49,"width":601,"height":51},
+		{"id":"1c51f1bdfed295ff","type":"text","text":"SAST: lo realiza SonarQube","x":619,"y":-148,"width":601,"height":60},
+		{"id":"7fa14a50fc183fdc","type":"text","text":"Secret Scanning: lo realiza SonarQube","x":619,"y":160,"width":601,"height":60},
+		{"id":"462a4756585498ce","type":"text","text":"DAST: Como pueden las areas analizar las aplicaciones de forma dinámica? ","x":619,"y":-44,"width":597,"height":50},
+		{"id":"d000b18f86367633","type":"text","text":"# Shift Left Security","x":199,"y":-300,"width":250,"height":60},
+		{"id":"d9a16e6e9db4be05","x":619,"y":280,"width":541,"height":240,"type":"file","file":"SECURITY/Common_Attacks/Session Fixation.md"},
+		{"id":"f9b5da928e914639","x":619,"y":580,"width":541,"height":240,"type":"file","file":"SECURITY/Common_Attacks/Session Hijacking.md"},
+		{"id":"f134f23f2c070c8d","x":100,"y":520,"width":250,"height":60,"type":"text","text":"# VULNERABILITIES"}
+	],
+	"edges":[
+		{"id":"34804c0898d41266","fromNode":"977b50f264f62c39","fromSide":"right","toNode":"d000b18f86367633","toSide":"left"},
+		{"id":"f84ef59ed1bd37ba","fromNode":"977b50f264f62c39","fromSide":"right","toNode":"28627f308651ff38","toSide":"left"},
+		{"id":"123c8addb3061bf4","fromNode":"28627f308651ff38","fromSide":"right","toNode":"62bbbf7ca8befbe9","toSide":"left"},
+		{"id":"674d4ca18a0728fc","fromNode":"28627f308651ff38","fromSide":"right","toNode":"1c51f1bdfed295ff","toSide":"left"},
+		{"id":"57bbf2008f98a23a","fromNode":"28627f308651ff38","fromSide":"right","toNode":"462a4756585498ce","toSide":"left"},
+		{"id":"898c2f5111f5f801","fromNode":"28627f308651ff38","fromSide":"right","toNode":"7fa14a50fc183fdc","toSide":"left"},
+		{"id":"55c4883952330d8a","fromNode":"f134f23f2c070c8d","fromSide":"right","toNode":"d9a16e6e9db4be05","toSide":"left"},
+		{"id":"f9799a1699900614","fromNode":"f134f23f2c070c8d","fromSide":"right","toNode":"f9b5da928e914639","toSide":"left"}
+	]
+}
