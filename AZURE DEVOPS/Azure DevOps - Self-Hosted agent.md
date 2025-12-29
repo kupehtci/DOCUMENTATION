@@ -12,4 +12,28 @@ It allows to:
 	* More control and debug over the automations
 * Avoid extra costs of an Azure VM. 
 
+# Communication URLs 
 
+If you are running an agent in a secure network behind a firewall, the agent must be able to communicate with the following URLs: 
+
+| Domain URL                                            | Description                                                                                                     |
+| ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `https://{organization_name}.pkgs.visualstudio.com`   | Azure DevOps Packaging API for organizations using the `{organization_name}.visualstudio.com` domain            |
+| `https://{organization_name}.visualstudio.com`        | For organizations using the `{organization_name}.visualstudio.com` domain                                       |
+| `https://{organization_name}.vsblob.visualstudio.com` | Azure DevOps Telemetry for organizations using the `{organization_name}.visualstudio.com` domain                |
+| `https://{organization_name}.vsrm.visualstudio.com`   | Release Management Services for organizations using the `{organization_name}.visualstudio.com` domain           |
+| `https://{organization_name}.vssps.visualstudio.com`  | Azure DevOps Platform Services for organizations using the `{organization_name}.visualstudio.com` domain        |
+| `https://{organization_name}.vstmr.visualstudio.com`  | Azure DevOps Test Management Services for organizations using the `{organization_name}.visualstudio.com` domain |
+| `https://*.blob.core.windows.net`                     | Azure Artifacts                                                                                                 |
+| `https://*.dev.azure.com`                             | For organizations using the `dev.azure.com` domain                                                              |
+| `https://*.vsassets.io`                               | Azure Artifacts via CDN                                                                                         |
+| `https://*.vsblob.visualstudio.com`                   | Azure DevOps Telemetry for organizations using the `dev.azure.com` domain                                       |
+| `https://*.vssps.visualstudio.com`                    | Azure DevOps Platform Services for organizations using the `dev.azure.com` domain                               |
+| `https://*.vstmr.visualstudio.com`                    | Azure DevOps Test Management Services for organizations using the `dev.azure.com` domain                        |
+| `https://app.vssps.visualstudio.com`                  | For organizations using the `{organization_name}.visualstudio.com` domain                                       |
+| `https://dev.azure.com`                               | For organizations using the `dev.azure.com` domain                                                              |
+| `https://login.microsoftonline.com`                   | Microsoft Entra sign-in                                                                                         |
+| `https://management.core.windows.net`                 | Azure Management APIs                                                                                           |
+| `https://download.agent.dev.azure.com`                | Agent package                                                                                                   |
+
+Extracted from: https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/windows-agent?view=azure-devops&tabs=IP-V4. 
