@@ -2,9 +2,15 @@
 
 # Linux systemd
 
-A linux service is normally defined as a `systemd` service. This is defined in an INI format file with `.service` extension that needs to define to systemd how to start, stop and monitor a process. 
+**systemd** is the linux's system and service manager for this OS. Its run as the first process (PID 1) and enabled and maintain all the services. 
 
-A basic custom service is stored under `/etc/systemd/system/{SERVICE-NAME}.service` and contains an INI file with this sections: 
+This manager is mainly controlled using `systemctl` command line tool (CLI)[^1]
+
+## systemd units 
+
+A **unit file**[^2] is a plain text ini-style file that encodes information about a service[^3], a socket, a device, a mount point, an automount point[^4], a swap file or partition, a start-up target, a watched file system path, a timer controlled and supervised by the systemd. 
+
+All systemd units's files share `[]` and `[Install]` sections: 
 
 * `[Unit]`: Metadata and dependencies of the service
 	 * `Description`: human readable description of the service. 
@@ -16,65 +22,33 @@ A basic custom service is stored under `/etc/systemd/system/{SERVICE-NAME}.servi
 	 * `Before / After`:  define starting order or various dependencies.
 	 * `Conflicts`: units that cannot be active at the same time as this unit. 
 	 * `Condition* / Assert*`: Start only if some conditions are met. 
+		 * `ConditionFileNotEmpty`: Checks whether a file exists and its not empty. 
+		 * `ConditionDirectoryNotEmpty`: Checks whether a directory exists and its not empty. 
 	 * `OnFailure`: Units to start in case of failure. 
-* `[Service]`: Defines how to run and supervise a process. 
-	* `Type`: Process the startup mechanic: 
-		* `simple`: **ExecStart** defines the main process that is started immediately. 
-		* `forking`: for classic daemons that are forked into the background. The parent exists when its ready. 
-		* `oneshot`: short lived task. 
-		* `notify`: service that signals a readiness using `sd_notify`.
-		* `dbus`: considered ready once the `BusName` appears on the bus. 
-		* `idle`: execution is like `simple` but its delayed until other jobs are dispatched. 
-	* `ExecStart`: Main command to start the service. 
-	* `ExecStartPre / ExecStartPro`: Commands to run before / after `ExecStart`.
-	* `ExecReload`: Command used when `systemctl reload`
-	* `ExecStop / ExecStopPost`: commands to used when the service is stopped or cleaned up. 
-	* `Restart`: when to restart the service (`no`, `on-success`, `on-failure`, `on-abnormal`, `ob-abort`, `always`). 
-	* `RestartSec`: Delay before the start. 
-	* `RemainAfterExit`: Consider service active after processes exists (Recommended for `oneshot` tasks). 
 
 * `[Install]`: Indicates how the system is integrated into boot: 
 	* `WantedBy`: targets in whose `.wants` directory will be created when enabling. Typical for services like `multi-user.target` and `graphical.target`. 
+		* specified which other units or target will trigger this unit when its enabled. 
+		* It will create a symlink[^5] in the wants dependency of that units / target. 
+		* `multi-user.target` indicates the normal multi user boot without GUI. 
 	* `RequiredBy`: Similar to `WantedBy` but with hard dependencies. 
 	* `Also`: other units to enable or disable together with this unit. 
 	* `Alias`: other names for this unit. 
 	* `DefaultInstance`: default instance name for templated units. 
 
-## Systemctl
-
-`systemctl` is the main CLI tool in linux to manage the `systemd` as it can start, stop, enable, disable and inspect units (services, timers, sockets, targets and more). 
-
-Inspect all running units: 
-* `systemctl list-units`
-
-Inspect all the running units of a certain time like the services: 
-* `systemctl list-units --type=service`
-* `systemctl list-units --type=socket --all`
-
-Start/stop/restart/reload: (only applied to current session): 
-
-* `systemctl start NAME.service`
-* `systemctl stop NAME.service`
-* `systemctl restart NAME.service`
-* `systemctl reload NAME.service`
-
-Enable/disable at boot:
-
-* `systemctl enable NAME.service`
-* `systemctl disable NAME.service`
-* `systemctl enable --now NAME.service (enable + start)`
-* `systemctl disable --now NAME.service (disable + stop)`
-
-Status and logs:
-
-* `systemctl status NAME.service`
-* `systemctl show NAME.service`
-
 ### Distros
 
-The `.service` file and `systemctl` workflow is valid for the majority general-purpose distros: 
+The `.service` file and `systemctl` workflow is valid for the majority general-purpose distros[^d]: 
 
 * Debian, Ubuntu, Mint, Pop_OS
 * RHEL, CentOS, Rocky, Alma and Fedora
 * openSUSE, SUSE Linux Enterprise
 * Arch, Manjaro, Amazon Linux, Solus and Mageia. 
+
+
+[^1]: systemctl command line tool for managing the systemd units [[systemctl]]
+[^2]: systemd unit file [[Sistemd Units]]. 
+[^3]: systemd services are systemd units that manage and control a daemon process. 
+[^4]: Linux mount points [[Linux - mounting]]
+[^5]: symlink or symbolic link [[Linux symlink]]
+[^d]: Distros / Distributions are different versions of the linux operating system that "share" the original kernel [[Linux - Distros]]
