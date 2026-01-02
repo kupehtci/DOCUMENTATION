@@ -16,5 +16,3 @@ Using relative paths starting by ./ the folder will be inside style directory an
 
 You can take a look of how its implemented in a basic structure of a web: 
 [[HTML - Basic Structure]]
-
-![[Captura de pantalla 2023-12-21 a las 11.43.17.png]]

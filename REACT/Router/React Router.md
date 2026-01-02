@@ -105,6 +105,10 @@ And in the routes:
 
 This nested routes are **essential** for maintaining layout over the application. 
 
+## Navigate to other React routes
+
+You should use the `Link` ([[React Router Link]]) component from `react-router-dom` and set the `to` property accordingly to the wanted route you want to navigate to: 
+
 # Hooks
 
 **Hooks** are functions that can be called inside a react function to read the router state like the current URL or params.
