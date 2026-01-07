@@ -2,6 +2,31 @@
 
 ## Windows
 
+This section offers instructions for installing and configuring an Azure DevOps agent in a Windows OS machine. 
+The agent will allow the projects to execute the pipelines compilation and deploy jobs in the local infrastructure. 
+
+Requirements: 
+* Windows 10, Windows 11, Windows Server 2016 or superior. 
+* x64 bit Processor. 
+* At least 4GB of RAM or recommended 8GB
+* At least 10GB of free disk space.
+
+Permissions and access required: 
+* An Azure DevOps administrator account with enough permissions over the organization. 
+	* Personal Access Token (PAT) of that account with at least the following permissions or Full Access: 
+		* Agent Pools: read and manage
+		* Deployment Groups: read and manage (Only needed if you will use deployment groups). 
+* Local administrator permissions over the machine that you are going to install the agent. 
+
+Firstly you will need to create the PAT in the administrator account in order to grant the agent an authentication method over the Azure DevOps platform: 
+1. Login into the organization: `https://dev.azure.com/{organization}`
+2. Click on the person icon next to the account in the superior right section. 
+3. Go into `Personal Access Tokens`  section. 
+4. Click in "+ New Token" and configure the token: 
+	* **Name**: Assign a descriptive name for the token
+	* **Organization**: select the current organization or the organizations that the PAT will grant access to. 
+	* **Expiration**: configure a custom expiration, recommended is 90 days but normally is a head pain to renew the token once each 3 months so you can set it to 1 year maximum. 
+	* **Scopes**
 
 ```powershell
 PS D:\agent> .\config.cmd
