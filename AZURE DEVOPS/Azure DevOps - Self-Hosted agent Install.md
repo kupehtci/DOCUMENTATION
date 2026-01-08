@@ -26,7 +26,9 @@ Firstly you will need to create the PAT in the administrator account in order to
 	* **Name**: Assign a descriptive name for the token
 	* **Organization**: select the current organization or the organizations that the PAT will grant access to. 
 	* **Expiration**: configure a custom expiration, recommended is 90 days but normally is a head pain to renew the token once each 3 months so you can set it to 1 year maximum. 
-	* **Scopes**
+	* **Scopes**: Recommended Full Access or at least %%TODO%%
+
+In case you are reinstalling an agent and you don't want to lose all the previous job executions and logs, check on **Reinstall agent** section. 
 
 ```powershell
 PS D:\agent> .\config.cmd
@@ -43,7 +45,7 @@ PS D:\agent> .\config.cmd
 
 >> Conectar:
 
-Escriba Dirección URL del servidor. > https://dev.azure.com/serviciosmin-adc
+Escriba Dirección URL del servidor. > https://dev.azure.com/organization
 Escriba tipo de autenticación (presione Entrar para PAT). >
 Escriba token de acceso personal. > ************************************************************************************
 Conectando al servidor...
@@ -51,7 +53,7 @@ Conectando al servidor...
 >> Registrar agente:
 
 Escriba grupo de agentes (presione Entrar para default). >
-Escriba nombre de agente (presione Entrar para VSRV939). >
+Escriba nombre de agente (presione Entrar para LOCALHOST). >
 Examinando las funcionalidades de la herramienta.
 Conectando al servidor.
 El agente se agregó correctamente.
@@ -59,15 +61,15 @@ Probando conexión del agente.
 Escriba carpeta de trabajo (presione Entrar para _work). >
 2025-12-31 10:18:08Z: Configuración guardada.
 Escriba ¿Ejecutar agente como servicio? (S/N) (presione Entrar para N). > S
-Escriba Cuenta de usuario que se utilizará para el servicio (presione Entrar para NT AUTHORITY\Servicio de red). > MITYC\LS_ACC_DevOpsComp
-Escriba Contraseña para la cuenta MITYC\LS_ACC_DevOpsComp. > **********
-Concesión de permisos de archivo a "MITYC\LS_ACC_DevOpsComp".
-El servicio vstsagent.serviciosmin-adc.Default.VSRV939 se instaló correctamente
-El servicio vstsagent.serviciosmin-adc.Default.VSRV939 estableció correctamente la opción de recuperación
-El inicio automático retrasado se ha establecido correctamente para el servicio vstsagent.serviciosmin-adc.Default.VSRV939.
-El servicio vstsagent.serviciosmin-adc.Default.VSRV939 se configuró correctamente.
+Escriba Cuenta de usuario que se utilizará para el servicio (presione Entrar para NT AUTHORITY\Servicio de red). > DOMAIN\USER
+Escriba Contraseña para la cuenta DOMAIN\USER. > **********
+Concesión de permisos de archivo a "DOMAIN\USER".
+El servicio vstsagent.organization.Default.LOCALHOST se instaló correctamente
+El servicio vstsagent.organization.Default.LOCALHOST estableció correctamente la opción de recuperación
+El inicio automático retrasado se ha establecido correctamente para el servicio vstsagent.organization.Default.LOCALHOST.
+El servicio vstsagent.organization.Default.LOCALHOST se configuró correctamente.
 Escriba whether to prevent service starting immediately after configuration is finished? (Y/N) (presione Entrar para N). >
-El servicio vstsagent.serviciosmin-adc.Default.VSRV939 se inició correctamente.
+El servicio vstsagent.organization.Default.LOCALHOST se inició correctamente.
 PS D:\agent>
 ```
 
@@ -107,11 +109,24 @@ Stop-Service -Name "vstsagent.{organizacion}.{pool}.{agente}" -Force
 sc.exe delete "vstsagent.{organizacion}.{pool}.{agente}"
 ```
 
-3. Remove the agent manually from Azure DevOps platform: 
+3. You also need to remove the following files to completely remove the current Azure DevOps agent installation and authentication: 
+	+ `.agent`
+	+ `.credentials`
+	+ `.credentials_rsaparams`
+	+ `.service` if has not been deleted by the service deletion.
+
+4. Remove the agent manually from Azure DevOps platform: 
 	1. Go into Azure DevOps > Organization settings > Agent Pools
 	2. Select the pool
 	3. Go into *Agents* tab
 	4. Search the offline agent and clicking in the three dots > select delete
-	5. Confirm that the agent is no longer visibnle in the agents section. 
+	5. Confirm that the agent is no longer visible in the agents section. 
 
-4. Optionally, if you want a clear install of the new agent, you can delete the inner contents of `_work` and `_diag` directories or clear all the contents of the agent folder and copy the new dowloaded version ones. 
+5. Optionally, if you want a clear install of the new agent, you can delete the inner contents of `_work` and `_diag` directories or clear all the contents of the agent folder and copy the new dowloaded version ones. 
+
+
+# Reinstall agent
+
+When reinstalling an agent, in order to do a *manual update* or to *re-authenticate* the agent, and you want to preserve the previous job executions and logs, you can reinstall only the necessary directories: 
+
+* In case you are manually updating the agent with a new version of the software 
