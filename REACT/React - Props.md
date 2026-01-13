@@ -54,5 +54,77 @@ function Cat({name, color="orange"}){
 }
 ```
 
+## Typed interface
+
+You can also use an `interface` for defining the props that an object can have. 
+
+For this, create an `interface` with the attributes that you want to be passed into the component: 
+```ts
+interface ComponentProps{  
+    attribute1: type;  
+    // attribute2: type; 
+    // ...
+}  
+```
+
+And then, pass the class as `props`: 
+
+```ts
+function Component(props: ComponentProps){
+	return(
+		<>
+			<p>{props.text}</p>
+		</>
+	); 
+}
+```
+
+As an example: 
+
+```ts
+interface DropdownProps{  
+    label: string;  
+    children: React.ReactNode;  
+}  
+  
+function Dropdown(props: DropdownProps){  
+    const [isOpen, SetOpen] = useState(false);  
+  
+    return (  
+        <li>  
+            <button onClick={() => SetOpen(!isOpen)}>  
+               {props.label}  
+            </button>  
+            {isOpen && props.children}  
+        </li>  
+    );  
+}
+
+// In other file, call the component such as: 
+<Dropdown label="Options">
+	<ul>
+		<li>Dark theme</li>
+		<li>Light theme</li>
+	</ul>
+</Dropdown>
+```
+
+You can also deconstruct the `props` within the `Component` arguments, for a cleaner code without using the `props` argument: 
+
+```ts
+function Dropdown({label, children}: DropdownProps){
+	const [isOpen, SetOpen] = useState(false);  
+  
+    return (  
+        <li>  
+            <button onClick={() => SetOpen(!isOpen)}>  
+               {label}  // Instead of props.label
+            </button>  
+            {isOpen && children}   // Instead of props.children
+        </li>  
+    );  
+}
+```
+
 
 [^1]: React components [[React - Components]]
