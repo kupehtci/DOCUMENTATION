@@ -9,5 +9,5 @@ In GitFlow there are a set of long-lived branches and short-lived branches with 
 * `main` (opt `master`)
 * `develop`
 * `feature/<name>`
-* `release/<version>` Version specifying SemVer. 
+* `release/<version>` Version specifying SemVer ([[SemVer - Semantic Versioning]]). 
 
