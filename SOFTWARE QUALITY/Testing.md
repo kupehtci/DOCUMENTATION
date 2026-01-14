@@ -15,7 +15,7 @@ Is a <span style="color:orange;">skeptical process</span>: the core of testing i
 
 But testing have some limitations: 
 
-* We <span style="color:cyan;">cannot test everything</span>. Testing is a __sampling technique__
+* We <span style="color:DodgerBlue;">cannot test everything</span>. Testing is a __sampling technique__
 * Testing involves learning 
 * Testing don't determine that is release time. 
 * Testing intend to remove risk when releasing but cannot totally remove it. 
