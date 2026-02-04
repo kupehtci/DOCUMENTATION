@@ -47,4 +47,34 @@ Parameters are evaluated and used in the analysis phase of the pipeline executio
 Variables in comparison, are meant for the execution of the pipeline tasks and the values can change dynamically during the execution. 
 
 
-Variables can be **scoped** so its not 
+Variables can be **scoped** so cannot be access outside its scope, rather than parameters that are file-wide. 
+
+## Pre-defined variables
+
+Azure DevOps agent, sets some variables, in order to give extra information that may be useful during the pipeline execution. 
+
+This variables are set by the agent and are **read-only**: 
+* `Pipeline.Workspace`: 
+
+* `Build.Reason`: The event that triggered the build: 
+	* `Manual`: a user manually executed the pipeline. 
+	* `IndividualCI`: CI triggered by a git push. 
+	* `BatchedCI`: CI triggered by a git push and batch changes is selected. 
+* `Build.SourcesDirectory`: local file in the agent where the source files are downloaded (For example `c:\agent\_work\1\s`). 
+> Note!: If only one repository is checkout on the pipeline execution, `Build.SourcesDirectory` is an exact path to the repository ( `$(Pipeline.Workspace)/s/{REPO_NAME}` ), otherwise; if multiple Git repositories are checkout, this point to the `s` folder within the pipeline folder ( `$(Pipeline.Workspace)/s` )
+
+* `Build.SourceBranchName`
+* `Build.SourceBranch`
+* `Build.Repository.Uri`
+* `Build.Repository.Tfvc.Workspace`
+* `Build.Repository.LocalPath`
+* `Build.Repository.ID`
+* `Build.Repository.Name`
+* `Build.Repository.Provider`
+* `Build.RequestedForEmail`
+* `Build.RequestedForId`
+* `Build.RequestedFor`
+
+
+%%TODO%%
+

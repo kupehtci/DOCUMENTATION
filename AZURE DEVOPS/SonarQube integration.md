@@ -107,7 +107,7 @@ You can skip the SonarQube analysis of the pipeline for a certain Java module by
 
 # SonarQube publishing
 
-Once a SonarQube analysis has been completed, you can publish the results of the quality gate into the Azure DevOps pipeline, by using the following task: 
+Once a SonarQube analysis has been completed, you can publish the results of the quality gate into the Azure DevOps pipeline, by using the `SonarQubePublish` task: 
 
 ```yaml
 - task: SonarQubePublish@7  
@@ -115,4 +115,7 @@ Once a SonarQube analysis has been completed, you can publish the results of the
   inputs:  
     pollingTimeoutSec: '300'
 ```
+
+
+
 
