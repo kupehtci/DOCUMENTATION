@@ -45,3 +45,16 @@ It accepts:
 - `help`: a brief description of the argument usage.
 - `metavar`: a name for the argument in the usage menu.     
 - `deprecated`: Whether or not use of the argument is deprecated.
+
+Once you have all the arguments defined, you need to parse the arguments in order to get an object containing all the argument values: 
+
+```python
+parser = argparse.ArgumentParser(description="Demo of flags")
+parser.add_argument("-n", "--name")
+
+# Parse the arguments after defining them
+args = parser.parse_args()
+
+# Access the arguments
+print(f'Name: {args.name}')
+```
