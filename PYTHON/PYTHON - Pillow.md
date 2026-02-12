@@ -10,7 +10,7 @@ De todas maneras, independientemende de la librería que se desee utilizar, su i
 
 ## How to import
 
-
+In google collab: 
 ```PYTHON
 !pip install Pillow==9.5.0
 ```
