@@ -4,6 +4,7 @@
 
 `SonarQubePrepare` is an Azure DevOps task that prepare the analysis configuration for `SonarQubeAnalyze` task ([[SonarQubeAnalyze]]). 
 
+Basic syntax of the task: 
 ```yaml
 # Prepare Analysis Configuration v7
 # Prepare SonarQube Server analysis configuration.

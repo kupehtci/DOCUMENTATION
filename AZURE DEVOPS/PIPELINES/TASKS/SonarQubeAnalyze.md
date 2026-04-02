@@ -3,3 +3,5 @@
 # SonarQubeAnalyze
 
 `SonarQubeAnalyze` is an Azure DevOps tasks that execute an application's analysis using SonarQube. 
+
+Basic syntax of the task: 
