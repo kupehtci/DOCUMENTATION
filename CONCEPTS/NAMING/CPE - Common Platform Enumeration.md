@@ -28,5 +28,10 @@ cpe:2.3:a:facebook:react:*:*:*:*:*:*:*:*
 ```
 
 CPE its normally used for: 
-* Vulnerability databases relate CVEs[[CVEs Common Vulnerabilities and Exposures]] using the CPE associated with the dependency. 
+* Vulnerability databases relate CVEs [[CVEs Common Vulnerabilities and Exposures]] using the CPE associated with the dependency. 
 * Inventory in IT environments. 
+
+
+CPEs can be consulted in databased like the [NIST NVD](https://nvd.nist.gov/products/cpe/search), 
+
+
