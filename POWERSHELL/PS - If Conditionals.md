@@ -58,3 +58,5 @@ if($isDany) {
 	Write-Host "The name is not Daniel"
 }
 ```
+
+[^1]: PowerShell

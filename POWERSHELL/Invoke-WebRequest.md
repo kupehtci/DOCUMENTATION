@@ -2,7 +2,7 @@
 
 # Invoke-WebRequest
 
-`Invoke-WebRequest` is a PowerShell ([[PowerShell]]) cmdlet ([[cmdlet]]) that send an HTTP, HTTPs, FTP or FILE request to an Uri[^3]. 
+`Invoke-WebRequest` is a PowerShell[^1] cmdlet ([[cmdlet]]) that send an HTTP, HTTPs, FTP or FILE request to an Uri[^2]. 
 
 `Invoke-WebRequest` retrieves the web content and parses the response containing all the HTML. 
 It also supports all HTTP methods ([[API REST - HTTP Methods]]) like GET, POST, PUT and DELETE. 
@@ -37,8 +37,5 @@ $Response = Invoke-WebRequest -Uri "https://url.com"
 Its similar to the Unix / Linux command `curl` ([[curl]]). 
 
 
-
-[^3]: URI or Universal Resource Identifier: [[URI]]
-
-
-
+[^1]: PowerShell scripting language [[PowerShell]]
+[^2]: URI or Universal Resource Identifier: [[URI]]
