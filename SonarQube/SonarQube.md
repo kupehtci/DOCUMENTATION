@@ -28,6 +28,9 @@ All of this rules and security measurements are prompted into dashboards that in
 
 All of this metrics can define a **quality gate**. This define the necessary metrics to <span style="color:green">pass</span> or <span style="color:red;">fail</span>, and for example block a merge request if the quality gate is not met. 
 
+## Automation
+
+SonarQube exposes an API REST v1 and v2 with useful endpoints that allow to extract data and metadata from the projects, users and to automate workflows like project creation. 
 
 ## Editions
 
