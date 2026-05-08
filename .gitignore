@@ -12,3 +12,6 @@ workspace.json
 
 AWS/ASSOCIATE-COURSE/LAB*
 AWS/EXAM/*
+
+# Discarded items
+_DISCARDED/* 
