@@ -15,3 +15,6 @@ AWS/EXAM/*
 
 # Discarded items
 _DISCARDED/* 
+
+# Azure certification notes
+AZURE/AZ104/**
