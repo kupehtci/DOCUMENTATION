@@ -60,7 +60,7 @@ This variables are set by the agent and are **read-only**:
 	* `Manual`: a user manually executed the pipeline. 
 	* `IndividualCI`: CI triggered by a git push. 
 	* `BatchedCI`: CI triggered by a git push and batch changes is selected. 
-* `Build.SourcesDirectory`: local file in the agent where the source files are downloaded (For example `c:\agent\_work\1\s`). 
+* `Build.SourcesDirectory`: local file in the agent where the source files are downloaded (For example `c:\agent\_work\1\s`).
 > Note!: If only one repository is checkout on the pipeline execution, `Build.SourcesDirectory` is an exact path to the repository ( `$(Pipeline.Workspace)/s/{REPO_NAME}` ), otherwise; if multiple Git repositories are checkout, this point to the `s` folder within the pipeline folder ( `$(Pipeline.Workspace)/s` )
 
 * `Build.SourceBranchName`
@@ -74,7 +74,21 @@ This variables are set by the agent and are **read-only**:
 * `Build.RequestedForEmail`
 * `Build.RequestedForId`
 * `Build.RequestedFor`
+* `Build.Repository.LocalPath`: 
+* `Build.ArtifactStagingDirectory`: 
+* `Agent.BuildDirectory`
 
+
+## `Pipeline.Workspace` vs `Build.SourcesDirectory` vs `Build.Repository.LocalPath` vs `System.DefaultWorkingDirectory`
+
+These 4 variables seems very similar but has different behaviors and usages in multi-repository pipelines (Pipelines that checkout more repositories apart from the repository where the pipeline belongs to)
+
+| Variable                         | Best For                                    | Multi-Repo Behavior                         | Example Path (`/def` = Agent.BuildDirectory) |
+| -------------------------------- | ------------------------------------------- | ------------------------------------------- | -------------------------------------------- |
+| `Pipeline.Workspace`             | Root access, full workspace                 | Always `/a`                                 | `/def`                                       |
+| `Build.SourcesDirectory`         | Default source access                       | Stays `/a/s`                                | `/def/s`                                     |
+| `Build.Repository.LocalPath`     | Repo-specific paths in multi-repo pipelines | Matches checkout `path` (e.g., `/a/myrepo`) | `/def/myrepo`                                |
+| `System.DefaultWorkingDirectory` | Script/task working dir                     | Fixed `/a/w`                                | `/def/w`                                     |
 
 %%TODO%%
 

@@ -56,6 +56,7 @@ To define the destination:
 * `downloadPath`: path inside the agent to download the artifacts to. By default `$(System.ArtifactsDirectory)`. 
 * `cleanDestinationFolder`: clean the destination folder before downloading the artifacts to. By default `false`. 
 
+To define the compression: 
 * `extractTars`: de-compress an artifact that was published as a TAR file. Use this when `StoreAsTar` was enabled in `PublishBuildArtifacts`[^1] task used to publish the build artifact. 
 
 
