@@ -5,7 +5,6 @@
 The `useContext` react hooks allows to manage the context of the application[^1]. 
 
 To create a context, `import { createContext, useContext } from 'react'`. 
-
 Context workflow works as follows: 
 
 1. A top level parent must create the context: 

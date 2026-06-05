@@ -2,7 +2,7 @@
 
 # React - Import and Export
 
-In React is commonly used the standard ES module exports and imports to pass components, functions and other code between files. 
+In React[^1] is commonly used the standard ES module exports and imports to pass components, functions and other code between files. 
 
 You can choose between named and default exports: 
 
@@ -26,3 +26,4 @@ import Button from "./Button";
 
 The standard is to use **named exports** when you have multiple exports per file and **default exports** when having a single component per file (reusability). 
 
+[^1]: React framework [[React]]

@@ -23,7 +23,7 @@ function Fruits(){
 
 ## Keys
 
-As React use independent component to re-render single elements, list' items needs to have an unique key so it can check old and new element efficiently so it decide what to update instead of re-rendering the whole list items. 
+As React[^1] use independent component to re-render single elements, list' items needs to have an unique key so it can check old and new element efficiently so it decide what to update instead of re-rendering the whole list items. 
 
 If you omit the keys, React may show a warning indicating *"Each child in a list should have a unique ‘key’ prop."*
 
@@ -84,3 +84,8 @@ function Fruits(){
 ```
 
 > Note: in case the list gets reordered or filtered it won't work correctly, as the list items can appear attached to the wrong index or position in the list. 
+
+
+
+
+[^1]: React framework [[React]]

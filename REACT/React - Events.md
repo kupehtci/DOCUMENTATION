@@ -2,7 +2,7 @@
 
 # React - Events
 
-React has the same events as HTML that react based on user events, like click, change, mouseover and others. 
+React[^1] has the same events as HTML that react based on user events, like click, change, mouseover and others. 
 
 This events are written in camelCase syntax instead of plain text like `onClick` instead of `onclick` and the React event handlers need to be written in between `{}`: 
 
@@ -21,3 +21,4 @@ function Document(){
 
 
 
+[^1]: React framework [[React]]

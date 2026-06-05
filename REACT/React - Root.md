@@ -4,7 +4,7 @@
 
 The **root** is the DOM node where react starts rendering the component tree. 
 
-A typical react app created using Create React App (CRA) the `index.html` contains a `<div>` element with `id='root'`. 
+A typical React[^1] app created using Create React App (CRA) the `index.html` contains a `<div>` element with `id='root'`. 
 
 React attaches to that element and manipulate the child elements directly in javascript. 
 
@@ -27,3 +27,5 @@ createRoot(document.getElementById('root')!).render(
 )
 ```
 
+
+[^1]: React framework [[React]]

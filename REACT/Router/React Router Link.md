@@ -60,3 +60,6 @@ function Profile() {
 ```
 
 * `reloadDocument` forces a full page reload instead of a client-side navigation. It bypass the React Router SPA default behaviour. 
+
+
+>Note!!!: all `<Link />` components must be inside a router context provider `<BrowserRouter />` as the component requires access to React'r router navigation context using the `useContext` hook [[useContext]] 

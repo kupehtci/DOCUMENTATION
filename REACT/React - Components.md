@@ -2,7 +2,7 @@
 
 # React - Components
 
-A **component** within React is an independent section of code that works as a **Javascript / typescript** function but works isolated and need to return HTML in a JSX format. 
+A **component** within React[^1] is an independent section of code that works as a **Javascript / typescript** function but works isolated and need to return HTML in a JSX format. 
 
 The component name must start with a capital letter or Upper case and need tor return HTML code: 
 ```jsx
@@ -29,3 +29,6 @@ function App(){
 	); 
 }
 ```
+
+
+[^1]: React framework [[React]]

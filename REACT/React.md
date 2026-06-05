@@ -16,18 +16,18 @@ It uses a **declarative** format, where you define the UI elements and the chang
 
 For creating a React application with TypeScript language and Vite as project scaffolder (The most recommended): 
 
-Using vite: 
+**Option 1**: Using vite: 
 ```bash
 npm create vite@latest
 ````
 
-And then select: React -> TypeScript / TypeScript + React Compiler / TypeScript + SWC ->
+And then select: React -> TypeScript / TypeScript + React Compiler / TypeScript + SWC and other options according to your preference. 
 
-Using React's Create React app: 
+
+**Option 2**: Using React's Create React app: 
 ```bash
 npx create-react-app {name}
 ```
 
 * **name** for the application and cannot contain capital letters. 
-* 
 

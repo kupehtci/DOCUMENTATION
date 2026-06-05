@@ -4,7 +4,7 @@
 
 In the DOM [[JS - DOM elements Basics]], a children is an HTML element or React in this case that is under one parent element hierarchy (Between opening an closing tags). 
 
-In React, every component has a single **props** object as its argument that contains all the children elements placed within the opening and closing tags of it. 
+In React[^1], every component has a single **props** object as its argument that contains all the children elements placed within the opening and closing tags of it. 
 
 This children can be a string, single or multiple HTML or React element or even a function. 
 
@@ -53,3 +53,7 @@ function Wrapper({children}){
 	<Button>Click on me </Button>
 </Wrapper>
 ```
+
+
+
+[^1]: React framework [[React]]
