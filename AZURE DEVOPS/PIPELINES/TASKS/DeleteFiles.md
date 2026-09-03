@@ -19,7 +19,7 @@ Its typically used to clean unnecessary:
 | Parameter            | Type                                         | Required | Default                     | Description                                                                  |
 | -------------------- | -------------------------------------------- | -------- | --------------------------- | ---------------------------------------------------------------------------- |
 | `SourceFolder`       | <span style="color:DodgerBlue">string</span> | No       | `$(Build.SourcesDirectory)` | Root folder to delete.                                                       |
-| `Contents`           | <span style="color:DodgerBlue">string        | Yes      | `myFilesShare`              | Minimatch patterns for files and folders to delete. Supports multiline.      |
+| `Contents`           | <span style="color:DodgerBlue">string</span> | Yes      | `**/*`                      | Minimatch patterns for files and folders to delete. Supports multiline.      |
 | `RemoveSourceFolder` | <span style="color:red">boolean</span>       | No       | `false`                     | Removes the `SourceFolder` after deleting the contents                       |
 | `RemoveDotFiles`     | <span style="color:red">boolean</span>       | No       | `false`                     | Also deletes the files with `.` as prefix like `.gitignore` or `.dockerfile` |
 

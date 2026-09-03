@@ -10,6 +10,13 @@ It can run in any Agent OS independently whether is Linux or Windows.
 
 Also the script can be integrated with pipeline variables and parameters, environmental variables and Azure DevOps REST APIs. 
 
+| Parameter      | Type                                          | Required    | Default   | Description                                                                                  |
+| ---------------- | ----------------------------------------------- | ------------ | ----------- | ---------------------------------------------------------------------------------------------- |
+| `targetType`    | <span style="color:DodgerBlue">string</span>  | No           | `filePath` | Type of script to run: `filePath` (existing `.ps1` file) or `inline` (script embedded in the task). |
+| `filePath`      | <span style="color:DodgerBlue">string</span>  | Conditional  | -           | Path to the `.ps1` script. Required when `targetType: filePath`.                              |
+| `script`        | <span style="color:DodgerBlue">string</span>  | Conditional  | -           | Script in multiline string format. Required when `targetType: inline`.                        |
+| `arguments`     | <span style="color:DodgerBlue">string</span>  | No           | -           | Arguments passed to the script. Used with `targetType: filePath`.                              |
+
 The basic syntax of this task is: 
 
 * For **inline scripts**, define the script in the `script` variable using multiline `|`: 

@@ -26,18 +26,23 @@ Basic syntax of the task:
     #extraProperties: # string. 
 ```
 
-* `SonarQube`: Name of the SonarQube Service Connection defined in the project. 
-* `scannerMode`: Can be either `dotnet`, `cli` or `other`. Indicates the type of analysis. 
-* `msBuildVersion`: Use when `scannerMode = dotnet`.NET Scanner Version. 
-* `cliVersion`: Use when `scannerMode = cli`. Version of the CLI scanner. 
-* `configFile`: (default `sonar-project.properties`)Use when scannerMode = cli && configMode = file. Settings File. Default: sonar-project.properties.
-* `cliProjectKey`: Required when `scannerMode = cli` && `configMode = manual`. Project Key. 
-* `cliProjectName`: Use when `scannerMode = cli` && `configMode = manual`. Project Name. 
-* `projectName`: Use when `scannerMode = dotnet`. Project Name. 
-* `cliProjectVersion`: Use when `scannerMode = dotnet`. Project Version. Default: `1.0`.
-* `cliSources`: Required when `scannerMode = cli` && `configMode = manual`. Sources directory root. Default: `.`
-* `extraProperties`: Additional Properties for SonarQube defined in YAML format like `sonar.{property}`. The available properties are defined in https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/analysis-parameters:  
-	
+| Parameter            | Type                                          | Required    | Default                       | Description                                                                                                             |
+| ---------------------- | ----------------------------------------------- | ------------ | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `SonarQube`           | <span style="color:DodgerBlue">string</span>  | Yes          | -                                 | Name of the SonarQube Service Connection defined in the project.                                                       |
+| `scannerMode`         | <span style="color:DodgerBlue">string</span>  | Yes          | `dotnet`                          | Type of analysis: `dotnet`, `cli` or `other`.                                                                            |
+| `msBuildVersion`      | <span style="color:DodgerBlue">string</span>  | No           | -                                 | .NET Scanner Version. Used when `scannerMode: dotnet`.                                                                  |
+| `cliVersion`          | <span style="color:DodgerBlue">string</span>  | No           | -                                 | Version of the CLI scanner. Used when `scannerMode: cli`.                                                               |
+| `configMode`          | <span style="color:DodgerBlue">string</span>  | Conditional  | `file`                            | Configuration mode: `file` or `manual`. Required when `scannerMode: cli`.                                               |
+| `configFile`          | <span style="color:DodgerBlue">string</span>  | No           | `sonar-project.properties`        | Settings file. Used when `scannerMode: cli` && `configMode: file`.                                                      |
+| `cliProjectKey`       | <span style="color:DodgerBlue">string</span>  | Conditional  | -                                 | Project Key. Required when `scannerMode: cli` && `configMode: manual`.                                                  |
+| `projectKey`          | <span style="color:DodgerBlue">string</span>  | Conditional  | -                                 | Project Key. Required when `scannerMode: dotnet`.                                                                       |
+| `cliProjectName`      | <span style="color:DodgerBlue">string</span>  | No           | -                                 | Project Name. Used when `scannerMode: cli` && `configMode: manual`.                                                     |
+| `projectName`         | <span style="color:DodgerBlue">string</span>  | No           | -                                 | Project Name. Used when `scannerMode: dotnet`.                                                                          |
+| `cliProjectVersion`   | <span style="color:DodgerBlue">string</span>  | No           | `1.0`                             | Project Version. Used when `scannerMode: cli` && `configMode: manual`.                                                  |
+| `projectVersion`      | <span style="color:DodgerBlue">string</span>  | No           | `1.0`                             | Project Version. Used when `scannerMode: dotnet`.                                                                       |
+| `cliSources`          | <span style="color:DodgerBlue">string</span>  | Conditional  | `.`                               | Sources directory root. Required when `scannerMode: cli` && `configMode: manual`.                                       |
+| `extraProperties`     | <span style="color:DodgerBlue">string</span>  | No           | -                                 | Additional properties for SonarQube defined in YAML format like `sonar.{property}`. See the [available properties](https://docs.sonarsource.com/sonarqube-server/analyzing-source-code/analysis-parameters). |
+
 `extraProperties` need to be specified in multi-line string format: 
 ```yaml
 	extraProperties: |

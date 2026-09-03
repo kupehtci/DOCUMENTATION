@@ -23,7 +23,20 @@ The basic syntax of this task is:
     jdkSourceOption: PreInstalled  # Source type
 ```
 
-It has three different operating methods: 
+| Parameter                       | Type                                          | Required    | Default        | Description                                                                                                        |
+| ---------------------------------- | ----------------------------------------------- | ------------ | ---------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `versionSpec`                     | <span style="color:DodgerBlue">string</span>  | Yes          | -                | JDK version to acquire, e.g. `8`, `11`.                                                                            |
+| `jdkArchitectureOption`            | <span style="color:DodgerBlue">string</span>  | No           | `x64`            | Architecture of the JDK to acquire (`x64` or `x86`).                                                               |
+| `jdkSourceOption`                  | <span style="color:DodgerBlue">string</span>  | Yes          | `PreInstalled`   | Source of the JDK: `PreInstalled`, `LocalDirectory` or `AzureStorage`. See operating methods below.                |
+| `jdkFile`                          | <span style="color:DodgerBlue">string</span>  | Conditional  | -                | Path to the compressed JDK. Required when `jdkSourceOption: LocalDirectory`.                                       |
+| `jdkDestinationDirectory`          | <span style="color:DodgerBlue">string</span>  | Conditional  | -                | Directory where the JDK will be unpacked. Required when `jdkSourceOption: LocalDirectory` or `AzureStorage`.       |
+| `cleanDestinationDirectory`        | <span style="color:red">boolean</span>        | No           | `false`          | Clean the `jdkDestinationDirectory` before extracting the JDK. Used when `jdkSourceOption: LocalDirectory` or `AzureStorage`. |
+| `azureResourceManagerEndpoint`     | <span style="color:DodgerBlue">string</span>  | Conditional  | -                | Azure service connection (ARM) used to access the storage account. Required when `jdkSourceOption: AzureStorage`. |
+| `azureStorageAccountName`          | <span style="color:DodgerBlue">string</span>  | Conditional  | -                | Name of the Azure Storage Account ([[AZURE - Storage Account]]) holding the JDK file. Required when `jdkSourceOption: AzureStorage`. |
+| `azureContainerName`               | <span style="color:DodgerBlue">string</span>  | Conditional  | -                | Name of the container within the storage account. Required when `jdkSourceOption: AzureStorage`.                  |
+| `azureCommonVirtualFile`           | <span style="color:DodgerBlue">string</span>  | Conditional  | -                | Name of the zip or gz compressed JDK file inside the container. Required when `jdkSourceOption: AzureStorage`.     |
+
+It has three different operating methods (`jdkSourceOption`): 
 
 * `PreInstalled`: (Only on windows agents) searches for a preinstalled java version, that need to be referenced in the environmental variables such as `JAVA_HOME_{version}_{architecture}` like `JAVA_HOME_11_X64` (X64 in Upper case): 
 

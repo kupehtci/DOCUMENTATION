@@ -9,7 +9,7 @@ A <span style="color:orange;">security entity</span> is an object that represent
 * Managed Identity
 And roles can be assigned to this security entities.
 
-##### Role
+### Role
 
 A <span style="color:DodgerBlue;">role</span> is a set of permissions or actions that can be performed in terms of read, write and delete permissions. 
 
@@ -23,7 +23,7 @@ This role can be custom defined or use one of the pre-defined of Azure:
 
 There are also more roles but this ones are the more generic ones in order to grant basic access to the resources. 
 
-#### Scope
+## Scope
 
 This roles can be granted to all the resources or this set of resources can be limited. The <span style="color:Crimson";>scope</span> sets this resources and lets more limits or allowances to be assigned to a role. 
 

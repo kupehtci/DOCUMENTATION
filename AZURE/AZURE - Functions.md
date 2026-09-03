@@ -6,7 +6,6 @@
 
 Azure abstracts for you the server, allowing to run code on demand when a request is received. 
 
-
 The most relevant features are: 
 
 * **Event driven**: so its only executed when its needed and then slow down to 0

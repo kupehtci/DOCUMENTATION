@@ -14,9 +14,11 @@ Basic syntax:
     architecture: 'x64'        # Optional. Default: x64
 ```
 
-* `versionSpec` indicates the version range using `3.x` or the exact version like `3.11.4` using SemVer ([[SemVer - Semantic Versioning]]). 
-* `addToPath` is required for prepending the python version path to the `PATH` variable so any subsequent tasks use it without using output variables. 
-* `architecture` defines the architecture of the system. (`x64` or `x86`). 
+| Parameter        | Type                                          | Required | Default | Description                                                                                                              |
+| ------------------ | ----------------------------------------------- | --------- | -------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `versionSpec`     | <span style="color:DodgerBlue">string</span>  | Yes       | `3.x`    | Version range using `3.x` or the exact version like `3.11.4` using SemVer ([[SemVer - Semantic Versioning]]).           |
+| `addToPath`       | <span style="color:red">boolean</span>        | No        | `true`   | Prepend the python version path to the `PATH` variable so any subsequent tasks use it without using output variables. |
+| `architecture`    | <span style="color:DodgerBlue">string</span>  | No        | `x64`    | Architecture of the system (`x64` or `x86`).                                                                             |
 
 As an alternative to `addToPath`, the task `pythonLocation` output variable containing the directory of the installed python distribution. 
 

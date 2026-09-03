@@ -53,15 +53,59 @@ Basic syntax:
 ```
 
 
-* `command`: Required, by default `restore`. Nuget command to execute. 
-* `restoreSolution`: Required when `command: restore`. Path to the solution, packages.config, or project.json to execute the command over. Default: `**/*.sln` to select each solution.
-	* recommended to set it as: `'$(Build.Repository.LocalPath)/${{ parameters.SolutionPath }}'` using `Build.Repositor.LocalPath`. 
+### Command
 
-For `command: 'push'` its mandatory to define: 
-* `packagesToPush`: Path to the nuget packages to publish. By default: `'$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'`
-* `nuGetFeedType`:(`'internal'` | `'external'`) Target feed location. Default: internal.
-	* `internal`: the target NuGet feed is hosted in the Azure DevOps organization (Azure Artifacts[^1]). In this case, define `publishVstsFeed` to specify the feed name
-	* `external`: the target NuGet feed is outside the Azure DevOps organization.
+| Parameter          | Type                                          | Required    | Default   | Description                                                                                                                          |
+| -------------------- | ----------------------------------------------- | ------------ | ----------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `command`           | <span style="color:DodgerBlue">string</span>  | Yes          | `restore`  | Nuget command to execute: `restore`, `pack`, `push` or `custom`.                                                                    |
+| `arguments`         | <span style="color:DodgerBlue">string</span>  | Conditional  | -          | Command and arguments. Required when `command: custom`.                                                                              |
+
+### Restore (`command: restore`)
+
+| Parameter                    | Type                                          | Required    | Default   | Description                                                                                                                          |
+| ------------------------------- | ----------------------------------------------- | ------------ | ----------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `restoreSolution`              | <span style="color:DodgerBlue">string</span>  | Yes          | `**/*.sln` | Path to the solution, `packages.config`, or `project.json` to execute the command over. Recommended to set it as `'$(Build.Repository.LocalPath)/${{ parameters.SolutionPath }}'` using `Build.Repository.LocalPath`. |
+| `feedsToUse`                   | <span style="color:DodgerBlue">string</span>  | Yes          | `select`   | Feeds to use: `select` (Azure Artifacts/TFS feed) or `config` (external NuGet configuration).                                       |
+| `vstsFeed`                     | <span style="color:DodgerBlue">string</span>  | No           | -          | Azure Artifacts/TFS feed to use packages from. Used when `feedsToUse: select`. Enter `[project name/]feed name`.                    |
+| `includeNuGetOrg`              | <span style="color:red">boolean</span>        | No           | `true`     | Use packages from NuGet.org. Used when `feedsToUse: select`.                                                                          |
+| `nugetConfigPath`              | <span style="color:DodgerBlue">string</span>  | No           | -          | Path to `NuGet.config`. Used when `feedsToUse: config`.                                                                               |
+| `externalFeedCredentials`      | <span style="color:DodgerBlue">string</span>  | No           | -          | Credentials for feeds outside this organization/collection. Used when `feedsToUse: config`.                                          |
+| `noCache`                      | <span style="color:red">boolean</span>        | No           | `false`    | Disable local NuGet cache.                                                                                                            |
+| `disableParallelProcessing`    | <span style="color:red">boolean</span>        | No           | `false`    | Disable parallel processing.                                                                                                          |
+| `restoreDirectory`             | <span style="color:DodgerBlue">string</span>  | No           | -          | Destination directory for the restored packages.                                                                                     |
+| `verbosityRestore`             | <span style="color:DodgerBlue">string</span>  | No           | `Detailed` | Verbosity: `Quiet`, `Normal` or `Detailed`.                                                                                            |
+
+### Push (`command: push`)
+
+| Parameter                    | Type                                          | Required    | Default   | Description                                                                                                                          |
+| ------------------------------- | ----------------------------------------------- | ------------ | ----------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `packagesToPush`               | <span style="color:DodgerBlue">string</span>  | Yes          | `$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg` | Path to the NuGet packages to publish.                       |
+| `nuGetFeedType`                | <span style="color:DodgerBlue">string</span>  | Yes          | `internal` | Target feed location: `internal` (hosted in the Azure DevOps organization, Azure Artifacts[^1]; define `publishVstsFeed`) or `external` (outside the organization; define `publishFeedCredentials`). |
+| `publishVstsFeed`              | <span style="color:DodgerBlue">string</span>  | Conditional  | -          | Target Azure Artifacts feed. Required when `nuGetFeedType: internal`.                                                                |
+| `allowPackageConflicts`        | <span style="color:red">boolean</span>        | No           | `false`    | Allow duplicates to be skipped. Used when `nuGetFeedType: internal`.                                                                 |
+| `publishFeedCredentials`       | <span style="color:DodgerBlue">string</span>  | Conditional  | -          | NuGet service connection to an external server. Required when `nuGetFeedType: external`.                                            |
+| `publishPackageMetadata`       | <span style="color:red">boolean</span>        | No           | `true`     | Publish pipeline metadata with the package. Used when `nuGetFeedType: internal`.                                                     |
+| `verbosityPush`                | <span style="color:DodgerBlue">string</span>  | No           | `Detailed` | Verbosity: `Quiet`, `Normal` or `Detailed`.                                                                                            |
+
+### Pack (`command: pack`)
+
+| Parameter                    | Type                                          | Required    | Default                             | Description                                                                                                        |
+| ------------------------------- | ----------------------------------------------- | ------------ | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `packagesToPack`               | <span style="color:DodgerBlue">string</span>  | Yes          | `**/*.csproj`                          | Path to `.csproj` or `.nuspec` file(s) to pack.                                                                   |
+| `configuration`                | <span style="color:DodgerBlue">string</span>  | No           | `$(BuildConfiguration)`                | Configuration to package.                                                                                          |
+| `packDestination`              | <span style="color:DodgerBlue">string</span>  | No           | `$(Build.ArtifactStagingDirectory)`    | Package output folder.                                                                                             |
+| `versioningScheme`             | <span style="color:DodgerBlue">string</span>  | Yes          | `off`                                   | Automatic package versioning: `off`, `byPrereleaseNumber`, `byEnvVar` or `byBuildNumber`.                          |
+| `includeReferencedProjects`    | <span style="color:red">boolean</span>        | No           | `false`                                 | Include referenced projects. Used when `versioningScheme: off`.                                                   |
+| `versionEnvVar`                | <span style="color:DodgerBlue">string</span>  | Conditional  | -                                       | Environment variable holding the version. Required when `versioningScheme: byEnvVar`.                             |
+| `majorVersion`                 | <span style="color:DodgerBlue">string</span>  | Conditional  | `1`                                     | Major version. Required when `versioningScheme: byPrereleaseNumber`.                                              |
+| `minorVersion`                 | <span style="color:DodgerBlue">string</span>  | Conditional  | `0`                                     | Minor version. Required when `versioningScheme: byPrereleaseNumber`.                                              |
+| `patchVersion`                 | <span style="color:DodgerBlue">string</span>  | Conditional  | `0`                                     | Patch version. Required when `versioningScheme: byPrereleaseNumber`.                                              |
+| `packTimezone`                 | <span style="color:DodgerBlue">string</span>  | No           | `utc`                                   | Time zone (`utc` or `local`). Used when `versioningScheme: byPrereleaseNumber`.                                   |
+| `includeSymbols`               | <span style="color:red">boolean</span>        | No           | `false`                                 | Create a symbols package.                                                                                          |
+| `toolPackage`                  | <span style="color:red">boolean</span>        | No           | `false`                                 | Package as a dotnet tool package.                                                                                  |
+| `buildProperties`              | <span style="color:DodgerBlue">string</span>  | No           | -                                       | Additional build properties, especially for `.nuspec` token replacement.                                          |
+| `basePath`                     | <span style="color:DodgerBlue">string</span>  | No           | -                                       | Base path for the files defined in the `.nuspec` file.                                                            |
+| `verbosityPack`                | <span style="color:DodgerBlue">string</span>  | No           | `Detailed`                             | Verbosity: `Quiet`, `Normal` or `Detailed`.                                                                        |
 
 [^1]: Azure Artifacts [[Azure Artifacts]]
 [^2]: Nexus [[Nexus]]

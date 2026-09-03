@@ -11,7 +11,9 @@ Basic syntax of the task:
     pollingTimeoutSec: '300' # string, timeput in seconds. Required.Default: 300.
 ```
 
-* `pollingTimeoutSec`: indicates the maximum time in seconds that this task will wait for the SonarQube analisis to end. 
+| Parameter            | Type                                          | Required | Default | Description                                                                          |
+| ---------------------- | ----------------------------------------------- | --------- | -------- | ---------------------------------------------------------------------------------------- |
+| `pollingTimeoutSec`   | <span style="color:DodgerBlue">string</span>  | Yes       | `300`    | Maximum time in seconds that this task will wait for the SonarQube analysis to end. |
 
 
 Requires a `SonarQubePrepare` ()
