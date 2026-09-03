@@ -45,15 +45,15 @@ To clean the docker environment (Docker elements):
 
 For volume management: 
 
-| Command                                    | Description                                                           |
-| ------------------------------------------ | --------------------------------------------------------------------- |
-| `docker volume ls`                         | List volumes                                                          |
-| `docker volume create <name>`              | Create a named volume to ensure it exists before container start up.  |
-| `docker run -v <volume>:/path <image>`     | Mount volume to container                                             |
-| `docker network ls`                        | List networks                                                         |
-| `docker network create <name>`             | Create network                                                        |
-| `docker network rm <name>`                 | Remove network                                                        |
-| `docker network connect <net> <container>` | Attach container to network                                           |
+| Command                                    | Description                                                          | Example                              |
+| ------------------------------------------ | -------------------------------------------------------------------- | ------------------------------------ |
+| `docker volume ls`                         | List volumes                                                         |                                      |
+| `docker volume create <name>`              | Create a named volume to ensure it exists before container start up. | `docker volume create postgres-data` |
+| `docker run -v <volume>:/path <image>`     | Mount volume to container                                            |                                      |
+| `docker network ls`                        | List networks                                                        |                                      |
+| `docker network create <name>`             | Create network                                                       |                                      |
+| `docker network rm <name>`                 | Remove network                                                       |                                      |
+| `docker network connect <net> <container>` | Attach container to network                                          |                                      |
 
 For build and run: 
 

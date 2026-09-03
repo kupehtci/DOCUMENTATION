@@ -8,7 +8,6 @@ It provides a unified way to deploy, scale and manage containerized applications
 
 It also offers service discovery using the built-in DNS with the overlay networking mode[^1]. 
 
-
 # Nodes
 
 In a Docker Swarm cluster, there are different types of nodes in charge of different tasks: 
