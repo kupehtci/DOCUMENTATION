@@ -41,7 +41,7 @@ This parameters support various **data types** passed into the runtime:
 * `stringList` a list of items and multiple can be selected. (Not available in templates)
 * `number`: numerical value
 * `boolean`: true or false
-* `object`: accepts any YAML structure that conform an object
+* `object`: accepts any YAML structure that conform an object. 
 * `step`: a single step
 * `stepList`: a sequence of steps
 * `job`: a single job

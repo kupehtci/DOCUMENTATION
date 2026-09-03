@@ -75,7 +75,10 @@ This variables are set by the agent and are **read-only**:
 * `Build.RequestedForId`
 * `Build.RequestedFor`
 * `Build.Repository.LocalPath`: 
-* `Build.ArtifactStagingDirectory`: 
+* `Build.ArtifactStagingDirectory`:  temporary folder path that its normally used to prepare the files that they are going to be published as build artifacts. 
+	* Offers a clean and isolated path within the agent. 
+	* Its deleted and recreated in each build. 
+	* Useful with tasks like [[PublishBuildArtifacts]] and [[ArchiveFiles]]. 
 * `Agent.BuildDirectory`
 
 
