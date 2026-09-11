@@ -203,7 +203,6 @@ Each vulnerability in the `vulnerabilities` list contains:
 * `vulnerableSoftware`: Indicates the ID of the software and the versions that are affected by the vulnerability. 
 
 
-
 [^1]: HTML format [[HTML]]
 [^2]: XML format [[XML - BASICS]]
 [^3]: JSON format [[JSON vs XML]]
