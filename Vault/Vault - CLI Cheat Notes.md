@@ -23,6 +23,7 @@ Path: `/auth/{METHOD-NAME}/role/{[OPT]ROLE-NAME}`
 | `vault write -f auth/approle/role/{ROLE-NAME}/secret-id`                             | Create a new `secret_id` for the role and retrieve it.                             |
 | ```<br>vault write auth/approle/login role_id={ROLE-ID} secret_id={SECRET-ID}<br>``` | Login with an AppRole's role using the `role_id` and `secret_id`.                  |
 |                                                                                      |                                                                                    |
+|                                                                                      |                                                                                    |
 
 Take into account that `write` command has an -f as force, meaning that won't prompt requesting an input, it will create the `secret_id` itself and prompt it.
 

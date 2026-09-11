@@ -23,7 +23,9 @@ It will print a list of all the authentication methods available so, select the 
 # Template
 vault write auth/{AUTH_APPROLE_NAME}/role/{ROLE_NAME} \
     token_policies="default,{POLICY_NAME}"
-
+    
+vault write auth/approle/role/demopython \
+    token_policies="default,demopython-policy"
 # Example with "approle" authentication method and role names "myapp"
 # And default and my-policy
 vault write auth/approle/role/myapp \
