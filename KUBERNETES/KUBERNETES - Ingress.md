@@ -14,4 +14,5 @@ An ingress controller also creates a LoadBalancer Service to create a single loa
 ### Take into account
 
 * Initialize an Ingress controller in order to make the ingress resource to work. Also supports AWS, GCE and nginx ingress controllers. 
-* 
+
+## YAML
