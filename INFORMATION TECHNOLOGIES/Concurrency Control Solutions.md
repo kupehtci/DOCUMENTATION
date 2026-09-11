@@ -14,7 +14,8 @@ This locking can be done at different <span style="color:MediumSlateBlue;">level
 * Table level: blocks the table 
 * Page level: when performing an <span style="color:orange;">UNION</span> when performing a select, this set of tables is readed in a "virtual" table named as <span style="color:orange;">page</span>. 
 * Row level: blocks a single row in the database. 
-* Field level: blocks a single field in the database. 
+* Field level: blocks a single field in the database.
+* 
 ### <span style="color:DodgerBlue; background-color:SeaShell; border-radius:0.5rem;padding:0.3rem;">Time-Stamp Based protocol</span>
 
 Each transaction is issued a timestamp when it enters the system. 
