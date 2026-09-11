@@ -10,6 +10,12 @@ All of this documentation has been created to gather all the technologies and co
 
 ### Currently
 
-Currently working over AWS and having some study sessions for preparing the SAA-C03 exam. 
+* Finished and passed the AWS SAA-C03 exam and the redaction of notes about AWS resources. 
+* Vault still in research and documentation after a successful implementation and testing. 
+* Currently studying advanced usage of SonarQube, the integration with Azure DevOps CI/CD workflow. 
+	* Currently studying about Quality definitions in a organization. 
+	* Some software security investigation for implementing OWASP dependency check and other analysis like dependencies obsolescence in applications. 
 
-Also implementing Vault and learning about its usage and administration for myself
+
+
+

@@ -17,7 +17,7 @@ Here are some common mathematical things you might use in statistics
 | x⎯⎯⎯                                                | `$\overline{x}$`                                                                                        |
 | x̂                                                  | `$\hat{x}$`                                                                                             |
 | x̃                                                  | `$\tilde{x}$`                                                                                           |
-| ab                                                  | `$\frac{a}{b}$`                                                                                         |
+| $\frac{a}{b}$                                       | `$\frac{a}{b}$`                                                                                         |
 | ∂f∂x                                                | `$\frac{\partial f}{\partial x}$`                                                                       |
 | ∂f∂x                                                | `$\displaystyle \frac{\partial f}{\partial x}$`                                                         |
 | (nk)                                                | `$\binom{n}{k}$`                                                                                        |
@@ -49,19 +49,19 @@ Here are some common mathematical things you might use in statistics
 
 ### Greek Letters
 
-| Symbol  | Markdown Math  | Symbol  | Markdown Mathç  |
-|---|---|---|---|
-|αA|`$\alpha A$`|νN|+` |
-|βB|`$\beta B$`|ξΞ|'P=)gcv bm,.' |
-|γΓ|`$\gamma \Gamma$`|oO|`l$o O$` (omicron) |
-|δΔ|`$\delta \Delta$`|πΠ|`$\pi \Pi$`|
-|ϵεE|`$\epsilon \varepsilon E$`|ρϱP|`$\rho\varrho P$`|
-|ζZ|`$\zeta Z \sigma \,\!$`|Σ|`$\sigma \Sigma$`|
-|ηH|`$\eta H$`|τT|`$\tau T$`|
-|θϑΘ|`$\theta \vartheta \Theta$`|υΥ|`$\upsilon \Upsilon$`|
-|ιI|`$\iota I$`|ϕφΦ|`$\phi \varphi \Phi$`|
-|κK|`$\kappa K$`|χX|`$\chi X$`|
-|λΛ|`$\lambda \Lambda$`|ψΨ|`$\psi \Psi$`|
-|μM|`$\mu M$`|ωΩ|`$\omega \Omega$`|
+| Symbol | Markdown Math               | Symbol | Markdown Mathç        |
+| ------ | --------------------------- | ------ | --------------------- |
+| αA     | `$\alpha A$`                | νN     | +`                    |
+| βB     | `$\beta B$`                 | ξΞ     | 'P=)gcv bm,.'         |
+| γΓ     | `$\gamma \Gamma$`           | oO     | `l$o O$` (omicron)    |
+| δΔ     | `$\delta \Delta$`           | πΠ     | `$\pi \Pi$`           |
+| ϵεE    | `$\epsilon \varepsilon E$`  | ρϱP    | `$\rho\varrho P$`     |
+| ζZ     | `$\zeta Z \sigma \,\!$`     | Σ      | `$\sigma \Sigma$`     |
+| ηH     | `$\eta H$`                  | τT     | `$\tau T$`            |
+| θϑΘ    | `$\theta \vartheta \Theta$` | υΥ     | `$\upsilon \Upsilon$` |
+| ιI     | `$\iota I$`                 | ϕφΦ    | `$\phi \varphi \Phi$` |
+| κK     | `$\kappa K$`                | χX     | `$\chi X$`            |
+| λΛ     | `$\lambda \Lambda$`         | ψΨ     | `$\psi \Psi$`         |
+| μM     | `$\mu M$`                   | ωΩ     | `$\omega \Omega$`     |
 
 

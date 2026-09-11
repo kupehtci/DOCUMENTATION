@@ -1,9 +1,12 @@
 {
 	"nodes":[
-		{"id":"012be77c54add7f7","x":-340,"y":-320,"width":400,"height":680,"type":"file","file":"CSS/CSS-Selectors.md"},
-		{"id":"fddc2b4b96b91d19","x":360,"y":-320,"width":620,"height":400,"type":"file","file":"CSS/CSS-Pseudo-class.md"}
+		{"id":"012be77c54add7f7","type":"file","file":"CSS/CSS - Selectors.md","x":-340,"y":-320,"width":400,"height":680},
+		{"id":"fddc2b4b96b91d19","type":"file","file":"CSS/CSS - Pseudo-class.md","x":360,"y":-320,"width":620,"height":400},
+		{"id":"9ab1926a3bb361e6","type":"file","file":"CSS/CSS - Grids.md","x":360,"y":340,"width":620,"height":400},
+		{"id":"0101adc557c8e91a","x":1140,"y":340,"width":720,"height":400,"type":"file","file":"CSS/CSS - Grids fractions.md"}
 	],
 	"edges":[
-		{"id":"56ea47056a852810","fromNode":"012be77c54add7f7","fromSide":"right","toNode":"fddc2b4b96b91d19","toSide":"left"}
+		{"id":"56ea47056a852810","fromNode":"012be77c54add7f7","fromSide":"right","toNode":"fddc2b4b96b91d19","toSide":"left"},
+		{"id":"eff5f7de9ab6aa7e","fromNode":"9ab1926a3bb361e6","fromSide":"right","toNode":"0101adc557c8e91a","toSide":"left","fromEnd":"arrow"}
 	]
 }
