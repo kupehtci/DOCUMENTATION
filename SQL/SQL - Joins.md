@@ -28,3 +28,22 @@ There are different types of join:
   
 ➡️ FULL JOIN WITH NULL CHECK: filter the values that don't have any coincidence in both tables. 
 ![[./IMAGES/join_types.gif]]
+
+## Basic Syntax
+
+The basic syntax of a Join required to define the type of joint, followed by the condition that joins the rows of both tables: 
+
+```SQL
+SELECT table1.column1, table2.column2 
+FROM table1 
+JOIN_TYPE table2 ON table1.matching_column = table2.matching_column;
+```
+
+An example join with two tables `customers` and `orders` that both share the `CustomerID` column would be: 
+```SQL
+SELECT customers.Name, orders.OrderDate 
+FROM customers 
+INNER JOIN orders ON customers.CustomerID = orders.CustomerID;
+```
+
+> Note: Inner join for getting only the customers who have placed and order and the condition matching the CustomerID as its the foreign key that match in both tables. 
