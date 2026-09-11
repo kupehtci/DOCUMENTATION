@@ -167,6 +167,9 @@ Notes on `arguments`:
 
 If you need more control over how the results are published into Azure DevOps pipeline, you can set `publishTestResults: false` so they are not automatically published and control the publish with `PublishTestResults` task[^1]. 
 
+### Code coverage
+
+To collect code coverage during `test`, add `--collect:"XPlat Code Coverage"` to `arguments` and publish the resulting Cobertura file with [[PublishCodeCoverageResults]]. See [[Azure Pipelines - Unit Testing and Code Coverage]] for the full explanation of .NET coverage tooling and file formats.
 
 %%TODO%%
 
