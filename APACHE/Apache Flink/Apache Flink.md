@@ -1,5 +1,0 @@
-#APACHE 
-
-# Apache Flink
-
-%%TODO%%

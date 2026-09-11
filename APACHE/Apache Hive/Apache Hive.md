@@ -1,6 +1,0 @@
-#APACHE 
-
-# Apache Hive
-
-%%TODO%%
-
