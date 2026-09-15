@@ -30,7 +30,7 @@ Branching of the project:
 * `sonar.pullrequest.base`: Branch to where the pull request will be merged to. 
 	* Default is `main` branch. 
 
-OWASP Dependency Check plugin ([[OWASP Dependency Check plugin]], [[SonarQube - Dependency Check]]): 
+[[OWASP Dependency Check plugin]] ([[OWASP Dependency Check plugin]], [[SonarQube - Dependency Check]]): 
 * `sonar.dependencyCheck.jsonReportPath`: path to the JSON report generated with OWASP Dependency check for the dependency-check plugin. 
 * `sonar.dependencyCheck.reportPathpath`: path to the XML report generated with OWASP Dependency check for the dependency-check plugin. 
 * `sonar.dependencyCheck.htmlReportPath`: pathto the HTML report generated with OWASP Dependency check for the dependency-check plugin. 

@@ -16,7 +16,7 @@ The rules for detecting this elements can be customized.
 ## Infrastructure
 
 SonarQube maintains a central server the stores and allows to browse the code analysis of different development projects. 
-The analysis is normally integrated into CI/CD pipelines like Azure DevOps, GitHub actions or GitLab, in order to analyze every push of code. 
+The analysis is normally integrated into CI/CD pipelines like [[Azure DevOps]], GitHub actions or GitLab, in order to analyze every push of code. 
 
 ## Key features 
 
