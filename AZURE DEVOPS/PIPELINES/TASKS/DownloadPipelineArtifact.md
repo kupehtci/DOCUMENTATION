@@ -2,7 +2,7 @@
 
 # DownloadPipelineArtifact
 
-`DownloadPipelineArtifact` is an Azure DevOps task that allows to download pipeline artifacts from earlier stages in the same pipeline, or from another pipeline run.
+`DownloadPipelineArtifact` is an [[Azure DevOps]] task that allows to download pipeline artifacts from earlier stages in the same pipeline, or from another pipeline run.
 
 > Note: This task is only supported on Azure DevOps Services. On Azure DevOps Server / TFS use [[DownloadBuildArtifacts]] instead.
 

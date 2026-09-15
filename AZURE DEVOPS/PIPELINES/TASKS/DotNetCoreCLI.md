@@ -54,7 +54,7 @@ Notes on `arguments`:
     vstsFeed: 'your-feed-id-or-name'
 ```
 
-If using a custom `.config` file (NuGet configuration file) instead of Azure Artifacts feed, an example looks like this: 
+If using a custom `.config` file (NuGet configuration file) instead of [[Azure Artifacts]] feed, an example looks like this: 
 
 ```YAML
 - task: DotNetCoreCLI@2
@@ -152,7 +152,7 @@ Inputs:
 | `command`                | <span style="color:DodgerBlue">string</span>  | Yes       | -        | `test` is required to run `dotnet test`.                                                                       |
 | `projects`               | <span style="color:DodgerBlue">string</span>  | No        | -        | `.csproj` or solution files to test, accepting wildcards for selecting multiple ones, such as `'**/*Tests.csproj'`. |
 | `arguments`              | <span style="color:DodgerBlue">string</span>  | No        | -        | Extra flags for configurations like build configuration, filtering, no-build and others. See notes below.      |
-| `publishTestResults`     | <span style="color:red">boolean</span>        | No        | `true`   | Enables automatic publish of the test results and code coverage into the Azure DevOps pipeline.                |
+| `publishTestResults`     | <span style="color:red">boolean</span>        | No        | `true`   | Enables automatic publish of the test results and code coverage into the [[Azure DevOps]] pipeline.                |
 | `testRunTitle`           | <span style="color:DodgerBlue">string</span>  | No        | -        | Name for the test execution.                                                                                    |
 
 Notes on `arguments`:

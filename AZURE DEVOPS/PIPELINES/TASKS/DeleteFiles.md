@@ -2,7 +2,7 @@
 
 # DeleteFiles
 
-`DeleteFiles` is an Azure DevOps pipeline task that can be used to delete files and folders from the build's agent working directory. 
+`DeleteFiles` is an [[Azure DevOps]] pipeline task that can be used to delete files and folders from the build's agent working directory. 
 
 Its typically used to clean unnecessary: 
 

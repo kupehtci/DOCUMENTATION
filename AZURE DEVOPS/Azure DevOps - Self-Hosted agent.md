@@ -1,7 +1,7 @@
 #AZURE_DEVOPS 
 # Azure DevOps - Self-Hosted Agent
 
-A Self-hosted agent in Azure DevOps is a machine that can be physical, a VM or a container where you install the azure devops agent software to run the pipelines. 
+A Self-hosted agent in [[Azure DevOps]] is a machine that can be physical, a VM or a container where you install the azure devops agent software to run the pipelines. 
 
 It allows to: 
 * Bring CI/CD to a on-prem environment: 
@@ -24,7 +24,7 @@ If you are running an agent in a secure network behind a firewall, the agent mus
 | `https://{organization_name}.vsrm.visualstudio.com`   | Release Management Services for organizations using the `{organization_name}.visualstudio.com` domain           |
 | `https://{organization_name}.vssps.visualstudio.com`  | Azure DevOps Platform Services for organizations using the `{organization_name}.visualstudio.com` domain        |
 | `https://{organization_name}.vstmr.visualstudio.com`  | Azure DevOps Test Management Services for organizations using the `{organization_name}.visualstudio.com` domain |
-| `https://*.blob.core.windows.net`                     | Azure Artifacts                                                                                                 |
+| `https://*.blob.core.windows.net`                     | [[Azure Artifacts]]                                                                                                 |
 | `https://*.dev.azure.com`                             | For organizations using the `dev.azure.com` domain                                                              |
 | `https://*.vsassets.io`                               | Azure Artifacts via CDN                                                                                         |
 | `https://*.vsblob.visualstudio.com`                   | Azure DevOps Telemetry for organizations using the `dev.azure.com` domain                                       |

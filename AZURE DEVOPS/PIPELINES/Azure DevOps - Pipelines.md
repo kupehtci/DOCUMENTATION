@@ -2,7 +2,7 @@
 
 # Azure DevOps Pipelines 
 
-Azure DevOps pipelines is a cloud based service that automates the building, test and deployment of the code projects using continuous integration (CI) and continuous deployment (CD) workflows. 
+[[Azure DevOps]] pipelines is a cloud based service that automates the building, test and deployment of the code projects using continuous integration (CI) and continuous deployment (CD) workflows. 
 
 Build pipelines are defined in YAML[^1] format or in classic pipelines (UI) toz organize the logical phases and executions made to build, test and pack the application. 
 

@@ -2,7 +2,7 @@
 
 # CmdLine
 
-`CmdLine` is an Azure DevOps task that runs a command line script using Bash on Linux/macOS and `cmd.exe` on Windows.
+`CmdLine` is an [[Azure DevOps]] task that runs a command line script using Bash on Linux/macOS and `cmd.exe` on Windows.
 
 Syntax template:
 

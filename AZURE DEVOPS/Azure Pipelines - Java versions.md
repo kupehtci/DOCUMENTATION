@@ -33,7 +33,7 @@ You can set the current version to use in different ways:
 
 ## Manually
 
-Azure DevOps uses the `JAVA_HOME` environmental variable to select the JDK used for the further tasks: 
+[[Azure DevOps]] uses the `JAVA_HOME` environmental variable to select the JDK used for the further tasks: 
 
 ```yaml
 # Set JAVA_HOME

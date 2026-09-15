@@ -2,7 +2,7 @@
 
 # PublishBuildArtifacts
 
-`PublishBuildArtifacts` is an Azure DevOps task that publishes build artifacts to Azure Pipelines, TFS or a file share. 
+`PublishBuildArtifacts` is an [[Azure DevOps]] task that publishes build artifacts to Azure Pipelines, TFS or a file share. 
 
 
 <span style="border: 1px solid red; border-radius: 10%; padding: 1rem; margin: 1rem; ">

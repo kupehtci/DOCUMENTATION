@@ -2,7 +2,7 @@
 
 # Bash
 
-`Bash` is an Azure DevOps task that runs a Bash script on macOS, Linux, or Windows.
+`Bash` is an [[Azure DevOps]] task that runs a Bash script on macOS, Linux, or Windows.
 
 > Note: on a Windows host this runs bash from the WSL default distribution (WSL must be installed, and is preinstalled on Microsoft-hosted Windows agents). Classic pipelines on Windows agents use Git Bash instead.
 

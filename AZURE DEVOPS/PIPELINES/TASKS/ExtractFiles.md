@@ -2,7 +2,7 @@
 
 # ExtractFiles
 
-`ExtractFiles` is an Azure DevOps task that extracts a variety of archive and compression files, such as `.zip`, `.jar`, `.war`, `.ear`, `.tar` and `.7z`.
+`ExtractFiles` is an [[Azure DevOps]] task that extracts a variety of archive and compression files, such as `.zip`, `.jar`, `.war`, `.ear`, `.tar` and `.7z`.
 
 Syntax template:
 

@@ -2,7 +2,7 @@
 
 ## Windows
 
-This section offers instructions for installing and configuring an Azure DevOps agent in a Windows OS machine. 
+This section offers instructions for installing and configuring an [[Azure DevOps]] agent in a Windows OS machine. 
 The agent will allow the projects to execute the pipelines compilation and deploy jobs in the local infrastructure. 
 
 Requirements: 

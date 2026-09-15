@@ -2,7 +2,7 @@
 
 # Azure DevOps conditionals
 
-For evaluating conditions and execute certain tasks or code depending on pipeline parameters, variables or executions, Azure DevOps offers a set of statements for evaluating this in **compile-time**: 
+For evaluating conditions and execute certain tasks or code depending on pipeline parameters, variables or executions, [[Azure DevOps]] offers a set of statements for evaluating this in **compile-time**: 
 
 - `${{ if condition }}`: Start of a conditional block that is included only when condition is true.
 - `${{ elseif condition }}`: Additional conditional branch evaluated before the previous if or else if conditions. 

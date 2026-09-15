@@ -2,7 +2,7 @@
 
 # Azure DevOps - API REST - List projects
 
-You can List the available projects in an Azure DevOps organization using the API REST. 
+You can List the available projects in an [[Azure DevOps]] organization using the API REST. 
 
 To do so, send a GET request to the following path with the corresponding "Basic" authentication: 
 ```txt 

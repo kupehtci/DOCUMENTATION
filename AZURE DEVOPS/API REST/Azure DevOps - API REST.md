@@ -2,7 +2,7 @@
 
 # Azure DevOps - API REST
 
-Azure DevOps API REST is a set of HTTP endpoints that allow to access and manage resources in Azure DevOps such as: 
+[[Azure DevOps]] API REST is a set of HTTP endpoints that allow to access and manage resources in Azure DevOps such as: 
 
 * Work items
 * GIT repositories

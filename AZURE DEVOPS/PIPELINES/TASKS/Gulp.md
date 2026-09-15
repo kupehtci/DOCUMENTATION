@@ -2,7 +2,7 @@
 
 # Gulp
 
-`gulp` is an Azure DevOps task that runs the gulp Node.js streaming task-based build system.
+`gulp` is an [[Azure DevOps]] task that runs the gulp Node.js streaming task-based build system.
 
 > Note: gulp isn't preinstalled on all hosted agents; install it (and any plugins) with [[Npm]] before running this task.
 

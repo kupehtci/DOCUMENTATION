@@ -2,7 +2,7 @@
 
 # Npm
 
-`Npm` is an Azure DevOps task that installs or publishes npm packages, or runs an arbitrary `npm` command. Supports npmjs.com and authenticated registries like Azure Artifacts.
+`Npm` is an [[Azure DevOps]] task that installs or publishes npm packages, or runs an arbitrary `npm` command. Supports npmjs.com and authenticated registries like [[Azure Artifacts]].
 
 > Note: to authenticate with an Azure Artifacts feed without installing/publishing (e.g. before a plain `npm install` in a script step), use the `npmAuthenticate@0` task instead. 
 

@@ -2,7 +2,7 @@
 
 # PublishCodeCoverageResults
 
-`PublishCodeCoverageResults` is an Azure DevOps task that publishes code coverage results (line, branch, method, class) to Azure Pipelines, providing a coverage summary and an HTML report in the pipeline's **Code Coverage** tab.
+`PublishCodeCoverageResults` is an [[Azure DevOps]] task that publishes code coverage results (line, branch, method, class) to Azure Pipelines, providing a coverage summary and an HTML report in the pipeline's **Code Coverage** tab.
 
 > Note: tasks like [[DotNetCoreCLI]] (`test` command) or [[Maven]] can publish coverage automatically when a coverage collector/tool is configured (`publishTestResults: true` + a coverage collector for .NET, or `codeCoverageToolOption` for Maven). Use this task explicitly when that automatic publish is disabled, when coverage is generated outside of those tasks (e.g. npm/Node tooling), or when several coverage files need to be merged/published together.
 

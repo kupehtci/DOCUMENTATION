@@ -2,7 +2,7 @@
 
 # TwineAuthenticate
 
-`TwineAuthenticate` is an Azure DevOps task that authenticates `twine` to upload Python distributions to a package feed. It writes a `.pypirc` file and exposes its path as the `PYPIRC_PATH` variable for the rest of the job.
+`TwineAuthenticate` is an [[Azure DevOps]] task that authenticates `twine` to upload Python distributions to a package feed. It writes a `.pypirc` file and exposes its path as the `PYPIRC_PATH` variable for the rest of the job.
 
 After running this task, add `-r <FeedName/EndpointName> --config-file $(PYPIRC_PATH)` to the `twine upload` command: use the feed name as the repository (`-r`) for feeds in this organization, or the service connection name for external registries.
 
@@ -23,7 +23,7 @@ Syntax template:
 | Parameter                        | Type                                          | Required | Default | Description                                                                                                                                            |
 | ----------------------------------- | ----------------------------------------------- | --------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `azureDevOpsServiceConnection`      | <span style="color:DodgerBlue">string</span>  | No        | -        | Azure DevOps service connection using workload identity federation. If set, `feedUrl` is required and every other input is ignored.                    |
-| `feedUrl`                           | <span style="color:DodgerBlue">string</span>  | No        | -        | Azure Artifacts feed upload URL, in the form `https://pkgs.dev.azure.com/{ORG}/{PROJECT}/_packaging/{FEED}/pypi/upload/`. Requires `azureDevOpsServiceConnection`; not compatible with `pythonUploadServiceConnection`. |
+| `feedUrl`                           | <span style="color:DodgerBlue">string</span>  | No        | -        | [[Azure Artifacts]] feed upload URL, in the form `https://pkgs.dev.azure.com/{ORG}/{PROJECT}/_packaging/{FEED}/pypi/upload/`. Requires `azureDevOpsServiceConnection`; not compatible with `pythonUploadServiceConnection`. |
 | `artifactFeed`                     | <span style="color:DodgerBlue">string</span>  | No        | -        | Name of an Azure Artifacts feed within this organization to authenticate with. Use `projectName/feedName` for project-scoped feeds, or just `feedName` for organization-scoped ones. |
 | `pythonUploadServiceConnection`    | <span style="color:DodgerBlue">string</span>  | No        | -        | Name of a Python package upload service connection for an external registry (e.g. PyPI). Its stored credentials need package-upload permissions.       |
 

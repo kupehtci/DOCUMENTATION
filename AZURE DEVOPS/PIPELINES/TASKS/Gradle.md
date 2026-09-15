@@ -2,7 +2,7 @@
 
 # Gradle
 
-`Gradle` is an Azure DevOps task that builds a project using a Gradle wrapper script (`gradlew`).
+`Gradle` is an [[Azure DevOps]] task that builds a project using a Gradle wrapper script (`gradlew`).
 
 > Note: use [[JavaToolInstaller]] beforehand if the required JDK isn't already on the agent. SonarQube analysis configuration was moved out of this task into [[SonarQubePrepare]] / [[SonarQubeAnalyze]] / [[SonarQubePublish]]; this task only toggles running it (`sonarQubeRunAnalysis`).
 

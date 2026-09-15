@@ -2,7 +2,7 @@
 
 **PublishPipelineArtifact** task allows to publish (Upload) a file or directory as a pipeline artifact with name so other jobs or stages can download it afterwards. 
 
-Its also available from the pipeline in the Azure DevOps web. 
+Its also available from the pipeline in the [[Azure DevOps]] web. 
 
 
 Basic syntax of the task: 

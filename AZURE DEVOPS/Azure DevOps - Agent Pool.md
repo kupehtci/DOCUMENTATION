@@ -2,7 +2,7 @@
 
 # Agent Pool
 
-An **agent pool** in Azure DevOps is a logical grouping of one or more build and release agents that can run the workload of the pipeline jobs. 
+An **agent pool** in [[Azure DevOps]] is a logical grouping of one or more build and release agents that can run the workload of the pipeline jobs. 
 
 All the pipeline must target a agent in which the jobs are going to be executed, that can be over self-hosted agents (Own agents[[Azure DevOps - Self-Hosted agent]]) or microsoft-hosted. 
 

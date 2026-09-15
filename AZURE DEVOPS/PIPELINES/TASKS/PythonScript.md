@@ -2,7 +2,7 @@
 
 # PythonScript Azure DevOps task
 
-`PythonScript` is an Azure DevOps task type for executing a python script file or inline script. 
+`PythonScript` is an [[Azure DevOps]] task type for executing a python script file or inline script. 
 
 Basic syntax of the task: 
 ```yaml

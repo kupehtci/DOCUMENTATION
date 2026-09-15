@@ -2,7 +2,7 @@
 
 # DownloadBuildArtifacts
 
-`DownloadBuildArtifacts` is an Azure DevOps task that allows to download artifacts from a build. 
+`DownloadBuildArtifacts` is an [[Azure DevOps]] task that allows to download artifacts from a build. 
 
 Syntax template:
 

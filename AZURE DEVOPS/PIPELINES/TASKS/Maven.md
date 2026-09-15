@@ -2,7 +2,7 @@
 
 # Maven
 
-`Maven` is an Azure DevOps task that builds, tests and deploys projects with Apache Maven.
+`Maven` is an [[Azure DevOps]] task that builds, tests and deploys projects with Apache Maven.
 
 > Note: use [[JavaToolInstaller]] beforehand if the required JDK isn't already on the agent. SonarQube analysis configuration was moved out of this task into [[SonarQubePrepare]] / [[SonarQubeAnalyze]] / [[SonarQubePublish]]; this task only toggles running it (`sonarQubeRunAnalysis`).
 
@@ -94,7 +94,7 @@ Syntax template:
 | `mavenDirectory`            | <span style="color:DodgerBlue">string</span>  | Conditional  | -                 | Custom path to the Maven installation, e.g. `/usr/share/maven`. Required when `mavenVersionOption: Path`.                                        |
 | `mavenSetM2Home`            | <span style="color:red">boolean</span>        | No           | `false`           | Set the `M2_HOME` variable to the custom Maven installation path. Used when `mavenVersionOption: Path`.                                          |
 | `mavenOptions`              | <span style="color:DodgerBlue">string</span>  | No           | `-Xmx1024m`       | Sets `MAVEN_OPTS`, used to pass command-line arguments to the JVM (`-Xmx` sets the max memory).                                                  |
-| `mavenAuthenticateFeed`     | <span style="color:red">boolean</span>        | No           | `false`           | Automatically authenticate with Azure Artifacts feeds. Deselect for faster builds if feeds aren't used.                                          |
+| `mavenAuthenticateFeed`     | <span style="color:red">boolean</span>        | No           | `false`           | Automatically authenticate with [[Azure Artifacts]] feeds. Deselect for faster builds if feeds aren't used.                                          |
 | `effectivePomSkip`          | <span style="color:red">boolean</span>        | No           | `false`           | Authenticate with Artifacts feeds using only the POM (skip generating the effective POM).                                                       |
 
 ### Code analysis

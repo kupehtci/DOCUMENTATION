@@ -2,7 +2,7 @@
 
 # PublishTestResults
 
-`PublishTestResults` is an Azure DevOps task that publishes test results files to Azure Pipelines, providing test reporting and analytics in the pipeline's **Tests** tab.
+`PublishTestResults` is an [[Azure DevOps]] task that publishes test results files to Azure Pipelines, providing test reporting and analytics in the pipeline's **Tests** tab.
 
 > Note: tasks like [[DotNetCoreCLI]] (`test` command), Visual Studio Test or Maven can publish their results automatically (`publishTestResults: true`). Use this task explicitly when that automatic publish is disabled, or when the results were generated outside of those tasks.
 

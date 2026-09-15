@@ -2,7 +2,7 @@
 
 # SonarQubePublish
 
-`SonarQubePublish` is an Azure DevOps task that publish the results of the Quality Gate from SonarQube ([[SonarQube]]) into the Azure DevOps pipeline. 
+`SonarQubePublish` is an [[Azure DevOps]] task that publish the results of the Quality Gate from SonarQube ([[SonarQube]]) into the Azure DevOps pipeline. 
 
 Basic syntax of the task: 
 ```yaml

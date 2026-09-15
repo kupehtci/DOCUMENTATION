@@ -2,7 +2,7 @@
 
 # Azure DevOps - Agent Update 
 
-Hosting your own Azure DevOps agents in your own servers, require updating the agent software constantly, as the cloud SaS platform requires normally the agent to be updated to the latest or closely to it. 
+Hosting your own [[Azure DevOps]] agents in your own servers, require updating the agent software constantly, as the cloud SaS platform requires normally the agent to be updated to the latest or closely to it. 
 
 # Update agent automatically
 

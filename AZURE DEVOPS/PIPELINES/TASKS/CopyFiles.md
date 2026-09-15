@@ -2,7 +2,7 @@
 
 # CopyFiles
 
-`CopyFiles` is an Azure DevOps task that copies files from a source folder to a target folder using match patterns. Patterns only match file paths, not folder paths.
+`CopyFiles` is an [[Azure DevOps]] task that copies files from a source folder to a target folder using match patterns. Patterns only match file paths, not folder paths.
 
 Syntax template:
 

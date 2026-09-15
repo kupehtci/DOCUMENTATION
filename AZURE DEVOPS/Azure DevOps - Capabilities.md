@@ -16,7 +16,7 @@ There are two types of capabilities:
 	* Other tools discovered by the machine. 
 	This values are captured in the agent's runtime and updated if those values changes when the agent is running. 
 
-* **User capabilities**: manually defined key-value pairs that you can add to the agent to customize the capabilities that a certain agent has. This is useful for adding custom properties to an agent like `purpose: build` and `purpose: deploy` for separating agent purposes. Also is useful for declaring specialized tools that you have manually installed in Azure DevOps. 
+* **User capabilities**: manually defined key-value pairs that you can add to the agent to customize the capabilities that a certain agent has. This is useful for adding custom properties to an agent like `purpose: build` and `purpose: deploy` for separating agent purposes. Also is useful for declaring specialized tools that you have manually installed in [[Azure DevOps]]. 
 
 You can add **user capabilities** in the *Capabilities* section: 
 ![[./IMAGES/user-defined-capabilities.png]]

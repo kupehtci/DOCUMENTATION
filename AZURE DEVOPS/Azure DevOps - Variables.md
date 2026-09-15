@@ -2,7 +2,7 @@
 
 # Azure DevOps - Variables
 
-The **variables** in Azure DevOps are key-value pairs used in the execution of the pipeline. 
+The **variables** in [[Azure DevOps]] are key-value pairs used in the execution of the pipeline. 
 Variables are always **strings** and can store values like `int` or `bool` but in text format. 
 
 They are meant for data that need to be reused across the pipeline tasks and pass data between tasks. 

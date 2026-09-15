@@ -2,7 +2,7 @@
 
 # Azure DevOps - Protected Branches
 
-An **protected branch** in Azure DevOps
+An **protected branch** in [[Azure DevOps]]
 
 ![[branches_list.png]]
 

@@ -2,7 +2,7 @@
 
 # SonarQubeAnalyze
 
-`SonarQubeAnalyze` is an Azure DevOps tasks that execute an application's analysis using SonarQube and uploads the analysis results to the SonarQube server. 
+`SonarQubeAnalyze` is an [[Azure DevOps]] tasks that execute an application's analysis using SonarQube and uploads the analysis results to the SonarQube server. 
 
 The task need to be executed following the flow: 
 * `SonarQubePrepare`: Prepare the SonarQube analysis. [[SonarQubePrepare]]

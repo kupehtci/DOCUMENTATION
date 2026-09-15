@@ -7,7 +7,7 @@
 
 ## Access variables 
 
-In Azure DevOps you have three different to define and access variables and they differ in the evaluation and scope: 
+In [[Azure DevOps]] you have three different to define and access variables and they differ in the evaluation and scope: 
 
 1. `${{  }}` Template expressions are evaluated before the pipeline executes, during the phase of compilation / parsing of the YAML. 
 	* Example: `${ parameters.name}``

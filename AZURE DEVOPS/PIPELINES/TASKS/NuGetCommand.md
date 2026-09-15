@@ -2,9 +2,9 @@
 
 # NuGetCommand
 
-**NuGetCommand** is an Azure DevOps pipeline task to execute `nuget` commands in order to restore, pack or insert NuGet packages for .Net applications. 
+**NuGetCommand** is an [[Azure DevOps]] pipeline task to execute `nuget` commands in order to restore, pack or insert NuGet packages for .Net applications. 
 
-This task allows to interact with public `nuget.org` as well as Azure Artifacts[^1] or other repositiories like Nexus [^2]. 
+This task allows to interact with public `nuget.org` as well as [[Azure Artifacts]][^1] or other repositiories like Nexus [^2]. 
 
 
 Basic syntax: 

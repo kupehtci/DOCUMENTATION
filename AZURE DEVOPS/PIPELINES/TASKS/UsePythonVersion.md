@@ -2,7 +2,7 @@
 
 # UsePythonVersion
 
-`UsePythonVersion@0` is an Azure DevOps pipeline task that downloads and selects an specific version of Python from the cache tool and configure the PATH variable. 
+`UsePythonVersion@0` is an [[Azure DevOps]] pipeline task that downloads and selects an specific version of Python from the cache tool and configure the PATH variable. 
 
 Basic syntax: 
 

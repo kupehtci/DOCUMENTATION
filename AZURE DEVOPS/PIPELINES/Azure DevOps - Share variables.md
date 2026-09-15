@@ -45,7 +45,7 @@ VAR = os.environ.get('VAR', 'default value')
 print(f'VAR: {VAR}')
 ```
 
-* **Pipeline logging**: for azure devops pipelines you can use print with `##vso[task.setvariable]` to set pipeline variables that can be accessed as environmental variables and are scoped to the pipeline: 
+* **Pipeline logging**: for [[Azure DevOps|azure devops]] pipelines you can use print with `##vso[task.setvariable]` to set pipeline variables that can be accessed as environmental variables and are scoped to the pipeline: 
 ```python
 # First python script
 print("##vso[task.setvariable variable=VAR]value")

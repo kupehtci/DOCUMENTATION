@@ -2,7 +2,7 @@
 
 # SonarQube integration in Azure DevOps
 
-SonarQube can be integrated in Azure DevOps in order to integrate the code analysis for quality assurance and security in the repositories. 
+SonarQube can be integrated in [[Azure DevOps]] in order to integrate the code analysis for quality assurance and security in the repositories. 
 
 With this integration, you can: 
 * Import the Azure DevOs repositories into a SonarQube server. 

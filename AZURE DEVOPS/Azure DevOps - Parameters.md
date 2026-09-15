@@ -2,7 +2,7 @@
 
 # Azure DevOps - Parameters
 
-Parameters in **Azure DevOps pipelines** are key-value pairs that allow to dinamically configure a pipeline by modifying its values. 
+Parameters in **[[Azure DevOps]] pipelines** are key-value pairs that allow to dinamically configure a pipeline by modifying its values. 
 
 This parameters are defined in the YAML and used like this: 
 
