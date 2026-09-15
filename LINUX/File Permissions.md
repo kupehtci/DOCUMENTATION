@@ -1,7 +1,7 @@
 #Linux 
 # Linux - File permissions
 
-Linux permissions over the file system controls who can read, modify or execute files or directories. 
+Linux permissions over the [[File System|file system]] controls who can read, modify or execute files or directories. 
 
 When a user creates a file, automatically its property belongs to it and the group property to the main group that the user belongs to. 
 

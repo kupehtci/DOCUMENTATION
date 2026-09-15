@@ -2,7 +2,7 @@
 
 # PostgreSQL
 
-PostgreSQL is a powerful, open source relational database management system or RDBMS[^1]. 
+PostgreSQL is a powerful, open source [[Relational Database|relational database]] management system or RDBMS[^1]. 
 
 Its advanced, robust and flexible and have an strong methodology to handle complex queries, transactions[^2]
 

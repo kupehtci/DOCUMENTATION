@@ -147,4 +147,4 @@ default   aws
 
 [^1]: Velero is a Disaster Recovery tool created by vmware to backup, restore and migrate Kubernetes clusters and its resources. [[VELERO]]
 [^2]: BackupStorageLocation is a CustomResourceDefinition for holding  the configuration regarding to a Backup files and its information about snapshots created. [[VELERO - BackupStorageLocation]]
-[^3]: VolumeSnapshotLocation is a CustomResourceDefinition for abstracting an provider specific snapshot location within a file system. [[VELERO - VolumeSnapshotLocation]] 
+[^3]: VolumeSnapshotLocation is a CustomResourceDefinition for abstracting an provider specific snapshot location within a [[File System|file system]]. [[VELERO - VolumeSnapshotLocation]] 

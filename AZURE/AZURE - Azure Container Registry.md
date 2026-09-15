@@ -39,7 +39,7 @@ Use this passwords in order to login into the Container Registry
 docker login <acr-name>.azurecr.io 
 ```
 
-Otherwise, if admin username and password are not enabled you can use Azure AAD (Azure Active Directory) authentication to login into the ACR:  
+Otherwise, if admin username and password are not enabled you can use Azure AAD (Azure [[Active Directory]]) authentication to login into the ACR:  
 
 ```bash
 # Firstly login into az account

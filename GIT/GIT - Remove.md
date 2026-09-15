@@ -6,7 +6,7 @@ Git rm command let you delete files or directories from a *Git repository*.
 
 Can delete the git files from the repository but also from the *filesystem*. 
 
-The deletion of the file from the file system can be made by other methodologies depending of the system, but deleting from the repository can be done with this command. 
+The deletion of the file from the [[File System|file system]] can be made by other methodologies depending of the system, but deleting from the repository can be done with this command. 
 
 ```bash
 git rm <filename> <options>

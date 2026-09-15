@@ -8,7 +8,7 @@ In MySQL there are three main data types: string, numeric, and date and time.
 
 | Data Type             | Description                                                                                  | Size                   | Default    |
 |-----------------------|----------------------------------------------------------------------------------------------|------------------------|------------|
-| CHAR(size)            | A fixed-length string that can contain letters, numbers, and special characters.           | 0 to 255 characters    | 1 character |
+| CHAR(size)            | A fixed-length string that can contain letters, numbers, and [[Special Characters|special characters]].           | 0 to 255 characters    | 1 character |
 | VARCHAR(size)         | A variable-length string that can contain letters, numbers, and special characters.        | 0 to 65535 characters  | -          |
 | BINARY(size)          | Equivalent to CHAR(), but stores binary byte strings.                                       | Column length in bytes | 1 byte     |
 | VARBINARY(size)       | Equivalent to VARCHAR(), but stores binary byte strings.                                    | Maximum length in bytes | -         |

@@ -1,6 +1,6 @@
 #AZURE 
 
-The Azure RBAC or <span style="color:MediumSlateBlue;">Role Based Access Control</span> is an azure methodology to control cloud resources access, based on users, role and scope. 
+The Azure RBAC or <span style="color:MediumSlateBlue;">Role Based [[Access Control]]</span> is an azure methodology to control cloud resources access, based on users, role and scope. 
 
 A <span style="color:orange;">security entity</span> is an object that represents an: 
 * user

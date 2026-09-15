@@ -8,7 +8,7 @@ This manager is mainly controlled using `systemctl` command line tool (CLI)[^1]
 
 ## systemd units 
 
-A **unit file**[^2] is a plain text ini-style file that encodes information about a service[^3], a socket, a device, a mount point, an automount point[^4], a swap file or partition, a start-up target, a watched file system path, a timer controlled and supervised by the systemd. 
+A **unit file**[^2] is a plain text ini-style file that encodes information about a service[^3], a socket, a device, a mount point, an automount point[^4], a swap file or partition, a start-up target, a watched [[File System|file system]] path, a timer controlled and supervised by the systemd. 
 
 All systemd units's files share `[]` and `[Install]` sections: 
 

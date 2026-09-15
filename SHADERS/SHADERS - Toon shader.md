@@ -8,7 +8,7 @@ This image shows the difference between a <span style="color:orange;">unlit shad
 ![[toon_shader_charcteristics.png]]
 
 This changes all the natures of light in the object by don't having `blur`. 
-For theory of light, take a look into [[Theory of light]]
+For [[Theory of light|theory of light]], take a look into [[Theory of light]]
 ### How to make a toon shader
 
 First step, once you create an unlit shader, delete the fog references, because they only work for `unity fog` and its not needed for a toon shader. 

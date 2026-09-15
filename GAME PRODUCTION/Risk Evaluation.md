@@ -16,4 +16,4 @@ Example of risks:
 
 
 
-Risk evaluation is commonly done together with the Important neighbors evaluation [[Important Neighbors]]. 
+Risk evaluation is commonly done together with the [[Important Neighbors|Important neighbors]] evaluation [[Important Neighbors]]. 

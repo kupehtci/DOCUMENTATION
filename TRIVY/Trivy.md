@@ -20,7 +20,7 @@ Trivy can scan:
 * Dockerfiles [^3]
 * OS packages from linux, windows and macos
 
-Trivy is used as an a CLI tool that can be installed and used directly in local [[Trivy - Install]] that can also be implemented as a pipeline task for Github Actions[^5] or Azure DevOps pipelines[^6]
+Trivy is used as an a CLI tool that can be installed and used directly in local [[Trivy - Install]] that can also be implemented as a pipeline task for Github Actions[^5] or [[Azure DevOps]] pipelines[^6]
 
 
 [^1]: Kubernetes cluster [[KUBERNETES - Basics]]

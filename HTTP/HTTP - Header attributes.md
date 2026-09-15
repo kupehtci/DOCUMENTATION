@@ -41,7 +41,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 It is used to: 
 * **Content negotiation**: server can adapt the response to send mobile or desktop pages. 
 * **Analytics and logging**: helps to track types of clients and usage analytics. 
-* **Access control**: can be used to deny connections to specific clients. 
+* **[[Access Control|Access control]]**: can be used to deny connections to specific clients. 
 
 ### Content-Type
 

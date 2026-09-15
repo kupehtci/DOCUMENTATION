@@ -62,7 +62,7 @@ Debug mode is slower for various reasons:
 * __Optimization levels__: In release mode there are some optimization that are not in debug mode: 
 	* compiler performs optimizations to make code faster and efficiently. 
 	* Removes redundant code
-	* Inline expansion
+	* [[Inline Expansion|Inline expansion]]
 	* Optimize loops precalculated
 * __Debug information__: Debug builds include additional information about binary files, increasing size of binary. This helps to map instructions in running program to lines in the source code. Its called <span style="color:orange;">symbolic debug information</span>, generated to correlate the program source with binary execution. 
 * __Assertion check__: Are often include in runtime checks, such as assertion checks, to catch errors and bugs. Significantly slow down the execution. Example: division by 0, null references or buffer overflow. 

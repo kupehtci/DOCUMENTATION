@@ -2,11 +2,11 @@
 
 ## REDIS Query optimization
 
-Redis by itself doesn't have query optimization like in PostgreSQL[^1]
+Redis by itself doesn't have [[Query Optimization|query optimization]] like in PostgreSQL[^1]
 
 Redis stores its information within the Device RAM but can be saved as a file and restored when launching the database
 
-Taking into account that REDIS is a key-value NoSQL database, the queries are not as complex as a relational database with foreign keys could be. 
+Taking into account that REDIS is a key-value NoSQL database, the queries are not as complex as a [[Relational Database|relational database]] with foreign keys could be. 
 
 There are some optimization tips: 
 

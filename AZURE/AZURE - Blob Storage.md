@@ -4,7 +4,7 @@ Azure blob storage is a cloud solution for storage of objects (blobs and contain
 
 It lets you create data lakes for analytics and high scalability. 
 
-Is also useful for storing backups because data can be in different formats and file extensions. [^2]
+Is also useful for storing backups because data can be in different formats and [[File Extensions|file extensions]]. [^2]
 
 
 

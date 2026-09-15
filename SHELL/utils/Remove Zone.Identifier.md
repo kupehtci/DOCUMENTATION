@@ -1,6 +1,6 @@
 #SHELL #LINUX 
 
-Zone.Identifier is a file that Windows File System creates when files are downloaded from internet. This file gathers metadata from the files that has been downloaded. 
+Zone.Identifier is a file that Windows [[File System]] creates when files are downloaded from internet. This file gathers metadata from the files that has been downloaded. 
 
 In some cases, when downloading a git repository, or other huge downloads it can be hideous to handle all the Zone.Identifier files that windows has been created: 
 

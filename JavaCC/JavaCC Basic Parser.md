@@ -93,4 +93,4 @@ TOKEN:
 ```
 
 
-You will need to complete the `TOKEN:{}` section with the tokens definition[[JavaCC Token definition]] in Regular Expressions format [[Regular Expressions]]. 
+You will need to complete the `TOKEN:{}` section with the tokens definition[[JavaCC Token definition]] in [[Regular Expressions]] format [[Regular Expressions]]. 

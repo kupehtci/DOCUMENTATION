@@ -2,7 +2,7 @@
 
 # VSCode File associations
 
-A file association in Visual Studio Code defines how the editor matches certain file extensions or patterns to a programming language so it controls: 
+A file association in Visual Studio Code defines how the editor matches certain [[File Extensions|file extensions]] or patterns to a programming language so it controls: 
 * Syntax highlighting
 * Snippets
 * Linters

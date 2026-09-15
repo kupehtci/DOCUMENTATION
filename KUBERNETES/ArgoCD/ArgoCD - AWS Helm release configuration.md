@@ -87,7 +87,7 @@ data:
         vs-ssh.visualstudio.com ssh-rsa .........key...........
 ```
 
-To configure it, you need to set the secret depending on the Git Client that is going to be used. Set one or various of the following credential secrets. In case of Azure Devops, a username and password must be set. 
+To configure it, you need to set the secret depending on the Git Client that is going to be used. Set one or various of the following credential secrets. In case of [[Azure DevOps|Azure Devops]], a username and password must be set. 
 
 ```yaml
 

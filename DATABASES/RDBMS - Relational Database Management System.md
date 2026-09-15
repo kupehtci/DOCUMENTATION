@@ -2,7 +2,7 @@
 
 # RDBMS or Relational Database Management System
 
-A Relational Database Management System or a RDBMS is a type of database Management systems that organizees the data into tables, and mainly used with SQL technologies. It maintains the relationships between the data by using the primary keys  
+A [[Relational Database]] Management System or a RDBMS is a type of database Management systems that organizees the data into tables, and mainly used with SQL technologies. It maintains the relationships between the data by using the primary keys  
 
 The key features are: 
 

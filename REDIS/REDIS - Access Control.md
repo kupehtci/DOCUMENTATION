@@ -1,6 +1,6 @@
 #REDIS #DATABASES 
 
-Redis ACL or Redis Access Control List is an interface list of users with: 
+Redis ACL or Redis [[Access Control]] List is an interface list of users with: 
 
 * Authentication properties
 * Restricted **commands**

@@ -21,7 +21,7 @@ And using this cost and tending to minimize $f(n) = g(n) + h(n)$ to search the b
 
 ### A* ALGORITHM
 
-The A* algorithm is a heuristic search algorithm that combines the advantages of both Dijkstra's algorithm and Greedy Best-First Search. It works by searching the graph or grid from the start node to the goal node, using a heuristic function to guide the search towards the goal node. The heuristic function provides an estimate of the remaining cost to the goal node, which allows the algorithm to explore the most promising paths first.
+The A* algorithm is a heuristic search algorithm that combines the advantages of both Dijkstra's algorithm and Greedy Best-First Search. It works by searching the graph or grid from the start node to the goal node, using a [[Heuristic Function|heuristic function]] to guide the search towards the goal node. The heuristic function provides an estimate of the remaining cost to the goal node, which allows the algorithm to explore the most promising paths first.
 
 The A* algorithm uses three main variables to calculate the path from the start node to the goal node:
 

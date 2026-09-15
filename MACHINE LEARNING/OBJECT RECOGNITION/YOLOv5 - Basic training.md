@@ -27,7 +27,7 @@ names: ['CoW', 'chanterelle']
 Start your training by specifying the following arguments:
 
 - `--img`: image size
-- `--batch`: batch size
+- `--batch`: [[BATCH SIZE|batch size]]
 - `--epochs`: epochs number
 - `--data`: dataset `.yaml` files which list the config
 - `--weights yolov5s.pt`: pretrained weights (recommended)

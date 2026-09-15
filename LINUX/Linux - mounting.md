@@ -2,7 +2,7 @@
 
 # LINUX Mounting
 
-Mounting consist in associating a file system or storage device with an specific directory (mount point). 
+Mounting consist in associating a [[File System|file system]] or storage device with an specific directory (mount point). 
 This association makes the content of the filesystem or device accesible at that specified mount point. 
 
 ```bash

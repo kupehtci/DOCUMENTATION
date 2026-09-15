@@ -66,7 +66,7 @@ Its a simple technique in order to understand the root cause of something (RCA),
 
 [^1]: [[SQ - Code Reviews]]
 [^2]:  [[SQ - Refactoring]] Refactoring techniques and definitions
-[^3]: [[Pareto diagram]] Definition of pareto diagram and use case. 
+[^3]: [[Pareto diagram]] Definition of [[Pareto diagram|pareto diagram]] and use case. 
 
 
 

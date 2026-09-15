@@ -10,7 +10,7 @@ It runs in web browsers, allowing developers to build interactive web applicatio
 
 The key features of Javascript: 
 - **Client-Side Scripting:** JavaScript is executed in the user's web browser, enabling interactive features like form validation, animations, and dynamic content updates.
-- **Event-Driven Programming:** JavaScript responds to user actions such as clicks, key presses, and mouse movements.
+- **[[Event-driven programming|Event-Driven Programming]]:** JavaScript responds to user actions such as clicks, key presses, and mouse movements.
 - **Dynamic Typing:** Variables in JavaScript can hold any type of data, and types are determined at runtime.
 - **Interoperability:** JavaScript can interact with HTML and CSS to modify web page content and styling.
 

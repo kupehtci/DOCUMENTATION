@@ -6,11 +6,11 @@ JavaCC is a parser generator for Java applications.
 A parser generator is a tool that reads a grammar specification and converts it to a Java program that can recognize matches to the grammar.
 
 
-For defining the different parameters for the lexical analysis of the code, it need to identify the different tokens that conform the language: 
+For defining the different parameters for the [[Lexical Analysis|lexical analysis]] of the code, it need to identify the different tokens that conform the language: 
 
 ### Tokens definition
 
-First we need to define the tokens using Regular Expressions [[Regular Expressions]] for the parser to be able to detect the expected strings or letters input to transform them as tokens. 
+First we need to define the tokens using [[Regular Expressions]] [[Regular Expressions]] for the parser to be able to detect the expected strings or letters input to transform them as tokens. 
 
 This tokens need to be defined at the end of the document using this syntax language: 
 

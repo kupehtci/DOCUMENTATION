@@ -55,7 +55,7 @@ The Azure storage account has similarities with other cloud's resources:
 In AWS: 
 
 * **AWS S3**[^5] or Simple Storage Service offers blob storage for unstructured data
-* **EFS** or Elastic File System: 
+* **EFS** or Elastic [[File System]]: 
 
 [^2]: Terraform local variables [[TERRAFORM - Locals]]
 [^3]: Replace function in terraform configuration language [[TERRAFORM - replace function]]

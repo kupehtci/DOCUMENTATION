@@ -2,7 +2,7 @@
 
 # DOTNET - Authenticate to Azure Artifacts
 
-In order to authenticate to azure artifacts to upload and use packages and dependencies stored in a feed you need to follow this steps: 
+In order to authenticate to [[Azure Artifacts|azure artifacts]] to upload and use packages and dependencies stored in a feed you need to follow this steps: 
 
 Firstly you need to add the feed or repository to the source list: 
 ```bash
@@ -13,7 +13,7 @@ dotnet nuget add source "https://pkgs.dev.azure.com/{ORGANIZATION_NAME}/{PROJECT
 dotnet restore --interactive --configfile ./nuget.config
 ```
 
-With `dotnet restore --interactive` it should print in the console a login webpage to login with your azure devops credentials. 
+With `dotnet restore --interactive` it should print in the console a login webpage to login with your [[Azure DevOps|azure devops]] credentials. 
 
 ```bash
 # Compile the project

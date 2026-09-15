@@ -22,7 +22,7 @@ This is a list of the possible <span style="color:orange;">Filter types</span> t
 |ID|Name|Flags|Description|
 |---|---|---|---|
 |**`FILTER_SANITIZE_EMAIL`**|"email"||Remove all characters except letters, digits and ``!#$%&'*+-=?^_`{\|}~@.[]``.|
-|**`FILTER_SANITIZE_ENCODED`**|"encoded"|**`FILTER_FLAG_STRIP_LOW`**,**`FILTER_FLAG_STRIP_HIGH`**,**`FILTER_FLAG_STRIP_BACKTICK`**,**`FILTER_FLAG_ENCODE_LOW`**,**`FILTER_FLAG_ENCODE_HIGH`**|URL-encode string, optionally strip or encode special characters.|
+|**`FILTER_SANITIZE_ENCODED`**|"encoded"|**`FILTER_FLAG_STRIP_LOW`**,**`FILTER_FLAG_STRIP_HIGH`**,**`FILTER_FLAG_STRIP_BACKTICK`**,**`FILTER_FLAG_ENCODE_LOW`**,**`FILTER_FLAG_ENCODE_HIGH`**|URL-encode string, optionally strip or encode [[Special Characters|special characters]].|
 |**`FILTER_SANITIZE_MAGIC_QUOTES`**|"magic_quotes"||Apply [addslashes()](https://www.php.net/manual/en/function.addslashes.php). (_DEPRECATED_ as of PHP 7.3.0 and _REMOVED_ as of PHP 8.0.0, use **`FILTER_SANITIZE_ADD_SLASHES`**instead.)|
 |**`FILTER_SANITIZE_ADD_SLASHES`**|"add_slashes"||Apply [addslashes()](https://www.php.net/manual/en/function.addslashes.php). (Available as of PHP 7.3.0)|
 |**`FILTER_SANITIZE_NUMBER_FLOAT`**|"number_float"|**`FILTER_FLAG_ALLOW_FRACTION`**,**`FILTER_FLAG_ALLOW_THOUSAND`**,**`FILTER_FLAG_ALLOW_SCIENTIFIC`**|Remove all characters except digits, `+-`and optionally `.,eE`.|

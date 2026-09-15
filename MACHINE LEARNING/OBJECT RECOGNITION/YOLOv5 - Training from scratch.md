@@ -11,7 +11,7 @@ When having a large enough dataset, the model will benefit most by training from
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*mzPShrF4E6qo3B8O4gArVg.png)
 
-- batch — batch size (-1 for auto batch size). Use the largest batch size that your hardware allows for.
+- batch — [[BATCH SIZE|batch size]] (-1 for auto batch size). Use the largest batch size that your hardware allows for.
 - epochs — number of epochs.
 - data — path to the data-configurations file.
 - cfg — path to the model-configurations file.

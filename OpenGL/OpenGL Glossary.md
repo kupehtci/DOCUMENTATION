@@ -64,7 +64,7 @@ A region of three-dimensional space into which vertex positions are transformed.
 
 In clip space, positive X goes right, positive Y up, and positive Z away.
 
-Clip-space vertices are output by the vertex processing stage of the rendering pipeline.
+Clip-space vertices are output by the vertex processing stage of the [[RENDERING PIPELINE|rendering pipeline]].
 
 clipping
 

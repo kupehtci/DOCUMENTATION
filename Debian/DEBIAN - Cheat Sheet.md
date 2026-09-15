@@ -38,7 +38,7 @@
 | `mv <source> <destination>`               | Move files or directories                    |
 | `rm <file>`                               | Remove a file                                |
 | `rm -r <directory>`                       | Remove a directory and its contents          |
-| `chmod 755 <file>`                        | Change file permissions                      |
+| `chmod 755 <file>`                        | Change [[File Permissions|file permissions]]                      |
 | `chown user:group <file>`                 | Change file owner and group                  |
 
 ## Disk and Storage

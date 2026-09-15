@@ -2,7 +2,7 @@
 
 # Microsoft Entra
 
-Microsoft Entra its a set of identity and network access products that helps organizations to build a Zero Trust security strategy [^1]. 
+Microsoft Entra its a set of identity and network access products that helps organizations to build a [[Zero Trust]] security strategy [^1]. 
 
 Main features
 * Domain Services

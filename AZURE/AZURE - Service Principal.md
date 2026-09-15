@@ -7,7 +7,7 @@ An <span style="color:DodgerBlue;">Azure Service Principal</span> is a definitio
 
 - **Application Identity**: Acts as a digital identity for applications or services.
 - **Authentication**: Allows apps and services to authenticate against Azure AD.
-- **Role-Based Access Control (RBAC)**: Enables granular control over Azure resource permissions.
+- **Role-Based [[Access Control]] (RBAC)**: Enables granular control over Azure resource permissions.
 
 Service principals are used in scenarios where automated processes or applications need to interact with Azure resources without manual intervention. Common use cases include:
 

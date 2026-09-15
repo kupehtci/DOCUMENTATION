@@ -54,7 +54,7 @@ resource "azurerm_kubernetes_cluster" "example" {
 * `resource_group_name`: assigns a resource group where the Kubernetes Cluster should exist. 
 * `oidc_issuer_enabled`: You can use OIDC to enable single sign-on (SSO) between OAuth-enabled applications on your Azure Kubernetes Service (AKS). 
 * `workload_identity_enabled`: specify whether Azure AD workload Identity should be enabled for the cluster. 
-* `role_based_access_control_enabled`: if Role Based Access Control for this Kubernetes Cluster should be enabled. Default = true. 
+* `role_based_access_control_enabled`: if Role Based for this Kubernetes Cluster should be enabled. Default = true. 
 * `azure_policy_enabled` if the Azure Policy Add-On should be enabled. 
 * `dns_prefix`:  Used to generate a FQDN when the cluster is created. 
 * `kubernetes_version`: 

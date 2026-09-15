@@ -24,5 +24,5 @@ db.runCommand({ rolesInfo: { role: "<role_name>", showPrivileges: true, showBuil
 
 Privileges can also be assigned: 
 
-* Role-Based Access Control (RBAC)
+* Role-Based [[Access Control]] (RBAC)
 * Views

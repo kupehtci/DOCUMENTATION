@@ -14,6 +14,6 @@ However, due to a programming bug, if during the process they made a sequence of
 
 ### QUESTIONS FOR YOU
 
-* Think about the concepts of Bug, Error Situation and Failure in this example.
+* Think about the concepts of [[Bug, Error Situation and failure|Bug, Error Situation and Failure]] in this example.
 
 * Think about some measurements that allow containing the bug in a way that the bug did not lead to a failure or at least the failure consequences were minimized.

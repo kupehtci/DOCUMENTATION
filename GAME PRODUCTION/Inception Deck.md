@@ -69,7 +69,7 @@ Define the roadmap of the project in terms of time and each of the project secti
 The main deadlines are the viability confirmed, vertical slice and a release version. 
 
 
-#### What team do we need?
+#### [[What team do we need]]?
 
 Define the team that compose this project by departments and count the number per each job. 
 

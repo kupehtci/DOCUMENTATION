@@ -73,7 +73,7 @@ Repeated states are unavoidable, resulting in infinite search trees. Try to avoi
 
 `combinatorial explosion` - heuristic search
 
-Using a heuristic function, solve the efficiency of brute-force algorithms. 
+Using a [[Heuristic Function|heuristic function]], solve the efficiency of brute-force algorithms. 
 * Leads the algorithm toward a goal state
 * Pruning off branches that don't lead into an optimal solution. 
 * Its relatively accurate estimator of the cost to reach a goal
