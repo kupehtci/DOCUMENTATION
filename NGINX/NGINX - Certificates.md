@@ -2,7 +2,7 @@
 
 # NGINX - Certificates
 
-NGINX uses standard X.509 certificates[^1] to provide HTTPS and TLS protected connections. 
+NGINX uses standard [[X.509 Certificates|X.509 certificates]][^1] to provide HTTPS and TLS protected connections. 
 This certificates are configured per `server` block using `ssl_certificate` and `ssl_certificate_key` directives while listening on 443 port. 
 
 A minimal configuration for SSL needs to be: 
