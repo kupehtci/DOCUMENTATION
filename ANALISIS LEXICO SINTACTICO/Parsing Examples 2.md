@@ -23,7 +23,7 @@ Consider the following grammar:
 
 ---
 
-Given the following grammar, calculate the FIRST and FOLLOW sets and the parsing table. 
+Given the following grammar, calculate the [[First and Follow|FIRST and FOLLOW]] sets and the parsing table. 
 ```txt
 S→ abA | bC 
 A → CBD 

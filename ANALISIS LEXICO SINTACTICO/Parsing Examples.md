@@ -29,7 +29,7 @@ C --> d | S | ε
 D --> ε
 ```
 
-Build the first and follow tables related to that grammar: 
+Build the [[First and Follow|first and follow]] tables related to that grammar: 
 
 |     | FIRST | FIRST | FIRST | FIRST | FIRST |
 | --- | ----- | ----- | ----- | ----- | ----- |

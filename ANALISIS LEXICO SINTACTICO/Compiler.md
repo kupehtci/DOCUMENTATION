@@ -30,9 +30,9 @@ The steps a compiler does is:
 
 ##### `FRONT END`
 
-* `Lexical Analysis`:  An scanner recognized the input characters and recognizes and build tokens from it. This pattern that belong to a certain token are defined using Regular Expressions and translated into AFDs.[[Regular Expressions]],  [[Deterministic Finite Automaton (AFD) (DFA)]]. 
+* `Lexical Analysis`:  An scanner recognized the input characters and recognizes and build tokens from it. This pattern that belong to a certain token are defined using [[Regular Expressions]] and translated into AFDs.[[Regular Expressions]],  [[Deterministic Finite Automaton (AFD) (DFA)]]. 
 
-* `Syntax Analysis`: (Parser) Takes tokens from the lexical analysis and analyze them using grammars [[GRAMMARS - Introduction]]. Using this grammars, it construct a <span style="color:orange;">AST (Abstract Syntax Tree)</span> [[AST Abstract Syntax Tree]] that define the tokens traverse. In general, group tokens into phrases with meaning. 
+* `Syntax Analysis`: (Parser) Takes tokens from the [[Lexical Analysis|lexical analysis]] and analyze them using grammars [[GRAMMARS - Introduction]]. Using this grammars, it construct a <span style="color:orange;">AST (Abstract Syntax Tree)</span> [[AST Abstract Syntax Tree]] that define the tokens traverse. In general, group tokens into phrases with meaning. 
 
 * `Semantic Analysis`: This steps receives the <span style="color:orange;">AST</span> from the Syntax Analysis step, check on errors and complements the AST with certain add-ons generating a <span style="color:orange;">Anotted AST</span>. 
 	* Declare names in a symbol table

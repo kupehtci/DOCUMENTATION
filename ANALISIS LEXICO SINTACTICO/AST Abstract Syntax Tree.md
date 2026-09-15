@@ -4,7 +4,7 @@
 
 Its a representation of the Syntax structure of a source code into a tree graph. 
 
-This graph is built in the Syntax analysis phase of a compiler [[Compiler]] and works as an analysis tree for giving meaning to the tokens generated in the previous phase(Lexical Analysis). 
+This graph is built in the Syntax analysis phase of a compiler [[Compiler]] and works as an analysis tree for giving meaning to the tokens generated in the previous phase([[Lexical Analysis]]). 
 
 For example, this is the <span style="color:orange;">AST</span> for the following code once the tokens of the code are identified: 
 

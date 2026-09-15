@@ -2,11 +2,11 @@
 ### Lexer
 
 
-The lexer reads with an Scanner and convert characters into tokens in the Lexical Analysis phase of a compiler. 
+The lexer reads with an Scanner and convert characters into tokens in the [[Lexical Analysis]] phase of a compiler. 
 
 It recognizes: 
 * reserved keywords of the language 
-* Special characters like '\=\=' or '\!\=' .
+* [[Special Characters|Special characters]] like '\=\=' or '\!\=' .
 * Identifiers, integers ,real numbers ,floats , strings, etc
 * Ignore blank spaces. 
 * Recognized special directives like preprocessor directives `#include file.cpp` and macros `#define PI 3.1418` 

@@ -32,7 +32,7 @@ If X --> a1 | a2 | ... | an also for each m, n different, FIRST(an) ∩ FIRST (a
 	This means that a production rule that has more than 1 "sub-production rules", this production rules don't share any first terminal element
 
 If A ∈ VNT and {𝜀} ∈ FIRST(A) so FIRST(A) ∩ FOLLOW(A) = ∅
-	First and Follow must not share any terminal elements
+	[[First and Follow]] must not share any terminal elements
 
 ---
 
