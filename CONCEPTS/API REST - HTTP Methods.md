@@ -70,7 +70,7 @@ Last-Modified: Thu, 18 Aug 2023 15:30:00 GMT
 
 [![safe and idempotent HTTP verbs and methods](https://itknowledgeexchange.techtarget.com/wp-content/uploads/2023/08/safe-vs-idempotent.png)](https://itknowledgeexchange.techtarget.com/wp-content/uploads/2023/08/safe-vs-idempotent.png)
 
-Most HTTP request methods are safe and idempotent.
+Most HTTP [[Request Methods|request methods]] are safe and idempotent.
 
 ## Version 1.1 HTTP request methods
 

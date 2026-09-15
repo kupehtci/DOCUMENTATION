@@ -1,5 +1,5 @@
 
-All the objects in a game engine map, the floors, the walls, the chairs are objects that are enclosed in axis aligned bounding boxes. This is done to accelerate collision detection.
+All the objects in a game engine map, the floors, the walls, the chairs are objects that are enclosed in axis aligned bounding boxes. This is done to accelerate [[Collision Detection|collision detection]].
 
 This boxes are align in terms of axis, making it more optimized to calculate collision, proximity and vectorial and meshes calculations. 
 

@@ -24,7 +24,7 @@ The main characteristics of a serverless solution is:
 
 - **AWS Lambda**[^2]: Automatically runs your code in response to events.
 - **Google Cloud Functions**: Executes single-purpose functions in response to cloud events.
-- **Azure Functions**: Enables event-driven programming in a serverless environment.
+- **Azure Functions**: Enables [[Event-driven programming|event-driven programming]] in a serverless environment.
 - **Google Cloud Run**[^3]: Runs containerized applications in a serverless environment.
 
 In essence, serverless cloud solutions enable developers to focus on building and deploying applications, while the cloud provider handles infrastructure, scaling, and resource management.

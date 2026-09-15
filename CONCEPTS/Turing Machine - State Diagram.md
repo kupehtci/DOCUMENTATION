@@ -1,6 +1,6 @@
 #CONCEPTS 
 
-Also a Turing Machine can be defined as a <span style="color:#ababf5;">state machine</span>. 
+Also a [[Turing Machine]] can be defined as a <span style="color:#ababf5;">state machine</span>. 
 
 For completing a state diagram: 
 * Each <span style="color:#ababf5;">node</span> of the diagram is a state 

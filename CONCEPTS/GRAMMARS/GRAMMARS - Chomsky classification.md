@@ -6,7 +6,7 @@ According to <span style="color:orange;">Noam Chomsky</span>, there are four typ
 
 |Grammar Type|Grammar Accepted|Language Accepted|Automaton|
 |---|---|---|---|
-|Type 0|Unrestricted grammar|Recursively enumerable language|Turing Machine|
+|Type 0|Unrestricted grammar|Recursively enumerable language|[[Turing Machine]]|
 |Type 1|Context-sensitive grammar|Context-sensitive language|Linear-bounded automaton|
 |Type 2|Context-free grammar|Context-free language|Pushdown automaton|
 |Type 3|Regular grammar|Regular language|Finite state automaton|

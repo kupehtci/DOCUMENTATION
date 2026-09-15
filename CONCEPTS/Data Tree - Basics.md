@@ -20,6 +20,6 @@ If the search tree is ordered this way, can be use for searching items.
 
 ### BVH
 
-<span style="color:#a291ab;">Bounding Volume HIerarchy</span> is a data structure used for storing 2D / 3D objects in a Binary or octal tree, used to optimize collision detection in Game Engines or optimize Ray Tracing ray collision reflections. 
+<span style="color:#a291ab;">Bounding Volume HIerarchy</span> is a data structure used for storing 2D / 3D objects in a Binary or octal tree, used to optimize [[Collision Detection|collision detection]] in Game Engines or optimize Ray Tracing ray collision reflections. 
 
 See more in [[BVH Bounding Volume Hierarchy]]![[DBVH -.canvas]]

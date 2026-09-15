@@ -1,7 +1,7 @@
 
 ## DEFINITION 
 
-<span style="color:#aff5aa;">Bounding volume Hierarchy</span> is a data structure based on a binary tree meant to optimize <span style="color:#ababf5;">ray-tracing</span> and <span style="color:#ababf5;">collision detection</span>. 
+<span style="color:#aff5aa;">Bounding volume Hierarchy</span> is a data structure based on a binary tree meant to optimize <span style="color:#ababf5;">ray-tracing</span> and <span style="color:#ababf5;">[[Collision Detection|collision detection]]</span>. 
 
 ## UTILITY
 
