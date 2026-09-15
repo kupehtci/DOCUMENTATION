@@ -9,7 +9,7 @@ It represents the data within each relational table with its name and attributes
 #### Relational Model Concepts
 
 1. **Attribute:** Each column in a Table. Attributes are the properties which define a relation.
-2. **Tables** – In the Relational model the, relations are saved in the table format. It is stored along with its entities.
+2. **Tables** – In the [[Relational Model|Relational model]] the, relations are saved in the table format. It is stored along with its entities.
 3. **Tuple** – It is nothing but a single row of a table, which contains a single record.
 4. **Relation Schema:** A relation schema represents the name of the relation with its attributes.
 5. **Degree:** The total number of attributes which in the relation is called the degree of the relation.

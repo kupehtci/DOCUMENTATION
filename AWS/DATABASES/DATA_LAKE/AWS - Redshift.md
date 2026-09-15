@@ -25,7 +25,7 @@ Key features:
 	* Its a single-region service
 	* Cannot span multiple regions natively and its not replicated or scaled. 
 
-Take into account that Redshift is not a cache-layer between a querying party and a data lake like S3, it stores the data on disk in a columnar format. 
+Take into account that Redshift is not a cache-layer between a querying party and a [[Data Lake|data lake]] like S3, it stores the data on disk in a columnar format. 
 
 # Redshift Architecture
 

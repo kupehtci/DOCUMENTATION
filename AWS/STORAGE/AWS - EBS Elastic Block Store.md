@@ -60,4 +60,4 @@ Its recommendable to use tag-based or name-based deletion prevention rules (rete
 [^2]: AWS KMS or Key Management System[[AWS - KMS Key Management Service]]
 [^3]: AWS Recycle Bin is a managed solution for having a bin in AWS that retain objects based on a retention rule to prevent automatic permanent deletion. 
 [^fsx]: FSx [[AWS - FSx]]
-[^efs]: Elastic File System [[EFS]]
+[^efs]: Elastic [[File System]] [[EFS]]

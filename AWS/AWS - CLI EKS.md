@@ -132,4 +132,4 @@ aws eks describe-cluster --name <cluster_name> --query 'cluster.logging'
 
 [^eks]: Elastic Kubernetes Service or EKS AWS resource [[AWS - EKS Elastic Kubernetes Service]]
 [^1]: AWS Cloudwatch service [[AWS - Cloudwatch]]
-[^iam]: IAM Policies and roles is the resource to manage the access control in AWS [[AWS - IAM]]
+[^iam]: IAM Policies and roles is the resource to manage the [[Access Control|access control]] in AWS [[AWS - IAM]]

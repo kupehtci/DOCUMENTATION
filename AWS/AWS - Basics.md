@@ -19,7 +19,7 @@ AWS operates in multiple geographic regions worldwide, ensuring high availabilit
    Reliable, scalable, and cost-effective storage options:
    - **Amazon S3 (Simple Storage Service)**: Object storage designed for high durability.
    - **Amazon EBS (Elastic Block Store)**: Block storage for EC2 instances.
-   - **Amazon EFS (Elastic File System)**: File storage for shared access.
+   - **Amazon EFS (Elastic [[File System]])**: File storage for shared access.
 
 ### 3. **Networking**
    Networking services to enable secure and scalable connections:
@@ -29,7 +29,7 @@ AWS operates in multiple geographic regions worldwide, ensuring high availabilit
 
 ### 4. **Databases**
    Managed databases for various use cases:
-   - **Amazon RDS (Relational Database Service)**: Managed relational databases such as MySQL, PostgreSQL, and Oracle.
+   - **Amazon RDS ([[Relational Database]] Service)**: Managed relational databases such as MySQL, PostgreSQL, and Oracle.
    - **Amazon DynamoDB**: Fully managed NoSQL database.
    - **Amazon Aurora**: High-performance relational database compatible with MySQL and PostgreSQL.
 

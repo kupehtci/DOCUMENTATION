@@ -10,7 +10,7 @@ The main key benefits of running an application in a container are:
 * **Isolation**: each container runs independently. 
 * **Portability**: deploy the same container anywhere. 
 * **Lightweight**: shares the host OS kernel. 
-* **Easy to scale**: with tools like Docker Compose or Kubernetes. 
+* **Easy to scale**: with tools like [[Docker Compose]] or Kubernetes. 
 
 
 ### How to work with Docker

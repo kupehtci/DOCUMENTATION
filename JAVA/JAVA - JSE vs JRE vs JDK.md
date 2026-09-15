@@ -26,4 +26,4 @@ JDK contains JRE plus development tools like the compiler and debugger.
 JRE is the end-users software that allows to run an application that has been developed with JDK. 
 
 
-[^1]: Software Development Kit or SDK  [[SDK]]
+[^1]: Software Development Kit or SDK  [[SDK - Software Development Kit]]

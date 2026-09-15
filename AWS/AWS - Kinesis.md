@@ -32,7 +32,7 @@ Has the **least operational overhead** as there are no servers to manage.
 
 ### Kinesis Data Analytics
 
-Process streaming data using SQL or Apache Flink, enabling real-time analytics of the stream data before storage. 
+Process streaming data using SQL or [[Apache Flink]], enabling real-time analytics of the stream data before storage. 
 
 ---
 

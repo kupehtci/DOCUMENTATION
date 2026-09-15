@@ -2,7 +2,7 @@
 
 # AWS - S3 Select
 
-**S3 Select** its an S3 feature that let you perform queries using simple SQL [^sql] over a single S3 object like CSV, JSON and Apache Parquet[^ap]
+**S3 Select** its an S3 feature that let you perform queries using simple SQL [^sql] over a single S3 object like CSV, JSON and [[Apache Parquet]][^ap]
 
 It filters and query a single obejct at a time and return matching rows or columns from this type of formats so can simplify the retrieval for large objects. 
 

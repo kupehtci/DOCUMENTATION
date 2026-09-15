@@ -42,7 +42,7 @@ There are different types of logs:
 * <span style="color:orange;">Load Balancing</span> provides logs with captured information about the requests that are sent to the load balancer. You can use **custom logs** for your applications. 
 
 The EC2 instances, publish logs in a log file and this to a **log stream**. This **log stream** is a sequence of log events that share the same source. 
-Multiple **log streams** can be grouped in a single **log group**, that share the same retention, monitoring and access control. 
+Multiple **log streams** can be grouped in a single **log group**, that share the same retention, monitoring and [[Access Control|access control]]. 
 With a log group, you can use metric filters to search patters, terms, phrases or certain values in the log events. 
 
 ##### AWS CloudWatch Alarms
@@ -101,7 +101,7 @@ Provides high availability of the resources.
 
 It has various types: 
 
-* <span style="color:orange;">ALB or Application Load Balancer</span> is a flexible application management load balancing that operated at application Layer 7. (HTTP and HTTPS). 
+* <span style="color:orange;">ALB or Application Load Balancer</span> is a flexible application management load balancing that operated at [[Application Layer|application Layer]] 7. (HTTP and HTTPS). 
 * <span style="color:orange;">NLB or Network Load Balancer</span> is an extreme performance and static IP load balancing that operates at transport Layer 4. (TCP or UDP). 
 * <span style="color:orange;">GLW or Gateway Load Balancer</span> is a flexible application management advanced load balancing of traffic that operates at network layer 3 (IP). 
 

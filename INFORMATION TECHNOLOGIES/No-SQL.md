@@ -24,7 +24,7 @@ Also can be distributed between distributed structures of data replicated, allow
 	Scale in number of servers, not in server consumption
 
 * <span style="color:Salmon;">Performance</span>:
-	Supports <span style="color:IndianRed;">query optimization</span> for large amounts of data. 
+	Supports <span style="color:IndianRed;">[[Query Optimization|query optimization]]</span> for large amounts of data. 
 
 * <span style="color:Salmon;">High availability</span>: 
 	Support distributed structures with data replicated. This replication minimizes latency. 
@@ -43,7 +43,7 @@ Also can be distributed between distributed structures of data replicated, allow
 * <span style="color:Salmon;">Eventual consistency</span>
 	No all NoSQL consider atomicity and integrity of the data. 
 
-* <span style="color:Salmon;">Access control</span>
+* <span style="color:Salmon;">[[Access Control|Access control]]</span>
 	Different views [^views] or different access capabilities can not easily or even restricted in different no-SQL technologies. 
  
 ### IMPORTANT TYPES

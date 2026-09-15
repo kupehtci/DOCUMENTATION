@@ -101,7 +101,7 @@ sudo chown -R vault:vault /etc/vault.d
 sudo chmod 640 /etc/vault.d/vault.hcl
 ```
 
-5. Configure a systemd service ([[systemd]]) for running the vault server: 
+5. Configure a [[systemd service]] ([[systemd]]) for running the vault server: 
 
 ```ini
 [Unit]

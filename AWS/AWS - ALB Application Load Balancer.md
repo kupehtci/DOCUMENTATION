@@ -22,7 +22,7 @@ When an HTTPs listener is created, it encrypts the connection (SSL offload [^5])
 
 Target Selection algorithms define which target receives the response within a group: 
 
-* **Round Robin**: distributes new requests across healthy target at a "random". 
+* **[[Round Robin]]**: distributes new requests across healthy target at a "random". 
 * **Least Outstanding responses**: prefer targets with fewest "in-flight" requests to reduce queuing on busy instances. 
 
 ---
@@ -94,7 +94,7 @@ Its integrated with Amazon Cognito[^8] which allows end users to authenticate us
 [^1]: Ingress kubernetes resource [[KUBERNETES - Ingress]]
 [^2]: HTTP or Hyper Text Transfer protocol [[HTTP]]
 [^3]: Layer 7 in OSI model [[OSI Layers]]
-[^4]: Networking ports [[PORTS USED]]
+[^4]: [[Networking Ports|Networking ports]] [[PORTS USED]]
 [^5]: SSL offloading [[SSL - One line]]
 [^6]: Elastic Kubernetes service is the AWS approach to a Kubernetes managed Cluster in the cloud [[AWS - EKS Elastic Kubernetes Service]]
 [^7]: EC2 or Elastic Cloud Computing resource is a virtual machine that can be deployed and managed in the AWS cloud. [[AWS - EC2]]

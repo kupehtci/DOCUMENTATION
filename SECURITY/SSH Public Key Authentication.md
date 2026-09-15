@@ -8,7 +8,7 @@ In order to authenticate to the system, the most common authentication format is
 
 In order to set this authentication: 
 
-1. You generate the key pairs in your system using `ssh-keygen` for example that will create a private key that must be kept secretly and a public key that can be shared. 
+1. You generate the [[Key Pairs|key pairs]] in your system using `ssh-keygen` for example that will create a private key that must be kept secretly and a public key that can be shared. 
 	1. The principle of asymmetric cryptography is that a content ciphered by the public key can only be deciphered with the private key associated to it. 
 2. The public key must be copied into the server under `~/.ssh/authorized_keys` directory
 3. When you try to connect using `ssh {user}@{host}`: 

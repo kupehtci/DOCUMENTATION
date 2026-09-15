@@ -6,7 +6,7 @@
 
 Its not related with authorizing identities into AWS Cloud management, its meant for **end users** to authenticate into applications. 
 
-it allows to easily add user sign-up, sign-in, authentication (JWT) and access control to a web or mobile applications without needed to build a custom authentication service. 
+it allows to easily add user sign-up, sign-in, authentication (JWT) and [[Access Control|access control]] to a web or mobile applications without needed to build a custom authentication service. 
 
 Its AWS managed so it can scale up to millions of users and integrates with Amazon API Gateway, AppSync and other AWS Services. 
 

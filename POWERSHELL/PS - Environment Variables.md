@@ -20,4 +20,4 @@ The scopes can be:
 
 
 [^1]: Windows's PATH environment variable [[WINDOWS - PATH Environment Variable]]
-[^2]: PowerShell [[PowerShell]]
+[^2]: PowerShell [[POWERSHELL/PowerShell]]

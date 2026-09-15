@@ -17,7 +17,7 @@ The stream of data can be consumed by external applications or AWS resources lik
 * **AWS Lambda**[^2]: to process or execute custom code under events. 
 * **Amazon Kinesis Data Streams**: ingests Neptune changelogs into streaming analytics pipelines [[AWS - Kinesis]]
 * **Amazon S3**[^3]: to store the change events
-* **AWS Glue**: for ETL operations and streaming the change-log into a data lake. 
+* **AWS Glue**: for ETL operations and streaming the change-log into a [[Data Lake|data lake]]. 
 * **Amazon Elasticsearch / Opensearch**: for indexing and offer a high optimized search service over historical changes made in the database. 
 * **Amazon SNS / SQS**: for notification to multiple resources or queuing patterns 
 

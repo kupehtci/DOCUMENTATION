@@ -37,5 +37,5 @@ $Response = Invoke-WebRequest -Uri "https://url.com"
 Its similar to the Unix / Linux command `curl` ([[curl]]). 
 
 
-[^1]: PowerShell scripting language [[PowerShell]]
+[^1]: PowerShell scripting language [[POWERSHELL/PowerShell]]
 [^2]: URI or Universal Resource Identifier: [[URI]]

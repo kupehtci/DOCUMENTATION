@@ -72,7 +72,7 @@ For all request or response that goes through the Network interface, the rules d
 The main differences between this two "virtual firewall" are: 
 
 
-| Network Access Control List (ACLs)                               | Security Group                               |
+| Network [[Access Control]] List (ACLs)                               | Security Group                               |
 | ---------------------------------------------------------------- | -------------------------------------------- |
 | Associated to a Subnet                                           | Associated with an Elastic Network Interface |
 | Allow rules and deny rules                                       | Allow rules only (Other traffic is denied)   |

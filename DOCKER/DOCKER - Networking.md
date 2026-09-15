@@ -11,7 +11,7 @@ Docker container's have different networking modes:
 	* The container loses the possibility of communicating with other containers using docker's internal DNS resolution. 
 		* They need to communicate using host's IPs and Ports. 
 * **None**: this mode disables networking entirely. 
-* **Overlay**: mode for multi-host networking used normally in Docker Swarm[^1]. 
+* **Overlay**: mode for multi-host networking used normally in [[Docker Swarm]][^1]. 
 	* this mode allows communication between containers running in different docker daemon hosts, making it suitable for swarm or Kubernetes clusters.
 
 

@@ -4,7 +4,7 @@
 
 **AWS Transfer Family SFTP service** its a fully managed service that gives an SFTP or SSH File Transfer Protocol [^1] endpoint that allow data transfer with one of this storage backends: 
 * Amazon S3[^2].
-* Amazon EFS or Elastic File System [^3]
+* Amazon EFS or Elastic [[File System]] [^3]
 
 So an SFTP cliente like WinSCP, FileZilla or `sftp` can be used to access S3 or EFS file system controlled by AWS. 
 

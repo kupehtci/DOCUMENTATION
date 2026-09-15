@@ -10,7 +10,7 @@ Nowadays, with no-relational databases or <span style="color:LightSeaGreen;">NoS
 
 ### Normalization
 
-<span style="color:MediumSlateBlue;">Normalization</span> is the process of structuring a relational database, in accordance to a set of rules called <span style="color:LightSeaGreen;">normal forms</span> in order to reduce <span style="color:orange;">data redundancy</span> and improve <span style="color:orange;">data integrity</span>
+<span style="color:MediumSlateBlue;">Normalization</span> is the process of structuring a [[Relational Database|relational database]], in accordance to a set of rules called <span style="color:LightSeaGreen;">normal forms</span> in order to reduce <span style="color:orange;">data redundancy</span> and improve <span style="color:orange;">data integrity</span>
 
 * <span style="color:LIghtSeaGreen;">Data redundancy</span>: information should not de duplicated. For example: if 
 		Students(id, name, ZipCode, City)

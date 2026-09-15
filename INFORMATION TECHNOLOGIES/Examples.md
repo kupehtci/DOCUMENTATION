@@ -36,7 +36,7 @@ MongoDB, Cassandra, Redis: Partición Ventajas Más escalabilidad horizontal
 Neo4j: No partición desventaja Menos escalabilidad horizontal
 MongoDB: JSON Embeded -> No joins -> Ej: Pelicula Join Sala    Ventaja
 Neo4j: Menor tolerancia a fallos  Desventaja
-MongoDB: No Access Control for fields   Desventaja
+MongoDB: No [[Access Control]] for fields   Desventaja
 
 
 3. Datawarehousing o BigData, cual es mejor? (esta vale menos)

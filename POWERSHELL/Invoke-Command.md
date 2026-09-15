@@ -32,7 +32,7 @@ Take into account that the usage of this command requires:
 * Remote Powershell must be enabled in the remote machines (port 5985 and WinRM service). 
 	* To enable the remote powershell in the remote host: `Enable-PSRemoting`. It not only enables the service, also create an exception rule in the firewall. 
 * You need appropriate permissions in order to connect to the target machine. 
-	* This works well in Active Directory environments where both host share users. 
+	* This works well in [[Active Directory]] environments where both host share users. 
 
 ## Parallel execution
 

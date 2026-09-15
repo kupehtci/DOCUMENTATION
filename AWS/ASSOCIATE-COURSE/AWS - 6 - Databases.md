@@ -4,7 +4,7 @@
 
 AWS provide different Databases as services:
 
-* Amazon Relational Database Service (RDS)
+* Amazon [[Relational Database]] Service (RDS)
 * Amazon Aurora
 * Amazon Redshift
 * Amazon DocumentDB
@@ -14,7 +14,7 @@ AWS provide different Databases as services:
 * Amazon Keyspaces (Apache cassandra)
 * Amazon Timestream
 * Amazon Neptune
-* Amazon Quantum Ledger Database (Amazon QLDB)
+* Amazon Quantum [[Ledger Database]] (Amazon QLDB)
 
 
 Relational and no-relational Databases depends on the type of data that is going to be stored and the language used to realize CRUD operations over it. 
@@ -51,7 +51,7 @@ An aurora cluster volume is a virtual database storage volume that spans multipl
 Amazon DynamoDB is a fully managed NoSQL key-value storage service.
 The service automatically manages the distributed NoSQL database and offer autoscaling. 
 
-It supports encryption and fine-grain access control. 
+It supports encryption and fine-grain [[Access Control|access control]]. 
 
 It supports structures of key-value pairs with a flexible schema. All data is mapped to a primary key and can be retrieved using that primary key. 
 It partitions the data by key. 

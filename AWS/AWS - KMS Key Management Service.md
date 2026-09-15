@@ -7,7 +7,7 @@ It lets you create, control and **manage cryptographic keys** used to encrypt da
 
 They key characteristics of AWS KMS are: 
 * **CMK** or **Customer Master Key**: master key created in KMS. Can be symmetric(AES-256) or asymmetric (RSA/ECC).
-* **Key policies**: Indicates who can use or manage keys. (Access control mechanism)
+* **Key policies**: Indicates who can use or manage keys. ([[Access Control|Access control]] mechanism)
 * **IAM Integration**: Fine-grained permisions by allowing users or roles to use a key for encryption/decryption.
 * **Automatic Key Rotation**: can automatically rotate CMKs yearly to improve security.
 * **Audit** and **Logging**: Integrated with CloudTrail so can monitor who used a key and when. 

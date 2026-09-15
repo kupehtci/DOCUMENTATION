@@ -2,7 +2,7 @@
 
 # OWASP Dependency Check Output
 
-OWASP Dependency Check generates a detailed report that contains the known vulnerabilities (CVEs) in the project dependencies. 
+[[OWASP Dependency Check]] generates a detailed report that contains the known vulnerabilities (CVEs) in the project dependencies. 
 
 The output reports can be in multiple formats: 
 * **HTML**[^1]: user friendly web based report with interactive elements. 
@@ -208,5 +208,5 @@ Each vulnerability in the `vulnerabilities` list contains:
 [^3]: JSON format [[JSON vs XML]]
 [^4]: CSV or Comma Separated Value spreadsheets [[CSV - Comma Separated Values]]
 [^5]: CVE or Common Vulnerabilities and Exposures [[[CVEs Common Vulnerabilities and Exposures]]
-[^6]: NVD Database [[NVD Database]]
+[^6]: [[NVD Database]] [[NVD Database]]
 [^7]: CPE are common identifiers that are standardized for component or software products. [[CPE - Common Platform Enumeration]]. 

@@ -2,7 +2,7 @@
 
 # AWS - Amazon Quantum Ledger Database
 
-**Amazon Quantum Ledger Database**[^1] is a fully managed ledger database service that provides a **centralized, inmutable and cryptographically verifiable transaction log** for your application data. 
+**Amazon Quantum [[Ledger Database]]**[^1] is a fully managed ledger database service that provides a **centralized, inmutable and cryptographically verifiable transaction log** for your application data. 
 
 Its mainly designed for use cases when you need a **trustworthy and auditable history of all changes** to your data. 
 

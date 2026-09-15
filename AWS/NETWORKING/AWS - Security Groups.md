@@ -9,7 +9,7 @@ For all request or response that goes through the Network interface, the rules d
 
 ## Security group vs Network Access Control List (NACLs)
 
-NACLs or Network Access Control Lists [^1] are also an AWS resource that can be used to control the traffic in the cloud. 
+NACLs or Network [[Access Control]] Lists [^1] are also an AWS resource that can be used to control the traffic in the cloud. 
 
 The main differences between this two "virtual firewall" are: 
 

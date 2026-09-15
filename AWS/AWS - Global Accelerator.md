@@ -12,4 +12,4 @@ Global Accelerator provides 2 status AnyCast IPs [^1] and users are automaticall
 
 Can route to endpoints in multiple regions depending on location and has automatic failover between regions. 
 
-[^1]: AnyCast IP Address [[AnyCast IP]]
+[^1]: [[AnyCast IP]] Address [[AnyCast IP]]

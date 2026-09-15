@@ -34,7 +34,7 @@ API Gateway is an AWS Service that let you create, publish and maintain, monitor
 
 This can be used to connect the applications to AWS services and other public or private websites. It provides RESTful and HTTP APIs for mobile and web applications to access AWS Services and other resources hosted outside AWS
 
-It handles tasks like traffic management, authorization, access control, monitoring and API version management. 
+It handles tasks like traffic management, authorization, [[Access Control|access control]], monitoring and API version management. 
 
 #### Amazon Simple Queue Service (SQS)
 

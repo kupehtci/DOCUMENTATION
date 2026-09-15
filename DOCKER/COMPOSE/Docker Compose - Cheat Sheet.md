@@ -1,6 +1,6 @@
 #DOCKER 
 
-This document is a cheat sheet that acts as a summary of common used commands for interacting with Docker Compose: 
+This document is a cheat sheet that acts as a summary of common used commands for interacting with [[Docker Compose]]: 
 
 * `docker compose up`
 

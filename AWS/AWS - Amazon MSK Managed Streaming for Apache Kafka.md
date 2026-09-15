@@ -4,14 +4,14 @@
 
 MSK is a fully managed service to build and run applications that use Kakfa for processing streaming data without managing the Kafka infrastructure. 
 
-You get an SaaS Apache Kafka where AWS handles all the cluster operations like provisioning, scaling and maintenance.
+You get an SaaS [[Apache Kafka]] where AWS handles all the cluster operations like provisioning, scaling and maintenance.
 
 You can deploy MSK in provisiones or serverless cluster modes. 
 
 Its commonly used for:
 * Real-time event digestion and processing for logs
 * Centralized data buses for distributed systems.
-* Integration with other AWS Services for data lake ingestion or others. 
+* Integration with other AWS Services for [[Data Lake|data lake]] ingestion or others. 
 	* Integration with: 
 		* AWS Lambda
 		* S3

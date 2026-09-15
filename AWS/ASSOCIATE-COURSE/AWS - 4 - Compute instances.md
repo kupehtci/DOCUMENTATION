@@ -70,7 +70,7 @@ You get the best value for the machines by setting the price that you want to pa
 
 This can be use to schedule workloads for when the machines for handling its workload are more cheap.
 
-Also image rendering and use for  big data and analytics. 
+Also image rendering and use for  [[Big Data|big data]] and analytics. 
 
 
 ### AWS Lambda

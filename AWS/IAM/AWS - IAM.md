@@ -2,7 +2,7 @@
 
 ### AWS IAM
 
-IAM is an AWS web service that helps you to securely grant access control to AWS resources. 
+IAM is an AWS web service that helps you to securely grant [[Access Control|access control]] to AWS resources. 
 
 Use the IAM to control who is authenticated (Sign in) and authorized (has permissions) to use some resources. 
 

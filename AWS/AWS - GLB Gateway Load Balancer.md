@@ -9,7 +9,7 @@ Preserves **flow stickiness** so statefull appliances see the both directions of
 
 It has the following characteristics: 
 * health checks: remove unhealthy nodes or appliances.
-* Geneve encapsulation (port 6081) [^1] to pass the traffic to the applicances while preserving the original packet. 
+* [[Geneve Encapsulation|Geneve encapsulation]] (port 6081) [^1] to pass the traffic to the applicances while preserving the original packet. 
 * Autoscaling
 
 

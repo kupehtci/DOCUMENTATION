@@ -24,7 +24,7 @@ Imagine the following data table in the database
 
 We can define an external view for a certain user that we want to be able to search other people, but are not able to see the city they belong to. 
 
-We can define an external view by specifiying it in Relational Model [[Relational Model]]: 
+We can define an external view by specifiying it in [[Relational Model]] [[Relational Model]]: 
 
 ```
 Users(_id_, name); 
@@ -94,7 +94,7 @@ DROP VIEW view_name;
 
 ### VIEWS CONS
 
-A well defined database should contain views for different reasons apart for securing database access control: 
+A well defined database should contain views for different reasons apart for securing database [[Access Control|access control]]: 
 
 * Restricting data access: due to the additional level of data security
 * Hiding data complexity

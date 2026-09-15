@@ -6,7 +6,7 @@ IAM Roles for Service Accounts (IRSA) is an EKS feature that allows to associate
 
 This allows to manage the credentials for the Kubernetes applications in the similar way that other resources like EC2. 
 
-This enables to enforce **granular access control**, as each service account can have its own IAM Role with specific permissions rather that all pods sharing the same EKS's IAM Role with all kind of permissions. 
+This enables to enforce **granular [[Access Control|access control]]**, as each service account can have its own IAM Role with specific permissions rather that all pods sharing the same EKS's IAM Role with all kind of permissions. 
 
 IRSA requires to set up a trust relationship between the IAM roles for the service accounts and an OpenID Connect (OIDC) identity provider, as an OIDC token is needed for this type of authentication. 
 

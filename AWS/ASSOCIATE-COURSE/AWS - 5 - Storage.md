@@ -13,7 +13,7 @@ Size 125GB to 16TB
 There are three main cloud storages: 
 
 * **Block storage**: Storage for all types of structured and unestructured storage. Offers solutions like Amazon Elastic Block Storage or EBS. 
-* **File storage**: for shared files like a file system for many applications, Often supported with a Network Attached Storage (NAS) solution. Offers storage solutions like Amazon Elastic File System or EFS and Amazon FSx
+* **File storage**: for shared files like a [[File System|file system]] for many applications, Often supported with a Network Attached Storage (NAS) solution. Offers storage solutions like Amazon Elastic File System or EFS and Amazon FSx
 * **Object storage**: like S3 for all types of files that provide scalability and flexibility. Ideal for Data Lakes, backups and storage, static websites, media storage and streaming. 
 
 

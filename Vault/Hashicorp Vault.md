@@ -14,7 +14,7 @@ With hashicorp's vault you have:
 	* Encryption at rest (Data is encrypted when stored).
 	* Encryption at transit (Data is encrypted when being transmitted over the network (Using HTTPs))
 * **Secrets centrally stored** in a homogeneous solution for all the applications and authentication methods. 
-* **Fine-grained access control**, as admins can define who can access, which secrets can access and under that conditions. 
+* **Fine-grained [[Access Control|access control]]**, as admins can define who can access, which secrets can access and under that conditions. 
 
 ### How it works
 

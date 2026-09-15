@@ -82,7 +82,7 @@ Optimizations:
 * TLS 1.3. support: Better performance for simmple handshake process with fewer round trips. 
 * Dynamic content placement: serve dynamic content such as Web applications or APIs from ELB or Amazon EC2 instances. It improve the performance, availability and security. 
 
-CloudFront origins access can be configured through OACs or Origin Access Control. 
+CloudFront origins access can be configured through OACs or Origin [[Access Control]]. 
 ### DDoS protection
 
 A DDoS Attack is an attack where multiple "hacked" devices make requests to a network or web application in order to flood it. This attack can make that legit users are not able to use the service. 

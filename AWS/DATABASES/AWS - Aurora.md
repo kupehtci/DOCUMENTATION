@@ -2,7 +2,7 @@
 
 # AWS - Aurora
 
-**AWS Aurora** is a fully managed relational database service (RDS) frm AWS that is compatible with MySQL and PostgreSQL. 
+**AWS Aurora** is a fully managed [[Relational Database|relational database]] service (RDS) frm AWS that is compatible with MySQL and PostgreSQL. 
 
 It brings performance and high-availability with simplicity and cost-effectiveness. 
 

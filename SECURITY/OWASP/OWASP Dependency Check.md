@@ -49,7 +49,7 @@ The most common arguments are:
 	* `GITLAB`
 	* `ALL`
 * `--failOnCVSS`: set a maximum score between 0 and 10 so if a CVSS score of one of the CVEs identified have a value equal or superior, it will throw an error. 
-* `--nvdApiKey`: API Key created in NVD API, for a privileged access to the NVD Database. 
+* `--nvdApiKey`: API Key created in NVD API, for a privileged access to the [[NVD Database]]. 
 * `--prettyPrint`: the XML and JSON reports will be pretty printed. 
 * `--log`: file path to write the verbose logs of the analysis. 
 * `--noupdate`: avoid updating the NVD database cache. 
@@ -62,7 +62,7 @@ For Node / NPM projects analysis:
 
 ## Azure DevOps task
 
-Azure DevOps has a marketplace plugin that includes an `dependency-check-build-task` task that automatically installs and maintains the dependency check tool and executes an analysis. 
+[[Azure DevOps]] has a marketplace plugin that includes an `dependency-check-build-task` task that automatically installs and maintains the dependency check tool and executes an analysis. 
 
 Example of the task: 
 ```yaml

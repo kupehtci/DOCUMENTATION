@@ -2,7 +2,7 @@
 
 # AWS RDS
 
-**Amazon RDS** or **Relational Database Service** is a fully managed service and AWS handles the OS, database software installation, patching, backups and maintenance
+**Amazon RDS** or **[[Relational Database]] Service** is a fully managed service and AWS handles the OS, database software installation, patching, backups and maintenance
 
 
 ### AWS RDS Custom

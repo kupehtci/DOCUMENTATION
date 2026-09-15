@@ -46,7 +46,7 @@ Every policy is a JSON with this key elements:
 
 ### Notes
 
-* Take always into account the **least privilege principle**. 
+* Take always into account the **[[Least Privilege Principle|least privilege principle]]**. 
 * **Identity-based vs Resource-based principles**: take into account whether to define the access policy on the resource or to the identities that use it. 
 	* Example: - Company wants to allow cross-account S3 access → Which one to use? Resource-based policy (bucket policy).
 * **Deny overrides allow**: if a user has an inline-policy with `Allow` but an SCP denies, the user won't be able to access, 

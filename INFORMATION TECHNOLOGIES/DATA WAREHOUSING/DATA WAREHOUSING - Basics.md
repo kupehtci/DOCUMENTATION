@@ -47,7 +47,7 @@ Is used to build a **Data warehouse**:
 
 ### Data warehousing components
 
-| Operational systems                                         | Data staging area                 | Data presentation area                                                                                                                                                              | Data access control                                                   |
+| Operational systems                                         | Data staging area                 | Data presentation area                                                                                                                                                              | Data [[Access Control|access control]]                                                   |
 | ----------------------------------------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | Captures the transactions of the business. Common database. | Storage area and processes as ETL | Data is organized, stored and made available for users, report data and more. Capabilities provided to business users to  to access presentation area for analytic decision making. | Tools provided to business users in order to analitic decision making |
 

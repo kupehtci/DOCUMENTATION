@@ -6,5 +6,5 @@
 
 This service allows to avoid using long-term access keys outside AWS, increasing the security. 
 
-The authentication to IAM Roles Anywhere is not done by User and Pass / Secret, its done by X.509 certificates that need to be from a trusted Certificate Authority (CA). 
+The authentication to IAM Roles Anywhere is not done by User and Pass / Secret, its done by [[X.509 Certificates|X.509 certificates]] that need to be from a trusted Certificate Authority (CA). 
 

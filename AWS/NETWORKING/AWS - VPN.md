@@ -27,7 +27,7 @@ This solution uses OpenVPN protocol to establish a secure connection through a V
 As a managed resource, it scales up and down based on user demand with pay-as-you-go pricing. 
 
 Users can be *authenticated* using:
-* Active Directory
+* [[Active Directory]]
 * SAML-based federated authentication (Through IDP)
 * MFA or Multi-Factor Authentication
 

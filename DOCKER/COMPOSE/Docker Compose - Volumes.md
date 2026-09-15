@@ -5,7 +5,7 @@
 
 In **Docker** there are three main types of volumes used to persist or manipulate data from the containers ( For more information take a look into: [[DOCKER - Volumes]]). 
 
-These three volumes can be declared in a docker compose file as follows: 
+These three volumes can be declared in a [[Docker Compose File|docker compose file]] as follows: 
 
 ## Volumes
 ### Named volumes
@@ -92,7 +92,7 @@ services:
 
 Allows to pass `options` such as: 
 * `size`: maximum size such as `100m`, `1g` or `64m`. 
-* `mode`: file permissions as octal, such as `1777` or `770`. 
+* `mode`: [[File Permissions|file permissions]] as octal, such as `1777` or `770`. 
 * `uid`: Owner user ID. 
 * `gid`: Owner group ID. 
 

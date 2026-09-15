@@ -2,7 +2,7 @@
 
 # AWS - Directory Service
 
-**AWS Directory Service** is a service that enables to connect AWS resources with Microsoft Active Directory (AD). 
+**AWS Directory Service** is a service that enables to connect AWS resources with Microsoft [[Active Directory]] (AD). 
 
 The Microsoft Active Directory (AD) can be in the cloud oron-premise. 
 

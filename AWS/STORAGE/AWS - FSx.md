@@ -9,8 +9,8 @@ As fully managed imply a serverless storage solution.
 It offer different options: 
 * **FSx for Windows File Server**: Offer native SMB and CIFS transferences with Windows features: 
 	* ACLs
-	* Active Directory integration
-	* Distributed File System (DFS)
+	* [[Active Directory]] integration
+	* Distributed [[File System]] (DFS)
 	* User quotas
 	* VSS snapshots
 	* Multi-AZ deployment for high availability
