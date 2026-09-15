@@ -3,7 +3,7 @@
 ## HTTP - Hyper Text Transfer Protocol
 
 
-Hyper-Text Transfer Protocol is an <span style="color:orange;">application layer protocol</span> capable of transfer Hyper-Text documents over TCP [[TCP - Handshake]]. 
+Hyper-Text Transfer Protocol is an <span style="color:orange;">[[Application Layer|application layer]] protocol</span> capable of transfer Hyper-Text documents over TCP [[TCP - Handshake]]. 
 
 The different Web Objects ([[HTTP - Key elements]]👀) like the HTML$^1$ webpage itself are highly localizable because are stored under an unique URI (Uniform  Resource Identifier) or an URL (Uniform Resource Locator). 
 
@@ -74,7 +74,7 @@ The <span style="color:violet;">headers</span> add additional parameters of the 
 
 The <span style="color:violet;">body</span> is just plain text formatted in JSON standard, that is only included by some methods. 
 
-The different <span style="color:orange;">request methods</span> that can be used to indicate the action that server should do with a resource: 
+The different <span style="color:orange;">[[Request Methods|request methods]]</span> that can be used to indicate the action that server should do with a resource: 
 
 * <span style="font-weight:bold;">GET</span> method: 
 	* Safe and idempotent

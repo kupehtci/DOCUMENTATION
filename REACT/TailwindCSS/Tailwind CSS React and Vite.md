@@ -1,6 +1,6 @@
 # Tailwind CSS, React and Vite
 
-To implement Tailwind CSS in a React + Vite project, you need to add the Tailwind CSS as a npm package and install it as a Vite Plugin.  
+To implement [[Tailwind CSS]] in a React + Vite project, you need to add the Tailwind CSS as a npm package and install it as a Vite Plugin.  
 Also, the generates styles need to be imported in the React entry. 
 
 Guide to install Tailwind CSS: 

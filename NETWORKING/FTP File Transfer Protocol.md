@@ -2,7 +2,7 @@
 
 ## FTP or File Transfer Protocol
 
-<span style="color:orange;">File transfer protocol</span> is an <span style="color:MediumSlateBlue;">application layer protocol</span> [[TPC - IP Layers]] that uses TCP to transfer files between a <span style="color:LightSeaGreen;">client and a server</span>. 
+<span style="color:orange;">File transfer protocol</span> is an <span style="color:MediumSlateBlue;">[[Application Layer|application layer]] protocol</span> [[TPC - IP Layers]] that uses TCP to transfer files between a <span style="color:LightSeaGreen;">client and a server</span>. 
 
 Its similar to [[SMTP]] because was developed after SMTP was created. 
 
@@ -33,7 +33,7 @@ Server is imposible to open a connection to a given port if has a <span style="c
 
 ### COMMANDS
 
-Has commands for what is needed to manage a file system, navigation, file creation, file retrieval, etc. 
+Has commands for what is needed to manage a [[File System|file system]], navigation, file creation, file retrieval, etc. 
 
 Two categories of commands: 
 

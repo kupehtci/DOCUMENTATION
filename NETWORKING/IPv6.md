@@ -71,7 +71,7 @@ Reduces routing table size, making the routing more efficient and practical
 
 * More efficient packaging processing
 
-IPv6 gets rid of the IPv4 checksum because in data link layers also exists a checksum with also checks the IPv6 header correctness. 
+IPv6 gets rid of the IPv4 checksum because in data link layers also exists a checksum with also checks the [[IPv6 Header|IPv6 header]] correctness. 
 
 * Directed data flows
 

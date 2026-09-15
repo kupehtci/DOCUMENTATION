@@ -2,7 +2,7 @@
 
 # useQuery
 
-`useQuery` is normally used for data fetching in react to cache and manage the UI accordingly to API fetch query states.
+`useQuery` is normally used for [[Data fetching|data fetching]] in react to cache and manage the UI accordingly to API fetch query states.
 
 The `useQuery` hook subscriber the component to a cached data identified by `queryKey` and automatically handles the fetching, catching, refetching and re-render of the component based on the query. 
 

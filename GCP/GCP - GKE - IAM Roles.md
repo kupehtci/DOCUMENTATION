@@ -14,7 +14,7 @@ This is a list of predefined roles that can grant access to specific resources a
 - `roles/container.nodeAdmin`: Grants management of the nodes in a GKE cluster like upgrading, draining the nodes and deleting.
 - `roles/container.nodeViewer`: Grants read-only access to GKE nodes. Users with this role can view the details of the nodes running in a cluster but cannot modify them.
     
-- **`roles/container.securityAdmin`**: Grants permissions to manage security-related configurations in GKE, such as managing network policies, security policies, and role-based access control (RBAC) within the cluster.
+- **`roles/container.securityAdmin`**: Grants permissions to manage security-related configurations in GKE, such as managing network policies, security policies, and role-based [[Access Control|access control]] (RBAC) within the cluster.
     
 - **`roles/container.serviceAgent`**: A service agent role required by GKE to interact with other Google Cloud services. It allows GKE to manage resources like storage buckets, load balancers, and persistent disks on behalf of the cluster.
     

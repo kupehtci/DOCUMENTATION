@@ -27,7 +27,7 @@ const products
 
 Lazy Loading **is not limited to** `React.lazy()`, as `<Suspense />` can be used with **any component that 'suspends' so it returns a Promise** to indicate that has not loaded yet: 
 * Regular slow components won't trigger a Suspense: 
-	* Data fetching using `useEffect` hook doesn't activate suspense
+	* [[Data fetching]] using `useEffect` hook doesn't activate suspense
 	* Event handlers also doesn't trigger suspense. 
 You need to manually throw a *Promise* in order to indicate that the data is not ready yet. 
 

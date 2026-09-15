@@ -2,7 +2,7 @@
 
 # GCP AlloyDB
 
-AlloyDB is a **PostgreSQL**[^1] relational database fully managed by Google Cloud[^2]. 
+AlloyDB is a **PostgreSQL**[^1] [[Relational Database|relational database]] fully managed by Google Cloud[^2]. 
 
 It provides a highly availability, performance and scalable relational database technology that also combines Machine Learning-driven optimizations. 
 

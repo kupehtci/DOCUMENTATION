@@ -35,7 +35,7 @@ This module needs to be installed and configure the `web.config` with something 
 
 ### Why is this??
 
-In SPA or Single Page Applications the pages and the routes are handled by the client side through React router or similar. 
+In SPA or Single Page Applications the pages and the routes are handled by the client side through [[React Router|React router]] or similar. 
 
 If its not configured correctly, as the client request for example `https://www.myapp.com/dashboard`, it will make a request over `dashboard` to the IIS server and it will respond with an 404 as it doesnt exists. 
 

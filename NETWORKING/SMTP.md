@@ -2,7 +2,7 @@
 
 # SMTP 
 
-Is an <span style="color:LightSeaGreen;">Application layer</span> protocol built over a persistent TCP connection(make a handshake before).
+Is an <span style="color:LightSeaGreen;">[[Application Layer|Application layer]]</span> protocol built over a persistent TCP connection(make a handshake before).
 It handles a <span style="color:orange;">client - server</span> using a <span style="color:violet;">command-response pattern</span> with status codes (Similar to HTTP). 
 
 Uses <span style="color:LightSeaGreen;">plain text ASCII</span> messages in its communication: 
