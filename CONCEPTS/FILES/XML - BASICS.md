@@ -1,4 +1,4 @@
-
+#XML #FILES #CONCEPTS
 
 ## XML Elements vs. Attributes
 
@@ -28,5 +28,20 @@ But you need to take this into consideration when parsing XML using another lang
 For example in C\# : 
 
 ```CSHARP 
+var doc = XDocument.Parse(xml);
+var person = doc.Element("person");
 
+// Attribute access
+string genderAttr = person.Attribute("gender")?.Value;
+
+// Element access
+string genderElem = person.Element("gender")?.Value;
 ```
+
+Attributes are read with `.Attribute("name")` and elements with `.Element("name")`, so parsing code needs to know in advance which shape the XML uses — this is why the two examples above are **not** interchangeable once real parsing code depends on them.
+
+## Related
+
+* [[JSON - BASICS]] and [[JSON vs XML]] — a comparison against the JSON alternative.
+* [[JS - DOM Element vs Node|Element vs Node]] — the distinction between DOM nodes and elements when parsing XML/HTML.
+* [[File Extensions]] — the `.xml` extension entry.
