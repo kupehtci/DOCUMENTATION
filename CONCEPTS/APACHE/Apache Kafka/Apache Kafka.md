@@ -19,3 +19,20 @@ Its commonly used in:
 * Real time analytics
 * Event-driven microservices communication and decoupling.
 * Data integration pipelines with Kakfa Connect. 
+
+## Architecture
+
+* **Brokers**: the servers that make up a Kafka cluster, each one storing a subset of the partitions.
+* **Replication**: each partition is replicated across multiple brokers (a leader plus followers), so if a broker fails another replica can take over without losing data.
+* **Cluster coordination**: traditionally handled by an external [[Apache ZooKeeper]] cluster (electing partition leaders, tracking broker membership). Newer Kafka versions use **KRaft**, a built-in consensus protocol, removing the ZooKeeper dependency.
+
+## Ecosystem tools
+
+* **Kafka Connect**: a framework for moving data in and out of Kafka using pre-built connectors (databases, S3, Elasticsearch...) without writing custom producer/consumer code.
+* **Kafka Streams**: a Java library for building stream-processing applications directly on top of Kafka, as an alternative to running a separate engine like [[Apache Flink]] or [[Apache Spark]].
+
+## Related
+
+* [[AWS - Amazon MSK Managed Streaming for Apache Kafka]] — AWS's managed Kafka service.
+* [[AWS - SQS Simple Queue Service]] — a simpler managed [[Queue]], useful to contrast with Kafka's log-based, replayable model.
+* [[Apache Flink]] — a common stream-processing engine consuming from and producing to Kafka topics.
