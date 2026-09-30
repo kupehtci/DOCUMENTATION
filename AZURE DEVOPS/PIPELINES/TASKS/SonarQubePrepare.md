@@ -52,4 +52,4 @@ Basic syntax of the task:
 
 `extraProperties` allow to configure any valid property valid for the SonarQube scanner in a `key=value` format. 
 
-The valid configurations can be seen in 
+The valid configurations can be seen in [[SonarQube Scanner Configuration]]
