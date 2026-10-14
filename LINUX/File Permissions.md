@@ -15,9 +15,9 @@ Linux define permissions for three different categories or three parties:
 
 And the permissions are defined using 3 basic permissions: 
 
-* Read (r) allows to view the file contents and list the directories contents. 
-* Write (w) modify the file or add / delete elements in a directory. 
-* Execute (x) run a file or enter a directory. 
+* **Read (r)** allows to view the file contents and list the directories contents. 
+* **Write (w)** modify the file or add / delete elements in a directory. 
+* **Execute (x)** run a file or enter a directory. 
 
 Permissions are grouped together as  3 letters: `rwx` and depending on permissions can be exchanged with a `-` like read and execute permissions are: `r-x`. 
 
