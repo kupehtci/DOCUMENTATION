@@ -10,7 +10,7 @@ An data lake stores structured data (Like [[Apache Parquet]][^3]), semi-structur
 * **Data ingestion**: import data from databases, streaming sources (Like Kinesis[^4]) and build an ETL automation[^5]
 	* **Data transformation**: allows cleaning, deduplication and transform or raw data during the ingestion
 * **Centralized catalog**: Uses AWS Glue Data Catalog[^6] to store metadata like tables, columns or partitions so the lake's data is discoverable. 
-* **[[Access Control]]**: can define a fine-grained access at table, column or row level integrated with IAM and AWS SSO. 
+* **Access Control**: can define a fine-grained access at table, column or row level integrated with IAM and AWS SSO. 
 * **Audit**: you can track access and usage via CloudTrail[^7]
 
 [^1]: Data Lake [[Data Lake]]

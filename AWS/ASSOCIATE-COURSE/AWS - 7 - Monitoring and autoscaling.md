@@ -42,7 +42,7 @@ There are different types of logs:
 * <span style="color:orange;">Load Balancing</span> provides logs with captured information about the requests that are sent to the load balancer. You can use **custom logs** for your applications. 
 
 The EC2 instances, publish logs in a log file and this to a **log stream**. This **log stream** is a sequence of log events that share the same source. 
-Multiple **log streams** can be grouped in a single **log group**, that share the same retention, monitoring and [[Access Control|access control]]. 
+Multiple **log streams** can be grouped in a single **log group**, that share the same retention, monitoring and access control. 
 With a log group, you can use metric filters to search patters, terms, phrases or certain values in the log events. 
 
 ##### AWS CloudWatch Alarms
