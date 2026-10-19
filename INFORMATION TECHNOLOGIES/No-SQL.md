@@ -43,7 +43,7 @@ Also can be distributed between distributed structures of data replicated, allow
 * <span style="color:Salmon;">Eventual consistency</span>
 	No all NoSQL consider atomicity and integrity of the data. 
 
-* <span style="color:Salmon;">[[Access Control|Access control]]</span>
+* <span style="color:Salmon;">Access control</span>
 	Different views [^views] or different access capabilities can not easily or even restricted in different no-SQL technologies. 
  
 ### IMPORTANT TYPES

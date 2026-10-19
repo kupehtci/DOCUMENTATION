@@ -94,7 +94,7 @@ DROP VIEW view_name;
 
 ### VIEWS CONS
 
-A well defined database should contain views for different reasons apart for securing database [[Access Control|access control]]: 
+A well defined database should contain views for different reasons apart for securing database access control: 
 
 * Restricting data access: due to the additional level of data security
 * Hiding data complexity
