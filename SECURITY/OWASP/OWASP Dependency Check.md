@@ -2,7 +2,7 @@
 
 # OWASP Dependency Check
 
-**OWASP** dependency check is an open source SCA ([[SCA Software Composition Analysis]]) tool that scans the dependencies of a project to detect known CVEs
+**OWASP** [^1] dependency check is an open source SCA ([[SCA Software Composition Analysis]]) tool that scans the dependencies of a project to detect known CVEs
 ([[CVEs Common Vulnerabilities and Exposures]]). 
 
 The operating workflow is: 
@@ -80,5 +80,4 @@ Example of the task:
 ```
 
 
-
-
+[^1]: OWASP [[OWASP]]

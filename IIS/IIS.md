@@ -32,3 +32,10 @@ IIT runs only on Windows and its highly integrated with Windows Server functiona
 On the other hand, **IIS** uses an event-based model using HTTP.sys and worker processes that efficiently handles multiple requests asynchronously. 
 
 Nginx is open-source (free) while IIS require a Windows Server license. 
+
+
+## Related
+
+* [[IIS - Web.config]]
+* [[IIS - Static website]]
+* [[IIS - WebConfig React]]
